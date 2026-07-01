@@ -36,6 +36,37 @@ async function loadData() {
   }
 }
 
+function uniqueItems(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = item.id || item.link || item.title;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function inferActionsUrl() {
+  const host = window.location.hostname;
+  if (!host.endsWith(".github.io")) return null;
+  const owner = host.replace(".github.io", "");
+  const repo = window.location.pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
+  return `https://github.com/${owner}/${repo}/actions/workflows/daily-collect.yml`;
+}
+
+function bindManualCollectLink() {
+  const link = document.getElementById("manualCollectLink");
+  const actionsUrl = inferActionsUrl();
+  if (!actionsUrl) {
+    link.href = "https://github.com/";
+    link.setAttribute("aria-disabled", "true");
+    link.title = "部署到 GitHub Pages 后，这里会打开云端手动采集页面。";
+    return;
+  }
+  link.href = actionsUrl;
+  link.title = "打开 GitHub Actions，点击 Run workflow 手动采集昨天 00:00 到当前时间的资讯。";
+}
+
 function formatDate(value) {
   if (!value) return "未知时间";
   const date = new Date(value);
@@ -163,8 +194,9 @@ function bindEvents() {
 
 async function main() {
   const data = await loadData();
-  state.items = Array.isArray(data.items) ? data.items : [];
+  state.items = Array.isArray(data.items) ? uniqueItems(data.items) : [];
   document.getElementById("generatedAt").textContent = data.generated_at ? `更新 ${formatDate(data.generated_at)}` : "等待采集";
+  bindManualCollectLink();
   bindEvents();
   render();
 }

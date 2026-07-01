@@ -8,6 +8,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      range:
+        description: "采集范围"
+        required: true
+        default: "since_yesterday"
+        type: choice
+        options:
+          - since_yesterday
+          - yesterday
 
 permissions:
   contents: write
@@ -30,7 +39,21 @@ jobs:
           python-version: "3.12"
 
       - name: Collect yesterday's news
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'schedule'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
+        run: python scripts/collect.py --yesterday --translate --limit 120
+
+      - name: Manual collect from yesterday 00:00 to now
+        if: github.event_name == 'workflow_dispatch' && inputs.range == 'since_yesterday'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
+        run: python scripts/collect.py --since-yesterday --translate --limit 120
+
+      - name: Manual collect yesterday only
+        if: github.event_name == 'workflow_dispatch' && inputs.range == 'yesterday'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini

@@ -59,6 +59,12 @@ python scripts/collect.py --days 14 --translate
 python scripts/collect.py --yesterday --translate
 ```
 
+采集昨天 00:00 到当前时间的资讯：
+
+```powershell
+python scripts/collect.py --since-yesterday --translate
+```
+
 采集指定日期：
 
 ```powershell
@@ -89,9 +95,10 @@ python scripts/collect.py --yesterday --translate --limit 120
 
 1. 把项目推到 GitHub 仓库。
 2. 在仓库 Settings -> Secrets and variables -> Actions 里添加 `OPENAI_API_KEY`。
-3. 到 Actions 页面手动运行一次 `Daily mobile game news`，确认能生成、提交 `docs/data/news.json` 并发布网页。
+3. 到 Actions 页面手动运行一次 `Daily mobile game news`，选择 `since_yesterday`，确认能生成、提交 `docs/data/news.json` 并发布网页。
 
 GitHub Actions 的 cron 使用 UTC 时间，配置里的 `0 23 * * *` 等于北京时间每天 07:00。
+页面里的“手动采集”按钮会打开这个 GitHub Actions 页面；点击 `Run workflow` 后会采集昨天 00:00 到当前时间的资讯。采集器按新闻链接生成稳定 ID，同一篇新闻重复运行也不会重复写入。
 
 ## 中文翻译
 
