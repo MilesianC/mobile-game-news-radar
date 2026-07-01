@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-01T23:13:12.511488+08:00",
+  "generated_at": "2026-07-01T23:24:21.425395+08:00",
   "days": 30,
   "date_window": {
     "start": "2026-06-30T00:00:00+08:00",
-    "end": "2026-07-01T23:13:12.511486+08:00"
+    "end": "2026-07-01T23:24:21.425393+08:00"
   },
   "translation": {
     "enabled": true,
@@ -11,86 +11,8 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 6,
+  "count": 3,
   "items": [
-    {
-      "id": "dc6377c72874",
-      "title": "ChillyRoom’s Abyssal Soul kicks off open beta on Android, bringing a fresh twist to roguelike card RPGs",
-      "link": "https://gamingonphone.com/news/chillyrooms-abyssal-soul-kicks-off-open-beta-on-android-bringing-a-fresh-twist-to-roguelike-card-rpgs/",
-      "summary": "ChillyRoom has announced that its newest roguelike card RPG, Abyssal Soul, is now available in open beta on Android. The game previously held a beta test in May 2025 and opened pre-registration this April 2026. The global launch is now expected on July 30, 2026, based on the App Store’s listing. You can now build powerful decks … The post ChillyRoom’s Abyssal Soul kicks off open beta on Android, bringing a fresh twist to roguelike card RPGs appeared first on GamingonPhone .",
-      "source": {
-        "id": "gamingonphone",
-        "name": "GamingonPhone",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-01T18:00:00+08:00",
-      "score": 85.5,
-      "status": "unreleased candidate",
-      "regions": [
-        "global"
-      ],
-      "signals": {
-        "mobile": [
-          "android",
-          "app store"
-        ],
-        "unreleased": [
-          "pre-registration",
-          "announced",
-          "open beta",
-          "beta test"
-        ],
-        "region": [
-          "global"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "1d77e201300e",
-      "title": "Sanrio Kawaii Me Live! is arriving on mobile in 2027; closed beta begins this July in Japan",
-      "link": "https://gamingonphone.com/news/sanrio-kawaii-me-live-is-arriving-on-mobile-in-2027-closed-beta-begins-this-july-in-japan/",
-      "summary": "Sanrio Games has announced that its latest dance rhythm title, Sanrio Kawaii Me Live!, is set to launch on both Android and iOS in 2027. As the very first mobile title published directly under the company’s new gaming label, the game is also preparing for a closed beta test in Japan starting July 15, 2026. … The post Sanrio Kawaii Me Live! is arriving on mobile in 2027; closed beta begins this July in Japan appeared first on GamingonPhone .",
-      "source": {
-        "id": "gamingonphone",
-        "name": "GamingonPhone",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-01T08:00:00+08:00",
-      "score": 85.5,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "mobile"
-        ],
-        "unreleased": [
-          "announced",
-          "closed beta",
-          "beta test"
-        ],
-        "region": [
-          "japan"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
     {
       "id": "a16c29e6f9d9",
       "title": "《幻想水滸傳 STAR LEAP》手機版在日本啟動事前登錄 首曝遊戲開場動畫影片",
@@ -128,39 +50,6 @@
       "title_zh": "《幻想水滸傳 STAR LEAP》手機版在日本啟動事前登錄 首曝遊戲開場動畫影片",
       "summary_zh": "KONAMI 今（1）日在《幻想水滸傳》Live 線上直播節目中宣布，新款角色扮演遊戲《幻想水滸傳 STAR LEAP》今日起在日本展開手機雙平台事前登錄，同步公開遊戲開場動畫影片： 《幻想水滸傳 STAR LEAP》是一款以《幻想水滸傳》世界為背景的全新角色扮演冒....",
       "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "1542a3616d8d",
-      "title": "Bananya Buddies brings adorable cat-collecting puzzle fun to mobile exclusively on Crunchyroll Game Vault this summer",
-      "link": "https://gamingonphone.com/news/bananya-buddies-brings-adorable-cat-collecting-puzzle-fun-to-mobile-exclusively-on-crunchyroll-game-vault-this-summer/",
-      "summary": "Crunchyroll, LLC has teamed up with TMS Entertainment to launch Bananya Buddies, a charming cat-collecting casual puzzle adventure, to both Android and iOS this summer exclusively through Crunchyroll Game Vault. The game also marks the first release under Crunchyroll Game Vault’s Original Game Publishing Initiative, with Android pre-registration now open. Get ready to collect adorable … The post Bananya Buddies brings adorable cat-collecting puzzle fun to mobile exclusively on Crunchyroll Game Vault this summer appeared first on GamingonPhone .",
-      "source": {
-        "id": "gamingonphone",
-        "name": "GamingonPhone",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-01T12:00:00+08:00",
-      "score": 72.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "mobile"
-        ],
-        "unreleased": [
-          "pre-registration"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
     },
     {
       "id": "a0a0eae334fd",
@@ -234,5 +123,11 @@
       "translation_status": "source_is_chinese"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "gamingonphone",
+      "url": "https://gamingonphone.com/feed/",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
 }
