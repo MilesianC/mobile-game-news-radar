@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新游资讯雷达</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Mobile Game Radar</p>
+        <h1>新游资讯雷达</h1>
+      </div>
+      <div class="meta">
+        <span id="generatedAt">等待数据</span>
+        <span id="itemCount">0 条</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="筛选">
+        <label class="search">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="游戏名、地区、来源、关键词">
+        </label>
+
+        <div class="segmented" role="group" aria-label="状态筛选">
+          <button class="active" data-status="all">全部</button>
+          <button data-status="unreleased candidate">未上市</button>
+          <button data-status="region-gap candidate">地区差</button>
+          <button data-status="low-score review">复核</button>
+        </div>
+
+        <select id="regionSelect" aria-label="地区筛选">
+          <option value="all">全部地区</option>
+          <option value="global">全球</option>
+          <option value="kr">韩国</option>
+          <option value="jp">日本</option>
+          <option value="cn">中国大陆</option>
+          <option value="sea">东南亚</option>
+          <option value="tw-hk-mo">港澳台</option>
+        </select>
+      </section>
+
+      <section class="summary">
+        <div>
+          <span id="highScoreCount">0</span>
+          <strong>高优先级</strong>
+        </div>
+        <div>
+          <span id="regionGapCount">0</span>
+          <strong>地区服机会</strong>
+        </div>
+        <div>
+          <span id="sourceCount">0</span>
+          <strong>来源覆盖</strong>
+        </div>
+      </section>
+
+      <section id="newsList" class="news-list" aria-live="polite"></section>
+      <section id="emptyState" class="empty hidden">
+        <h2>还没有采集结果</h2>
+        <p>运行 `python scripts/collect.py --days 30` 后刷新页面。</p>
+      </section>
+    </main>
+
+    <template id="newsTemplate">
+      <article class="news-card">
+        <div class="card-head">
+          <span class="score"></span>
+          <span class="status"></span>
+        </div>
+        <h2><a target="_blank" rel="noreferrer"></a></h2>
+        <p class="summary-text"></p>
+        <div class="chips"></div>
+        <footer>
+          <span class="source"></span>
+          <time></time>
+        </footer>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+{
+  "updated_at": "2026-07-01",
+  "sources": [
+    {
+      "id": "bahamut",
+      "name": "巴哈姆特 GNN",
+      "url": "https://gnn.gamer.com.tw/rss.xml",
+      "language": "zh-Hant",
+      "region_focus": "tw-hk-mo",
+      "type": "rss",
+      "weight": 0.9
+    },
+    {
+      "id": "gematsu",
+      "name": "Gematsu",
+      "url": "https://www.gematsu.com/feed",
+      "language": "en",
+      "region_focus": "global-jp",
+      "type": "rss",
+      "weight": 1.0
+    },
+    {
+      "id": "pocketgamer",
+      "name": "Pocket Gamer",
+      "url": "https://www.pocketgamer.com/rss/",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "weight": 1.0
+    },
+    {
+      "id": "droidgamers",
+      "name": "Droid Gamers",
+      "url": "https://www.droidgamers.com/feed/",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "enabled": false,
+      "weight": 0.9
+    },
+    {
+      "id": "gamingonphone",
+      "name": "GamingonPhone",
+      "url": "https://gamingonphone.com/feed/",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "weight": 0.9
+    },
+    {
+      "id": "mmoculture",
+      "name": "MMO Culture",
+      "url": "https://mmoculture.com/feed/",
+      "language": "en",
+      "region_focus": "asia-global",
+      "type": "rss",
+      "weight": 0.85
+    },
+    {
+      "id": "pockettactics",
+      "name": "Pocket Tactics",
+      "url": "https://www.pockettactics.com/feed",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "weight": 0.85
+    },
+    {
+      "id": "mobilegamerbiz",
+      "name": "MobileGamer.biz",
+      "url": "https://www.mobilegamer.biz/feed/",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "weight": 0.75
+    },
+    {
+      "id": "siliconera",
+      "name": "Siliconera",
+      "url": "https://www.siliconera.com/feed/",
+      "language": "en",
+      "region_focus": "global-jp",
+      "type": "rss",
+      "weight": 0.75
+    },
+    {
+      "id": "toucharcade",
+      "name": "TouchArcade",
+      "url": "https://toucharcade.com/feed/",
+      "language": "en",
+      "region_focus": "global",
+      "type": "rss",
+      "weight": 0.8
+    },
+    {
+      "id": "4gamer",
+      "name": "4Gamer",
+      "url": "https://www.4gamer.net/rss/index.xml",
+      "language": "ja",
+      "region_focus": "jp",
+      "type": "rss",
+      "weight": 0.8
+    },
+    {
+      "id": "famitsu",
+      "name": "Famitsu",
+      "url": "https://www.famitsu.com/rss/famitsu_all.rdf",
+      "language": "ja",
+      "region_focus": "jp",
+      "type": "rss",
+      "enabled": false,
+      "weight": 0.75
+    },
+    {
+      "id": "automaton",
+      "name": "AUTOMATON",
+      "url": "https://automaton-media.com/feed/",
+      "language": "ja",
+      "region_focus": "jp",
+      "type": "rss",
+      "weight": 0.75
+    },
+    {
+      "id": "insidegames",
+      "name": "Inside Games",
+      "url": "https://www.inside-games.jp/rss/index.rdf",
+      "language": "ja",
+      "region_focus": "jp",
+      "type": "rss",
+      "weight": 0.7
+    },
+    {
+      "id": "thisisgame",
+      "name": "This Is Game",
+      "url": "https://www.thisisgame.com/webzine/rss.php",
+      "language": "ko",
+      "region_focus": "kr",
+      "type": "rss",
+      "enabled": false,
+      "weight": 0.75
+    },
+    {
+      "id": "gamerbraves",
+      "name": "GamerBraves",
+      "url": "https://www.gamerbraves.com/feed/",
+      "language": "en",
+      "region_focus": "sea-global",
+      "type": "rss",
+      "enabled": false,
+      "weight": 0.7
+    }
+  ]
+}

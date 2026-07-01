@@ -1,0 +1,238 @@
+{
+  "generated_at": "2026-07-01T22:54:04.081799+08:00",
+  "days": 30,
+  "date_window": {
+    "start": "2026-07-01T00:00:00+08:00",
+    "end": "2026-07-02T00:00:00+08:00"
+  },
+  "translation": {
+    "enabled": true,
+    "target": "zh-Hans",
+    "provider": "openai",
+    "model": "gpt-4.1-mini"
+  },
+  "count": 6,
+  "items": [
+    {
+      "id": "dc6377c72874",
+      "title": "ChillyRoom’s Abyssal Soul kicks off open beta on Android, bringing a fresh twist to roguelike card RPGs",
+      "link": "https://gamingonphone.com/news/chillyrooms-abyssal-soul-kicks-off-open-beta-on-android-bringing-a-fresh-twist-to-roguelike-card-rpgs/",
+      "summary": "ChillyRoom has announced that its newest roguelike card RPG, Abyssal Soul, is now available in open beta on Android. The game previously held a beta test in May 2025 and opened pre-registration this April 2026. The global launch is now expected on July 30, 2026, based on the App Store’s listing. You can now build powerful decks … The post ChillyRoom’s Abyssal Soul kicks off open beta on Android, bringing a fresh twist to roguelike card RPGs appeared first on GamingonPhone .",
+      "source": {
+        "id": "gamingonphone",
+        "name": "GamingonPhone",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-01T18:00:00+08:00",
+      "score": 85.5,
+      "status": "unreleased candidate",
+      "regions": [
+        "global"
+      ],
+      "signals": {
+        "mobile": [
+          "android",
+          "app store"
+        ],
+        "unreleased": [
+          "pre-registration",
+          "announced",
+          "open beta",
+          "beta test"
+        ],
+        "region": [
+          "global"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "1d77e201300e",
+      "title": "Sanrio Kawaii Me Live! is arriving on mobile in 2027; closed beta begins this July in Japan",
+      "link": "https://gamingonphone.com/news/sanrio-kawaii-me-live-is-arriving-on-mobile-in-2027-closed-beta-begins-this-july-in-japan/",
+      "summary": "Sanrio Games has announced that its latest dance rhythm title, Sanrio Kawaii Me Live!, is set to launch on both Android and iOS in 2027. As the very first mobile title published directly under the company’s new gaming label, the game is also preparing for a closed beta test in Japan starting July 15, 2026. … The post Sanrio Kawaii Me Live! is arriving on mobile in 2027; closed beta begins this July in Japan appeared first on GamingonPhone .",
+      "source": {
+        "id": "gamingonphone",
+        "name": "GamingonPhone",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-01T08:00:00+08:00",
+      "score": 85.5,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "mobile"
+        ],
+        "unreleased": [
+          "announced",
+          "closed beta",
+          "beta test"
+        ],
+        "region": [
+          "japan"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "a16c29e6f9d9",
+      "title": "《幻想水滸傳 STAR LEAP》手機版在日本啟動事前登錄 首曝遊戲開場動畫影片",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307576",
+      "summary": "KONAMI 今（1）日在《幻想水滸傳》Live 線上直播節目中宣布，新款角色扮演遊戲《幻想水滸傳 STAR LEAP》今日起在日本展開手機雙平台事前登錄，同步公開遊戲開場動畫影片： 《幻想水滸傳 STAR LEAP》是一款以《幻想水滸傳》世界為背景的全新角色扮演冒....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-01T19:59:07+08:00",
+      "score": 81.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "signals": {
+        "mobile": [
+          "手機"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《幻想水滸傳 STAR LEAP》手機版在日本啟動事前登錄 首曝遊戲開場動畫影片",
+      "summary_zh": "KONAMI 今（1）日在《幻想水滸傳》Live 線上直播節目中宣布，新款角色扮演遊戲《幻想水滸傳 STAR LEAP》今日起在日本展開手機雙平台事前登錄，同步公開遊戲開場動畫影片： 《幻想水滸傳 STAR LEAP》是一款以《幻想水滸傳》世界為背景的全新角色扮演冒....",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "1542a3616d8d",
+      "title": "Bananya Buddies brings adorable cat-collecting puzzle fun to mobile exclusively on Crunchyroll Game Vault this summer",
+      "link": "https://gamingonphone.com/news/bananya-buddies-brings-adorable-cat-collecting-puzzle-fun-to-mobile-exclusively-on-crunchyroll-game-vault-this-summer/",
+      "summary": "Crunchyroll, LLC has teamed up with TMS Entertainment to launch Bananya Buddies, a charming cat-collecting casual puzzle adventure, to both Android and iOS this summer exclusively through Crunchyroll Game Vault. The game also marks the first release under Crunchyroll Game Vault’s Original Game Publishing Initiative, with Android pre-registration now open. Get ready to collect adorable … The post Bananya Buddies brings adorable cat-collecting puzzle fun to mobile exclusively on Crunchyroll Game Vault this summer appeared first on GamingonPhone .",
+      "source": {
+        "id": "gamingonphone",
+        "name": "GamingonPhone",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-01T12:00:00+08:00",
+      "score": 72.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "mobile"
+        ],
+        "unreleased": [
+          "pre-registration"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "a0a0eae334fd",
+      "title": "スマホ版「幻想水滸伝 STAR LEAP」，事前登録受付をApp StoreとGoogle Playで開始。これまでのシリーズと同じ世界を舞台にしたRPG",
+      "link": "https://www.4gamer.net/games/887/G088743/20260701028/",
+      "summary": "KONAMIは本日，スマホ版「幻想水滸伝STARLEAP」の事前登録受付を，AppStoreとGooglePlayで開始した。本作は，「幻想水滸伝」シリーズで初めてスマホ向けに配信されるタイトルで，これまでのシリーズと同じ世界を舞台にしたRPGだ。",
+      "source": {
+        "id": "4gamer",
+        "name": "4Gamer",
+        "language": "ja",
+        "region_focus": "jp"
+      },
+      "published_at": "2026-07-01T18:16:38+08:00",
+      "score": 60.0,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play",
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "56bf13ba9667",
+      "title": "MMORPG《締造者：放逐之境》台港澳 CBT 落幕 將以玩家回饋打造更完善在地化體驗",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307552",
+      "summary": "由韓國遊戲公司 DRIMAGE 營運、AQUATREE 開發的超大型 MMORPG《締造者：放逐之境》日前在台港澳地區舉辦封閉測試（CBT），官方今（1）日宣布，封測順利完成，開發團隊未來將以使用者回饋與數據為基礎，持續改進內容，打造更完善的在地化服務體驗。 《....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-01T17:07:04+08:00",
+      "score": 49.5,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "cbt",
+          "封閉測試"
+        ],
+        "region": [
+          "台港澳"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "MMORPG《締造者：放逐之境》台港澳 CBT 落幕 將以玩家回饋打造更完善在地化體驗",
+      "summary_zh": "由韓國遊戲公司 DRIMAGE 營運、AQUATREE 開發的超大型 MMORPG《締造者：放逐之境》日前在台港澳地區舉辦封閉測試（CBT），官方今（1）日宣布，封測順利完成，開發團隊未來將以使用者回饋與數據為基礎，持續改進內容，打造更完善的在地化服務體驗。 《....",
+      "translation_status": "source_is_chinese"
+    }
+  ],
+  "errors": []
+}
