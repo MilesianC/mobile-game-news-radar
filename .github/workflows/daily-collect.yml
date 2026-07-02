@@ -43,21 +43,21 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
-        run: python scripts/collect.py --yesterday --translate --limit 120
+        run: python scripts/collect.py --yesterday --translate --retention-days 7 --limit 120
 
       - name: Manual collect from yesterday 00:00 to now
         if: github.event_name == 'workflow_dispatch' && inputs.range == 'since_yesterday'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
-        run: python scripts/collect.py --since-yesterday --translate --limit 120
+        run: python scripts/collect.py --since-yesterday --translate --retention-days 7 --limit 120
 
       - name: Manual collect yesterday only
         if: github.event_name == 'workflow_dispatch' && inputs.range == 'yesterday'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
-        run: python scripts/collect.py --yesterday --translate --limit 120
+        run: python scripts/collect.py --yesterday --translate --retention-days 7 --limit 120
 
       - name: Commit updated data
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

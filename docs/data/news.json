@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-07-02T18:16:57.684009+08:00",
+  "generated_at": "2026-07-02T19:24:21.408676+08:00",
   "days": 30,
+  "retention_days": 7,
   "date_window": {
     "start": "2026-07-01T00:00:00+08:00",
-    "end": "2026-07-02T00:00:00+08:00"
+    "end": "2026-07-02T19:24:21.408675+08:00"
   },
   "translation": {
     "enabled": true,
@@ -11,8 +12,158 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 2,
+  "count": 7,
   "items": [
+    {
+      "id": "c4828ae49ba6",
+      "title": "「アズールプロミリア」CBTのプレイ配信をTwitchで正午にスタート",
+      "link": "https://www.4gamer.net/games/784/G078487/20260701057/",
+      "summary": "新作タイトル「アズールプロミリア」のAndroidとPCを対象としたクローズドβテストが2026年7月2日12：00にスタート。Twitchの配信では，もちろんコメントを通じて，自由に質問していただいても構いません。",
+      "source": {
+        "id": "4gamer",
+        "name": "4Gamer",
+        "language": "ja",
+        "region_focus": "jp"
+      },
+      "published_at": "2026-07-02T11:00:00+08:00",
+      "score": 60.0,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "signals": {
+        "mobile": [
+          "android"
+        ],
+        "unreleased": [
+          "cbt",
+          "βテスト"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "b00c6c867b45",
+      "title": "Roguelike ‘mech-builder’ Cats in the Shell announced for PC",
+      "link": "https://www.gematsu.com/2026/07/roguelike-mech-builder-cats-in-the-shell-announced-for-pc",
+      "summary": "Publisher Infini Fun and developer Raven Studio, which is comprised of veterans from Tencent and … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-02T10:07:47+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "d0acbbb049b4",
+      "title": "Fishing action game Boku to Tsuri Nikki announced for Switch 2, Switch",
+      "link": "https://www.gematsu.com/2026/07/fishing-action-game-boku-to-tsuri-nikki-announced-for-switch-2-switch",
+      "summary": "Publisher Imagineer and developer Toybox have announced “fishing action” game Boku to Tsuri Nikki for … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-02T10:02:42+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "68455663391e",
+      "title": "Onimusha: Way of the Sword release date moved up to September 4",
+      "link": "https://www.gematsu.com/2026/07/onimusha-way-of-the-sword-release-date-moved-up-to-september-4",
+      "summary": "Capcom has moved up swordplay action game Onimusha: Way of the Sword from its previously … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-02T08:16:26+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "release date"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "f748720e68eb",
+      "title": "Code Vein II expansion ‘Mask of Idris’ announced",
+      "link": "https://www.gematsu.com/2026/07/code-vein-ii-expansion-mask-of-idris-announced",
+      "summary": "Bandai Namco has announced Code Vein II expansion “Mask of Idris.” It will be available … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-02T00:21:41+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
     {
       "id": "b05e32a7efe3",
       "title": "Grand Outlaws looks to offer stylish GTA-like open-world action on mobile as it announces launch date",
@@ -82,11 +233,5 @@
       "translation_status": "missing_openai_api_key"
     }
   ],
-  "errors": [
-    {
-      "source": "gamingonphone",
-      "url": "https://gamingonphone.com/feed/",
-      "error": "HTTP Error 403: Forbidden"
-    }
-  ]
+  "errors": []
 }

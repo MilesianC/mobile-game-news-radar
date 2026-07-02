@@ -25,6 +25,8 @@ const fallbackData = {
   items: [],
 };
 
+const manualCollectUrl = "https://github.com/MilesianC/mobile-game-news-radar/actions/workflows/daily-collect.yml";
+
 async function loadData() {
   try {
     const response = await fetch("data/news.json", { cache: "no-store" });
@@ -48,7 +50,7 @@ function uniqueItems(items) {
 
 function inferActionsUrl() {
   const host = window.location.hostname;
-  if (!host.endsWith(".github.io")) return null;
+  if (!host.endsWith(".github.io")) return manualCollectUrl;
   const owner = host.replace(".github.io", "");
   const repo = window.location.pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
   return `https://github.com/${owner}/${repo}/actions/workflows/daily-collect.yml`;
@@ -57,12 +59,6 @@ function inferActionsUrl() {
 function bindManualCollectLink() {
   const link = document.getElementById("manualCollectLink");
   const actionsUrl = inferActionsUrl();
-  if (!actionsUrl) {
-    link.href = "https://github.com/";
-    link.setAttribute("aria-disabled", "true");
-    link.title = "部署到 GitHub Pages 后，这里会打开云端手动采集页面。";
-    return;
-  }
   link.href = actionsUrl;
   link.title = "打开 GitHub Actions，点击 Run workflow 手动采集昨天 00:00 到当前时间的资讯。";
 }

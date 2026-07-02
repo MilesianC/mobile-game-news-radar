@@ -485,7 +485,8 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
                 results[classified["id"]] = classified
         time.sleep(args.pause)
 
-    items = sorted(results.values(), key=lambda row: (row.get("score", 0), row.get("published_at") or ""), reverse=True)
+    items = merge_existing_items(Path(args.out), list(results.values()), args.retention_days)
+    items = sorted(items, key=lambda row: (row.get("published_at") or "", row.get("score", 0)), reverse=True)
     if args.limit > 0:
         items = items[: args.limit]
     if args.translate:
@@ -495,6 +496,7 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
     return {
         "generated_at": now_local().isoformat(),
         "days": args.days,
+        "retention_days": args.retention_days,
         "date_window": {
             "start": start.isoformat() if start else None,
             "end": end.isoformat() if end else None,
@@ -509,6 +511,53 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
         "items": items,
         "errors": errors,
     }
+
+
+def merge_existing_items(out_path: Path, new_items: list[dict[str, Any]], retention_days: int) -> list[dict[str, Any]]:
+    by_id = {}
+    for item in load_existing_items(out_path):
+        by_id[item_key(item)] = item
+    for item in new_items:
+        key = item_key(item)
+        existing = by_id.get(key, {})
+        by_id[key] = {**existing, **item}
+    return prune_items(list(by_id.values()), retention_days)
+
+
+def load_existing_items(out_path: Path) -> list[dict[str, Any]]:
+    if not out_path.exists():
+        return []
+    try:
+        with out_path.open("r", encoding="utf-8") as handle:
+            data = json.load(handle)
+    except (OSError, json.JSONDecodeError):
+        return []
+    items = data.get("items", [])
+    return items if isinstance(items, list) else []
+
+
+def item_key(item: dict[str, Any]) -> str:
+    return str(item.get("id") or stable_id(str(item.get("link") or item.get("title") or "")))
+
+
+def prune_items(items: list[dict[str, Any]], retention_days: int) -> list[dict[str, Any]]:
+    if retention_days <= 0:
+        return items
+    cutoff = now_local() - timedelta(days=retention_days)
+    kept = []
+    for item in items:
+        published_at = item.get("published_at")
+        if not published_at:
+            kept.append(item)
+            continue
+        try:
+            published = datetime.fromisoformat(published_at)
+        except ValueError:
+            kept.append(item)
+            continue
+        if published >= cutoff:
+            kept.append(item)
+    return kept
 
 
 def low_score_item(item: FeedItem) -> dict[str, Any]:
@@ -604,6 +653,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--date", help="Only keep items from this local date, formatted as YYYY-MM-DD.")
     parser.add_argument("--yesterday", action="store_true", help="Only keep items from yesterday in Asia/Shanghai time.")
     parser.add_argument("--since-yesterday", action="store_true", help="Keep items from yesterday 00:00 to now in Asia/Shanghai time.")
+    parser.add_argument("--retention-days", type=int, default=7, help="Keep collected output items from the last N days. Use 0 to disable pruning.")
     parser.add_argument("--limit", type=int, default=120, help="Maximum items to write. Use 0 for no limit.")
     parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout in seconds.")
     parser.add_argument("--pause", type=float, default=0.5, help="Pause between source requests.")
