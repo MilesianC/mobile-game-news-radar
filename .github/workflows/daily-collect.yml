@@ -2,8 +2,9 @@ name: Daily mobile game news
 
 on:
   schedule:
-    # 23:00 UTC is 07:00 in Asia/Shanghai.
-    - cron: "0 23 * * *"
+    # 23:00-00:45 UTC is 07:00-08:45 in Asia/Shanghai.
+    # GitHub schedules can be delayed, so these fallback runs improve freshness.
+    - cron: "0,15,30,45 23,0 * * *"
   push:
     branches:
       - main
