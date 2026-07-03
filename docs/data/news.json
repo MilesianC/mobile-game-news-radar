@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T21:12:33.382531+08:00",
+  "generated_at": "2026-07-03T18:12:04.881297+08:00",
   "days": 30,
   "retention_days": 7,
   "date_window": {
-    "start": "2026-07-01T00:00:00+08:00",
-    "end": "2026-07-02T21:12:33.382529+08:00"
+    "start": "2026-07-02T00:00:00+08:00",
+    "end": "2026-07-03T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -12,7 +12,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 10,
+  "count": 11,
   "items": [
     {
       "id": "0682a5f64aec",
@@ -101,6 +101,35 @@
         "mobile": [],
         "unreleased": [
           "beta test"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "1f842c5e023e",
+      "title": "Doloc Town launches August 6",
+      "link": "https://www.gematsu.com/2026/07/doloc-town-launches-august-6",
+      "summary": "Post-apocalyptic pixel art side-scrolling farming adventure game Doloc Town will leave Early Access and launch … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-02T15:00:23+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "early access"
         ],
         "region": [],
         "exclude": []
