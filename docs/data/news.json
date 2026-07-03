@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-07-04T00:14:01.914293+08:00",
-  "days": 30,
+  "generated_at": "2026-07-04T01:01:14.742295+08:00",
+  "days": 7,
   "retention_days": 7,
+  "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-03T00:00:00+08:00",
-    "end": "2026-07-04T00:14:01.914292+08:00"
+    "start": null,
+    "end": null
   },
   "translation": {
     "enabled": true,
@@ -12,97 +13,38 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 17,
+  "count": 1,
   "items": [
     {
-      "id": "a2a93b809f35",
-      "title": "Alphadia F is the newest upcoming JRPG from Kemco and Exe-Create, now in pre-registration",
-      "link": "https://www.pocketgamer.com/alphadia-f/pre-registration-now-open/",
-      "summary": "For JRPG fans, it'll always be exciting to see the name Kemco pop up on the site. This publisher has brought innumerable entries in the genre to mobile, including many in EXE-Create's Alphadia series. Now the latest entry, Alphadia F, has just hit pre-registration on iOS and Android! Set in the world of Valhalard, you play as a group of heroes tasked with investigating six strange crystals that have rained down on the planet and broken the fragile peace between its four great nations. Along the way, you'll gather a party of allies and encounter all manner of scary beasties in your quest to save the world. ... [ MORE ]",
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-03T19:50:00+08:00",
-      "score": 80.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "mobile"
-        ],
-        "unreleased": [
-          "pre-registration"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "49c8a5eaedec",
-      "title": "Case Solved now has a release date for this casual mobile point-and-click crime solver",
-      "link": "https://www.pocketgamer.com/case-solved/release-date/",
-      "summary": "When I was in Brazil earlier this year for a visit to Gamescom LatAm, I saw many exciting new and upcoming releases. Not least being the casual, crime-solving point-and-click puzzler Case Solved! And after it was announced Case Solved was making the jump to mobile, we now have a full release date. Case Solved is set to finally make its way to mobile on July 29th and drops you into the role of a weatherworn gumshoe detective in a sort-of-60s London. But the setting isn't the focus here; instead, it's on unravelling your standard noir mystery web of murder and deceit woven throughout the city of London. ... [ MORE ]",
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-03T17:48:00+08:00",
-      "score": 80.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [
-          "mobile"
-        ],
-        "unreleased": [
-          "release date",
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "c3d14c0aae28",
-      "title": "【漫博 26】幻想大世界 RPG《藍色星原：旅謠》確認參加第 25 屆漫畫博覽會 與星臨者再度相逢",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=307694",
-      "summary": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》，今年 6 月於台港澳地區展開首次封閉測試，測試期間收到廣大星臨者的踴躍參與與寶貴回饋，目前製作團隊已著手進行優化與調整，期望帶來更加完善的冒險。 與此同時，《藍色星原：旅謠》今日宣布將參....",
+      "id": "8cd167c8b5c4",
+      "title": "《hololive Dreams》決定於 7 月 23 日全球同步上線 同步公開 Steam 版等最新情報",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307715",
+      "summary": "CyberAgent,Inc. （總公司：東京都澀谷區，代表董事社長：山內隆裕）的合併子公司 QualiArts, Inc. （總公司：東京都澀谷區，代表董事社長：辻岡義立）宣布，與 COVER Corp. （總公司：東京都港區，代表董事社長：谷鄉元昭）共同開發的「hololive」首款官方智慧型手機遊戲《h....",
       "source": {
         "id": "bahamut",
         "name": "巴哈姆特 GNN",
         "language": "zh-Hant",
         "region_focus": "tw-hk-mo"
       },
-      "published_at": "2026-07-03T16:49:38+08:00",
-      "score": 49.5,
-      "status": "unreleased candidate",
+      "published_at": "2026-07-03T21:41:30+08:00",
+      "score": 81.0,
+      "status": "region-gap candidate",
       "regions": [
+        "global",
         "tw-hk-mo"
       ],
       "signals": {
-        "mobile": [],
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
         "unreleased": [
-          "封閉測試"
+          "同步上線",
+          "決定於",
+          "公開"
         ],
         "region": [
-          "台港澳"
+          "全球"
         ],
         "exclude": []
       },
@@ -110,454 +52,10 @@
         "needed": true,
         "notes": "Confirm platform, release state, and target regions before publishing."
       },
-      "title_zh": "【漫博 26】幻想大世界 RPG《藍色星原：旅謠》確認參加第 25 屆漫畫博覽會 與星臨者再度相逢",
-      "summary_zh": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》，今年 6 月於台港澳地區展開首次封閉測試，測試期間收到廣大星臨者的踴躍參與與寶貴回饋，目前製作團隊已著手進行優化與調整，期望帶來更加完善的冒險。 與此同時，《藍色星原：旅謠》今日宣布將參....",
+      "title_zh": "《hololive Dreams》決定於 7 月 23 日全球同步上線 同步公開 Steam 版等最新情報",
+      "summary_zh": "CyberAgent,Inc. （總公司：東京都澀谷區，代表董事社長：山內隆裕）的合併子公司 QualiArts, Inc. （總公司：東京都澀谷區，代表董事社長：辻岡義立）宣布，與 COVER Corp. （總公司：東京都港區，代表董事社長：谷鄉元昭）共同開發的「hololive」首款官方智慧型手機遊戲《h....",
       "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "834a69c68a8e",
-      "title": "GigaBash DLC ‘Ultraman Zero’ announced",
-      "link": "https://www.gematsu.com/2026/07/gigabash-dlc-ultraman-zero-announced",
-      "summary": "Passion Republic Games has announced GigaBash downloadable content “Ultraman Zero,” which adds new playable characters … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-03T11:00:08+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "2f6a59d681e1",
-      "title": "Roguelite wave-defense game Company of Heroes 3: Final Stand announced for PC",
-      "link": "https://www.gematsu.com/2026/07/roguelite-wave-defense-game-company-of-heroes-3-final-stand-announced-for-pc",
-      "summary": "Relic Entertainment has announced Company of Heroes 3: Final Stand, a standalone roguelite wave-defense game … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-03T01:23:49+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "39c7bd1c3713",
-      "title": "Monster Hunter Outlanders launches registration for its third closed beta",
-      "link": "https://www.pocketgamer.com/monster-hunter-outlanders/third-closed-beta-registration-now-open/",
-      "summary": "Monster Hunter has had a meteoric rise since its earliest days on the PlayStation, becoming a bona fide cornerstone of Capcom's catalogue abroad as much as it was in Japan. Now, fans on mobile will soon be able to get their hands on the latest smartphone adaptation, Monster Hunter Outlanders, with its latest closed beta open for sign-ups. Monster Hunter Outlanders, unlike spinoffs such as Monster Hunter Now, looks to replicate the classic third-person ARPG mechanics of the original series. Allowing you to not only battle enormous monsters (duh) but also to explore the expansive and fantastical world of the Monster Hunter series too. Suffice it to say that it's got both longtime fans and newcomers intrigued. ... [ MORE ]",
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-03T00:20:00+08:00",
-      "score": 95.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "signals": {
-        "mobile": [
-          "mobile",
-          "smartphone"
-        ],
-        "unreleased": [
-          "closed beta"
-        ],
-        "region": [
-          "japan"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "0682a5f64aec",
-      "title": "Silver Palace unveils newest gameplay PV focusing on female protagonist",
-      "link": "https://www.pocketgamer.com/silver-palace/new-pv-featuring-female-protagonist/",
-      "summary": "Silver Palace is one of the more interesting open-world ARPGs set to arrive on mobile. Set in the Belle Epoch-style city of Silvernia, it boasts some fantastic environments and character designs that really stand out from the more typical fantasy and futuristic aesthetic we see in the genre. And you can get an even better sense of that in Silver Palace's newest PV! In case you missed it, last week, Silver Palace began recruiting for its latest closed beta test, nicknamed Dichotomy. To mark the beginning of the recruitment period, we got a look at some gameplay featuring the male protagonist, and now Silver Palace is switching focus to the female main character for this new PV. ... [ MORE ]",
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-02T20:30:00+08:00",
-      "score": 80.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [
-          "mobile"
-        ],
-        "unreleased": [
-          "closed beta",
-          "beta test"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "f99afbfb8d98",
-      "title": "「モンスターハンターアウトランダーズ」，第3回クローズドβテストを2026年8月7日に開始。参加申し込みを受付中",
-      "link": "https://www.4gamer.net/games/667/G066758/20260702027/",
-      "summary": "TiMiStudioGroupは，スマホアプリ「モンスターハンターアウトランダーズ」の第3回クローズドβテストを2026年8月7日11：00より実施すると発表した。対象プラットフォームはiOSとAndroid。参加者の募集もスタートしている。",
-      "source": {
-        "id": "4gamer",
-        "name": "4Gamer",
-        "language": "ja",
-        "region_focus": "jp"
-      },
-      "published_at": "2026-07-02T20:00:00+08:00",
-      "score": 60.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "スマホ",
-          "アプリ"
-        ],
-        "unreleased": [
-          "βテスト"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "106aed22a329",
-      "title": "Silver Palace ‘Dichotomy’ beta test gameplay showcase",
-      "link": "https://www.gematsu.com/2026/07/silver-palace-dichotomy-beta-test-gameplay-showcase",
-      "summary": "Publisher Elementa and developer Silver Studio have released a three minute gameplay showcase video of … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T19:45:36+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "beta test"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "1f842c5e023e",
-      "title": "Doloc Town launches August 6",
-      "link": "https://www.gematsu.com/2026/07/doloc-town-launches-august-6",
-      "summary": "Post-apocalyptic pixel art side-scrolling farming adventure game Doloc Town will leave Early Access and launch … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T15:00:23+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "early access"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "c4828ae49ba6",
-      "title": "「アズールプロミリア」CBTのプレイ配信をTwitchで正午にスタート",
-      "link": "https://www.4gamer.net/games/784/G078487/20260701057/",
-      "summary": "新作タイトル「アズールプロミリア」のAndroidとPCを対象としたクローズドβテストが2026年7月2日12：00にスタート。Twitchの配信では，もちろんコメントを通じて，自由に質問していただいても構いません。",
-      "source": {
-        "id": "4gamer",
-        "name": "4Gamer",
-        "language": "ja",
-        "region_focus": "jp"
-      },
-      "published_at": "2026-07-02T11:00:00+08:00",
-      "score": 60.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "signals": {
-        "mobile": [
-          "android"
-        ],
-        "unreleased": [
-          "cbt",
-          "βテスト"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "b00c6c867b45",
-      "title": "Roguelike ‘mech-builder’ Cats in the Shell announced for PC",
-      "link": "https://www.gematsu.com/2026/07/roguelike-mech-builder-cats-in-the-shell-announced-for-pc",
-      "summary": "Publisher Infini Fun and developer Raven Studio, which is comprised of veterans from Tencent and … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T10:07:47+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "d0acbbb049b4",
-      "title": "Fishing action game Boku to Tsuri Nikki announced for Switch 2, Switch",
-      "link": "https://www.gematsu.com/2026/07/fishing-action-game-boku-to-tsuri-nikki-announced-for-switch-2-switch",
-      "summary": "Publisher Imagineer and developer Toybox have announced “fishing action” game Boku to Tsuri Nikki for … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T10:02:42+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "68455663391e",
-      "title": "Onimusha: Way of the Sword release date moved up to September 4",
-      "link": "https://www.gematsu.com/2026/07/onimusha-way-of-the-sword-release-date-moved-up-to-september-4",
-      "summary": "Capcom has moved up swordplay action game Onimusha: Way of the Sword from its previously … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T08:16:26+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "release date"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "f748720e68eb",
-      "title": "Code Vein II expansion ‘Mask of Idris’ announced",
-      "link": "https://www.gematsu.com/2026/07/code-vein-ii-expansion-mask-of-idris-announced",
-      "summary": "Bandai Namco has announced Code Vein II expansion “Mask of Idris.” It will be available … Source",
-      "source": {
-        "id": "gematsu",
-        "name": "Gematsu",
-        "language": "en",
-        "region_focus": "global-jp"
-      },
-      "published_at": "2026-07-02T00:21:41+08:00",
-      "score": 45.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [],
-        "unreleased": [
-          "announced"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "b05e32a7efe3",
-      "title": "Grand Outlaws looks to offer stylish GTA-like open-world action on mobile as it announces launch date",
-      "link": "https://www.pocketgamer.com/grand-outlaws/global-launch-announce/",
-      "summary": "With GTA VI right around the corner, there's a lot of hubbub about whether it'll live up to the hype surrounding it, that price tag, and indeed which games are going to get out of the way before it hits shelves. But there are plenty of others looking to offer an alternative take on the digital criminal lifestyle, like Grand Outlaws. Set to arrive on iOS and Android in late summer, Grand Outlaws bills itself as an immersive sim offering the same mixture of fast-paced action and roleplaying that GTA pioneered and many others have sought to emulate. However, Grand Outlaws certainly reminds me more of Saints Row than Grand Theft Auto. ... [ MORE ]",
-      "source": {
-        "id": "pocketgamer",
-        "name": "Pocket Gamer",
-        "language": "en",
-        "region_focus": "global"
-      },
-      "published_at": "2026-07-01T23:45:00+08:00",
-      "score": 80.0,
-      "status": "unreleased candidate",
-      "regions": [],
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "mobile"
-        ],
-        "unreleased": [
-          "launch date"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
-    },
-    {
-      "id": "a0a0eae334fd",
-      "title": "スマホ版「幻想水滸伝 STAR LEAP」，事前登録受付をApp StoreとGoogle Playで開始。これまでのシリーズと同じ世界を舞台にしたRPG",
-      "link": "https://www.4gamer.net/games/887/G088743/20260701028/",
-      "summary": "KONAMIは本日，スマホ版「幻想水滸伝STARLEAP」の事前登録受付を，AppStoreとGooglePlayで開始した。本作は，「幻想水滸伝」シリーズで初めてスマホ向けに配信されるタイトルで，これまでのシリーズと同じ世界を舞台にしたRPGだ。",
-      "source": {
-        "id": "4gamer",
-        "name": "4Gamer",
-        "language": "ja",
-        "region_focus": "jp"
-      },
-      "published_at": "2026-07-01T18:16:38+08:00",
-      "score": 60.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play",
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "translation_status": "missing_openai_api_key"
     }
   ],
-  "errors": [
-    {
-      "source": "gamingonphone",
-      "url": "https://gamingonphone.com/feed/",
-      "error": "HTTP Error 403: Forbidden"
-    }
-  ]
+  "errors": []
 }

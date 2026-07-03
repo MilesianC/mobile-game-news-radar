@@ -2,9 +2,8 @@ name: Daily mobile game news
 
 on:
   schedule:
-    # 23:00-00:45 UTC is 07:00-08:45 in Asia/Shanghai.
-    # GitHub schedules can be delayed, so these fallback runs improve freshness.
-    - cron: "0,15,30,45 23,0 * * *"
+    # GitHub scheduled workflows can be delayed. Refresh hourly and dedupe.
+    - cron: "17 * * * *"
   push:
     branches:
       - main
@@ -13,9 +12,10 @@ on:
       range:
         description: "采集范围"
         required: true
-        default: "since_yesterday"
+        default: "last_7_days"
         type: choice
         options:
+          - last_7_days
           - since_yesterday
           - yesterday
 
@@ -39,12 +39,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect yesterday's news
+      - name: Scheduled rolling collect
         if: github.event_name == 'schedule'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
-        run: python scripts/collect.py --yesterday --translate --retention-days 7 --limit 120
+        run: python scripts/collect.py --days 7 --translate --retention-days 7 --limit 120
+
+      - name: Manual collect last 7 days
+        if: github.event_name == 'workflow_dispatch' && inputs.range == 'last_7_days'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
+        run: python scripts/collect.py --days 7 --translate --retention-days 7 --limit 120
 
       - name: Manual collect from yesterday 00:00 to now
         if: github.event_name == 'workflow_dispatch' && inputs.range == 'since_yesterday'

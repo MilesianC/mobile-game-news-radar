@@ -17,6 +17,7 @@
       "language": "en",
       "region_focus": "global-jp",
       "type": "rss",
+      "enabled": false,
       "weight": 1.0
     },
     {
@@ -26,6 +27,7 @@
       "language": "en",
       "region_focus": "global",
       "type": "rss",
+      "enabled": false,
       "weight": 1.0
     },
     {
@@ -45,6 +47,7 @@
       "language": "en",
       "region_focus": "global",
       "type": "rss",
+      "enabled": false,
       "weight": 0.9
     },
     {
@@ -54,6 +57,7 @@
       "language": "en",
       "region_focus": "asia-global",
       "type": "rss",
+      "enabled": false,
       "weight": 0.85
     },
     {
@@ -63,6 +67,7 @@
       "language": "en",
       "region_focus": "global",
       "type": "rss",
+      "enabled": false,
       "weight": 0.85
     },
     {
@@ -72,6 +77,7 @@
       "language": "en",
       "region_focus": "global",
       "type": "rss",
+      "enabled": false,
       "weight": 0.75
     },
     {
@@ -81,6 +87,7 @@
       "language": "en",
       "region_focus": "global-jp",
       "type": "rss",
+      "enabled": false,
       "weight": 0.75
     },
     {
@@ -90,6 +97,7 @@
       "language": "en",
       "region_focus": "global",
       "type": "rss",
+      "enabled": false,
       "weight": 0.8
     },
     {
@@ -99,6 +107,7 @@
       "language": "ja",
       "region_focus": "jp",
       "type": "rss",
+      "enabled": false,
       "weight": 0.8
     },
     {
@@ -118,6 +127,7 @@
       "language": "ja",
       "region_focus": "jp",
       "type": "rss",
+      "enabled": false,
       "weight": 0.75
     },
     {
@@ -127,6 +137,7 @@
       "language": "ja",
       "region_focus": "jp",
       "type": "rss",
+      "enabled": false,
       "weight": 0.7
     },
     {

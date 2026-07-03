@@ -95,10 +95,10 @@ python scripts/collect.py --yesterday --translate --limit 120
 
 1. 把项目推到 GitHub 仓库。
 2. 在仓库 Settings -> Secrets and variables -> Actions 里添加 `OPENAI_API_KEY`。
-3. 到 Actions 页面手动运行一次 `Daily mobile game news`，选择 `since_yesterday`，确认能生成、提交 `docs/data/news.json` 并发布网页。
+3. 到 Actions 页面手动运行一次 `Daily mobile game news`，选择 `last_7_days`，确认能生成、提交 `docs/data/news.json` 并发布网页。
 
-GitHub Actions 的 cron 使用 UTC 时间。项目会在北京时间 07:00 到 08:45 之间每 15 分钟尝试触发一次，抵消 GitHub 定时任务可能延迟的问题。多次触发不会产生重复资讯，因为采集器会按新闻 ID 合并，并且只保留最近 7 天数据；需要严格准点时建议改用 VPS cron 或 Cloudflare Workers Cron。
-页面里的“手动采集”按钮会打开这个 GitHub Actions 页面；点击 `Run workflow` 后会采集昨天 00:00 到当前时间的资讯。采集结果默认保留 7 天，采集器按新闻链接生成稳定 ID，同一篇新闻重复运行也不会重复写入。
+GitHub Actions 的定时任务不保证准点。项目改为每小时尝试刷新一次，每次扫描最近 7 天中文来源；多次触发不会产生重复资讯，因为采集器会按新闻 ID 合并，并且只保留最近 7 天数据。需要严格准点时建议改用 VPS cron 或 Cloudflare Workers Cron。
+页面里的“手动采集”按钮会打开这个 GitHub Actions 页面；点击 `Run workflow` 后默认选择 `last_7_days` 即可。采集结果默认只保留中文 / 繁中来源，默认保留 7 天，同一篇新闻重复运行也不会重复写入。
 
 ## 中文翻译
 
@@ -115,7 +115,7 @@ OPENAI_API_KEY=你的 key
 OPENAI_TRANSLATION_MODEL=gpt-4.1-mini
 ```
 
-如果没有设置密钥，采集不会失败，但对应条目会标记为 `missing_openai_api_key`，页面会暂时显示原文。
+当前站点默认只收录中文 / 繁中来源。外文来源默认不会进入结果；如果以后重新开启外文来源并设置密钥，外文条目才会翻译。
 
 ## 让其他设备访问
 

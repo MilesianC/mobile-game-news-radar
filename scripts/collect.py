@@ -71,7 +71,18 @@ UNRELEASED_TERMS = [
     "預約",
     "預註冊",
     "事前登錄",
+    "事前預約",
     "上市日期",
+    "發行日期",
+    "上線日期",
+    "同步上線",
+    "即將上線",
+    "將於",
+    "決定於",
+    "預定",
+    "預計",
+    "公開",
+    "發表",
     "事前登録",
     "配信日",
     "リリース日",
@@ -342,6 +353,8 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     if mobile_hits:
         score += 35
         reasons.append("mobile platform")
+    else:
+        return None
     if unreleased_hits:
         score += 40
         reasons.append("unreleased signal")
@@ -411,6 +424,10 @@ def load_sources(path: Path) -> list[dict[str, Any]]:
     return [source for source in data["sources"] if source.get("enabled", True)]
 
 
+def is_chinese_source(source: dict[str, Any]) -> bool:
+    return str(source.get("language", "")).casefold().startswith("zh")
+
+
 def load_env_file(path: Path) -> None:
     if not path.exists():
         return
@@ -468,6 +485,8 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
     errors = []
 
     for source in sources:
+        if not args.include_non_chinese and not is_chinese_source(source):
+            continue
         try:
             xml_bytes = fetch_url(source["url"], timeout=args.timeout)
             feed_items = parse_feed(xml_bytes, source)
@@ -485,7 +504,7 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
                 results[classified["id"]] = classified
         time.sleep(args.pause)
 
-    items = merge_existing_items(Path(args.out), list(results.values()), args.retention_days)
+    items = merge_existing_items(Path(args.out), list(results.values()), args.retention_days, args.include_non_chinese)
     items = sorted(items, key=lambda row: (row.get("published_at") or "", row.get("score", 0)), reverse=True)
     if args.limit > 0:
         items = items[: args.limit]
@@ -497,6 +516,7 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
         "generated_at": now_local().isoformat(),
         "days": args.days,
         "retention_days": args.retention_days,
+        "include_non_chinese": bool(args.include_non_chinese),
         "date_window": {
             "start": start.isoformat() if start else None,
             "end": end.isoformat() if end else None,
@@ -513,11 +533,20 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
     }
 
 
-def merge_existing_items(out_path: Path, new_items: list[dict[str, Any]], retention_days: int) -> list[dict[str, Any]]:
+def merge_existing_items(
+    out_path: Path,
+    new_items: list[dict[str, Any]],
+    retention_days: int,
+    include_non_chinese: bool,
+) -> list[dict[str, Any]]:
     by_id = {}
     for item in load_existing_items(out_path):
+        if not include_non_chinese and not item_is_chinese(item):
+            continue
         by_id[item_key(item)] = item
     for item in new_items:
+        if not include_non_chinese and not item_is_chinese(item):
+            continue
         key = item_key(item)
         existing = by_id.get(key, {})
         by_id[key] = {**existing, **item}
@@ -538,6 +567,10 @@ def load_existing_items(out_path: Path) -> list[dict[str, Any]]:
 
 def item_key(item: dict[str, Any]) -> str:
     return str(item.get("id") or stable_id(str(item.get("link") or item.get("title") or "")))
+
+
+def item_is_chinese(item: dict[str, Any]) -> bool:
+    return str(item.get("source", {}).get("language", "")).casefold().startswith("zh")
 
 
 def prune_items(items: list[dict[str, Any]], retention_days: int) -> list[dict[str, Any]]:
@@ -654,6 +687,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--yesterday", action="store_true", help="Only keep items from yesterday in Asia/Shanghai time.")
     parser.add_argument("--since-yesterday", action="store_true", help="Keep items from yesterday 00:00 to now in Asia/Shanghai time.")
     parser.add_argument("--retention-days", type=int, default=7, help="Keep collected output items from the last N days. Use 0 to disable pruning.")
+    parser.add_argument("--include-non-chinese", action="store_true", help="Allow non-Chinese sources. By default only zh-Hans / zh-Hant sources are collected.")
     parser.add_argument("--limit", type=int, default=120, help="Maximum items to write. Use 0 for no limit.")
     parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout in seconds.")
     parser.add_argument("--pause", type=float, default=0.5, help="Pause between source requests.")
