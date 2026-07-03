@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-03T18:12:04.881297+08:00",
+  "generated_at": "2026-07-04T00:14:01.914293+08:00",
   "days": 30,
   "retention_days": 7,
   "date_window": {
-    "start": "2026-07-02T00:00:00+08:00",
-    "end": "2026-07-03T00:00:00+08:00"
+    "start": "2026-07-03T00:00:00+08:00",
+    "end": "2026-07-04T00:14:01.914292+08:00"
   },
   "translation": {
     "enabled": true,
@@ -12,8 +12,202 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 11,
+  "count": 17,
   "items": [
+    {
+      "id": "a2a93b809f35",
+      "title": "Alphadia F is the newest upcoming JRPG from Kemco and Exe-Create, now in pre-registration",
+      "link": "https://www.pocketgamer.com/alphadia-f/pre-registration-now-open/",
+      "summary": "For JRPG fans, it'll always be exciting to see the name Kemco pop up on the site. This publisher has brought innumerable entries in the genre to mobile, including many in EXE-Create's Alphadia series. Now the latest entry, Alphadia F, has just hit pre-registration on iOS and Android! Set in the world of Valhalard, you play as a group of heroes tasked with investigating six strange crystals that have rained down on the planet and broken the fragile peace between its four great nations. Along the way, you'll gather a party of allies and encounter all manner of scary beasties in your quest to save the world. ... [ MORE ]",
+      "source": {
+        "id": "pocketgamer",
+        "name": "Pocket Gamer",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-03T19:50:00+08:00",
+      "score": 80.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "mobile"
+        ],
+        "unreleased": [
+          "pre-registration"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "49c8a5eaedec",
+      "title": "Case Solved now has a release date for this casual mobile point-and-click crime solver",
+      "link": "https://www.pocketgamer.com/case-solved/release-date/",
+      "summary": "When I was in Brazil earlier this year for a visit to Gamescom LatAm, I saw many exciting new and upcoming releases. Not least being the casual, crime-solving point-and-click puzzler Case Solved! And after it was announced Case Solved was making the jump to mobile, we now have a full release date. Case Solved is set to finally make its way to mobile on July 29th and drops you into the role of a weatherworn gumshoe detective in a sort-of-60s London. But the setting isn't the focus here; instead, it's on unravelling your standard noir mystery web of murder and deceit woven throughout the city of London. ... [ MORE ]",
+      "source": {
+        "id": "pocketgamer",
+        "name": "Pocket Gamer",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-03T17:48:00+08:00",
+      "score": 80.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [
+          "mobile"
+        ],
+        "unreleased": [
+          "release date",
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "c3d14c0aae28",
+      "title": "【漫博 26】幻想大世界 RPG《藍色星原：旅謠》確認參加第 25 屆漫畫博覽會 與星臨者再度相逢",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307694",
+      "summary": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》，今年 6 月於台港澳地區展開首次封閉測試，測試期間收到廣大星臨者的踴躍參與與寶貴回饋，目前製作團隊已著手進行優化與調整，期望帶來更加完善的冒險。 與此同時，《藍色星原：旅謠》今日宣布將參....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-03T16:49:38+08:00",
+      "score": 49.5,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "封閉測試"
+        ],
+        "region": [
+          "台港澳"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "【漫博 26】幻想大世界 RPG《藍色星原：旅謠》確認參加第 25 屆漫畫博覽會 與星臨者再度相逢",
+      "summary_zh": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》，今年 6 月於台港澳地區展開首次封閉測試，測試期間收到廣大星臨者的踴躍參與與寶貴回饋，目前製作團隊已著手進行優化與調整，期望帶來更加完善的冒險。 與此同時，《藍色星原：旅謠》今日宣布將參....",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "834a69c68a8e",
+      "title": "GigaBash DLC ‘Ultraman Zero’ announced",
+      "link": "https://www.gematsu.com/2026/07/gigabash-dlc-ultraman-zero-announced",
+      "summary": "Passion Republic Games has announced GigaBash downloadable content “Ultraman Zero,” which adds new playable characters … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-03T11:00:08+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "2f6a59d681e1",
+      "title": "Roguelite wave-defense game Company of Heroes 3: Final Stand announced for PC",
+      "link": "https://www.gematsu.com/2026/07/roguelite-wave-defense-game-company-of-heroes-3-final-stand-announced-for-pc",
+      "summary": "Relic Entertainment has announced Company of Heroes 3: Final Stand, a standalone roguelite wave-defense game … Source",
+      "source": {
+        "id": "gematsu",
+        "name": "Gematsu",
+        "language": "en",
+        "region_focus": "global-jp"
+      },
+      "published_at": "2026-07-03T01:23:49+08:00",
+      "score": 45.0,
+      "status": "unreleased candidate",
+      "regions": [],
+      "signals": {
+        "mobile": [],
+        "unreleased": [
+          "announced"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
+    {
+      "id": "39c7bd1c3713",
+      "title": "Monster Hunter Outlanders launches registration for its third closed beta",
+      "link": "https://www.pocketgamer.com/monster-hunter-outlanders/third-closed-beta-registration-now-open/",
+      "summary": "Monster Hunter has had a meteoric rise since its earliest days on the PlayStation, becoming a bona fide cornerstone of Capcom's catalogue abroad as much as it was in Japan. Now, fans on mobile will soon be able to get their hands on the latest smartphone adaptation, Monster Hunter Outlanders, with its latest closed beta open for sign-ups. Monster Hunter Outlanders, unlike spinoffs such as Monster Hunter Now, looks to replicate the classic third-person ARPG mechanics of the original series. Allowing you to not only battle enormous monsters (duh) but also to explore the expansive and fantastical world of the Monster Hunter series too. Suffice it to say that it's got both longtime fans and newcomers intrigued. ... [ MORE ]",
+      "source": {
+        "id": "pocketgamer",
+        "name": "Pocket Gamer",
+        "language": "en",
+        "region_focus": "global"
+      },
+      "published_at": "2026-07-03T00:20:00+08:00",
+      "score": 95.0,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "signals": {
+        "mobile": [
+          "mobile",
+          "smartphone"
+        ],
+        "unreleased": [
+          "closed beta"
+        ],
+        "region": [
+          "japan"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "translation_status": "missing_openai_api_key"
+    },
     {
       "id": "0682a5f64aec",
       "title": "Silver Palace unveils newest gameplay PV focusing on female protagonist",
