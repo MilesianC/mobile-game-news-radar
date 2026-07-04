@@ -106,8 +106,14 @@ STRONG_UNRELEASED_TERMS = [
     if term
     not in {
         "announced",
+        "公開",
+        "发表",
+        "發表",
     }
 ]
+
+BROAD_MOBILE_TERMS = {"手機", "手机"}
+BROAD_UNRELEASED_TERMS = {"announced", "公開", "发表", "發表"}
 
 REGION_GAP_TERMS = [
     "global",
@@ -252,6 +258,10 @@ def contains_any(text: str, terms: list[str]) -> list[str]:
     return [term for term in terms if term_matches(folded, term)]
 
 
+def remove_broad_hits(hits: list[str], broad_terms: set[str]) -> list[str]:
+    return [hit for hit in hits if hit.casefold() not in {term.casefold() for term in broad_terms}]
+
+
 def term_matches(folded_text: str, term: str) -> bool:
     folded_term = term.casefold()
     if any(ord(char) > 127 for char in folded_term):
@@ -338,6 +348,79 @@ def infer_regions(text: str, source_region: str) -> list[str]:
     return sorted(found)
 
 
+def extract_urls(text: str) -> list[str]:
+    urls = re.findall(r"https?://[^\s<>\"]+", text)
+    cleaned = []
+    for url in urls:
+        url = url.rstrip(".,，。)")
+        if url not in cleaned:
+            cleaned.append(url)
+    return cleaned
+
+
+def extract_game_name(title: str) -> str:
+    for pattern in (r"《([^》]{1,80})》", r"「([^」]{1,80})」", r"『([^』]{1,80})』"):
+        match = re.search(pattern, title)
+        if match:
+            return match.group(1).strip()
+    compact = re.sub(r"\s+", " ", title).strip()
+    compact = re.split(r"[，。:：｜|]", compact, maxsplit=1)[0]
+    return compact[:80]
+
+
+def extract_release_time(text: str) -> str:
+    context_pattern = (
+        r"(?:決定於|將於|預定|預計|預定於|預計於|上市日期|上線日期|同步上線|即將上線)?"
+        r"\s*(?:20\d{2}\s*年\s*)?\d{1,2}\s*月\s*\d{1,2}\s*日"
+    )
+    match = re.search(context_pattern, text)
+    if match:
+        return re.sub(r"\s+", " ", match.group(0)).strip()
+    season_match = re.search(r"(?:今年|明年|本年|202\d\s*年)?\s*(?:春季|夏季|秋季|冬季|上半年|下半年|年內|年底)", text)
+    return re.sub(r"\s+", " ", season_match.group(0)).strip() if season_match else ""
+
+
+def build_server_links(text: str, regions: list[str]) -> list[dict[str, str]]:
+    labels = {
+        "global": "全球",
+        "kr": "韩国",
+        "jp": "日本",
+        "cn": "中国大陆",
+        "sea": "东南亚",
+        "tw-hk-mo": "台港澳",
+    }
+    servers = []
+    for region in regions:
+        if region in labels:
+            servers.append({"name": labels[region], "url": ""})
+    if not servers and any(term in text for term in ("台港澳", "繁中", "巴哈姆特")):
+        servers.append({"name": "台港澳", "url": ""})
+    if not servers and any(term in text for term in ("全球", "全球版", "全球同步")):
+        servers.append({"name": "全球", "url": ""})
+    return servers
+
+
+def extract_game_info(item: FeedItem, regions: list[str]) -> dict[str, Any]:
+    text = f"{item.title} {item.summary}"
+    urls = extract_urls(text)
+    x_link = next((url for url in urls if "x.com/" in url or "twitter.com/" in url), "")
+    official_site = next(
+        (
+            url
+            for url in urls
+            if not any(domain in url for domain in ("x.com/", "twitter.com/", "gamer.com.tw", "gnn.gamer.com.tw"))
+        ),
+        "",
+    )
+    return {
+        "name": extract_game_name(item.title),
+        "release_time": extract_release_time(text),
+        "official_site": official_site,
+        "x_link": x_link,
+        "servers": build_server_links(text, regions),
+    }
+
+
 def classify(item: FeedItem) -> dict[str, Any] | None:
     text = f"{item.title} {item.summary}"
     mobile_hits = contains_any(text, MOBILE_TERMS)
@@ -347,17 +430,23 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     hard_exclude_hits = contains_any(text, HARD_EXCLUDE_TERMS)
     pc_hits = contains_any(text, PC_CONSOLE_ONLY_TERMS)
     strong_unreleased_hits = contains_any(text, STRONG_UNRELEASED_TERMS)
+    strong_mobile_hits = remove_broad_hits(mobile_hits, BROAD_MOBILE_TERMS)
+    decisive_unreleased_hits = remove_broad_hits(strong_unreleased_hits, BROAD_UNRELEASED_TERMS)
 
     score = 0.0
     reasons = []
-    if mobile_hits:
+    if strong_mobile_hits:
         score += 35
         reasons.append("mobile platform")
     else:
         return None
-    if unreleased_hits:
+    if decisive_unreleased_hits:
         score += 40
         reasons.append("unreleased signal")
+    else:
+        return None
+    if unreleased_hits:
+        score += min(10, len(unreleased_hits) * 2)
     if region_hits:
         score += 15
         reasons.append("region signal")
@@ -372,10 +461,6 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     if hard_exclude_hits and not strong_unreleased_hits:
         score -= 65
         reasons.append("hard editorial exclude")
-    if not unreleased_hits:
-        score -= 40
-        reasons.append("missing unreleased signal")
-
     score *= item.source_weight
     regions = infer_regions(text, item.source_region)
     non_global_regions = [region for region in regions if region != "global"]
@@ -399,6 +484,7 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
         "score": round(score, 1),
         "status": status,
         "regions": regions,
+        "game": extract_game_info(item, regions),
         "signals": {
             "mobile": mobile_hits[:6],
             "unreleased": unreleased_hits[:6],
@@ -543,6 +629,8 @@ def merge_existing_items(
     for item in load_existing_items(out_path):
         if not include_non_chinese and not item_is_chinese(item):
             continue
+        if not stored_item_still_matches_rules(item):
+            continue
         by_id[item_key(item)] = item
     for item in new_items:
         if not include_non_chinese and not item_is_chinese(item):
@@ -573,6 +661,17 @@ def item_is_chinese(item: dict[str, Any]) -> bool:
     return str(item.get("source", {}).get("language", "")).casefold().startswith("zh")
 
 
+def stored_item_still_matches_rules(item: dict[str, Any]) -> bool:
+    signals = item.get("signals") or {}
+    mobile_hits = [str(hit) for hit in signals.get("mobile") or []]
+    unreleased_hits = [str(hit) for hit in signals.get("unreleased") or []]
+    if not remove_broad_hits(mobile_hits, BROAD_MOBILE_TERMS):
+        return False
+    if not remove_broad_hits(unreleased_hits, BROAD_UNRELEASED_TERMS):
+        return False
+    return True
+
+
 def prune_items(items: list[dict[str, Any]], retention_days: int) -> list[dict[str, Any]]:
     if retention_days <= 0:
         return items
@@ -594,6 +693,7 @@ def prune_items(items: list[dict[str, Any]], retention_days: int) -> list[dict[s
 
 
 def low_score_item(item: FeedItem) -> dict[str, Any]:
+    regions = infer_regions(f"{item.title} {item.summary}", item.source_region)
     return {
         "id": stable_id(item.link),
         "title": item.title,
@@ -608,7 +708,8 @@ def low_score_item(item: FeedItem) -> dict[str, Any]:
         "published_at": item.published_at,
         "score": 0,
         "status": "low-score review",
-        "regions": infer_regions(f"{item.title} {item.summary}", item.source_region),
+        "regions": regions,
+        "game": extract_game_info(item, regions),
         "signals": {"mobile": [], "unreleased": [], "region": [], "exclude": []},
         "review": {"needed": True, "notes": "Low-score item kept for manual review."},
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T04:45:45.900378+08:00",
+  "generated_at": "2026-07-04T11:35:36.836608+08:00",
   "days": 7,
   "retention_days": 7,
   "include_non_chinese": false,
@@ -27,12 +27,28 @@
         "region_focus": "tw-hk-mo"
       },
       "published_at": "2026-07-03T21:41:30+08:00",
-      "score": 81.0,
+      "score": 86.4,
       "status": "region-gap candidate",
       "regions": [
         "global",
         "tw-hk-mo"
       ],
+      "game": {
+        "name": "hololive Dreams",
+        "release_time": "決定於 7 月 23 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
       "signals": {
         "mobile": [
           "手機遊戲",

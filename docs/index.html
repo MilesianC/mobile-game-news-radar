@@ -60,6 +60,14 @@
         </div>
       </section>
 
+      <section id="interestPanel" class="interest-panel hidden" aria-live="polite">
+        <div class="section-head">
+          <h2>感兴趣</h2>
+          <button id="clearInterestButton" type="button">清空</button>
+        </div>
+        <div id="interestList" class="interest-list"></div>
+      </section>
+
       <section id="newsList" class="news-list" aria-live="polite"></section>
       <section id="emptyState" class="empty hidden">
         <h2>还没有采集结果</h2>
@@ -75,6 +83,31 @@
         </div>
         <h2><a target="_blank" rel="noreferrer"></a></h2>
         <p class="summary-text"></p>
+        <div class="game-info">
+          <div class="game-line">
+            <span>游戏</span>
+            <strong class="game-name"></strong>
+            <button class="interest-button" type="button">感兴趣</button>
+          </div>
+          <dl class="game-meta">
+            <div>
+              <dt>发售</dt>
+              <dd class="game-release"></dd>
+            </div>
+            <div>
+              <dt>官网</dt>
+              <dd class="game-official"></dd>
+            </div>
+            <div>
+              <dt>X</dt>
+              <dd class="game-x"></dd>
+            </div>
+            <div>
+              <dt>服务器</dt>
+              <dd class="game-servers"></dd>
+            </div>
+          </dl>
+        </div>
         <div class="chips"></div>
         <footer>
           <span class="source"></span>
