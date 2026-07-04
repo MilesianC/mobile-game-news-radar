@@ -116,7 +116,7 @@ function bindManualCollectLink() {
   const link = document.getElementById("manualCollectLink");
   const actionsUrl = inferActionsUrl();
   link.href = actionsUrl;
-  link.title = "打开 GitHub Actions，点击 Run workflow，默认选择 last_7_days 采集最近 7 天中文资讯。";
+  link.title = "打开 GitHub Actions，点击 Run workflow，默认选择 since_yesterday 采集昨天 0 点到现在的中文资讯。";
 }
 
 function formatDate(value) {

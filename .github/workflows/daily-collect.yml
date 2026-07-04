@@ -2,8 +2,8 @@ name: Daily mobile game news
 
 on:
   schedule:
-    # GitHub scheduled workflows can be delayed. Refresh hourly and dedupe.
-    - cron: "17 * * * *"
+    # 23:00 UTC = 07:00 Asia/Shanghai. GitHub may still delay scheduled runs.
+    - cron: "0 23 * * *"
   push:
     branches:
       - main
@@ -12,7 +12,7 @@ on:
       range:
         description: "采集范围"
         required: true
-        default: "last_7_days"
+        default: "since_yesterday"
         type: choice
         options:
           - last_7_days
@@ -44,7 +44,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TRANSLATION_MODEL: gpt-4.1-mini
-        run: python scripts/collect.py --days 7 --translate --retention-days 7 --limit 120
+        run: python scripts/collect.py --yesterday --translate --retention-days 7 --limit 120
 
       - name: Manual collect last 7 days
         if: github.event_name == 'workflow_dispatch' && inputs.range == 'last_7_days'
