@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T22:58:13.212740+08:00",
-  "days": 30,
+  "generated_at": "2026-07-06T23:10:25.013641+08:00",
+  "days": 7,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-05T00:00:00+08:00",
-    "end": "2026-07-06T22:58:13.212738+08:00"
+    "start": null,
+    "end": null
   },
   "translation": {
     "enabled": true,
@@ -13,56 +13,91 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 3,
+  "count": 4,
   "items": [
     {
-      "id": "dc251bf4f8c2",
-      "title": "《聖火降魔錄 英雄雲集》超英雄召喚活動「兩人的運動祭」將於明日登場",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=307800",
-      "summary": "任天堂宣布，旗下智慧型手機遊戲《聖火降魔錄 英雄雲集》的超英雄召喚活動「兩人的運動祭」將於 7 月 7 日（二）開始舉辦，屆時全力加油並炒熱運動祭氣氛的超英雄將齊聚一堂。於本召喚活動舉辦期間，超英雄們將以★5 精選登場。此外，有超英雄們登場的外傳「兩人的運動祭」與期間限定任務也同時上線。 ....",
+      "id": "23836d2220d9",
+      "title": "《幻想水滸傳》系列正史新作手遊《幻想水滸傳 STAR LEAP》開放事前登錄！公開遊戲OP、角色相關圖等介紹",
+      "link": "https://news.qoo-app.com/post/440008/suikoden-star-leap-pre-registration",
+      "summary": "差點忘記還有這款",
       "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
+        "id": "qooapp",
+        "name": "QooApp",
         "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
+        "region_focus": "asia-global"
       },
-      "published_at": "2026-07-06T16:28:34+08:00",
-      "score": 46.8,
+      "published_at": "2026-07-06T15:08:00+08:00",
+      "score": 75.6,
       "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
+      "regions": [],
       "game": {
-        "name": "聖火降魔錄 英雄雲集",
-        "release_time": "將於 7 月 7 日",
+        "name": "幻想水滸傳 STAR LEAP",
+        "release_time": "",
         "official_site": "",
         "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
+        "servers": []
       },
       "signals": {
         "mobile": [
-          "手機遊戲",
-          "手機"
+          "手遊"
         ],
         "unreleased": [
-          "將於"
+          "事前登錄",
+          "公開"
         ],
         "region": [],
-        "exclude": [
-          "活動"
-        ]
+        "exclude": []
       },
       "review": {
         "needed": true,
         "notes": "Confirm platform, release state, and target regions before publishing."
       },
-      "title_zh": "《聖火降魔錄 英雄雲集》超英雄召喚活動「兩人的運動祭」將於明日登場",
-      "summary_zh": "任天堂宣布，旗下智慧型手機遊戲《聖火降魔錄 英雄雲集》的超英雄召喚活動「兩人的運動祭」將於 7 月 7 日（二）開始舉辦，屆時全力加油並炒熱運動祭氣氛的超英雄將齊聚一堂。於本召喚活動舉辦期間，超英雄們將以★5 精選登場。此外，有超英雄們登場的外傳「兩人的運動祭」與期間限定任務也同時上線。 ....",
+      "title_zh": "《幻想水滸傳》系列正史新作手遊《幻想水滸傳 STAR LEAP》開放事前登錄！公開遊戲OP、角色相關圖等介紹",
+      "summary_zh": "差點忘記還有這款",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "b61cb4c29391",
+      "title": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
+      "link": "https://news.qoo-app.com/post/440005/bleach-mirrors-high-cbt-recruitment",
+      "summary": "海外玩家也能報名！！",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global"
+      },
+      "published_at": "2026-07-06T14:56:00+08:00",
+      "score": 90.9,
+      "status": "unreleased candidate",
+      "regions": [],
+      "game": {
+        "name": "BLEACH Mirrors High",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": []
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "公開",
+          "封測",
+          "封測招募"
+        ],
+        "region": [
+          "海外"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
+      "summary_zh": "海外玩家也能報名！！",
       "translation_status": "source_is_chinese"
     },
     {
@@ -114,48 +149,41 @@
       "translation_status": "source_is_chinese"
     },
     {
-      "id": "8cd167c8b5c4",
-      "title": "《hololive Dreams》決定於 7 月 23 日全球同步上線 同步公開 Steam 版等最新情報",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=307715",
-      "summary": "CyberAgent,Inc. （總公司：東京都澀谷區，代表董事社長：山內隆裕）的合併子公司 QualiArts, Inc. （總公司：東京都澀谷區，代表董事社長：辻岡義立）宣布，與 COVER Corp. （總公司：東京都港區，代表董事社長：谷鄉元昭）共同開發的「hololive」首款官方智慧型手機遊戲《h....",
+      "id": "1ffe1d4b5861",
+      "title": "hololive官方手遊《hololive Dreams》將於7月23日全球同步上線！確定推出Steam版！",
+      "link": "https://news.qoo-app.com/post/439920/hololive-dreams-release-date",
+      "summary": "QualiArts 宣布，與 COVER",
       "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
+        "id": "qooapp",
+        "name": "QooApp",
         "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
+        "region_focus": "asia-global"
       },
-      "published_at": "2026-07-03T21:41:30+08:00",
-      "score": 86.4,
-      "status": "region-gap candidate",
+      "published_at": "2026-07-03T20:58:00+08:00",
+      "score": 89.1,
+      "status": "unreleased candidate",
       "regions": [
-        "global",
-        "tw-hk-mo"
+        "global"
       ],
       "game": {
         "name": "hololive Dreams",
-        "release_time": "決定於 7 月 23 日",
+        "release_time": "將於7月23日",
         "official_site": "",
         "x_link": "",
         "servers": [
           {
             "name": "全球",
             "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
           }
         ]
       },
       "signals": {
         "mobile": [
-          "手機遊戲",
-          "手機"
+          "手遊"
         ],
         "unreleased": [
           "同步上線",
-          "決定於",
-          "公開"
+          "將於"
         ],
         "region": [
           "全球"
@@ -166,8 +194,8 @@
         "needed": true,
         "notes": "Confirm platform, release state, and target regions before publishing."
       },
-      "title_zh": "《hololive Dreams》決定於 7 月 23 日全球同步上線 同步公開 Steam 版等最新情報",
-      "summary_zh": "CyberAgent,Inc. （總公司：東京都澀谷區，代表董事社長：山內隆裕）的合併子公司 QualiArts, Inc. （總公司：東京都澀谷區，代表董事社長：辻岡義立）宣布，與 COVER Corp. （總公司：東京都港區，代表董事社長：谷鄉元昭）共同開發的「hololive」首款官方智慧型手機遊戲《h....",
+      "title_zh": "hololive官方手遊《hololive Dreams》將於7月23日全球同步上線！確定推出Steam版！",
+      "summary_zh": "QualiArts 宣布，與 COVER",
       "translation_status": "source_is_chinese"
     }
   ],

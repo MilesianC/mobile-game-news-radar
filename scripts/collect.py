@@ -37,6 +37,7 @@ MOBILE_TERMS = [
     "mobile",
     "smartphone",
     "手游",
+    "手遊",
     "手机游戏",
     "手機遊戲",
     "手機",
@@ -89,6 +90,9 @@ UNRELEASED_TERMS = [
     "βテスト",
     "ベータ",
     "封测",
+    "封測",
+    "封測招募",
+    "封测招募",
     "内测",
     "公测",
     "封閉測試",
@@ -114,6 +118,40 @@ STRONG_UNRELEASED_TERMS = [
 
 BROAD_MOBILE_TERMS = {"手機", "手机"}
 BROAD_UNRELEASED_TERMS = {"announced", "公開", "发表", "發表"}
+LAUNCH_UNRELEASED_TERMS = [
+    "pre-registration",
+    "pre registration",
+    "pre-register",
+    "preregistration",
+    "release date",
+    "launch date",
+    "closed beta",
+    "open beta",
+    "cbt",
+    "obt",
+    "beta test",
+    "事前登錄",
+    "事前登录",
+    "事前預約",
+    "预约",
+    "預約",
+    "上市日期",
+    "發行日期",
+    "上线日期",
+    "上線日期",
+    "同步上线",
+    "同步上線",
+    "封测",
+    "封測",
+    "内测",
+    "內測",
+    "公测",
+    "公測",
+    "封測",
+    "封测",
+    "封測招募",
+    "封测招募",
+]
 
 REGION_GAP_TERMS = [
     "global",
@@ -359,10 +397,19 @@ def extract_urls(text: str) -> list[str]:
 
 
 def extract_game_name(title: str) -> str:
+    bracket_matches: list[tuple[int, str]] = []
     for pattern in (r"《([^》]{1,80})》", r"「([^」]{1,80})」", r"『([^』]{1,80})』"):
-        match = re.search(pattern, title)
-        if match:
-            return match.group(1).strip()
+        for match in re.finditer(pattern, title):
+            bracket_matches.append((match.start(), match.group(1).strip()))
+    bracket_matches.sort(key=lambda row: row[0])
+    for keyword in ("新作手遊", "新作手游", "官方手遊", "官方手游", "手機遊戲", "手机游戏"):
+        keyword_pos = title.find(keyword)
+        if keyword_pos >= 0:
+            for start, name in bracket_matches:
+                if start > keyword_pos:
+                    return name
+    if bracket_matches:
+        return bracket_matches[0][1]
     compact = re.sub(r"\s+", " ", title).strip()
     compact = re.split(r"[，。:：｜|]", compact, maxsplit=1)[0]
     return compact[:80]
@@ -432,6 +479,7 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     strong_unreleased_hits = contains_any(text, STRONG_UNRELEASED_TERMS)
     strong_mobile_hits = remove_broad_hits(mobile_hits, BROAD_MOBILE_TERMS)
     decisive_unreleased_hits = remove_broad_hits(strong_unreleased_hits, BROAD_UNRELEASED_TERMS)
+    launch_hits = contains_any(text, LAUNCH_UNRELEASED_TERMS)
 
     score = 0.0
     reasons = []
@@ -458,6 +506,8 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     if exclude_hits:
         score -= 25
         reasons.append("update/event risk")
+        if not launch_hits:
+            return None
     if hard_exclude_hits and not strong_unreleased_hits:
         score -= 65
         reasons.append("hard editorial exclude")
@@ -591,6 +641,7 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
         time.sleep(args.pause)
 
     items = merge_existing_items(Path(args.out), list(results.values()), args.retention_days, args.include_non_chinese)
+    items = dedupe_items_by_game(items)
     items = sorted(items, key=lambda row: (row.get("published_at") or "", row.get("score", 0)), reverse=True)
     if args.limit > 0:
         items = items[: args.limit]
@@ -661,13 +712,39 @@ def item_is_chinese(item: dict[str, Any]) -> bool:
     return str(item.get("source", {}).get("language", "")).casefold().startswith("zh")
 
 
+def normalized_game_name(item: dict[str, Any]) -> str:
+    name = str(item.get("game", {}).get("name") or item.get("title") or "")
+    return re.sub(r"[\W_]+", "", name.casefold())
+
+
+def item_quality_key(item: dict[str, Any]) -> tuple[float, str]:
+    return (float(item.get("score") or 0), str(item.get("published_at") or ""))
+
+
+def dedupe_items_by_game(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_game: dict[str, dict[str, Any]] = {}
+    passthrough: list[dict[str, Any]] = []
+    for item in items:
+        key = normalized_game_name(item)
+        if not key:
+            passthrough.append(item)
+            continue
+        existing = by_game.get(key)
+        if existing is None or item_quality_key(item) > item_quality_key(existing):
+            by_game[key] = item
+    return passthrough + list(by_game.values())
+
+
 def stored_item_still_matches_rules(item: dict[str, Any]) -> bool:
     signals = item.get("signals") or {}
     mobile_hits = [str(hit) for hit in signals.get("mobile") or []]
     unreleased_hits = [str(hit) for hit in signals.get("unreleased") or []]
+    exclude_hits = [str(hit) for hit in signals.get("exclude") or []]
     if not remove_broad_hits(mobile_hits, BROAD_MOBILE_TERMS):
         return False
     if not remove_broad_hits(unreleased_hits, BROAD_UNRELEASED_TERMS):
+        return False
+    if exclude_hits and not remove_broad_hits(contains_any(" ".join(unreleased_hits), LAUNCH_UNRELEASED_TERMS), set()):
         return False
     return True
 

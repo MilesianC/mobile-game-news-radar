@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "docs/data/news.json"
   workflow_dispatch:
     inputs:
       range:
@@ -23,6 +25,10 @@ permissions:
   contents: write
   pages: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   collect-and-deploy:

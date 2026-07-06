@@ -11,6 +11,24 @@
       "weight": 0.9
     },
     {
+      "id": "qooapp",
+      "name": "QooApp",
+      "url": "https://news.qoo-app.com/feed",
+      "language": "zh-Hant",
+      "region_focus": "asia-global",
+      "type": "rss",
+      "weight": 0.9
+    },
+    {
+      "id": "4gamers",
+      "name": "4Gamers",
+      "url": "https://www.4gamers.com.tw/rss",
+      "language": "zh-Hant",
+      "region_focus": "tw-hk-mo",
+      "type": "rss",
+      "weight": 0.75
+    },
+    {
       "id": "gematsu",
       "name": "Gematsu",
       "url": "https://www.gematsu.com/feed",
