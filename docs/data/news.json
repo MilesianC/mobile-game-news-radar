@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T21:02:29.067641+08:00",
+  "generated_at": "2026-07-06T22:58:13.212740+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
     "start": "2026-07-05T00:00:00+08:00",
-    "end": "2026-07-06T00:00:00+08:00"
+    "end": "2026-07-06T22:58:13.212738+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,8 +13,106 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "id": "dc251bf4f8c2",
+      "title": "《聖火降魔錄 英雄雲集》超英雄召喚活動「兩人的運動祭」將於明日登場",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307800",
+      "summary": "任天堂宣布，旗下智慧型手機遊戲《聖火降魔錄 英雄雲集》的超英雄召喚活動「兩人的運動祭」將於 7 月 7 日（二）開始舉辦，屆時全力加油並炒熱運動祭氣氛的超英雄將齊聚一堂。於本召喚活動舉辦期間，超英雄們將以★5 精選登場。此外，有超英雄們登場的外傳「兩人的運動祭」與期間限定任務也同時上線。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-06T16:28:34+08:00",
+      "score": 46.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "聖火降魔錄 英雄雲集",
+        "release_time": "將於 7 月 7 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《聖火降魔錄 英雄雲集》超英雄召喚活動「兩人的運動祭」將於明日登場",
+      "summary_zh": "任天堂宣布，旗下智慧型手機遊戲《聖火降魔錄 英雄雲集》的超英雄召喚活動「兩人的運動祭」將於 7 月 7 日（二）開始舉辦，屆時全力加油並炒熱運動祭氣氛的超英雄將齊聚一堂。於本召喚活動舉辦期間，超英雄們將以★5 精選登場。此外，有超英雄們登場的外傳「兩人的運動祭」與期間限定任務也同時上線。 ....",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "35a943c4b2d6",
+      "title": "全新休閒遊戲《釣遍海裡的魚》展開事前登錄 以釣起海裡 1,000 萬條魚為目標",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=307783",
+      "summary": "Piisu Inc. 宣布，由其製作的全新遊戲《釣遍海裡的魚》現已於App Store 與 Google Play 開始事前登錄。本作是一款享受數字不斷膨脹的釣魚遊戲，玩家將不斷在船上釣魚，並用賺到的金錢強化技能樹，讓可釣起的魚越來越多，最終將海裡總共 1,000 萬條魚全部釣起來。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-06T14:39:10+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "釣遍海裡的魚",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "全新休閒遊戲《釣遍海裡的魚》展開事前登錄 以釣起海裡 1,000 萬條魚為目標",
+      "summary_zh": "Piisu Inc. 宣布，由其製作的全新遊戲《釣遍海裡的魚》現已於App Store 與 Google Play 開始事前登錄。本作是一款享受數字不斷膨脹的釣魚遊戲，玩家將不斷在船上釣魚，並用賺到的金錢強化技能樹，讓可釣起的魚越來越多，最終將海裡總共 1,000 萬條魚全部釣起來。 ....",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "8cd167c8b5c4",
       "title": "《hololive Dreams》決定於 7 月 23 日全球同步上線 同步公開 Steam 版等最新情報",
