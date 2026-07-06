@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T23:10:25.013641+08:00",
+  "generated_at": "2026-07-06T23:18:27.781364+08:00",
   "days": 7,
   "retention_days": 7,
   "include_non_chinese": false,
@@ -33,8 +33,8 @@
       "game": {
         "name": "幻想水滸傳 STAR LEAP",
         "release_time": "",
-        "official_site": "",
-        "x_link": "",
+        "official_site": "https://www.konami.com/games/suikoden/star_leap/",
+        "x_link": "https://x.com/GensoSuikodenSP",
         "servers": []
       },
       "signals": {
@@ -74,8 +74,8 @@
       "game": {
         "name": "BLEACH Mirrors High",
         "release_time": "",
-        "official_site": "",
-        "x_link": "",
+        "official_site": "https://bleach-mh.bn-ent.net/",
+        "x_link": "https://x.com/BLEACH_mh_JP",
         "servers": []
       },
       "signals": {
@@ -168,8 +168,8 @@
       "game": {
         "name": "hololive Dreams",
         "release_time": "將於7月23日",
-        "official_site": "",
-        "x_link": "",
+        "official_site": "https://www.hololive-dreams.com/",
+        "x_link": "https://x.com/hololive_dreams",
         "servers": [
           {
             "name": "全球",

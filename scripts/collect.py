@@ -12,10 +12,12 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -396,6 +398,121 @@ def extract_urls(text: str) -> list[str]:
     return cleaned
 
 
+class LinkExtractor(HTMLParser):
+    def __init__(self, base_url: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.links: list[dict[str, str]] = []
+        self.current_href = ""
+        self.current_text: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.casefold() != "a":
+            return
+        href = dict(attrs).get("href") or ""
+        if href:
+            self.current_href = urllib.parse.urljoin(self.base_url, href)
+            self.current_text = []
+
+    def handle_data(self, data: str) -> None:
+        if self.current_href:
+            self.current_text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.casefold() != "a" or not self.current_href:
+            return
+        text = re.sub(r"\s+", " ", "".join(self.current_text)).strip()
+        self.links.append({"url": self.current_href, "text": text})
+        self.current_href = ""
+        self.current_text = []
+
+
+def extract_links_from_html(html_bytes: bytes, base_url: str) -> list[dict[str, str]]:
+    parser = LinkExtractor(base_url)
+    parser.feed(html_bytes.decode("utf-8", "replace"))
+    seen = set()
+    links = []
+    for link in parser.links:
+        url = normalize_link_url(link["url"])
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        links.append({"url": url, "text": link["text"]})
+    return links
+
+
+def normalize_link_url(url: str) -> str:
+    url = html.unescape(url).strip()
+    if not url.startswith(("http://", "https://")):
+        return ""
+    parsed = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, parsed.query, ""))
+
+
+def host_of(url: str) -> str:
+    return urllib.parse.urlsplit(url).netloc.casefold()
+
+
+def is_internal_or_store_link(url: str) -> bool:
+    host = host_of(url)
+    blocked_hosts = (
+        "news.qoo-app.com",
+        "apps.qoo-app.com",
+        "qoo-app.com",
+        "www.qoo-app.com",
+        "gnn.gamer.com.tw",
+        "gamer.com.tw",
+        "www.gamer.com.tw",
+        "acg.gamer.com.tw",
+        "forum.gamer.com.tw",
+        "play.google.com",
+        "apps.apple.com",
+        "store.steampowered.com",
+        "youtube.com",
+        "www.youtube.com",
+    )
+    return any(host == blocked or host.endswith(f".{blocked}") for blocked in blocked_hosts)
+
+
+def link_score_for_official(link: dict[str, str]) -> int:
+    url = link["url"]
+    text = link["text"].casefold()
+    if is_internal_or_store_link(url) or any(domain in host_of(url) for domain in ("x.com", "twitter.com")):
+        return 0
+    score = 0
+    if any(term in text for term in ("遊戲官方網站", "游戏官方网站", "遊戲官網", "游戏官網")):
+        score += 120
+    if any(term in text for term in ("官方網站", "官方网站", "官網", "官网", "official site", "official website")):
+        score += 100
+    if any(term in text for term in ("事前登錄網站", "事前登录网站", "預約網站", "预约网站", "pre-register")):
+        score += 70
+    if any(term in url.casefold() for term in ("official", "pre-register", "preregister")):
+        score += 20
+    return score
+
+
+def link_score_for_x(link: dict[str, str]) -> int:
+    host = host_of(link["url"])
+    if not (host == "x.com" or host.endswith(".x.com") or host == "twitter.com" or host.endswith(".twitter.com")):
+        return 0
+    text = link["text"].casefold()
+    score = 60
+    if any(term in text for term in ("官方x", "官方 x", "官方twitter", "官方 twitter", "遊戲官方x", "游戏官方x")):
+        score += 80
+    if "official" in text:
+        score += 40
+    return score
+
+
+def best_scored_link(links: list[dict[str, str]], scorer) -> str:
+    scored = [(scorer(link), link["url"]) for link in links]
+    scored = [row for row in scored if row[0] > 0]
+    if not scored:
+        return ""
+    scored.sort(key=lambda row: row[0], reverse=True)
+    return scored[0][1]
+
+
 def extract_game_name(title: str) -> str:
     bracket_matches: list[tuple[int, str]] = []
     for pattern in (r"《([^》]{1,80})》", r"「([^」]{1,80})」", r"『([^』]{1,80})』"):
@@ -447,11 +564,15 @@ def build_server_links(text: str, regions: list[str]) -> list[dict[str, str]]:
     return servers
 
 
-def extract_game_info(item: FeedItem, regions: list[str]) -> dict[str, Any]:
+def extract_game_info(item: FeedItem, regions: list[str], detail_links: list[dict[str, str]] | None = None) -> dict[str, Any]:
     text = f"{item.title} {item.summary}"
     urls = extract_urls(text)
-    x_link = next((url for url in urls if "x.com/" in url or "twitter.com/" in url), "")
-    official_site = next(
+    detail_links = detail_links or []
+    x_link = best_scored_link(detail_links, link_score_for_x) or next(
+        (url for url in urls if "x.com/" in url or "twitter.com/" in url),
+        "",
+    )
+    official_site = best_scored_link(detail_links, link_score_for_official) or next(
         (
             url
             for url in urls
@@ -548,6 +669,19 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
     }
 
 
+def enrich_item_from_detail(classified: dict[str, Any], feed_item: FeedItem, timeout: int) -> None:
+    link = classified.get("link")
+    if not link:
+        return
+    try:
+        html_bytes = fetch_url(str(link), timeout=timeout)
+    except (urllib.error.URLError, TimeoutError, OSError, UnicodeError):
+        return
+    detail_links = extract_links_from_html(html_bytes, str(link))
+    if detail_links:
+        classified["game"] = extract_game_info(feed_item, classified.get("regions", []), detail_links)
+
+
 def stable_id(value: str) -> str:
     import hashlib
 
@@ -637,6 +771,7 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
             if classified is None and args.include_low_score:
                 classified = low_score_item(feed_item)
             if classified:
+                enrich_item_from_detail(classified, feed_item, args.timeout)
                 results[classified["id"]] = classified
         time.sleep(args.pause)
 
