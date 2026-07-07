@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T23:18:27.781364+08:00",
-  "days": 7,
+  "generated_at": "2026-07-07T18:39:41.194521+08:00",
+  "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": null,
-    "end": null
+    "start": "2026-07-06T00:00:00+08:00",
+    "end": "2026-07-07T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -15,6 +15,47 @@
   },
   "count": 4,
   "items": [
+    {
+      "id": "9f936f6e9de8",
+      "title": "目標是釣起1,000萬條魚🎣iOS／Android短篇獨立釣魚遊戲《釣遍海裡的魚》預計7月20日推出",
+      "link": "https://news.qoo-app.com/post/440114/fish-them-all-pre-registration-open",
+      "summary": "Piisu Inc. 宣布短篇像素釣魚遊",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global"
+      },
+      "published_at": "2026-07-06T16:33:00+08:00",
+      "score": 73.8,
+      "status": "unreleased candidate",
+      "regions": [],
+      "game": {
+        "name": "釣遍海裡的魚",
+        "release_time": "預計7月20日",
+        "official_site": "https://zentsuru.com/",
+        "x_link": "",
+        "servers": []
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "目標是釣起1,000萬條魚🎣iOS／Android短篇獨立釣魚遊戲《釣遍海裡的魚》預計7月20日推出",
+      "summary_zh": "Piisu Inc. 宣布短篇像素釣魚遊",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "23836d2220d9",
       "title": "《幻想水滸傳》系列正史新作手遊《幻想水滸傳 STAR LEAP》開放事前登錄！公開遊戲OP、角色相關圖等介紹",
@@ -98,54 +139,6 @@
       },
       "title_zh": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
       "summary_zh": "海外玩家也能報名！！",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "35a943c4b2d6",
-      "title": "全新休閒遊戲《釣遍海裡的魚》展開事前登錄 以釣起海裡 1,000 萬條魚為目標",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=307783",
-      "summary": "Piisu Inc. 宣布，由其製作的全新遊戲《釣遍海裡的魚》現已於App Store 與 Google Play 開始事前登錄。本作是一款享受數字不斷膨脹的釣魚遊戲，玩家將不斷在船上釣魚，並用賺到的金錢強化技能樹，讓可釣起的魚越來越多，最終將海裡總共 1,000 萬條魚全部釣起來。 ....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-06T14:39:10+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "釣遍海裡的魚",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "全新休閒遊戲《釣遍海裡的魚》展開事前登錄 以釣起海裡 1,000 萬條魚為目標",
-      "summary_zh": "Piisu Inc. 宣布，由其製作的全新遊戲《釣遍海裡的魚》現已於App Store 與 Google Play 開始事前登錄。本作是一款享受數字不斷膨脹的釣魚遊戲，玩家將不斷在船上釣魚，並用賺到的金錢強化技能樹，讓可釣起的魚越來越多，最終將海裡總共 1,000 萬條魚全部釣起來。 ....",
       "translation_status": "source_is_chinese"
     },
     {
