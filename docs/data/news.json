@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-08T15:56:40.335635+08:00",
+  "generated_at": "2026-07-09T18:39:35.030041+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-07T00:00:00+08:00",
-    "end": "2026-07-08T00:00:00+08:00"
+    "start": "2026-07-08T00:00:00+08:00",
+    "end": "2026-07-09T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,8 +13,97 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 5,
+  "count": 7,
   "items": [
+    {
+      "id": "99743ddcdfa4",
+      "title": "再見了少年賽菲羅斯！手機遊戲《FINAL FANTASY VII EVER CRISIS》將於10月7日結束服務",
+      "link": "https://news.qoo-app.com/post/440198/final-fantasy-vii-ever-crisis-end-of-service",
+      "summary": "出個離線版啊......",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global"
+      },
+      "published_at": "2026-07-08T15:58:00+08:00",
+      "score": 73.8,
+      "status": "unreleased candidate",
+      "regions": [],
+      "game": {
+        "name": "FINAL FANTASY VII EVER CRISIS",
+        "release_time": "將於10月7日",
+        "official_site": "https://jp.ffviiec.com/",
+        "x_link": "https://twitter.com/ffvii_ec_jp",
+        "servers": []
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "再見了少年賽菲羅斯！手機遊戲《FINAL FANTASY VII EVER CRISIS》將於10月7日結束服務",
+      "summary_zh": "出個離線版啊......",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "f014dfecb3ed",
+      "title": "SE宣布《FF7》衍生手遊《Final Fantasy VII: Ever Crisis》即將終止營運",
+      "link": "https://www.4gamers.com.tw/news/detail/80516/final-fantasy-vii-ever-crisis-to-end-service-on-october-7",
+      "summary": "Square Enix 公開旗下手遊《FINAL FANTASY VII EVER CRISIS》將於今年 10 月 7 日起停止營運。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-08T11:11:22+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "FF7",
+        "release_time": "10 月 7 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "將於",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "SE宣布《FF7》衍生手遊《Final Fantasy VII: Ever Crisis》即將終止營運",
+      "summary_zh": "Square Enix 公開旗下手遊《FINAL FANTASY VII EVER CRISIS》將於今年 10 月 7 日起停止營運。",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "fcbc3213292f",
       "title": "與迪士尼角色的冒險畫下句點！手遊《Disney Pixel RPG》將於9月30日結束服務",
