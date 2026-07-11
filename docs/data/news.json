@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-10T18:36:41.173799+08:00",
+  "generated_at": "2026-07-11T15:18:39.195059+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-09T00:00:00+08:00",
-    "end": "2026-07-10T00:00:00+08:00"
+    "start": "2026-07-10T00:00:00+08:00",
+    "end": "2026-07-11T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,7 +13,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "id": "99743ddcdfa4",
@@ -268,56 +268,6 @@
       },
       "title_zh": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
       "summary_zh": "海外玩家也能報名！！",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "1ffe1d4b5861",
-      "title": "hololive官方手遊《hololive Dreams》將於7月23日全球同步上線！確定推出Steam版！",
-      "link": "https://news.qoo-app.com/post/439920/hololive-dreams-release-date",
-      "summary": "QualiArts 宣布，與 COVER",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-03T20:58:00+08:00",
-      "score": 89.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "global"
-      ],
-      "game": {
-        "name": "hololive Dreams",
-        "release_time": "將於7月23日",
-        "official_site": "https://www.hololive-dreams.com/",
-        "x_link": "https://x.com/hololive_dreams",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "同步上線",
-          "將於"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "hololive官方手遊《hololive Dreams》將於7月23日全球同步上線！確定推出Steam版！",
-      "summary_zh": "QualiArts 宣布，與 COVER",
       "translation_status": "source_is_chinese"
     }
   ],
