@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-12T15:38:47.940204+08:00",
+  "generated_at": "2026-07-13T18:41:46.255375+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-11T00:00:00+08:00",
-    "end": "2026-07-12T00:00:00+08:00"
+    "start": "2026-07-12T00:00:00+08:00",
+    "end": "2026-07-13T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,7 +13,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 6,
+  "count": 3,
   "items": [
     {
       "id": "99743ddcdfa4",
@@ -142,132 +142,6 @@
       },
       "title_zh": "與迪士尼角色的冒險畫下句點！手遊《Disney Pixel RPG》將於9月30日結束服務",
       "summary_zh": "營運兩年現在來看也已經很不錯了......",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "9f936f6e9de8",
-      "title": "目標是釣起1,000萬條魚🎣iOS／Android短篇獨立釣魚遊戲《釣遍海裡的魚》預計7月20日推出",
-      "link": "https://news.qoo-app.com/post/440114/fish-them-all-pre-registration-open",
-      "summary": "Piisu Inc. 宣布短篇像素釣魚遊",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-06T16:33:00+08:00",
-      "score": 73.8,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "釣遍海裡的魚",
-        "release_time": "預計7月20日",
-        "official_site": "https://zentsuru.com/",
-        "x_link": "",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "目標是釣起1,000萬條魚🎣iOS／Android短篇獨立釣魚遊戲《釣遍海裡的魚》預計7月20日推出",
-      "summary_zh": "Piisu Inc. 宣布短篇像素釣魚遊",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "23836d2220d9",
-      "title": "《幻想水滸傳》系列正史新作手遊《幻想水滸傳 STAR LEAP》開放事前登錄！公開遊戲OP、角色相關圖等介紹",
-      "link": "https://news.qoo-app.com/post/440008/suikoden-star-leap-pre-registration",
-      "summary": "差點忘記還有這款",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-06T15:08:00+08:00",
-      "score": 75.6,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "幻想水滸傳 STAR LEAP",
-        "release_time": "",
-        "official_site": "https://www.konami.com/games/suikoden/star_leap/",
-        "x_link": "https://x.com/GensoSuikodenSP",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "事前登錄",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《幻想水滸傳》系列正史新作手遊《幻想水滸傳 STAR LEAP》開放事前登錄！公開遊戲OP、角色相關圖等介紹",
-      "summary_zh": "差點忘記還有這款",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "b61cb4c29391",
-      "title": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
-      "link": "https://news.qoo-app.com/post/440005/bleach-mirrors-high-cbt-recruitment",
-      "summary": "海外玩家也能報名！！",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-06T14:56:00+08:00",
-      "score": 90.9,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "BLEACH Mirrors High",
-        "release_time": "",
-        "official_site": "https://bleach-mh.bn-ent.net/",
-        "x_link": "https://x.com/BLEACH_mh_JP",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "公開",
-          "封測",
-          "封測招募"
-        ],
-        "region": [
-          "海外"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《BLEACH》新作手遊《BLEACH Mirrors High》封測招募開跑！久保帶人親繪兩大新主角設定首次公開",
-      "summary_zh": "海外玩家也能報名！！",
       "translation_status": "source_is_chinese"
     }
   ],
