@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-14T14:37:27.756527+08:00",
+  "generated_at": "2026-07-15T14:38:55.835580+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-13T00:00:00+08:00",
-    "end": "2026-07-14T00:00:00+08:00"
+    "start": "2026-07-14T00:00:00+08:00",
+    "end": "2026-07-15T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,7 +13,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "id": "15279bb42658",
@@ -154,54 +154,6 @@
       },
       "title_zh": "再見了少年賽菲羅斯！手機遊戲《FINAL FANTASY VII EVER CRISIS》將於10月7日結束服務",
       "summary_zh": "出個離線版啊......",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "f014dfecb3ed",
-      "title": "SE宣布《FF7》衍生手遊《Final Fantasy VII: Ever Crisis》即將終止營運",
-      "link": "https://www.4gamers.com.tw/news/detail/80516/final-fantasy-vii-ever-crisis-to-end-service-on-october-7",
-      "summary": "Square Enix 公開旗下手遊《FINAL FANTASY VII EVER CRISIS》將於今年 10 月 7 日起停止營運。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-08T11:11:22+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "FF7",
-        "release_time": "10 月 7 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "將於",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "SE宣布《FF7》衍生手遊《Final Fantasy VII: Ever Crisis》即將終止營運",
-      "summary_zh": "Square Enix 公開旗下手遊《FINAL FANTASY VII EVER CRISIS》將於今年 10 月 7 日起停止營運。",
       "translation_status": "source_is_chinese"
     }
   ],
