@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-15T14:38:55.835580+08:00",
+  "generated_at": "2026-07-16T15:32:55.289861+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-14T00:00:00+08:00",
-    "end": "2026-07-15T00:00:00+08:00"
+    "start": "2026-07-15T00:00:00+08:00",
+    "end": "2026-07-16T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -15,6 +15,46 @@
   },
   "count": 3,
   "items": [
+    {
+      "id": "4c87c0433390",
+      "title": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
+      "link": "https://news.qoo-app.com/post/440660/sensultra-release-date-july-22",
+      "summary": "台灣開發商「侍達遊戲藝術」今（15）日宣",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global"
+      },
+      "published_at": "2026-07-15T15:36:00+08:00",
+      "score": 73.8,
+      "status": "unreleased candidate",
+      "regions": [],
+      "game": {
+        "name": "超感穿梭",
+        "release_time": "7月22日",
+        "official_site": "https://pse.is/92jbn3",
+        "x_link": "https://x.com/sensultra_2026",
+        "servers": []
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
+      "summary_zh": "台灣開發商「侍達遊戲藝術」今（15）日宣",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "15279bb42658",
       "title": "《BanG Dream! 交織的樂章》搶先釋出封閉測試開放內容 限量測試資格開放招募",
@@ -114,48 +154,13 @@
       "title_zh": "《瑪奇 Mobile》搶先試玩：堤爾克那營火啟程的悠閒冒險，重溫愛爾琳的奇幻生活",
       "summary_zh": "NEXON《瑪奇 Mobile》是以經典 MMORPG《瑪奇》改編的行動 / PC 遊戲，將於 7 月 22 日在台港澳地區上線。官方日前舉辦媒體試玩會，在三小時內我們搶先體驗了堤爾克那村莊至杜巴頓的前期內容，遊戲總監李珍訓也特別來台與試玩媒體問候，傳達作品想打造「異世界」的生活體驗。",
       "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "99743ddcdfa4",
-      "title": "再見了少年賽菲羅斯！手機遊戲《FINAL FANTASY VII EVER CRISIS》將於10月7日結束服務",
-      "link": "https://news.qoo-app.com/post/440198/final-fantasy-vii-ever-crisis-end-of-service",
-      "summary": "出個離線版啊......",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-08T15:58:00+08:00",
-      "score": 73.8,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "FINAL FANTASY VII EVER CRISIS",
-        "release_time": "將於10月7日",
-        "official_site": "https://jp.ffviiec.com/",
-        "x_link": "https://twitter.com/ffvii_ec_jp",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "再見了少年賽菲羅斯！手機遊戲《FINAL FANTASY VII EVER CRISIS》將於10月7日結束服務",
-      "summary_zh": "出個離線版啊......",
-      "translation_status": "source_is_chinese"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "bahamut",
+      "url": "https://gnn.gamer.com.tw/rss.xml",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
 }
