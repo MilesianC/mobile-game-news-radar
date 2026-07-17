@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-16T15:32:55.289861+08:00",
+  "generated_at": "2026-07-17T15:29:35.608395+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-15T00:00:00+08:00",
-    "end": "2026-07-16T00:00:00+08:00"
+    "start": "2026-07-16T00:00:00+08:00",
+    "end": "2026-07-17T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,8 +13,113 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 3,
+  "count": 5,
   "items": [
+    {
+      "id": "caa4123a79d1",
+      "title": "《Desktop Mate》衍生3D桌寵電算機《電卓》免費登Steam 數字鍵讓初音未來唱歌",
+      "link": "https://www.4gamers.com.tw/news/detail/80696/desktop-mate-widgets-calculator-steam-free-launch-hatsune-miku-dlc",
+      "summary": "日本開發商 Infinite Loop 今（16）日發表桌面小工具系列《Desktop Mate Widgets》首款作品《電卓》，預計 7 月 22 日免費上線，支援 Steam、Microsoft Store、Mac、iOS 與 Android 平台，跟原作一樣，首發推出角色付費 DLC《初音未來》。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-16T16:49:45+08:00",
+      "score": 70.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Desktop Mate",
+        "release_time": "預計 7 月 22 日",
+        "official_site": "",
+        "x_link": "https://x.com/desktop_mate/status/2077589036856963101?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "預計",
+          "發表"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《Desktop Mate》衍生3D桌寵電算機《電卓》免費登Steam 數字鍵讓初音未來唱歌",
+      "summary_zh": "日本開發商 Infinite Loop 今（16）日發表桌面小工具系列《Desktop Mate Widgets》首款作品《電卓》，預計 7 月 22 日免費上線，支援 Steam、Microsoft Store、Mac、iOS 與 Android 平台，跟原作一樣，首發推出角色付費 DLC《初音未來》。",
+      "translation_status": "source_is_chinese"
+    },
+    {
+      "id": "a711775c30db",
+      "title": "美少女養成遊戲《火山的女兒》開放多平台體驗版 預定7/30推出追加全新內容正式版",
+      "link": "https://www.4gamers.com.tw/news/detail/80683/volcano-princess-new-content-mobile-multi-platform-release-0730",
+      "summary": "由 Egg Hatcher 開發、CyberAgent 旗下子公司 Colorful Palette 負責發行的多結局美少女養成模擬遊戲《火山的女兒》，宣布將於 7 月 30 日正式推出 iOS、Android、Nintendo Switch 及 PlayStation 5 版本。遊戲體驗版《火山的女兒 Prologue》也於今（16）日同步開放下載，玩家可免費搶先體驗作品序章內容。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-16T11:44:56+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "火山的女兒",
+        "release_time": "將於 7 月 30 日",
+        "official_site": "https://volcano-princess.com/",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於",
+          "預定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "美少女養成遊戲《火山的女兒》開放多平台體驗版 預定7/30推出追加全新內容正式版",
+      "summary_zh": "由 Egg Hatcher 開發、CyberAgent 旗下子公司 Colorful Palette 負責發行的多結局美少女養成模擬遊戲《火山的女兒》，宣布將於 7 月 30 日正式推出 iOS、Android、Nintendo Switch 及 PlayStation 5 版本。遊戲體驗版《火山的女兒 Prologue》也於今（16）日同步開放下載，玩家可免費搶先體驗作品序章內容。",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "4c87c0433390",
       "title": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
