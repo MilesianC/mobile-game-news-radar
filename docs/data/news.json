@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-17T15:29:35.608395+08:00",
+  "generated_at": "2026-07-18T14:28:12.695823+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-16T00:00:00+08:00",
-    "end": "2026-07-17T00:00:00+08:00"
+    "start": "2026-07-17T00:00:00+08:00",
+    "end": "2026-07-18T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,8 +13,58 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 5,
+  "count": 6,
   "items": [
+    {
+      "id": "c7f8a0744fb6",
+      "title": "《FF14》手遊《水晶世界》營運13個月後9/30關閉中國伺服器 騰訊與Square Enix授權合約終止",
+      "link": "https://www.4gamers.com.tw/news/detail/80732/ffxiv-mobile-china-server-shutdown",
+      "summary": "以線上遊戲《FF14》 2.0 版改編的手機遊戲《最終幻想 14：水晶世界》營運團隊今日發表停運公告，由於營運業務調整與市場環境變化，騰訊與 Square Enix 經協商決定終止本作手遊的授權合約，遊戲將於 2026 年 9 月 30 日 11 時正式停止在中國伺服器的營運，營運期僅 13 個月左右。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-17T19:47:43+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "FF14",
+        "release_time": "將於 2026 年 9 月 30 日",
+        "official_site": "",
+        "x_link": "https://x.com/__lightspeed___?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於",
+          "發表"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《FF14》手遊《水晶世界》營運13個月後9/30關閉中國伺服器 騰訊與Square Enix授權合約終止",
+      "summary_zh": "以線上遊戲《FF14》 2.0 版改編的手機遊戲《最終幻想 14：水晶世界》營運團隊今日發表停運公告，由於營運業務調整與市場環境變化，騰訊與 Square Enix 經協商決定終止本作手遊的授權合約，遊戲將於 2026 年 9 月 30 日 11 時正式停止在中國伺服器的營運，營運期僅 13 個月左右。",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "caa4123a79d1",
       "title": "《Desktop Mate》衍生3D桌寵電算機《電卓》免費登Steam 數字鍵讓初音未來唱歌",
