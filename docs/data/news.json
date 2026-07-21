@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T18:23:44.272840+08:00",
+  "generated_at": "2026-07-21T15:56:17.613993+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-19T00:00:00+08:00",
-    "end": "2026-07-20T00:00:00+08:00"
+    "start": "2026-07-20T00:00:00+08:00",
+    "end": "2026-07-21T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,8 +13,63 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 6,
+  "count": 5,
   "items": [
+    {
+      "id": "e7885e499eb0",
+      "title": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=308459",
+      "summary": "hololive 首款官方節奏 RPG 手機遊戲《hololive Dreams》，自從在 2025 年以代號「DREAMS」首次亮相後，就一直備受粉絲期待，目前全球事前登錄人數更已突破 130 萬人大關，話題性十足。筆者近期有幸搶先試玩了本作的開發中版本，今天的試玩報導將帶大家一探前期劇情、樂園設施建設、Liv....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-20T19:00:01+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "hololive Dreams",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
+      "summary_zh": "hololive 首款官方節奏 RPG 手機遊戲《hololive Dreams》，自從在 2025 年以代號「DREAMS」首次亮相後，就一直備受粉絲期待，目前全球事前登錄人數更已突破 130 萬人大關，話題性十足。筆者近期有幸搶先試玩了本作的開發中版本，今天的試玩報導將帶大家一探前期劇情、樂園設施建設、Liv....",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "c7f8a0744fb6",
       "title": "《FF14》手遊《水晶世界》營運13個月後9/30關閉中國伺服器 騰訊與Square Enix授權合約終止",
@@ -209,113 +264,7 @@
       "title_zh": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
       "summary_zh": "台灣開發商「侍達遊戲藝術」今（15）日宣",
       "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "15279bb42658",
-      "title": "《BanG Dream! 交織的樂章》搶先釋出封閉測試開放內容 限量測試資格開放招募",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=308105",
-      "summary": "《BanG Dream! 交織的樂章》國際服封閉測試（CBT）預定於 8 月登場，嗶哩嗶哩遊戲今（13）日搶先公開 CBT 期間的開放內容。官方表示，本次 CBT 為不收費、限定帳號且刪檔，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。 作為《B....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-13T19:02:23+08:00",
-      "score": 74.7,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "BanG Dream! 交織的樂章",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "cbt",
-          "預定",
-          "公開",
-          "封閉測試"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《BanG Dream! 交織的樂章》搶先釋出封閉測試開放內容 限量測試資格開放招募",
-      "summary_zh": "《BanG Dream! 交織的樂章》國際服封閉測試（CBT）預定於 8 月登場，嗶哩嗶哩遊戲今（13）日搶先公開 CBT 期間的開放內容。官方表示，本次 CBT 為不收費、限定帳號且刪檔，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。 作為《B....",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "9241aa1b5be9",
-      "title": "《瑪奇 Mobile》搶先試玩：堤爾克那營火啟程的悠閒冒險，重溫愛爾琳的奇幻生活",
-      "link": "https://www.4gamers.com.tw/news/detail/80589/nexon-mabinogi-mobile-hands-on-preview",
-      "summary": "NEXON《瑪奇 Mobile》是以經典 MMORPG《瑪奇》改編的行動 / PC 遊戲，將於 7 月 22 日在台港澳地區上線。官方日前舉辦媒體試玩會，在三小時內我們搶先體驗了堤爾克那村莊至杜巴頓的前期內容，遊戲總監李珍訓也特別來台與試玩媒體問候，傳達作品想打造「異世界」的生活體驗。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-13T18:32:37+08:00",
-      "score": 69.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "瑪奇 Mobile",
-        "release_time": "將於 7 月 22 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "mobile"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [
-          "台港澳"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《瑪奇 Mobile》搶先試玩：堤爾克那營火啟程的悠閒冒險，重溫愛爾琳的奇幻生活",
-      "summary_zh": "NEXON《瑪奇 Mobile》是以經典 MMORPG《瑪奇》改編的行動 / PC 遊戲，將於 7 月 22 日在台港澳地區上線。官方日前舉辦媒體試玩會，在三小時內我們搶先體驗了堤爾克那村莊至杜巴頓的前期內容，遊戲總監李珍訓也特別來台與試玩媒體問候，傳達作品想打造「異世界」的生活體驗。",
-      "translation_status": "source_is_chinese"
     }
   ],
-  "errors": [
-    {
-      "source": "bahamut",
-      "url": "https://gnn.gamer.com.tw/rss.xml",
-      "error": "HTTP Error 403: Forbidden"
-    }
-  ]
+  "errors": []
 }
