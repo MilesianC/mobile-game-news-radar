@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-21T15:56:17.613993+08:00",
+  "generated_at": "2026-07-22T15:56:24.275140+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-20T00:00:00+08:00",
-    "end": "2026-07-21T00:00:00+08:00"
+    "start": "2026-07-21T00:00:00+08:00",
+    "end": "2026-07-22T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -15,6 +15,59 @@
   },
   "count": 5,
   "items": [
+    {
+      "id": "30a09ca3f09f",
+      "title": "《瑪奇 Mobile》八月打造「杜巴頓台灣夜市」 預告2026下半年更新內容時程",
+      "link": "https://www.4gamers.com.tw/news/detail/80782/mabinogi-mobile-tw-showcase-highlights-night-market",
+      "summary": "NEXON 直營的手機/ PC MMORPG《瑪奇 Mobile》將於 7 月 22 日 00：00 在台港澳開服上市，也是自韓版以外的海外首發市場，官方在 20 晚間舉辦的台港澳 Showcase 發表會上由開發總監 ROLLROLE 李珍訓親自向台港澳玩家問候，公布後續更新規劃，並公開杜巴頓台灣夜市動畫。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-21T11:44:00+08:00",
+      "score": 72.0,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "瑪奇 Mobile",
+        "release_time": "將於 7 月 22 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "mobile",
+          "手機"
+        ],
+        "unreleased": [
+          "將於",
+          "公開",
+          "發表"
+        ],
+        "region": [
+          "海外",
+          "台港澳"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《瑪奇 Mobile》八月打造「杜巴頓台灣夜市」 預告2026下半年更新內容時程",
+      "summary_zh": "NEXON 直營的手機/ PC MMORPG《瑪奇 Mobile》將於 7 月 22 日 00：00 在台港澳開服上市，也是自韓版以外的海外首發市場，官方在 20 晚間舉辦的台港澳 Showcase 發表會上由開發總監 ROLLROLE 李珍訓親自向台港澳玩家問候，公布後續更新規劃，並公開杜巴頓台灣夜市動畫。",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "e7885e499eb0",
       "title": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
@@ -223,46 +276,6 @@
       },
       "title_zh": "美少女養成遊戲《火山的女兒》開放多平台體驗版 預定7/30推出追加全新內容正式版",
       "summary_zh": "由 Egg Hatcher 開發、CyberAgent 旗下子公司 Colorful Palette 負責發行的多結局美少女養成模擬遊戲《火山的女兒》，宣布將於 7 月 30 日正式推出 iOS、Android、Nintendo Switch 及 PlayStation 5 版本。遊戲體驗版《火山的女兒 Prologue》也於今（16）日同步開放下載，玩家可免費搶先體驗作品序章內容。",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "4c87c0433390",
-      "title": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
-      "link": "https://news.qoo-app.com/post/440660/sensultra-release-date-july-22",
-      "summary": "台灣開發商「侍達遊戲藝術」今（15）日宣",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-15T15:36:00+08:00",
-      "score": 73.8,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "超感穿梭",
-        "release_time": "7月22日",
-        "official_site": "https://pse.is/92jbn3",
-        "x_link": "https://x.com/sensultra_2026",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "踏上表裏翻轉的世界！侍達遊戲藝術BL手遊新作《超感穿梭》宣布7月22日正式上線，事前登錄倒數中",
-      "summary_zh": "台灣開發商「侍達遊戲藝術」今（15）日宣",
       "translation_status": "source_is_chinese"
     }
   ],
