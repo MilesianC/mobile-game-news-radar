@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-24T15:56:15.226948+08:00",
+  "generated_at": "2026-07-25T15:28:33.415313+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-23T00:00:00+08:00",
-    "end": "2026-07-24T00:00:00+08:00"
+    "start": "2026-07-24T00:00:00+08:00",
+    "end": "2026-07-25T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -15,6 +15,54 @@
   },
   "count": 4,
   "items": [
+    {
+      "id": "9be1e23eaaaa",
+      "title": "《王權》系列遊戲《王權：星途》將於 Google Play 商店推出 Android 版本",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=308779",
+      "summary": "由 Nerial 開發、Devolver Digital 發行的《王權》系列遊戲《王權：星途（Reigns: Beyond）》預告將於 Google Play 商店推出 Android 版本，現已開放預先註冊。 官方表示，在本作中玩家將帶領一支跨星系獨立搖滾樂隊，....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo"
+      },
+      "published_at": "2026-07-24T18:19:06+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "王權",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "google play"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《王權》系列遊戲《王權：星途》將於 Google Play 商店推出 Android 版本",
+      "summary_zh": "由 Nerial 開發、Devolver Digital 發行的《王權》系列遊戲《王權：星途（Reigns: Beyond）》預告將於 Google Play 商店推出 Android 版本，現已開放預先註冊。 官方表示，在本作中玩家將帶領一支跨星系獨立搖滾樂隊，....",
+      "translation_status": "source_is_chinese"
+    },
     {
       "id": "40cc42852d2d",
       "title": "Miku的音樂RPG復活！？新作手遊《初音未來 GRAPHY COLLECTION 謎之音樂彗星 Re:Merge》預定2026年秋季推出！",
@@ -161,56 +209,6 @@
       },
       "title_zh": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
       "summary_zh": "hololive 首款官方節奏 RPG 手機遊戲《hololive Dreams》，自從在 2025 年以代號「DREAMS」首次亮相後，就一直備受粉絲期待，目前全球事前登錄人數更已突破 130 萬人大關，話題性十足。筆者近期有幸搶先試玩了本作的開發中版本，今天的試玩報導將帶大家一探前期劇情、樂園設施建設、Liv....",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "c7f8a0744fb6",
-      "title": "《FF14》手遊《水晶世界》營運13個月後9/30關閉中國伺服器 騰訊與Square Enix授權合約終止",
-      "link": "https://www.4gamers.com.tw/news/detail/80732/ffxiv-mobile-china-server-shutdown",
-      "summary": "以線上遊戲《FF14》 2.0 版改編的手機遊戲《最終幻想 14：水晶世界》營運團隊今日發表停運公告，由於營運業務調整與市場環境變化，騰訊與 Square Enix 經協商決定終止本作手遊的授權合約，遊戲將於 2026 年 9 月 30 日 11 時正式停止在中國伺服器的營運，營運期僅 13 個月左右。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-17T19:47:43+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "FF14",
-        "release_time": "將於 2026 年 9 月 30 日",
-        "official_site": "",
-        "x_link": "https://x.com/__lightspeed___?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於",
-          "發表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《FF14》手遊《水晶世界》營運13個月後9/30關閉中國伺服器 騰訊與Square Enix授權合約終止",
-      "summary_zh": "以線上遊戲《FF14》 2.0 版改編的手機遊戲《最終幻想 14：水晶世界》營運團隊今日發表停運公告，由於營運業務調整與市場環境變化，騰訊與 Square Enix 經協商決定終止本作手遊的授權合約，遊戲將於 2026 年 9 月 30 日 11 時正式停止在中國伺服器的營運，營運期僅 13 個月左右。",
       "translation_status": "source_is_chinese"
     }
   ],
