@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-27T18:57:44.834002+08:00",
+  "generated_at": "2026-07-28T16:05:44.161830+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-26T00:00:00+08:00",
-    "end": "2026-07-27T00:00:00+08:00"
+    "start": "2026-07-27T00:00:00+08:00",
+    "end": "2026-07-28T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,7 +13,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 4,
+  "count": 2,
   "items": [
     {
       "id": "9be1e23eaaaa",
@@ -101,114 +101,6 @@
       },
       "title_zh": "Miku的音樂RPG復活！？新作手遊《初音未來 GRAPHY COLLECTION 謎之音樂彗星 Re:Merge》預定2026年秋季推出！",
       "summary_zh": "？？？？復活？？？？",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "30a09ca3f09f",
-      "title": "《瑪奇 Mobile》八月打造「杜巴頓台灣夜市」 預告2026下半年更新內容時程",
-      "link": "https://www.4gamers.com.tw/news/detail/80782/mabinogi-mobile-tw-showcase-highlights-night-market",
-      "summary": "NEXON 直營的手機/ PC MMORPG《瑪奇 Mobile》將於 7 月 22 日 00：00 在台港澳開服上市，也是自韓版以外的海外首發市場，官方在 20 晚間舉辦的台港澳 Showcase 發表會上由開發總監 ROLLROLE 李珍訓親自向台港澳玩家問候，公布後續更新規劃，並公開杜巴頓台灣夜市動畫。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-21T11:44:00+08:00",
-      "score": 72.0,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "瑪奇 Mobile",
-        "release_time": "將於 7 月 22 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "mobile",
-          "手機"
-        ],
-        "unreleased": [
-          "將於",
-          "公開",
-          "發表"
-        ],
-        "region": [
-          "海外",
-          "台港澳"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《瑪奇 Mobile》八月打造「杜巴頓台灣夜市」 預告2026下半年更新內容時程",
-      "summary_zh": "NEXON 直營的手機/ PC MMORPG《瑪奇 Mobile》將於 7 月 22 日 00：00 在台港澳開服上市，也是自韓版以外的海外首發市場，官方在 20 晚間舉辦的台港澳 Showcase 發表會上由開發總監 ROLLROLE 李珍訓親自向台港澳玩家問候，公布後續更新規劃，並公開杜巴頓台灣夜市動畫。",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "e7885e499eb0",
-      "title": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=308459",
-      "summary": "hololive 首款官方節奏 RPG 手機遊戲《hololive Dreams》，自從在 2025 年以代號「DREAMS」首次亮相後，就一直備受粉絲期待，目前全球事前登錄人數更已突破 130 萬人大關，話題性十足。筆者近期有幸搶先試玩了本作的開發中版本，今天的試玩報導將帶大家一探前期劇情、樂園設施建設、Liv....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo"
-      },
-      "published_at": "2026-07-20T19:00:01+08:00",
-      "score": 82.8,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "hololive Dreams",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《hololive Dreams》繁體中文版搶先試玩報導 收錄節奏遊戲、主題樂園等玩法強調豐富角色互動",
-      "summary_zh": "hololive 首款官方節奏 RPG 手機遊戲《hololive Dreams》，自從在 2025 年以代號「DREAMS」首次亮相後，就一直備受粉絲期待，目前全球事前登錄人數更已突破 130 萬人大關，話題性十足。筆者近期有幸搶先試玩了本作的開發中版本，今天的試玩報導將帶大家一探前期劇情、樂園設施建設、Liv....",
       "translation_status": "source_is_chinese"
     }
   ],
