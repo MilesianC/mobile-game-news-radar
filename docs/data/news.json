@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T16:05:44.161830+08:00",
+  "generated_at": "2026-07-29T16:11:08.641070+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-27T00:00:00+08:00",
-    "end": "2026-07-28T00:00:00+08:00"
+    "start": "2026-07-28T00:00:00+08:00",
+    "end": "2026-07-29T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -13,7 +13,7 @@
     "provider": "openai",
     "model": "gpt-4.1-mini"
   },
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "id": "9be1e23eaaaa",
@@ -61,46 +61,6 @@
       },
       "title_zh": "《王權》系列遊戲《王權：星途》將於 Google Play 商店推出 Android 版本",
       "summary_zh": "由 Nerial 開發、Devolver Digital 發行的《王權》系列遊戲《王權：星途（Reigns: Beyond）》預告將於 Google Play 商店推出 Android 版本，現已開放預先註冊。 官方表示，在本作中玩家將帶領一支跨星系獨立搖滾樂隊，....",
-      "translation_status": "source_is_chinese"
-    },
-    {
-      "id": "40cc42852d2d",
-      "title": "Miku的音樂RPG復活！？新作手遊《初音未來 GRAPHY COLLECTION 謎之音樂彗星 Re:Merge》預定2026年秋季推出！",
-      "link": "https://news.qoo-app.com/post/441225/miku-graphy-collection-remerge",
-      "summary": "？？？？復活？？？？",
-      "source": {
-        "id": "qooapp",
-        "name": "QooApp",
-        "language": "zh-Hant",
-        "region_focus": "asia-global"
-      },
-      "published_at": "2026-07-22T13:19:00+08:00",
-      "score": 73.8,
-      "status": "unreleased candidate",
-      "regions": [],
-      "game": {
-        "name": "初音未來 GRAPHY COLLECTION 謎之音樂彗星 Re:Merge",
-        "release_time": "2026年秋季",
-        "official_site": "",
-        "x_link": "https://x.com/mikucolle",
-        "servers": []
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Miku的音樂RPG復活！？新作手遊《初音未來 GRAPHY COLLECTION 謎之音樂彗星 Re:Merge》預定2026年秋季推出！",
-      "summary_zh": "？？？？復活？？？？",
       "translation_status": "source_is_chinese"
     }
   ],
