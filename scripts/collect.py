@@ -27,6 +27,7 @@ DEFAULT_SOURCES = ROOT / "data" / "sources.json"
 DEFAULT_OUT = ROOT / "docs" / "data" / "news.json"
 USER_AGENT = "NewMobileGameRadar/0.1 (+local research project)"
 LOCAL_TZ = timezone(timedelta(hours=8))
+TRANSLATION_VERSION = 2
 
 
 MOBILE_TERMS = [
@@ -69,6 +70,13 @@ UNRELEASED_TERMS = [
     "beta test",
     "soft launch",
     "early access",
+    "事前登録",
+    "配信日決定",
+    "配信時期決定",
+    "リリース日決定",
+    "CBT開催",
+    "CBT実施",
+    "新作発表",
     "预约",
     "预注册",
     "預約",
@@ -153,6 +161,13 @@ LAUNCH_UNRELEASED_TERMS = [
     "封测",
     "封測招募",
     "封测招募",
+    "事前登録",
+    "配信日決定",
+    "配信時期決定",
+    "リリース日決定",
+    "CBT開催",
+    "CBT実施",
+    "新作発表",
 ]
 
 REGION_GAP_TERMS = [
@@ -238,6 +253,17 @@ HARD_EXCLUDE_TERMS = [
     "가이드",
 ]
 
+APPMEDIA_GAME_TRANSLATIONS = {
+    "ダンジョン見聞録": "地下城见闻录",
+    "W三国志": "W三国志",
+    "アーククロニクル": "方舟编年史",
+    "テイペンサバイバー": "帝企鹅幸存者",
+    "ガーディアンメイデン": "守护少女",
+    "パールインブルー": "蓝色珍珠",
+    "BanG Dream! Our Notes": "BanG Dream! Our Notes",
+    "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～": "为美好的世界献上祝福！～愿这座可爱的城市繁荣！～",
+}
+
 
 @dataclass
 class FeedItem:
@@ -246,6 +272,7 @@ class FeedItem:
     source_language: str
     source_region: str
     source_weight: float
+    source_allow_non_chinese: bool
     title: str
     link: str
     summary: str
@@ -360,10 +387,122 @@ def parse_feed(xml_bytes: bytes, source: dict[str, Any]) -> list[FeedItem]:
                 source_language=source.get("language", "unknown"),
                 source_region=source.get("region_focus", "global"),
                 source_weight=float(source.get("weight", 1.0)),
+                source_allow_non_chinese=bool(source.get("allow_non_chinese", False)),
                 title=title,
                 link=link,
                 summary=summary,
                 published_at=iso_or_none(published),
+            )
+        )
+    return items
+
+
+class AppMediaUpdateParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.items: list[dict[str, str]] = []
+        self.current: dict[str, str] | None = None
+        self.capture = ""
+        self.capture_parts: list[str] = []
+        self.in_title = False
+        self.in_time_output = False
+
+    @staticmethod
+    def class_names(attrs: list[tuple[str, str | None]]) -> set[str]:
+        value = dict(attrs).get("class") or ""
+        return set(value.split())
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        classes = self.class_names(attrs)
+        if tag == "li" and "update_log_each" in classes:
+            self.current = {"title": "", "link": "", "update_date": "", "release_date": "", "status": ""}
+            return
+        if self.current is None:
+            return
+        if tag == "div" and "title" in classes:
+            self.in_title = True
+        elif tag == "div" and "time_output" in classes:
+            self.in_time_output = True
+        elif tag == "time" and "update_time" in classes:
+            self.capture = "update_date"
+            self.capture_parts = []
+        elif tag == "time" and self.in_time_output:
+            self.capture = "release_date"
+            self.capture_parts = []
+        elif tag == "span" and "status" in classes:
+            self.capture = "status"
+            self.capture_parts = []
+        elif tag == "a" and self.in_title:
+            self.current["link"] = urllib.parse.urljoin("https://appmedia.jp/newgame", dict(attrs).get("href") or "")
+            self.capture = "title"
+            self.capture_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self.current is not None and self.capture:
+            self.capture_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.current is None:
+            return
+        if self.capture and (
+            (tag == "a" and self.capture == "title")
+            or (tag == "time" and self.capture in {"update_date", "release_date"})
+            or (tag == "span" and self.capture == "status")
+        ):
+            self.current[self.capture] = clean_text("".join(self.capture_parts))
+            self.capture = ""
+            self.capture_parts = []
+        if tag == "div":
+            if self.in_title and self.current.get("title"):
+                self.in_title = False
+            elif self.in_time_output and self.current.get("status"):
+                self.in_time_output = False
+        elif tag == "li":
+            if self.current.get("title") and self.current.get("link"):
+                self.items.append(self.current)
+            self.current = None
+            self.capture = ""
+            self.capture_parts = []
+            self.in_title = False
+            self.in_time_output = False
+
+
+def parse_appmedia_updates(html_bytes: bytes, source: dict[str, Any]) -> list[FeedItem]:
+    parser = AppMediaUpdateParser()
+    parser.feed(html_bytes.decode("utf-8", "replace"))
+    allowed_status_terms = (
+        "事前登録",
+        "配信日決定",
+        "配信時期決定",
+        "リリース日決定",
+        "CBT",
+        "ベータ",
+        "β",
+        "新作発表",
+    )
+    items = []
+    for row in parser.items:
+        status = row.get("status", "")
+        if "配信開始" in status or not any(term in status for term in allowed_status_terms):
+            continue
+        try:
+            published = datetime.strptime(row.get("update_date", ""), "%Y/%m/%d").replace(tzinfo=LOCAL_TZ)
+        except ValueError:
+            published = now_local()
+        title = f"{row['title']}：{status.strip('【】')}"
+        summary = f"スマホゲーム配信カレンダー更新。{row.get('release_date', '')} {status}".strip()
+        items.append(
+            FeedItem(
+                source_id=source["id"],
+                source_name=source["name"],
+                source_language=source.get("language", "ja"),
+                source_region=source.get("region_focus", "jp"),
+                source_weight=float(source.get("weight", 1.0)),
+                source_allow_non_chinese=bool(source.get("allow_non_chinese", False)),
+                title=title,
+                link=row["link"],
+                summary=summary,
+                published_at=published.isoformat(),
             )
         )
     return items
@@ -470,6 +609,8 @@ def is_internal_or_store_link(url: str) -> bool:
         "store.steampowered.com",
         "youtube.com",
         "www.youtube.com",
+        "appmedia.jp",
+        "www.appmedia.jp",
     )
     return any(host == blocked or host.endswith(f".{blocked}") for blocked in blocked_hosts)
 
@@ -484,7 +625,11 @@ def link_score_for_official(link: dict[str, str]) -> int:
         score += 120
     if any(term in text for term in ("官方網站", "官方网站", "官網", "官网", "official site", "official website")):
         score += 100
+    if any(term in text for term in ("公式サイト", "公式ホームページ")):
+        score += 100
     if any(term in text for term in ("事前登錄網站", "事前登录网站", "預約網站", "预约网站", "pre-register")):
+        score += 70
+    if any(term in text for term in ("事前登録サイト", "事前予約サイト")):
         score += 70
     if any(term in url.casefold() for term in ("official", "pre-register", "preregister")):
         score += 20
@@ -492,8 +637,13 @@ def link_score_for_official(link: dict[str, str]) -> int:
 
 
 def link_score_for_x(link: dict[str, str]) -> int:
-    host = host_of(link["url"])
+    parsed = urllib.parse.urlsplit(link["url"])
+    host = parsed.netloc.casefold()
     if not (host == "x.com" or host.endswith(".x.com") or host == "twitter.com" or host.endswith(".twitter.com")):
+        return 0
+    if parsed.path.casefold().startswith(("/intent/", "/share")):
+        return 0
+    if parsed.path.strip("/").casefold() in {"appmedia_news"}:
         return 0
     text = link["text"].casefold()
     score = 60
@@ -501,6 +651,8 @@ def link_score_for_x(link: dict[str, str]) -> int:
         score += 80
     if "official" in text:
         score += 40
+    if any(term in text for term in ("公式x", "公式 x", "公式twitter", "公式 twitter")):
+        score += 80
     return score
 
 
@@ -650,6 +802,7 @@ def classify(item: FeedItem) -> dict[str, Any] | None:
             "name": item.source_name,
             "language": item.source_language,
             "region_focus": item.source_region,
+            "allow_non_chinese": item.source_allow_non_chinese,
         },
         "published_at": item.published_at,
         "score": round(score, 1),
@@ -696,6 +849,10 @@ def load_sources(path: Path) -> list[dict[str, Any]]:
 
 def is_chinese_source(source: dict[str, Any]) -> bool:
     return str(source.get("language", "")).casefold().startswith("zh")
+
+
+def source_is_allowed(source: dict[str, Any], include_non_chinese: bool) -> bool:
+    return include_non_chinese or is_chinese_source(source) or bool(source.get("allow_non_chinese", False))
 
 
 def load_env_file(path: Path) -> None:
@@ -750,16 +907,21 @@ def date_window(args: argparse.Namespace) -> tuple[datetime | None, datetime | N
 
 
 def collect(args: argparse.Namespace) -> dict[str, Any]:
-    sources = load_sources(Path(args.sources))
+    sources = [
+        source
+        for source in load_sources(Path(args.sources))
+        if source_is_allowed(source, args.include_non_chinese)
+    ]
     results: dict[str, dict[str, Any]] = {}
     errors = []
 
     for source in sources:
-        if not args.include_non_chinese and not is_chinese_source(source):
-            continue
         try:
-            xml_bytes = fetch_url(source["url"], timeout=args.timeout)
-            feed_items = parse_feed(xml_bytes, source)
+            source_bytes = fetch_url(source["url"], timeout=args.timeout)
+            if source.get("type") == "appmedia-calendar":
+                feed_items = parse_appmedia_updates(source_bytes, source)
+            else:
+                feed_items = parse_feed(source_bytes, source)
         except (urllib.error.URLError, TimeoutError, ET.ParseError, ValueError) as exc:
             errors.append({"source": source["id"], "url": source["url"], "error": str(exc)})
             continue
@@ -797,8 +959,18 @@ def collect(args: argparse.Namespace) -> dict[str, Any]:
             "enabled": bool(args.translate),
             "target": args.translate_target,
             "provider": args.translation_provider if args.translate else None,
+            "fallback": "mymemory" if args.translate else None,
             "model": args.translation_model if args.translate and args.translation_provider == "openai" else None,
         },
+        "sources": [
+            {
+                "id": source["id"],
+                "name": source["name"],
+                "url": source["url"],
+                "language": source.get("language", "unknown"),
+            }
+            for source in sources
+        ],
         "count": len(items),
         "items": items,
         "errors": errors,
@@ -813,17 +985,28 @@ def merge_existing_items(
 ) -> list[dict[str, Any]]:
     by_id = {}
     for item in load_existing_items(out_path):
-        if not include_non_chinese and not item_is_chinese(item):
+        if not include_non_chinese and not item_is_allowed_language(item):
             continue
         if not stored_item_still_matches_rules(item):
             continue
         by_id[item_key(item)] = item
     for item in new_items:
-        if not include_non_chinese and not item_is_chinese(item):
+        if not include_non_chinese and not item_is_allowed_language(item):
             continue
         key = item_key(item)
         existing = by_id.get(key, {})
-        by_id[key] = {**existing, **item}
+        merged = {**existing, **item}
+        existing_game = existing.get("game") or {}
+        new_game = item.get("game") or {}
+        if existing_game or new_game:
+            merged_game = {**existing_game, **new_game}
+            for field in ("official_site", "x_link"):
+                if not new_game.get(field) and existing_game.get(field):
+                    merged_game[field] = existing_game[field]
+            if not new_game.get("servers") and existing_game.get("servers"):
+                merged_game["servers"] = existing_game["servers"]
+            merged["game"] = merged_game
+        by_id[key] = merged
     return prune_items(list(by_id.values()), retention_days)
 
 
@@ -843,8 +1026,10 @@ def item_key(item: dict[str, Any]) -> str:
     return str(item.get("id") or stable_id(str(item.get("link") or item.get("title") or "")))
 
 
-def item_is_chinese(item: dict[str, Any]) -> bool:
-    return str(item.get("source", {}).get("language", "")).casefold().startswith("zh")
+def item_is_allowed_language(item: dict[str, Any]) -> bool:
+    source = item.get("source", {})
+    language = str(source.get("language", "")).casefold()
+    return language.startswith("zh") or bool(source.get("allow_non_chinese", False))
 
 
 def normalized_game_name(item: dict[str, Any]) -> str:
@@ -916,6 +1101,7 @@ def low_score_item(item: FeedItem) -> dict[str, Any]:
             "name": item.source_name,
             "language": item.source_language,
             "region_focus": item.source_region,
+            "allow_non_chinese": item.source_allow_non_chinese,
         },
         "published_at": item.published_at,
         "score": 0,
@@ -934,28 +1120,52 @@ def translate_items(items: list[dict[str, Any]], args: argparse.Namespace) -> No
             item["title_zh"] = item["title"]
             item["summary_zh"] = item.get("summary", "")
             item["translation_status"] = "source_is_chinese"
+            item["translated_from_title"] = item["title"]
+            item["translation_version"] = TRANSLATION_VERSION
+            continue
+        if (
+            item.get("title_zh")
+            and item.get("translated_from_title") == item.get("title")
+            and item.get("translation_version") == TRANSLATION_VERSION
+        ):
             continue
         if args.translation_provider != "openai":
             item["translation_status"] = "unsupported_provider"
             continue
         api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            item["translation_status"] = "missing_openai_api_key"
-            continue
         try:
-            translated = translate_with_openai(
-                title=item["title"],
-                summary=item.get("summary", ""),
-                api_key=api_key,
-                model=args.translation_model,
-                timeout=args.translation_timeout,
-            )
+            if api_key:
+                translated = translate_with_openai(
+                    title=item["title"],
+                    summary=item.get("summary", ""),
+                    api_key=api_key,
+                    model=args.translation_model,
+                    timeout=args.translation_timeout,
+                )
+                translation_status = "translated_openai"
+            elif item.get("source", {}).get("id") == "appmedia":
+                translated = translate_appmedia_item(
+                    title=item["title"],
+                    summary=item.get("summary", ""),
+                    timeout=args.translation_timeout,
+                )
+                translation_status = "translated_fallback_curated"
+            else:
+                translated = translate_with_mymemory(
+                    title=item["title"],
+                    summary=item.get("summary", ""),
+                    source_language=language,
+                    timeout=args.translation_timeout,
+                )
+                translation_status = "translated_fallback"
         except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
             item["translation_status"] = f"failed: {exc}"
             continue
         item["title_zh"] = translated.get("title_zh") or item["title"]
         item["summary_zh"] = translated.get("summary_zh") or item.get("summary", "")
-        item["translation_status"] = "translated"
+        item["translation_status"] = translation_status
+        item["translated_from_title"] = item["title"]
+        item["translation_version"] = TRANSLATION_VERSION
 
 
 def translate_with_openai(title: str, summary: str, api_key: str, model: str, timeout: int) -> dict[str, str]:
@@ -989,6 +1199,66 @@ def translate_with_openai(title: str, summary: str, api_key: str, model: str, ti
         data = json.loads(response.read().decode("utf-8"))
     content = data["choices"][0]["message"]["content"]
     return json.loads(content)
+
+
+def translate_appmedia_status(status: str) -> str:
+    status = status.strip("【】 ")
+    exact = {
+        "事前登録開始": "开启事前预约",
+        "配信日決定": "发售日期确定",
+        "配信時期決定": "发售时间确定",
+        "リリース日決定": "发售日期确定",
+        "CBT実施中": "CBT 测试进行中",
+        "CBT開催決定": "CBT 测试确定",
+        "新作発表": "新作公布",
+    }
+    if status in exact:
+        return exact[status]
+    milestone = re.fullmatch(r"事前登録(\d+)万突破", status)
+    if milestone:
+        return f"事前预约突破 {milestone.group(1)} 万"
+    return status
+
+
+def translate_appmedia_item(title: str, summary: str, timeout: int) -> dict[str, str]:
+    game_name, separator, status = title.rpartition("：")
+    if not separator:
+        game_name = title
+        status = ""
+    game_name_zh = APPMEDIA_GAME_TRANSLATIONS.get(game_name)
+    if not game_name_zh:
+        game_name_zh = translate_text_with_mymemory(game_name, "ja", timeout)
+    status_zh = translate_appmedia_status(status)
+    title_zh = f"{game_name_zh}：{status_zh}" if status_zh else game_name_zh
+    date_match = re.search(r"20\d{2}年\d{1,2}月\d{1,2}日", summary)
+    date_text = date_match.group(0) if date_match else ""
+    summary_zh = f"AppMedia 新作手游日历更新：{date_text}，{status_zh}。".replace("：，", "：")
+    return {"title_zh": title_zh, "summary_zh": summary_zh}
+
+
+def translate_text_with_mymemory(text: str, source_language: str, timeout: int) -> str:
+    if not text:
+        return ""
+    source_code = "ja" if source_language.casefold().startswith("ja") else "en"
+    query = urllib.parse.urlencode({"q": text, "langpair": f"{source_code}|zh-CN"})
+    request = urllib.request.Request(
+        f"https://api.mymemory.translated.net/get?{query}",
+        headers={"User-Agent": USER_AGENT},
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        data = json.loads(response.read().decode("utf-8"))
+    if int(data.get("responseStatus", 0)) != 200:
+        raise ValueError(data.get("responseDetails") or "translation service rejected the request")
+    translated = html.unescape(str(data.get("responseData", {}).get("translatedText") or "")).strip()
+    if not translated:
+        raise ValueError("translation service returned empty text")
+    return translated
+
+
+def translate_with_mymemory(title: str, summary: str, source_language: str, timeout: int) -> dict[str, str]:
+    title_zh = translate_text_with_mymemory(title, source_language, timeout)
+    summary_zh = translate_text_with_mymemory(summary, source_language, timeout) if summary else ""
+    return {"title_zh": title_zh, "summary_zh": summary_zh}
 
 
 def parse_args() -> argparse.Namespace:

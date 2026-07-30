@@ -29,6 +29,16 @@
       "weight": 0.75
     },
     {
+      "id": "appmedia",
+      "name": "AppMedia 新作手游日历",
+      "url": "https://appmedia.jp/newgame",
+      "language": "ja",
+      "region_focus": "jp",
+      "type": "appmedia-calendar",
+      "allow_non_chinese": true,
+      "weight": 0.9
+    },
+    {
       "id": "gematsu",
       "name": "Gematsu",
       "url": "https://www.gematsu.com/feed",

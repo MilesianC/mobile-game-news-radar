@@ -4,6 +4,7 @@ const state = {
   region: "all",
   query: "",
   interested: {},
+  sources: [],
 };
 
 const statusLabels = {
@@ -24,6 +25,7 @@ const regionLabels = {
 const fallbackData = {
   generated_at: null,
   items: [],
+  sources: [],
 };
 
 const manualCollectUrl = "https://github.com/MilesianC/mobile-game-news-radar/actions/workflows/daily-collect.yml";
@@ -165,6 +167,30 @@ function updateSummary(items) {
   document.getElementById("sourceCount").textContent = new Set(state.items.map((item) => item.source?.id).filter(Boolean)).size;
 }
 
+function renderSources() {
+  const container = document.getElementById("sourceList");
+  container.replaceChildren();
+  const languageLabels = {
+    "zh-Hans": "简中",
+    "zh-Hant": "繁中",
+    ja: "日文翻译",
+  };
+  state.sources.forEach((source) => {
+    const link = document.createElement("a");
+    link.href = source.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+
+    const name = document.createElement("span");
+    name.textContent = source.name;
+    const language = document.createElement("small");
+    language.textContent = languageLabels[source.language] || source.language || "";
+
+    link.append(name, language);
+    container.appendChild(link);
+  });
+}
+
 function createLinkOrText(url, label) {
   if (!url) {
     const span = document.createElement("span");
@@ -294,6 +320,7 @@ function render() {
     const score = node.querySelector(".score");
     const status = node.querySelector(".status");
     const link = node.querySelector("a");
+    const originalTitle = node.querySelector(".original-title");
     const summary = node.querySelector(".summary-text");
     const gameName = node.querySelector(".game-name");
     const gameRelease = node.querySelector(".game-release");
@@ -309,8 +336,12 @@ function render() {
     score.textContent = `评分 ${item.score}`;
     status.className = statusClass(item.status);
     status.textContent = statusLabels[item.status] || item.status;
+    const displayTitle = item.title_zh || item.title;
     link.href = item.link;
-    link.textContent = item.title_zh || item.title;
+    link.textContent = displayTitle;
+    const showOriginalTitle = Boolean(item.title && displayTitle !== item.title);
+    originalTitle.textContent = showOriginalTitle ? `原标题：${item.title}` : "";
+    originalTitle.classList.toggle("hidden", !showOriginalTitle);
     summary.textContent = item.summary_zh || item.summary || "暂无摘要，需要打开原文确认发行状态。";
 
     const info = gameInfo(item);
@@ -359,9 +390,11 @@ async function main() {
   const data = await loadData();
   state.items = Array.isArray(data.items) ? uniqueItems(data.items) : [];
   state.interested = loadInterested();
+  state.sources = Array.isArray(data.sources) ? data.sources : [];
   document.getElementById("generatedAt").textContent = data.generated_at ? `更新 ${formatDate(data.generated_at)}` : "等待采集";
   bindManualCollectLink();
   bindEvents();
+  renderSources();
   render();
 }
 

@@ -75,6 +75,54 @@ h1 {
   white-space: nowrap;
 }
 
+.source-disclosure {
+  position: relative;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.source-disclosure summary {
+  min-height: 30px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  font-weight: 700;
+  list-style-position: inside;
+  white-space: nowrap;
+}
+
+.source-list {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 20;
+  display: grid;
+  gap: 8px;
+  width: 230px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.source-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.source-list small {
+  color: var(--muted);
+  font-weight: 600;
+}
+
 main {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
@@ -354,6 +402,14 @@ footer {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.62;
+}
+
+.original-title {
+  margin: -5px 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .game-info {
