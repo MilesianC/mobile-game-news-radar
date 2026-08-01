@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-31T17:34:28.048009+08:00",
+  "generated_at": "2026-08-01T15:39:23.804881+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-07-30T00:00:00+08:00",
-    "end": "2026-07-31T00:00:00+08:00"
+    "start": "2026-07-31T00:00:00+08:00",
+    "end": "2026-08-01T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,212 @@
       "language": "ja"
     }
   ],
-  "count": 8,
+  "count": 12,
   "items": [
+    {
+      "id": "4b6a85dbe10f",
+      "title": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
+      "link": "https://www.4gamers.com.tw/news/detail/81047/gallop-diva-steam-demo-generative-ai-horse-racing-school-game",
+      "summary": "推出《iHorse》系列等多款賽馬手遊的香港開發商 Gamemiracle（遊戲奇蹟）於 7 月 30 日公開視覺小說遊戲《凱旋仙子》（Gallop Diva）並在 Steam 開放免費體驗，預計 2026 年內推出，提供繁體中文的介面及字幕。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-07-31T17:00:31+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "凱旋仙子",
+        "release_time": "7 月 30 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預計",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
+      "summary_zh": "推出《iHorse》系列等多款賽馬手遊的香港開發商 Gamemiracle（遊戲奇蹟）於 7 月 30 日公開視覺小說遊戲《凱旋仙子》（Gallop Diva）並在 Steam 開放免費體驗，預計 2026 年內推出，提供繁體中文的介面及字幕。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
+      "translation_version": 2
+    },
+    {
+      "id": "e01cfc91c390",
+      "title": "モンスターループ：獣神転生：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80264584",
+      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-07-31T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "モンスターループ",
+        "release_time": "2026年7月31日",
+        "official_site": "https://sobtk.cmge.com/",
+        "x_link": "https://x.com/SOBTKJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "怪物循环：兽神轮回：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "モンスターループ：獣神転生：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "cf7bcf65fa31",
+      "title": "Rust Mobile：CBT開催日決定",
+      "link": "https://appmedia.jp/newgame/79422983",
+      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【CBT開催日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-07-31T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "Rust Mobile",
+        "release_time": "2026年7月31日",
+        "official_site": "https://www.rustmobile.com/ja/",
+        "x_link": "https://x.com/RustMobile_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "mobile",
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT開催"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Rust Mobile：CBT開催日決定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，CBT開催日決定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "Rust Mobile：CBT開催日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "b82ab7d35219",
+      "title": "アストラエ・オラティオ：CBT募集日程決定",
+      "link": "https://appmedia.jp/newgame/79987396",
+      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【CBT募集日程決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-07-31T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アストラエ・オラティオ",
+        "release_time": "2026年7月31日",
+        "official_site": "https://astraeoratio.plaync.com/ja-jp/index",
+        "x_link": "https://x.com/Asora_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Astraea Olatio：CBT募集日程決定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，CBT募集日程決定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アストラエ・オラティオ：CBT募集日程決定",
+      "translation_version": 2
+    },
     {
       "id": "760a139ea893",
       "title": "ダンジョン見聞録：事前登録開始",
