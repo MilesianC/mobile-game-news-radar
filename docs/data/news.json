@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-02T07:49:23.773098+08:00",
+  "generated_at": "2026-08-03T07:51:03.129487+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-01T00:00:00+08:00",
-    "end": "2026-08-02T00:00:00+08:00"
+    "start": "2026-08-02T00:00:00+08:00",
+    "end": "2026-08-03T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 12,
+  "count": 10,
   "items": [
     {
       "id": "4b6a85dbe10f",
@@ -548,108 +548,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年7月21日，新作公布。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "パールインブルー：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録90万突破",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月27日(月) 【事前登録90万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "2026年7月27日",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "BanG Dream! Our Notes：事前预约突破 90 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月27日，事前预约突破 90 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録90万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "a1e71e53e7e1",
-      "title": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79656887",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月27日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～",
-        "release_time": "2026年7月27日",
-        "official_site": "https://konosuba-machisuba.com/",
-        "x_link": "https://x.com/machisuba",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "为美好的世界献上祝福！～愿这座可爱的城市繁荣！～：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月27日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～：事前登録開始",
       "translation_version": 2
     }
   ],
