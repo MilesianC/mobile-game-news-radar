@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-05T07:55:46.571976+08:00",
+  "generated_at": "2026-08-06T07:50:28.463844+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-04T00:00:00+08:00",
-    "end": "2026-08-05T00:00:00+08:00"
+    "start": "2026-08-05T00:00:00+08:00",
+    "end": "2026-08-06T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,273 @@
       "language": "ja"
     }
   ],
-  "count": 18,
+  "count": 20,
   "items": [
+    {
+      "id": "7ea77f407226",
+      "title": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309413",
+      "summary": "coly 旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》於今日釋出主視覺圖，並同時開啟商店事前登錄。此外，為紀念商店事前登錄開跑，官方同步開始舉辦事前登錄活動。 《Disney Sparklink....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-05T16:54:12+08:00",
+      "score": 60.3,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Disney Sparklink Stars",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
+      "summary_zh": "coly 旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》於今日釋出主視覺圖，並同時開啟商店事前登錄。此外，為紀念商店事前登錄開跑，官方同步開始舉辦事前登錄活動。 《Disney Sparklink....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
+      "translation_version": 2
+    },
+    {
+      "id": "e5410224c6cc",
+      "title": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309411",
+      "summary": "台灣遊戲團隊 KOMUG.com 今日宣布正式取得寵物養成冒險手遊《別砸了！是精靈啦》台灣、香港、澳門區域代理權。官方表示，《別砸了！是精靈啦》是一款結合砸蛋收集、精靈養成、家園建設與策略戰鬥的新型態休閒冒險遊戲。玩家化身為訓練師，透過敲開神秘巨蛋，收服各具特色的精靈夥伴，打造專屬精靈隊伍，展開一場充滿驚喜與....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-05T16:42:05+08:00",
+      "score": 82.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "別砸了！是精靈啦",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "刪檔測試"
+        ],
+        "region": [
+          "台港澳"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
+      "summary_zh": "台灣遊戲團隊 KOMUG.com 今日宣布正式取得寵物養成冒險手遊《別砸了！是精靈啦》台灣、香港、澳門區域代理權。官方表示，《別砸了！是精靈啦》是一款結合砸蛋收集、精靈養成、家園建設與策略戰鬥的新型態休閒冒險遊戲。玩家化身為訓練師，透過敲開神秘巨蛋，收服各具特色的精靈夥伴，打造專屬精靈隊伍，展開一場充滿驚喜與....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-05T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "2026年8月3日",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "BanG Dream! Our Notes：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "a66349c98bfa",
+      "title": "僕のヒーローアカデミア UNITED SURVIVAL：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/79446299",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月5日(水) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-05T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "僕のヒーローアカデミア UNITED SURVIVAL",
+        "release_time": "2026年8月5日",
+        "official_site": "https://www.heroaca-unitedsurvival.com",
+        "x_link": "https://x.com/heroaca_HS",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "我的英雄学院联合生存：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月5日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "僕のヒーローアカデミア UNITED SURVIVAL：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月5日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-05T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "2026年8月5日",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "迪士尼Sparklink之星：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月5日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "7370b077b67f",
       "title": "COLOPL × MIXI 聯手打造《祭典對決 +》宣布將於 11/11 終止遊戲服務",
@@ -565,108 +830,6 @@
       "translation_version": 2
     },
     {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-03T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "2026年8月3日",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "BanG Dream! Our Notes：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "a66349c98bfa",
-      "title": "僕のヒーローアカデミア UNITED SURVIVAL：配信日決定",
-      "link": "https://appmedia.jp/newgame/79446299",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-03T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "僕のヒーローアカデミア UNITED SURVIVAL",
-        "release_time": "2026年8月3日",
-        "official_site": "https://www.heroaca-unitedsurvival.com",
-        "x_link": "https://x.com/heroaca_HS",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "我的英雄学院联合生存：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "僕のヒーローアカデミア UNITED SURVIVAL：配信日決定",
-      "translation_version": 2
-    },
-    {
       "id": "94f3eab6044b",
       "title": "パルワールドオンライン：新作発表",
       "link": "https://appmedia.jp/newgame/80276332",
@@ -918,57 +1081,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，CBT募集日程決定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "アストラエ・オラティオ：CBT募集日程決定",
-      "translation_version": 2
-    },
-    {
-      "id": "760a139ea893",
-      "title": "ダンジョン見聞録：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80258092",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月30日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-30T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ダンジョン見聞録",
-        "release_time": "2026年7月30日",
-        "official_site": "https://www.superplanet.net/",
-        "x_link": "https://x.com/go_superplanet",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "地下城见闻录：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月30日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ダンジョン見聞録：事前登録開始",
       "translation_version": 2
     }
   ],
