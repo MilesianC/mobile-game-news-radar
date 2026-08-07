@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-06T07:50:28.463844+08:00",
+  "generated_at": "2026-08-07T09:40:02.069936+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-05T00:00:00+08:00",
-    "end": "2026-08-06T00:00:00+08:00"
+    "start": "2026-08-06T00:00:00+08:00",
+    "end": "2026-08-07T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,162 @@
       "language": "ja"
     }
   ],
-  "count": 20,
+  "count": 19,
   "items": [
+    {
+      "id": "3fa497680b0c",
+      "title": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
+      "link": "https://www.4gamers.com.tw/news/detail/81172/google-assistant-shut-down-in-september",
+      "summary": "隨著 Google 把 AI 資源都移給了 Gemini，Google 舊版的語音助理 Google Assistant 將於 9 月 4 日正式下線，整個 Android 生態系包含手機、智慧穿戴、汽車等系統，Gemini 都將做為唯一AI 助理選項。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-06T18:39:47+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
+        "release_time": "將於 9 月 4 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
+      "summary_zh": "隨著 Google 把 AI 資源都移給了 Gemini，Google 舊版的語音助理 Google Assistant 將於 9 月 4 日正式下線，整個 Android 生態系包含手機、智慧穿戴、汽車等系統，Gemini 都將做為唯一AI 助理選項。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
+      "translation_version": 2
+    },
+    {
+      "id": "0cd2032d576a",
+      "title": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
+      "link": "https://www.4gamers.com.tw/news/detail/81169/bang-dream-our-notes-global-closed-beta-test",
+      "summary": "由 BILIBILI GAME 發行，艾瑞爾網路代理的《BanG Dream! 交織的樂章》今（6）日宣布正式開放國際服封閉測試（CBT）。本次 CBT 為免課金、限定帳號，且將會進行刪檔的封閉測試，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-06T18:30:27+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "BanG Dream! 交織的樂章",
+        "release_time": "",
+        "official_site": "https://bdon.biligames.com/pre-register",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "cbt",
+          "封閉測試"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
+      "summary_zh": "由 BILIBILI GAME 發行，艾瑞爾網路代理的《BanG Dream! 交織的樂章》今（6）日宣布正式開放國際服封閉測試（CBT）。本次 CBT 為免課金、限定帳號，且將會進行刪檔的封閉測試，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
+      "translation_version": 2
+    },
+    {
+      "id": "3b0484c4ed19",
+      "title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80279128",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月4日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-06T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "RyzaChat",
+        "release_time": "2026年8月4日",
+        "official_site": "https://ryzachat-ai.go-spiral.ai/",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "RyzaChat ：与人工智能Liza一起创造你自己的夏日梦想故事：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月4日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "7ea77f407226",
       "title": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
@@ -522,57 +676,6 @@
       "translation_version": 2
     },
     {
-      "id": "3b0484c4ed19",
-      "title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80279128",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月4日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "RyzaChat",
-        "release_time": "2026年8月4日",
-        "official_site": "https://ryzachat-ai.go-spiral.ai/",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "RyzaChat ：与人工智能Liza一起创造你自己的夏日梦想故事：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月4日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "a1e71e53e7e1",
       "title": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～：事前登録開始",
       "link": "https://appmedia.jp/newgame/79656887",
@@ -928,159 +1031,6 @@
       "summary_zh": "推出《iHorse》系列等多款賽馬手遊的香港開發商 Gamemiracle（遊戲奇蹟）於 7 月 30 日公開視覺小說遊戲《凱旋仙子》（Gallop Diva）並在 Steam 開放免費體驗，預計 2026 年內推出，提供繁體中文的介面及字幕。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
-      "translation_version": 2
-    },
-    {
-      "id": "e01cfc91c390",
-      "title": "モンスターループ：獣神転生：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80264584",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-31T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "モンスターループ",
-        "release_time": "2026年7月31日",
-        "official_site": "https://sobtk.cmge.com/",
-        "x_link": "https://x.com/SOBTKJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "怪物循环：兽神轮回：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "モンスターループ：獣神転生：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "cf7bcf65fa31",
-      "title": "Rust Mobile：CBT開催日決定",
-      "link": "https://appmedia.jp/newgame/79422983",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【CBT開催日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-31T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "Rust Mobile",
-        "release_time": "2026年7月31日",
-        "official_site": "https://www.rustmobile.com/ja/",
-        "x_link": "https://x.com/RustMobile_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "mobile",
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt",
-          "CBT開催"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Rust Mobile：CBT開催日決定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，CBT開催日決定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "Rust Mobile：CBT開催日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "b82ab7d35219",
-      "title": "アストラエ・オラティオ：CBT募集日程決定",
-      "link": "https://appmedia.jp/newgame/79987396",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月31日(金) 【CBT募集日程決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-07-31T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "アストラエ・オラティオ",
-        "release_time": "2026年7月31日",
-        "official_site": "https://astraeoratio.plaync.com/ja-jp/index",
-        "x_link": "https://x.com/Asora_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Astraea Olatio：CBT募集日程決定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月31日，CBT募集日程決定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "アストラエ・オラティオ：CBT募集日程決定",
       "translation_version": 2
     }
   ],
