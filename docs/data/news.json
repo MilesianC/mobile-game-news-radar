@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-07T09:40:02.069936+08:00",
+  "generated_at": "2026-08-08T07:25:22.807319+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-06T00:00:00+08:00",
-    "end": "2026-08-07T00:00:00+08:00"
+    "start": "2026-08-07T00:00:00+08:00",
+    "end": "2026-08-08T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,161 @@
       "language": "ja"
     }
   ],
-  "count": 19,
+  "count": 21,
   "items": [
+    {
+      "id": "b4aa203024e2",
+      "title": "モンスターハンターアウトランダーズ：CBT実施中",
+      "link": "https://appmedia.jp/newgame/78294395",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【CBT実施中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-07T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "モンスターハンターアウトランダーズ",
+        "release_time": "2026年8月7日",
+        "official_site": "https://monsterhunteroutlanders.com/ja/",
+        "x_link": "https://x.com/MHO_Japan",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT実施"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "怪物猎人异乡人：CBT 测试进行中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，CBT 测试进行中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "モンスターハンターアウトランダーズ：CBT実施中",
+      "translation_version": 2
+    },
+    {
+      "id": "66b2ea7cf3f6",
+      "title": "GALAST（ギャラスト）：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80289988",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-07T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "GALAST（ギャラスト）",
+        "release_time": "2026年8月7日",
+        "official_site": "https://galast.net/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Galast：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "GALAST（ギャラスト）：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "acaca60fc444",
+      "title": "千年の旅ELF：事前登録開始",
+      "link": "https://appmedia.jp/newgame/77466316",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-07T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "千年の旅ELF",
+        "release_time": "2026年8月7日",
+        "official_site": "https://www.sentabijp.com/",
+        "x_link": "https://twitter.com/sentabi_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "千禧之旅精灵：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "千年の旅ELF：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "3fa497680b0c",
       "title": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
@@ -980,57 +1133,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，新作公布。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "パルワールドオンライン：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "4b6a85dbe10f",
-      "title": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
-      "link": "https://www.4gamers.com.tw/news/detail/81047/gallop-diva-steam-demo-generative-ai-horse-racing-school-game",
-      "summary": "推出《iHorse》系列等多款賽馬手遊的香港開發商 Gamemiracle（遊戲奇蹟）於 7 月 30 日公開視覺小說遊戲《凱旋仙子》（Gallop Diva）並在 Steam 開放免費體驗，預計 2026 年內推出，提供繁體中文的介面及字幕。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-07-31T17:00:31+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "凱旋仙子",
-        "release_time": "7 月 30 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預計",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
-      "summary_zh": "推出《iHorse》系列等多款賽馬手遊的香港開發商 Gamemiracle（遊戲奇蹟）於 7 月 30 日公開視覺小說遊戲《凱旋仙子》（Gallop Diva）並在 Steam 開放免費體驗，預計 2026 年內推出，提供繁體中文的介面及字幕。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "Steam美少女騎師視覺小說《凱旋仙子》開放試玩 3D競馬屁股才是終點線",
       "translation_version": 2
     }
   ],
