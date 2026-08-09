@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-09T07:18:59.011933+08:00",
+  "generated_at": "2026-08-10T07:21:33.058008+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-08T00:00:00+08:00",
-    "end": "2026-08-09T00:00:00+08:00"
+    "start": "2026-08-09T00:00:00+08:00",
+    "end": "2026-08-10T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 21,
+  "count": 18,
   "items": [
     {
       "id": "b4aa203024e2",
@@ -981,158 +981,6 @@
       "summary_zh": "KLab 於本日（2026 年 8 月 3 日）宣布，動作遊戲新作《我的英雄學院：UNITED SURVIVAL》（PC / iOS / Android）將於 8 月 6 日展開正式服務。遊戲採用基本免費遊玩、道具內購制。 本作是一款以動畫《我的英雄學院》系列為題材....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "Roguelite 英雄動作遊戲《我的英雄學院：UNITED SURVIVAL》確認將於 8 月 6 日推出",
-      "translation_version": 2
-    },
-    {
-      "id": "c6aa3e3292c8",
-      "title": "W三国志：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80242789",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月24日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-03T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "W三国志",
-        "release_time": "2026年7月24日",
-        "official_site": "https://www.daburusangoku.bytefungames.com/preorder",
-        "x_link": "https://x.com/daburusangoku",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "W三国志：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月24日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "W三国志：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "da2d0abbcbe3",
-      "title": "幻想水滸伝 STAR LEAP：配信日決定",
-      "link": "https://appmedia.jp/newgame/78618803",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-03T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "幻想水滸伝 STAR LEAP",
-        "release_time": "2026年8月3日",
-        "official_site": "https://www.konami.com/games/suikoden/star_leap/jp/ja/",
-        "x_link": "https://x.com/GensoSuikodenSP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "幻想Suikoden Star Leap：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "幻想水滸伝 STAR LEAP：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "94f3eab6044b",
-      "title": "パルワールドオンライン：新作発表",
-      "link": "https://appmedia.jp/newgame/80276332",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-03T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "パルワールドオンライン",
-        "release_time": "2026年8月3日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Palworld Online：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "パルワールドオンライン：新作発表",
       "translation_version": 2
     }
   ],
