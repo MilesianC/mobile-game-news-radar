@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-10T07:21:33.058008+08:00",
+  "generated_at": "2026-08-11T07:25:55.509709+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-09T00:00:00+08:00",
-    "end": "2026-08-10T00:00:00+08:00"
+    "start": "2026-08-10T00:00:00+08:00",
+    "end": "2026-08-11T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,219 @@
       "language": "ja"
     }
   ],
-  "count": 18,
+  "count": 16,
   "items": [
+    {
+      "id": "f4f409a3a744",
+      "title": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309645",
+      "summary": "由沐瞳科技（Moonton Games）開發，愛彼遊戲正式代理的魔幻 RPG 策略塔防手機遊戲《境界守望者》將於 8 月 20 日與 Ubisoft 旗下全球知名遊戲品牌《刺客教條》展開聯動合作。 《刺客教條》系列三位傳奇英雄——埃齊歐、埃沃爾與卡珊卓，領銜降臨泰亞暗....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-10T15:48:41+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "境界守望者",
+        "release_time": "將於 8 月 20 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
+      "summary_zh": "由沐瞳科技（Moonton Games）開發，愛彼遊戲正式代理的魔幻 RPG 策略塔防手機遊戲《境界守望者》將於 8 月 20 日與 Ubisoft 旗下全球知名遊戲品牌《刺客教條》展開聯動合作。 《刺客教條》系列三位傳奇英雄——埃齊歐、埃沃爾與卡珊卓，領銜降臨泰亞暗....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
+      "translation_version": 2
+    },
+    {
+      "id": "55ffa4f7e535",
+      "title": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309626",
+      "summary": "庫洛遊戲於近日宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation5 /X box/ iOS / Android）的 3.6 版本大型更新「蜃雲燈影，凡塵劍心」將於 2026 年 8 月 20 日（四）上線。 官方表示，在 3....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-10T12:17:27+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "鳴潮",
+        "release_time": "將於 2026 年 8 月 20 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
+      "summary_zh": "庫洛遊戲於近日宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation5 /X box/ iOS / Android）的 3.6 版本大型更新「蜃雲燈影，凡塵劍心」將於 2026 年 8 月 20 日（四）上線。 官方表示，在 3....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月10日(月) 【事前登録40万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-10T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "2026年8月10日",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "迪士尼Sparklink之星：事前预约突破 40 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月10日，事前预约突破 40 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "adbc56e0477a",
+      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80049379",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-10T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "コードギアス ナイトメア・サバイバー",
+        "release_time": "2026年8月9日",
+        "official_site": "https://www.geass-survivor.com/",
+        "x_link": "https://x.com/geass_survivor",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "b4aa203024e2",
       "title": "モンスターハンターアウトランダーズ：CBT実施中",
@@ -564,57 +775,6 @@
       "translation_version": 2
     },
     {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月5日(水) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "2026年8月5日",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "迪士尼Sparklink之星：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月5日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "7370b077b67f",
       "title": "COLOPL × MIXI 聯手打造《祭典對決 +》宣布將於 11/11 終止遊戲服務",
       "link": "https://gnn.gamer.com.tw/detail.php?sn=309355",
@@ -724,263 +884,6 @@
       "summary_zh": "日本 SpiralAI 取得光榮特庫摩遊戲旗下 GUST 授權，將推出《萊莎的鍊金工房 ～常闇女王與秘密藏身處～》世界觀為舞台的生成式 AI 對話 RPG 手機遊戲《RyzaChat：與 AI 萊莎共創屬於你的夏日夢幻物語》（RyzaChat: AIライザ創るあなただけのひと夏の夢物語》即日起展開事前登錄，預計 2026 年 8 月 18 日上線。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《萊莎的鍊金工房》新作AI手遊《RyzaChat》事前登錄中 收益將回饋原作繪師與聲優",
-      "translation_version": 2
-    },
-    {
-      "id": "03d11cee3d4c",
-      "title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79416689",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "シノビNEXUS -閃乱カグラ-",
-        "release_time": "2026年8月3日",
-        "official_site": "https://hpgames.jp/shinovi-nexus/",
-        "x_link": "https://x.com/senran_kaguraPR",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Shinobi Nexus - Shining Kagura -：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "dcc6c8b8df0d",
-      "title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/79663358",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月4日(火) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "刀剣乱舞ぱずぎり",
-        "release_time": "2026年8月4日",
-        "official_site": "https://touken-puzzle.com/",
-        "x_link": "https://x.com/touken_puzzle",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "剑式横冲直撞火盆：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月4日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "a1e71e53e7e1",
-      "title": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79656887",
-      "summary": "スマホゲーム配信カレンダー更新。2026年7月27日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～",
-        "release_time": "2026年7月27日",
-        "official_site": "https://konosuba-machisuba.com/",
-        "x_link": "https://x.com/machisuba",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "为美好的世界献上祝福！～愿这座可爱的城市繁荣！～：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年7月27日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "この素晴らしい世界に祝福を！～この愛すべき街に繁栄を！～：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "21d71ba9e70f",
-      "title": "《鬥破蒼穹 M》事前預約突破 30 萬 香港「全能笑匠」阿 Bob 擔任首席推薦官加盟",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309277",
-      "summary": "由喬葳數位行銷有限公司代理、正版動畫 IP 授權的最新卡牌手遊《鬥破蒼穹 M：少年崛起》今日宣布，事前預約人數正式突破 30 萬人，已經解鎖 10 萬與 30 萬雙重預約獎勵。此外，香港知名藝人林盛斌（阿 Bob）也正式宣布出任遊戲首席推薦官，將與玩家一同闖蕩鬥氣大陸。同時預約活動還在持續加溫中，玩家凡參與預....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-03T16:23:33+08:00",
-      "score": 48.6,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "鬥破蒼穹 M",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約"
-        ],
-        "region": [],
-        "exclude": [
-          "活動"
-        ]
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《鬥破蒼穹 M》事前預約突破 30 萬 香港「全能笑匠」阿 Bob 擔任首席推薦官加盟",
-      "summary_zh": "由喬葳數位行銷有限公司代理、正版動畫 IP 授權的最新卡牌手遊《鬥破蒼穹 M：少年崛起》今日宣布，事前預約人數正式突破 30 萬人，已經解鎖 10 萬與 30 萬雙重預約獎勵。此外，香港知名藝人林盛斌（阿 Bob）也正式宣布出任遊戲首席推薦官，將與玩家一同闖蕩鬥氣大陸。同時預約活動還在持續加溫中，玩家凡參與預....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《鬥破蒼穹 M》事前預約突破 30 萬 香港「全能笑匠」阿 Bob 擔任首席推薦官加盟",
-      "translation_version": 2
-    },
-    {
-      "id": "374ebaf9671e",
-      "title": "Roguelite 英雄動作遊戲《我的英雄學院：UNITED SURVIVAL》確認將於 8 月 6 日推出",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309270",
-      "summary": "KLab 於本日（2026 年 8 月 3 日）宣布，動作遊戲新作《我的英雄學院：UNITED SURVIVAL》（PC / iOS / Android）將於 8 月 6 日展開正式服務。遊戲採用基本免費遊玩、道具內購制。 本作是一款以動畫《我的英雄學院》系列為題材....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-03T15:34:49+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "我的英雄學院：UNITED SURVIVAL",
-        "release_time": "將於 8 月 6 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Roguelite 英雄動作遊戲《我的英雄學院：UNITED SURVIVAL》確認將於 8 月 6 日推出",
-      "summary_zh": "KLab 於本日（2026 年 8 月 3 日）宣布，動作遊戲新作《我的英雄學院：UNITED SURVIVAL》（PC / iOS / Android）將於 8 月 6 日展開正式服務。遊戲採用基本免費遊玩、道具內購制。 本作是一款以動畫《我的英雄學院》系列為題材....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "Roguelite 英雄動作遊戲《我的英雄學院：UNITED SURVIVAL》確認將於 8 月 6 日推出",
       "translation_version": 2
     }
   ],
