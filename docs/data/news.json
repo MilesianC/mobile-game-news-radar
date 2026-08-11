@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T07:25:55.509709+08:00",
+  "generated_at": "2026-08-12T07:30:27.880809+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-10T00:00:00+08:00",
-    "end": "2026-08-11T00:00:00+08:00"
+    "start": "2026-08-11T00:00:00+08:00",
+    "end": "2026-08-12T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,125 @@
       "language": "ja"
     }
   ],
-  "count": 16,
+  "count": 14,
   "items": [
+    {
+      "id": "fb20df31df1f",
+      "title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309723",
+      "summary": "遊戲廠商 HandyGames 於德國時間 8 月 7 日宣布，現已正式轉型為 THQ Nordic Mobile。官方表示，在此戰略重組下，這家資深發行商將於 THQ Nordic 品牌下營運，專注於將備受好評的 PC 與家用主機作品帶給全球行動平台玩家。此舉精簡了發行業務，並使集團能夠加速為 iOS、And....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-11T15:32:09+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
+        "release_time": "8 月 7 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "ios",
+          "mobile"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
+      "summary_zh": "遊戲廠商 HandyGames 於德國時間 8 月 7 日宣布，現已正式轉型為 THQ Nordic Mobile。官方表示，在此戰略重組下，這家資深發行商將於 THQ Nordic 品牌下營運，專注於將備受好評的 PC 與家用主機作品帶給全球行動平台玩家。此舉精簡了發行業務，並使集團能夠加速為 iOS、And....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
+      "translation_version": 2
+    },
+    {
+      "id": "95f34966b7e2",
+      "title": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
+      "link": "https://www.4gamers.com.tw/news/detail/81264/mobile-game-service-termination-teikoku-databank",
+      "summary": "據日本企業信用調查機構 Teikoku Databank 帝國資料庫調查報告，日本手機遊戲開發與營運事業者的破產倒閉數量呈現急劇上升。2026 年初至 7 月累計 10 家手機遊戲相關業者宣告破產，大幅超越 2025 年紀錄，更逼近 2015 年的 12 家歷史高點，預計 2026 底創下歷史新高。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-11T11:57:50+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "https://x.com/PRTIMES_BIZ/status/2085850232194269600?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
+      "summary_zh": "據日本企業信用調查機構 Teikoku Databank 帝國資料庫調查報告，日本手機遊戲開發與營運事業者的破產倒閉數量呈現急劇上升。2026 年初至 7 月累計 10 家手機遊戲相關業者宣告破產，大幅超越 2025 年紀錄，更逼近 2015 年的 12 家歷史高點，預計 2026 底創下歷史新高。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
+      "translation_version": 2
+    },
     {
       "id": "f4f409a3a744",
       "title": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
@@ -670,220 +787,6 @@
       "summary_zh": "台灣遊戲團隊 KOMUG.com 今日宣布正式取得寵物養成冒險手遊《別砸了！是精靈啦》台灣、香港、澳門區域代理權。官方表示，《別砸了！是精靈啦》是一款結合砸蛋收集、精靈養成、家園建設與策略戰鬥的新型態休閒冒險遊戲。玩家化身為訓練師，透過敲開神秘巨蛋，收服各具特色的精靈夥伴，打造專屬精靈隊伍，展開一場充滿驚喜與....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
-      "translation_version": 2
-    },
-    {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月3日(月) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "2026年8月3日",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "BanG Dream! Our Notes：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月3日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "a66349c98bfa",
-      "title": "僕のヒーローアカデミア UNITED SURVIVAL：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/79446299",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月5日(水) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "僕のヒーローアカデミア UNITED SURVIVAL",
-        "release_time": "2026年8月5日",
-        "official_site": "https://www.heroaca-unitedsurvival.com",
-        "x_link": "https://x.com/heroaca_HS",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "我的英雄学院联合生存：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月5日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "僕のヒーローアカデミア UNITED SURVIVAL：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "7370b077b67f",
-      "title": "COLOPL × MIXI 聯手打造《祭典對決 +》宣布將於 11/11 終止遊戲服務",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309355",
-      "summary": "COLOPL 於今日宣布，智慧型手機遊戲《祭典對決 +》已決定於 2026 年 11 月 11 日（三）終止遊戲的服務。本作是由 COLOPL 與 MIXI 共同開發，並讓兩家公司的代表性遊戲《白貓 Project》與《怪物彈珠》的角色在遊戲中齊聚一堂的團隊動作遊戲。 ....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-04T18:27:23+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "祭典對決 +",
-        "release_time": "決定於 2026 年 11 月 11 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於",
-          "決定於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "COLOPL × MIXI 聯手打造《祭典對決 +》宣布將於 11/11 終止遊戲服務",
-      "summary_zh": "COLOPL 於今日宣布，智慧型手機遊戲《祭典對決 +》已決定於 2026 年 11 月 11 日（三）終止遊戲的服務。本作是由 COLOPL 與 MIXI 共同開發，並讓兩家公司的代表性遊戲《白貓 Project》與《怪物彈珠》的角色在遊戲中齊聚一堂的團隊動作遊戲。 ....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "COLOPL × MIXI 聯手打造《祭典對決 +》宣布將於 11/11 終止遊戲服務",
-      "translation_version": 2
-    },
-    {
-      "id": "10dda0cca0f0",
-      "title": "《萊莎的鍊金工房》新作AI手遊《RyzaChat》事前登錄中 收益將回饋原作繪師與聲優",
-      "link": "https://www.4gamers.com.tw/news/detail/81100/spiralai-koei-tecmo-ryza-chatbot-rpg--atelier-ryza-preregistration",
-      "summary": "日本 SpiralAI 取得光榮特庫摩遊戲旗下 GUST 授權，將推出《萊莎的鍊金工房 ～常闇女王與秘密藏身處～》世界觀為舞台的生成式 AI 對話 RPG 手機遊戲《RyzaChat：與 AI 萊莎共創屬於你的夏日夢幻物語》（RyzaChat: AIライザ創るあなただけのひと夏の夢物語》即日起展開事前登錄，預計 2026 年 8 月 18 日上線。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-04T12:19:13+08:00",
-      "score": 70.5,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "萊莎的鍊金工房",
-        "release_time": "預計 2026 年 8 月 18 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄",
-          "預計"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《萊莎的鍊金工房》新作AI手遊《RyzaChat》事前登錄中 收益將回饋原作繪師與聲優",
-      "summary_zh": "日本 SpiralAI 取得光榮特庫摩遊戲旗下 GUST 授權，將推出《萊莎的鍊金工房 ～常闇女王與秘密藏身處～》世界觀為舞台的生成式 AI 對話 RPG 手機遊戲《RyzaChat：與 AI 萊莎共創屬於你的夏日夢幻物語》（RyzaChat: AIライザ創るあなただけのひと夏の夢物語》即日起展開事前登錄，預計 2026 年 8 月 18 日上線。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《萊莎的鍊金工房》新作AI手遊《RyzaChat》事前登錄中 收益將回饋原作繪師與聲優",
       "translation_version": 2
     }
   ],
