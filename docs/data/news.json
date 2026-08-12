@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T07:30:27.880809+08:00",
+  "generated_at": "2026-08-13T07:30:52.590032+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-11T00:00:00+08:00",
-    "end": "2026-08-12T00:00:00+08:00"
+    "start": "2026-08-12T00:00:00+08:00",
+    "end": "2026-08-13T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,431 @@
       "language": "ja"
     }
   ],
-  "count": 14,
+  "count": 18,
   "items": [
+    {
+      "id": "f573c9f823ff",
+      "title": "手機版《潛水員戴夫》確定 9 月 17 日發售 收錄《漁帆暗湧》聯動、「叢林」DLC 等額外內容",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309808",
+      "summary": "Mintrocket 今日宣布，旗下廣受歡迎的海洋冒險遊戲《潛水員戴夫（DAVE THE DIVER）》將於 2026 年 9 月 17 日正式登陸 iOS 與 Android 裝置，部分 DLC 包含《漁帆暗湧》聯動以及最新推出的「叢林」也將在手機平台發售首日同步提供。除此之外，所有購買主遊戲的玩家皆可獲得《潛....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-12T21:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "潛水員戴夫",
+        "release_time": "9 月 17 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "手機版《潛水員戴夫》確定 9 月 17 日發售 收錄《漁帆暗湧》聯動、「叢林」DLC 等額外內容",
+      "summary_zh": "Mintrocket 今日宣布，旗下廣受歡迎的海洋冒險遊戲《潛水員戴夫（DAVE THE DIVER）》將於 2026 年 9 月 17 日正式登陸 iOS 與 Android 裝置，部分 DLC 包含《漁帆暗湧》聯動以及最新推出的「叢林」也將在手機平台發售首日同步提供。除此之外，所有購買主遊戲的玩家皆可獲得《潛....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "手機版《潛水員戴夫》確定 9 月 17 日發售 收錄《漁帆暗湧》聯動、「叢林」DLC 等額外內容",
+      "translation_version": 2
+    },
+    {
+      "id": "b0f195ec2277",
+      "title": "智冠科技公告 115 年度上半年財務報表 預告新款手遊《女神：守護之約》下半年上市",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309807",
+      "summary": "智冠科技今（12）日公告 115 年度上半年財務報表，同時宣布，全新手遊《女神：守護之約》將保留經典女神系列 IP 的戀愛養成架構，主打策略戰棋玩法，並加入模擬經營、道具合成等機制，預計今年下半年上市。 【以下內容為廠商提供資料原文】 智冠科技（5478）今（1....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-12T19:46:03+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "女神：守護之約",
+        "release_time": "上半年",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "智冠科技公告 115 年度上半年財務報表 預告新款手遊《女神：守護之約》下半年上市",
+      "summary_zh": "智冠科技今（12）日公告 115 年度上半年財務報表，同時宣布，全新手遊《女神：守護之約》將保留經典女神系列 IP 的戀愛養成架構，主打策略戰棋玩法，並加入模擬經營、道具合成等機制，預計今年下半年上市。 【以下內容為廠商提供資料原文】 智冠科技（5478）今（1....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "智冠科技公告 115 年度上半年財務報表 預告新款手遊《女神：守護之約》下半年上市",
+      "translation_version": 2
+    },
+    {
+      "id": "249f2a2ff86d",
+      "title": "末日風格魔女養成策略 RPG《MAJO》今日上市 完整版 PV 首度曝光",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309790",
+      "summary": "由 DarkWind Ltd. 發行，末日風格魔女養成策略 RPG《MAJO - 末日策略 RPG》今（12）日於 App Store、Google Play 全球同步上線，官方也首度公開完整版宣傳影片並釋出開服限定活動「千次接觸」等資訊。 【以下內容為廠商提供資料原文】 &nbs....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-12T17:47:30+08:00",
+      "score": 62.1,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "MAJO",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "同步上線",
+          "公開"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "末日風格魔女養成策略 RPG《MAJO》今日上市 完整版 PV 首度曝光",
+      "summary_zh": "由 DarkWind Ltd. 發行，末日風格魔女養成策略 RPG《MAJO - 末日策略 RPG》今（12）日於 App Store、Google Play 全球同步上線，官方也首度公開完整版宣傳影片並釋出開服限定活動「千次接觸」等資訊。 【以下內容為廠商提供資料原文】 &nbs....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "末日風格魔女養成策略 RPG《MAJO》今日上市 完整版 PV 首度曝光",
+      "translation_version": 2
+    },
+    {
+      "id": "97c4fc948444",
+      "title": "放置冒險 RPG《頑石小英雄》海外首次 Closed Beta 今日於馬來西亞展開",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309785",
+      "summary": "由韓國廠商 Primo M 開發的全新放置冒險 RPG《頑石小英雄》宣布，於 2026 年 8 月 12 日正式展開海外首次封閉測試（Closed Beta Test，CBT），並選定馬來西亞作為首波測試市場。本次測試預計持續至 8 月 25 日，開放馬來西亞 Android 玩家搶先體驗遊戲內容，開發團隊....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-12T17:21:54+08:00",
+      "score": 90.0,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "頑石小英雄",
+        "release_time": "2026 年 8 月 12 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android"
+        ],
+        "unreleased": [
+          "closed beta",
+          "cbt",
+          "beta test",
+          "預計",
+          "封閉測試"
+        ],
+        "region": [
+          "海外"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "放置冒險 RPG《頑石小英雄》海外首次 Closed Beta 今日於馬來西亞展開",
+      "summary_zh": "由韓國廠商 Primo M 開發的全新放置冒險 RPG《頑石小英雄》宣布，於 2026 年 8 月 12 日正式展開海外首次封閉測試（Closed Beta Test，CBT），並選定馬來西亞作為首波測試市場。本次測試預計持續至 8 月 25 日，開放馬來西亞 Android 玩家搶先體驗遊戲內容，開發團隊....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "放置冒險 RPG《頑石小英雄》海外首次 Closed Beta 今日於馬來西亞展開",
+      "translation_version": 2
+    },
+    {
+      "id": "de0540c3b225",
+      "title": "《開天》×《粽邪 4》聯動今日開跑 推出「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309779",
+      "summary": "沉浸式開放仙俠 MMO 手機遊戲《開天》與《粽邪 4：坤蒂拉娜》的聯動版本於今日正式上線。全新「鬼月 4.0」特製版本將電影中的送煞民俗與東南亞禁忌邪靈帶入仙雲洲，推出聯動劇情、「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容，並有多重聯動福利同步上線。 聯動 PV 【以下內容為廠商提供資....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-12T16:26:51+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "開天",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "同步上線"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《開天》×《粽邪 4》聯動今日開跑 推出「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容",
+      "summary_zh": "沉浸式開放仙俠 MMO 手機遊戲《開天》與《粽邪 4：坤蒂拉娜》的聯動版本於今日正式上線。全新「鬼月 4.0」特製版本將電影中的送煞民俗與東南亞禁忌邪靈帶入仙雲洲，推出聯動劇情、「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容，並有多重聯動福利同步上線。 聯動 PV 【以下內容為廠商提供資....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《開天》×《粽邪 4》聯動今日開跑 推出「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容",
+      "translation_version": 2
+    },
+    {
+      "id": "adbc56e0477a",
+      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80049379",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-12T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "コードギアス ナイトメア・サバイバー",
+        "release_time": "2026年8月9日",
+        "official_site": "https://www.geass-survivor.com/",
+        "x_link": "https://x.com/geass_survivor",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "95c4cc1decf8",
+      "title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80303008",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-12T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "POMU-みんなと一緒に世界樹を育てる街-",
+        "release_time": "2026年8月12日",
+        "official_site": "https://pomu-games.com/",
+        "x_link": "https://x.com/pomu_official",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "POMU -一个我们可以共同种植世界树木的城市-：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録110万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録110万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-12T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "2026年8月12日",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 110 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，事前预约突破 110 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録110万突破",
+      "translation_version": 2
+    },
     {
       "id": "fb20df31df1f",
       "title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
@@ -320,57 +743,6 @@
       "translation_version": 2
     },
     {
-      "id": "adbc56e0477a",
-      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80049379",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-10T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "コードギアス ナイトメア・サバイバー",
-        "release_time": "2026年8月9日",
-        "official_site": "https://www.geass-survivor.com/",
-        "x_link": "https://x.com/geass_survivor",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "b4aa203024e2",
       "title": "モンスターハンターアウトランダーズ：CBT実施中",
       "link": "https://appmedia.jp/newgame/78294395",
@@ -624,169 +996,6 @@
       "summary_zh": "由 BILIBILI GAME 發行，艾瑞爾網路代理的《BanG Dream! 交織的樂章》今（6）日宣布正式開放國際服封閉測試（CBT）。本次 CBT 為免課金、限定帳號，且將會進行刪檔的封閉測試，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
-      "translation_version": 2
-    },
-    {
-      "id": "3b0484c4ed19",
-      "title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80279128",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月4日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-06T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "RyzaChat",
-        "release_time": "2026年8月4日",
-        "official_site": "https://ryzachat-ai.go-spiral.ai/",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "RyzaChat ：与人工智能Liza一起创造你自己的夏日梦想故事：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月4日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "7ea77f407226",
-      "title": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309413",
-      "summary": "coly 旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》於今日釋出主視覺圖，並同時開啟商店事前登錄。此外，為紀念商店事前登錄開跑，官方同步開始舉辦事前登錄活動。 《Disney Sparklink....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-05T16:54:12+08:00",
-      "score": 60.3,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "Disney Sparklink Stars",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": [
-          "活動"
-        ]
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
-      "summary_zh": "coly 旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》於今日釋出主視覺圖，並同時開啟商店事前登錄。此外，為紀念商店事前登錄開跑，官方同步開始舉辦事前登錄活動。 《Disney Sparklink....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "迪士尼全新手機遊戲《Disney Sparklink Stars》於日本展開事前登錄 主視覺圖同時曝光",
-      "translation_version": 2
-    },
-    {
-      "id": "e5410224c6cc",
-      "title": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309411",
-      "summary": "台灣遊戲團隊 KOMUG.com 今日宣布正式取得寵物養成冒險手遊《別砸了！是精靈啦》台灣、香港、澳門區域代理權。官方表示，《別砸了！是精靈啦》是一款結合砸蛋收集、精靈養成、家園建設與策略戰鬥的新型態休閒冒險遊戲。玩家化身為訓練師，透過敲開神秘巨蛋，收服各具特色的精靈夥伴，打造專屬精靈隊伍，展開一場充滿驚喜與....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-05T16:42:05+08:00",
-      "score": 82.8,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "別砸了！是精靈啦",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "刪檔測試"
-        ],
-        "region": [
-          "台港澳"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
-      "summary_zh": "台灣遊戲團隊 KOMUG.com 今日宣布正式取得寵物養成冒險手遊《別砸了！是精靈啦》台灣、香港、澳門區域代理權。官方表示，《別砸了！是精靈啦》是一款結合砸蛋收集、精靈養成、家園建設與策略戰鬥的新型態休閒冒險遊戲。玩家化身為訓練師，透過敲開神秘巨蛋，收服各具特色的精靈夥伴，打造專屬精靈隊伍，展開一場充滿驚喜與....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "休閒冒險新作《別砸了！是精靈啦》台港澳代理權確認 開啟菁英刪檔測試",
       "translation_version": 2
     }
   ],
