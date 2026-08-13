@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T07:30:52.590032+08:00",
+  "generated_at": "2026-08-14T07:31:55.514828+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-12T00:00:00+08:00",
-    "end": "2026-08-13T00:00:00+08:00"
+    "start": "2026-08-13T00:00:00+08:00",
+    "end": "2026-08-14T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,312 @@
   ],
   "count": 18,
   "items": [
+    {
+      "id": "95c4cc1decf8",
+      "title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80303008",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "POMU-みんなと一緒に世界樹を育てる街-",
+        "release_time": "2026年8月12日",
+        "official_site": "https://pomu-games.com/",
+        "x_link": "https://x.com/pomu_official",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "POMU -一个我们可以共同种植世界树木的城市-：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "dcc6c8b8df0d",
+      "title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/79663358",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "刀剣乱舞ぱずぎり",
+        "release_time": "2026年8月13日",
+        "official_site": "https://touken-puzzle.com/",
+        "x_link": "https://x.com/touken_puzzle",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "剑式横冲直撞火盆：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "63cd87f65949",
+      "title": "ラグナロク：アドベンチャーズ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80309845",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ラグナロク",
+        "release_time": "2026年8月13日",
+        "official_site": "https://ragnarokadv.gungho.jp/",
+        "x_link": "https://x.com/RagnarokAdv_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "诸神黄昏：多天探险体验：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ラグナロク：アドベンチャーズ：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "980c66b9129c",
+      "title": "ぷんぷん闘神：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80307736",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ぷんぷん闘神",
+        "release_time": "2026年8月13日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "潘蓬战神：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ぷんぷん闘神：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "431d57cdc5c5",
+      "title": "メイクドラマ：MAD：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80307322",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "メイクドラマ",
+        "release_time": "2026年8月13日",
+        "official_site": "",
+        "x_link": "https://x.com/MAkeDrama_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "化妆剧： MAD：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "メイクドラマ：MAD：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "16770bd49687",
+      "title": "デイヴ・ザ・ダイバー：配信日決定",
+      "link": "https://appmedia.jp/newgame/80162959",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "デイヴ・ザ・ダイバー",
+        "release_time": "2026年8月13日",
+        "official_site": "",
+        "x_link": "https://x.com/DaveDiverGameJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Dave the Diver：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "デイヴ・ザ・ダイバー：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "f573c9f823ff",
       "title": "手機版《潛水員戴夫》確定 9 月 17 日發售 收錄《漁帆暗湧》聯動、「叢林」DLC 等額外內容",
@@ -361,57 +667,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "95c4cc1decf8",
-      "title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80303008",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-12T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "POMU-みんなと一緒に世界樹を育てる街-",
-        "release_time": "2026年8月12日",
-        "official_site": "https://pomu-games.com/",
-        "x_link": "https://x.com/pomu_official",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "POMU -一个我们可以共同种植世界树木的城市-：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
       "translation_version": 2
     },
     {
@@ -740,262 +995,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月10日，事前预约突破 40 万。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "b4aa203024e2",
-      "title": "モンスターハンターアウトランダーズ：CBT実施中",
-      "link": "https://appmedia.jp/newgame/78294395",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【CBT実施中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-07T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "モンスターハンターアウトランダーズ",
-        "release_time": "2026年8月7日",
-        "official_site": "https://monsterhunteroutlanders.com/ja/",
-        "x_link": "https://x.com/MHO_Japan",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt",
-          "CBT実施"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "怪物猎人异乡人：CBT 测试进行中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，CBT 测试进行中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "モンスターハンターアウトランダーズ：CBT実施中",
-      "translation_version": 2
-    },
-    {
-      "id": "66b2ea7cf3f6",
-      "title": "GALAST（ギャラスト）：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80289988",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-07T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "GALAST（ギャラスト）",
-        "release_time": "2026年8月7日",
-        "official_site": "https://galast.net/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Galast：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "GALAST（ギャラスト）：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "acaca60fc444",
-      "title": "千年の旅ELF：事前登録開始",
-      "link": "https://appmedia.jp/newgame/77466316",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月7日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-07T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "千年の旅ELF",
-        "release_time": "2026年8月7日",
-        "official_site": "https://www.sentabijp.com/",
-        "x_link": "https://twitter.com/sentabi_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "千禧之旅精灵：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月7日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "千年の旅ELF：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "3fa497680b0c",
-      "title": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
-      "link": "https://www.4gamers.com.tw/news/detail/81172/google-assistant-shut-down-in-september",
-      "summary": "隨著 Google 把 AI 資源都移給了 Gemini，Google 舊版的語音助理 Google Assistant 將於 9 月 4 日正式下線，整個 Android 生態系包含手機、智慧穿戴、汽車等系統，Gemini 都將做為唯一AI 助理選項。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-06T18:39:47+08:00",
-      "score": 57.8,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
-        "release_time": "將於 9 月 4 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
-      "summary_zh": "隨著 Google 把 AI 資源都移給了 Gemini，Google 舊版的語音助理 Google Assistant 將於 9 月 4 日正式下線，整個 Android 生態系包含手機、智慧穿戴、汽車等系統，Gemini 都將做為唯一AI 助理選項。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "傳Google Assistant將於9月全面退場 Gemini全面接管手機、手錶、汽車等Android平台",
-      "translation_version": 2
-    },
-    {
-      "id": "0cd2032d576a",
-      "title": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
-      "link": "https://www.4gamers.com.tw/news/detail/81169/bang-dream-our-notes-global-closed-beta-test",
-      "summary": "由 BILIBILI GAME 發行，艾瑞爾網路代理的《BanG Dream! 交織的樂章》今（6）日宣布正式開放國際服封閉測試（CBT）。本次 CBT 為免課金、限定帳號，且將會進行刪檔的封閉測試，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-06T18:30:27+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "BanG Dream! 交織的樂章",
-        "release_time": "",
-        "official_site": "https://bdon.biligames.com/pre-register",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "cbt",
-          "封閉測試"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
-      "summary_zh": "由 BILIBILI GAME 發行，艾瑞爾網路代理的《BanG Dream! 交織的樂章》今（6）日宣布正式開放國際服封閉測試（CBT）。本次 CBT 為免課金、限定帳號，且將會進行刪檔的封閉測試，支援 iOS 與 Android 平台，遊戲語言包括繁體中文、英文、韓文及簡體中文。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《BanG Dream! 交織的樂章》國際服封閉測試正式開跑 釋出「激奏演出」與「ANON TOKYO」等玩法",
       "translation_version": 2
     }
   ],
