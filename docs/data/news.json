@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-17T07:11:15.492600+08:00",
+  "generated_at": "2026-08-18T07:13:53.778137+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-16T00:00:00+08:00",
-    "end": "2026-08-17T00:00:00+08:00"
+    "start": "2026-08-17T00:00:00+08:00",
+    "end": "2026-08-18T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,371 @@
       "language": "ja"
     }
   ],
-  "count": 20,
+  "count": 23,
   "items": [
+    {
+      "id": "d40104779164",
+      "title": "《閃亂神樂》系列最新作《忍者連結 -閃亂神樂-》於日本 Google Play 展開事前登錄",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=309987",
+      "summary": "株式會社 HONEY∞PARADE GAMES（代表董事：三浦 徹朗／所在地：東京都品川區）宣布，預計於 2026 年提供服務的《閃亂神樂》系列新作應用程式遊戲《忍者連結 -閃亂神樂-（シノビNEXUS –閃乱カグラ–）》，已於 Google Play 展開事前登錄。 &n....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-17T15:46:58+08:00",
+      "score": 84.6,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "閃亂神樂",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "https://twitter.com/shinovi_nexus/status/2088129246065836397",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "google play"
+        ],
+        "unreleased": [
+          "事前登錄",
+          "預計"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《閃亂神樂》系列最新作《忍者連結 -閃亂神樂-》於日本 Google Play 展開事前登錄",
+      "summary_zh": "株式會社 HONEY∞PARADE GAMES（代表董事：三浦 徹朗／所在地：東京都品川區）宣布，預計於 2026 年提供服務的《閃亂神樂》系列新作應用程式遊戲《忍者連結 -閃亂神樂-（シノビNEXUS –閃乱カグラ–）》，已於 Google Play 展開事前登錄。 &n....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《閃亂神樂》系列最新作《忍者連結 -閃亂神樂-》於日本 Google Play 展開事前登錄",
+      "translation_version": 2
+    },
+    {
+      "id": "50ace3bc2b6b",
+      "title": "成為引導忍者少女的老師！《閃亂神樂》新作手遊《忍者NEXUS -閃亂神樂-》開放Android事前登錄！",
+      "link": "https://news.qoo-app.com/post/442839/shinovi-nexus-android-pre-registration",
+      "summary": "很晃",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-17T15:00:00+08:00",
+      "score": 73.8,
+      "status": "unreleased candidate",
+      "regions": [],
+      "game": {
+        "name": "忍者NEXUS -閃亂神樂-",
+        "release_time": "",
+        "official_site": "https://hpgames.jp/shinovi-nexus/",
+        "x_link": "https://x.com/shinovi_nexus",
+        "servers": []
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "手遊"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "成為引導忍者少女的老師！《閃亂神樂》新作手遊《忍者NEXUS -閃亂神樂-》開放Android事前登錄！",
+      "summary_zh": "很晃",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "成為引導忍者少女的老師！《閃亂神樂》新作手遊《忍者NEXUS -閃亂神樂-》開放Android事前登錄！",
+      "translation_version": 2
+    },
+    {
+      "id": "0991d8a9b028",
+      "title": "日本長青RPG手遊《怪物地城＋》繁中版9月香港、10月台灣推出！事前登錄現已開放",
+      "link": "https://news.qoo-app.com/post/442804/mamodan-plus-tc-pre-reg",
+      "summary": "日本遊戲開發商 clony 正式宣布，旗",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-17T14:43:00+08:00",
+      "score": 87.3,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "怪物地城＋",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "https://x.com/mamodan_staff",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "日本長青RPG手遊《怪物地城＋》繁中版9月香港、10月台灣推出！事前登錄現已開放",
+      "summary_zh": "日本遊戲開發商 clony 正式宣布，旗",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "日本長青RPG手遊《怪物地城＋》繁中版9月香港、10月台灣推出！事前登錄現已開放",
+      "translation_version": 2
+    },
+    {
+      "id": "431d57cdc5c5",
+      "title": "メイクドラマ：MAD：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80307322",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "メイクドラマ",
+        "release_time": "2026年8月13日",
+        "official_site": "https://mad.wemadeconnect.com/",
+        "x_link": "https://x.com/MAkeDrama_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "化妆剧： MAD：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "メイクドラマ：MAD：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録120万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録120万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "2026年8月17日",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 120 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，事前预约突破 120 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録120万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "fcf4de4c2930",
+      "title": "波乱水世界：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80320498",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "波乱水世界",
+        "release_time": "2026年8月17日",
+        "official_site": "https://flotshelter.eworldgame.com/",
+        "x_link": "https://x.com/playWWW_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "扰乱水世界：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "波乱水世界：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "03d11cee3d4c",
+      "title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
+      "link": "https://appmedia.jp/newgame/79416689",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シノビNEXUS -閃乱カグラ-",
+        "release_time": "2026年8月17日",
+        "official_site": "https://hpgames.jp/shinovi-nexus/",
+        "x_link": "https://x.com/shinovi_nexus",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Shinobi Nexus - Shining Kagura -：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "143f26816df2",
       "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
@@ -396,57 +759,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ぷんぷん闘神：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "431d57cdc5c5",
-      "title": "メイクドラマ：MAD：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80307322",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-13T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "メイクドラマ",
-        "release_time": "2026年8月13日",
-        "official_site": "",
-        "x_link": "https://x.com/MAkeDrama_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "化妆剧： MAD：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "メイクドラマ：MAD：事前登録開始",
       "translation_version": 2
     },
     {
@@ -822,57 +1134,6 @@
       "translation_version": 2
     },
     {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録110万突破",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録110万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-12T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "2026年8月12日",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "BanG Dream! Our Notes：事前预约突破 110 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，事前预约突破 110 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録110万突破",
-      "translation_version": 2
-    },
-    {
       "id": "fb20df31df1f",
       "title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
       "link": "https://gnn.gamer.com.tw/detail.php?sn=309723",
@@ -987,115 +1248,6 @@
       "summary_zh": "據日本企業信用調查機構 Teikoku Databank 帝國資料庫調查報告，日本手機遊戲開發與營運事業者的破產倒閉數量呈現急劇上升。2026 年初至 7 月累計 10 家手機遊戲相關業者宣告破產，大幅超越 2025 年紀錄，更逼近 2015 年的 12 家歷史高點，預計 2026 底創下歷史新高。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
-      "translation_version": 2
-    },
-    {
-      "id": "f4f409a3a744",
-      "title": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309645",
-      "summary": "由沐瞳科技（Moonton Games）開發，愛彼遊戲正式代理的魔幻 RPG 策略塔防手機遊戲《境界守望者》將於 8 月 20 日與 Ubisoft 旗下全球知名遊戲品牌《刺客教條》展開聯動合作。 《刺客教條》系列三位傳奇英雄——埃齊歐、埃沃爾與卡珊卓，領銜降臨泰亞暗....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-10T15:48:41+08:00",
-      "score": 82.8,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "境界守望者",
-        "release_time": "將於 8 月 20 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
-      "summary_zh": "由沐瞳科技（Moonton Games）開發，愛彼遊戲正式代理的魔幻 RPG 策略塔防手機遊戲《境界守望者》將於 8 月 20 日與 Ubisoft 旗下全球知名遊戲品牌《刺客教條》展開聯動合作。 《刺客教條》系列三位傳奇英雄——埃齊歐、埃沃爾與卡珊卓，領銜降臨泰亞暗....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《境界守望者》將與《刺客教條》展開聯動 埃齊歐、埃沃爾與卡珊卓領銜降臨泰亞暗黑奇幻大陸",
-      "translation_version": 2
-    },
-    {
-      "id": "55ffa4f7e535",
-      "title": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309626",
-      "summary": "庫洛遊戲於近日宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation5 /X box/ iOS / Android）的 3.6 版本大型更新「蜃雲燈影，凡塵劍心」將於 2026 年 8 月 20 日（四）上線。 官方表示，在 3....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-10T12:17:27+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "鳴潮",
-        "release_time": "將於 2026 年 8 月 20 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
-      "summary_zh": "庫洛遊戲於近日宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation5 /X box/ iOS / Android）的 3.6 版本大型更新「蜃雲燈影，凡塵劍心」將於 2026 年 8 月 20 日（四）上線。 官方表示，在 3....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《鳴潮》3.6 版本「蜃雲燈影，凡塵劍心」將於 8/20 上線 新共鳴者「清宵」「景燃」亮相",
       "translation_version": 2
     }
   ],
