@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T07:13:53.778137+08:00",
+  "generated_at": "2026-08-19T07:13:23.425887+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-17T00:00:00+08:00",
-    "end": "2026-08-18T00:00:00+08:00"
+    "start": "2026-08-18T00:00:00+08:00",
+    "end": "2026-08-19T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,212 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 22,
   "items": [
+    {
+      "id": "ffad402d25c2",
+      "title": "《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》延期上線 預告訂閱制加購對話代幣營運",
+      "link": "https://www.4gamers.com.tw/news/detail/81452/ryzachat-ai-release-delayed-server-enhancement",
+      "summary": "SpiralAI 於 8 月 18 日晚間直播宣布原定推出的 AI 聊天 RPG《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》（RyzaChat:AI ライザと創るあなただけのひと夏の夢物語，iOS／Android）由於事前登錄人數遠超預期，團隊正著手強化伺服器環境以確保服務穩定，具體推出時間將另行公布。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-18T20:00:00+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "RyzaChat：與AI萊莎共創專屬於你的一夏夢物語",
+        "release_time": "8 月 18 日",
+        "official_site": "",
+        "x_link": "https://x.com/massiro_x/status/2089679942867103966?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》延期上線 預告訂閱制加購對話代幣營運",
+      "summary_zh": "SpiralAI 於 8 月 18 日晚間直播宣布原定推出的 AI 聊天 RPG《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》（RyzaChat:AI ライザと創るあなただけのひと夏の夢物語，iOS／Android）由於事前登錄人數遠超預期，團隊正著手強化伺服器環境以確保服務穩定，具體推出時間將另行公布。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》延期上線 預告訂閱制加購對話代幣營運",
+      "translation_version": 2
+    },
+    {
+      "id": "03d11cee3d4c",
+      "title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
+      "link": "https://appmedia.jp/newgame/79416689",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シノビNEXUS -閃乱カグラ-",
+        "release_time": "2026年8月17日",
+        "official_site": "https://hpgames.jp/shinovi-nexus/",
+        "x_link": "https://x.com/shinovi_nexus",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Shinobi Nexus - Shining Kagura -：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "980c66b9129c",
+      "title": "ぷんぷん闘神：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80307736",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ぷんぷん闘神",
+        "release_time": "2026年8月13日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "潘蓬战神：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ぷんぷん闘神：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "3b0484c4ed19",
+      "title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80279128",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月4日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "RyzaChat",
+        "release_time": "2026年8月4日",
+        "official_site": "https://ryzachat-ai.go-spiral.ai/",
+        "x_link": "https://x.com/ryza_chat_ai_",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "RyzaChat ：与人工智能Liza一起创造你自己的夏日梦想故事：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月4日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "RyzaChat:AIライザと創るあなただけのひと夏の夢物語：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "d40104779164",
       "title": "《閃亂神樂》系列最新作《忍者連結 -閃亂神樂-》於日本 Google Play 展開事前登錄",
@@ -355,57 +559,6 @@
       "translation_version": 2
     },
     {
-      "id": "03d11cee3d4c",
-      "title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79416689",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-17T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "シノビNEXUS -閃乱カグラ-",
-        "release_time": "2026年8月17日",
-        "official_site": "https://hpgames.jp/shinovi-nexus/",
-        "x_link": "https://x.com/shinovi_nexus",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Shinobi Nexus - Shining Kagura -：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "シノビNEXUS -閃乱カグラ-：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "143f26816df2",
       "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
       "link": "https://appmedia.jp/newgame/80049535",
@@ -708,57 +861,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ラグナロク：アドベンチャーズ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "980c66b9129c",
-      "title": "ぷんぷん闘神：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80307736",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-13T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ぷんぷん闘神",
-        "release_time": "2026年8月13日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "潘蓬战神：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ぷんぷん闘神：事前登録開始",
       "translation_version": 2
     },
     {
@@ -1080,174 +1182,6 @@
       "summary_zh": "沉浸式開放仙俠 MMO 手機遊戲《開天》與《粽邪 4：坤蒂拉娜》的聯動版本於今日正式上線。全新「鬼月 4.0」特製版本將電影中的送煞民俗與東南亞禁忌邪靈帶入仙雲洲，推出聯動劇情、「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容，並有多重聯動福利同步上線。 聯動 PV 【以下內容為廠商提供資....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《開天》×《粽邪 4》聯動今日開跑 推出「送肉粽」、「天眼尋鬼」及禁忌邪靈挑戰等內容",
-      "translation_version": 2
-    },
-    {
-      "id": "adbc56e0477a",
-      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80049379",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-12T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "コードギアス ナイトメア・サバイバー",
-        "release_time": "2026年8月9日",
-        "official_site": "https://www.geass-survivor.com/",
-        "x_link": "https://x.com/geass_survivor",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "fb20df31df1f",
-      "title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=309723",
-      "summary": "遊戲廠商 HandyGames 於德國時間 8 月 7 日宣布，現已正式轉型為 THQ Nordic Mobile。官方表示，在此戰略重組下，這家資深發行商將於 THQ Nordic 品牌下營運，專注於將備受好評的 PC 與家用主機作品帶給全球行動平台玩家。此舉精簡了發行業務，並使集團能夠加速為 iOS、And....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-11T15:32:09+08:00",
-      "score": 82.8,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
-        "release_time": "8 月 7 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "ios",
-          "mobile"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
-      "summary_zh": "遊戲廠商 HandyGames 於德國時間 8 月 7 日宣布，現已正式轉型為 THQ Nordic Mobile。官方表示，在此戰略重組下，這家資深發行商將於 THQ Nordic 品牌下營運，專注於將備受好評的 PC 與家用主機作品帶給全球行動平台玩家。此舉精簡了發行業務，並使集團能夠加速為 iOS、And....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "HandyGames 宣布轉型為 THQ Nordic Mobile 將持續移植 PC、TV 遊戲至行動裝置",
-      "translation_version": 2
-    },
-    {
-      "id": "95f34966b7e2",
-      "title": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
-      "link": "https://www.4gamers.com.tw/news/detail/81264/mobile-game-service-termination-teikoku-databank",
-      "summary": "據日本企業信用調查機構 Teikoku Databank 帝國資料庫調查報告，日本手機遊戲開發與營運事業者的破產倒閉數量呈現急劇上升。2026 年初至 7 月累計 10 家手機遊戲相關業者宣告破產，大幅超越 2025 年紀錄，更逼近 2015 年的 12 家歷史高點，預計 2026 底創下歷史新高。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-11T11:57:50+08:00",
-      "score": 69.0,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "https://x.com/PRTIMES_BIZ/status/2085850232194269600?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
-      "summary_zh": "據日本企業信用調查機構 Teikoku Databank 帝國資料庫調查報告，日本手機遊戲開發與營運事業者的破產倒閉數量呈現急劇上升。2026 年初至 7 月累計 10 家手機遊戲相關業者宣告破產，大幅超越 2025 年紀錄，更逼近 2015 年的 12 家歷史高點，預計 2026 底創下歷史新高。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "日本手遊公司倒閉數創歷史新高 調查報告稱中、韓廠商夾擊讓營運獲利難度大幅提昇",
       "translation_version": 2
     }
   ],
