@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T07:14:45.577506+08:00",
+  "generated_at": "2026-08-21T07:17:10.574174+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-19T00:00:00+08:00",
-    "end": "2026-08-20T00:00:00+08:00"
+    "start": "2026-08-20T00:00:00+08:00",
+    "end": "2026-08-21T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,158 @@
   ],
   "count": 15,
   "items": [
+    {
+      "id": "de6d0a7fc140",
+      "title": "獨立開發者打造《逃脫遊戲：陽光斑駁的廢墟》預告 8 月 27 日於雙平台推出",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=310195",
+      "summary": "個人開發者 Furakoko 今日宣布，將於 8 月 27 日在 App Store 及 Google Play 免費推出逃脫遊戲《逃脫遊戲：陽光斑駁的廢墟》。開發者表示，《逃脫遊戲：陽光斑駁的廢墟》是一款點擊式冒險逃脫遊戲。玩家需要透過解開謎題、靈活運用道具，從被困的廢棄建築物中逃脫。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-20T18:28:57+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "逃脫遊戲：陽光斑駁的廢墟",
+        "release_time": "8 月 27 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "獨立開發者打造《逃脫遊戲：陽光斑駁的廢墟》預告 8 月 27 日於雙平台推出",
+      "summary_zh": "個人開發者 Furakoko 今日宣布，將於 8 月 27 日在 App Store 及 Google Play 免費推出逃脫遊戲《逃脫遊戲：陽光斑駁的廢墟》。開發者表示，《逃脫遊戲：陽光斑駁的廢墟》是一款點擊式冒險逃脫遊戲。玩家需要透過解開謎題、靈活運用道具，從被困的廢棄建築物中逃脫。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "獨立開發者打造《逃脫遊戲：陽光斑駁的廢墟》預告 8 月 27 日於雙平台推出",
+      "translation_version": 2
+    },
+    {
+      "id": "a86f2d197026",
+      "title": "エバーナイト：リバース：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80335927",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月20日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "エバーナイト",
+        "release_time": "2026年8月20日",
+        "official_site": "https://evernightjp.yrlongxin.com/",
+        "x_link": "https://x.com/EverNightJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Evernight: Reverse：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月20日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "エバーナイト：リバース：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "4a2d88a38fa4",
+      "title": "リミットゼロ ブレイカーズ：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/77174813",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月20日(木) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-20T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "リミットゼロ ブレイカーズ",
+        "release_time": "2026年8月20日",
+        "official_site": "https://breakers.plaync.com/",
+        "x_link": "https://x.com/BREAKERS_japan",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "极限零断路器：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月20日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "リミットゼロ ブレイカーズ：CBT参加者募集中",
+      "translation_version": 2
+    },
     {
       "id": "9037732248b6",
       "title": "漢家松鼠打造多重宇宙新武俠 RPG《劍之川》開放全球事前預約 預計 2026 年第四季推出",
@@ -666,158 +818,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "波乱水世界：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月10日(月) 【事前登録40万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "2026年8月10日",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "迪士尼Sparklink之星：事前预约突破 40 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月10日，事前预约突破 40 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "0ddb20456869",
-      "title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80316055",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "混血のカレコレ ミラーラッシュ",
-        "release_time": "2026年8月14日",
-        "official_site": "",
-        "x_link": "https://x.com/karemiraJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "混血镜子冲刺：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "dd06eaad5002",
-      "title": "ブリンガ：新作発表",
-      "link": "https://appmedia.jp/newgame/80316514",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ブリンガ",
-        "release_time": "2026年8月14日",
-        "official_site": "https://www.bringer-pre.com/jp",
-        "x_link": "https://x.com/Bringer_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "布林加：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ブリンガ：新作発表",
       "translation_version": 2
     }
   ],
