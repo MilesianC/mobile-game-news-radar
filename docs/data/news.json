@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T07:17:10.574174+08:00",
+  "generated_at": "2026-08-22T07:14:21.552621+08:00",
   "days": 30,
   "retention_days": 7,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-20T00:00:00+08:00",
-    "end": "2026-08-21T00:00:00+08:00"
+    "start": "2026-08-21T00:00:00+08:00",
+    "end": "2026-08-22T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,110 @@
       "language": "ja"
     }
   ],
-  "count": 15,
+  "count": 17,
   "items": [
+    {
+      "id": "30f5b17e2ad0",
+      "title": "藍天白雲悠閒模擬《Cloudgazer》9月登Steam 順著微風漫賞百種雲朵的有趣細節",
+      "link": "https://www.4gamers.com.tw/news/detail/81535/cloudgazer",
+      "summary": "西班牙遊戲工作室 DevilishGames 開發的 Chill 模擬遊戲《Cloudgazer: A Game About Watching Clouds》宣布將於 9 月 3 日登陸 Steam、iOS 與 Android，並支援簡體中文介面字幕。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-21T13:57:29+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Cloudgazer",
+        "release_time": "將於 9 月 3 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "藍天白雲悠閒模擬《Cloudgazer》9月登Steam 順著微風漫賞百種雲朵的有趣細節",
+      "summary_zh": "西班牙遊戲工作室 DevilishGames 開發的 Chill 模擬遊戲《Cloudgazer: A Game About Watching Clouds》宣布將於 9 月 3 日登陸 Steam、iOS 與 Android，並支援簡體中文介面字幕。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "藍天白雲悠閒模擬《Cloudgazer》9月登Steam 順著微風漫賞百種雲朵的有趣細節",
+      "translation_version": 2
+    },
+    {
+      "id": "c6aa3e3292c8",
+      "title": "W三国志：配信日決定",
+      "link": "https://appmedia.jp/newgame/80242789",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月21日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-21T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "W三国志",
+        "release_time": "2026年8月21日",
+        "official_site": "https://www.daburusangoku.bytefungames.com/preorder",
+        "x_link": "https://x.com/daburusangoku",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "W三国志：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月21日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "W三国志：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "de6d0a7fc140",
       "title": "獨立開發者打造《逃脫遊戲：陽光斑駁的廢墟》預告 8 月 27 日於雙平台推出",
