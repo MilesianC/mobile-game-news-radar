@@ -3,124 +3,101 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
     <title>新游资讯雷达</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="topbar">
-      <div>
-        <p class="eyebrow">Mobile Game Radar</p>
-        <h1>新游资讯雷达</h1>
-      </div>
-      <div class="meta">
-        <span id="generatedAt">等待数据</span>
-        <span id="itemCount">0 条</span>
+    <header class="app-header">
+      <a class="brand" href="#top" aria-label="新游资讯雷达首页">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span><strong>新游资讯雷达</strong><small>全球未上市手游情报</small></span>
+      </a>
+      <nav class="main-nav" aria-label="页面导航"><a class="active" href="#feed">资讯</a><a href="#interestPanel">关注</a></nav>
+      <div class="header-tools">
+        <span id="generatedAt" class="sync-state">等待采集</span>
         <details class="source-disclosure">
-          <summary>采集来源</summary>
+          <summary>来源</summary>
           <div id="sourceList" class="source-list"></div>
         </details>
       </div>
     </header>
 
-    <main>
-      <section class="controls" aria-label="筛选">
-        <label class="search">
-          <span>搜索</span>
-          <input id="searchInput" type="search" placeholder="游戏名、地区、来源、关键词">
-        </label>
-
-        <div class="segmented" role="group" aria-label="状态筛选">
-          <button class="active" data-status="all">全部</button>
-          <button data-status="unreleased candidate">未上市</button>
-          <button data-status="region-gap candidate">地区差</button>
-          <button data-status="low-score review">复核</button>
+    <main id="top">
+      <section class="overview-band" aria-labelledby="overviewTitle">
+        <div class="overview-copy">
+          <p>NEW RELEASE INTELLIGENCE</p>
+          <h1 id="overviewTitle">未上市手游，按重要度整理</h1>
+          <span>近 7 天资讯统一中文呈现，地区服差异也纳入追踪。</span>
         </div>
-
-        <select id="regionSelect" aria-label="地区筛选">
-          <option value="all">全部地区</option>
-          <option value="global">全球</option>
-          <option value="kr">韩国</option>
-          <option value="jp">日本</option>
-          <option value="cn">中国大陆</option>
-          <option value="sea">东南亚</option>
-          <option value="tw-hk-mo">港澳台</option>
-        </select>
-
-        <a id="manualCollectLink" class="manual-action" target="_blank" rel="noreferrer">手动采集</a>
+        <dl class="overview-stats">
+          <div><dt>近 7 天</dt><dd id="itemCount">0</dd></div>
+          <div><dt>已知档期</dt><dd id="datedCount">0</dd></div>
+          <div><dt>持续关注</dt><dd id="interestCount">0</dd></div>
+          <div><dt>来源覆盖</dt><dd id="sourceCount">0</dd></div>
+        </dl>
       </section>
 
-      <section class="summary">
-        <div>
-          <span id="highScoreCount">0</span>
-          <strong>高优先级</strong>
+      <section id="focusSection" class="focus-section hidden" aria-labelledby="focusTitle">
+        <div class="section-heading">
+          <div><span>RADAR PICKS</span><h2 id="focusTitle">本期重点</h2></div>
+          <p>按信号强度与发布时间筛选</p>
         </div>
-        <div>
-          <span id="regionGapCount">0</span>
-          <strong>地区服机会</strong>
-        </div>
-        <div>
-          <span id="sourceCount">0</span>
-          <strong>来源覆盖</strong>
-        </div>
+        <div id="focusRail" class="focus-rail"></div>
       </section>
 
-      <section id="interestPanel" class="interest-panel hidden" aria-live="polite">
-        <div class="section-head">
-          <h2>感兴趣</h2>
-          <button id="clearInterestButton" type="button">清空</button>
+      <section id="feed" class="feed-shell" aria-labelledby="feedTitle">
+        <div class="filter-bar" aria-label="资讯筛选">
+          <label class="search-field"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" aria-label="搜索资讯" placeholder="搜索游戏、地区或关键词"></label>
+          <div class="segmented status-filter" role="group" aria-label="状态筛选">
+            <button class="active" type="button" data-status="all">全部</button>
+            <button type="button" data-status="unreleased candidate">未上市</button>
+            <button type="button" data-status="region-gap candidate">地区差</button>
+            <button type="button" data-status="low-score review">待复核</button>
+          </div>
+          <label class="select-field"><span>来源</span><select id="sourceSelect" aria-label="来源筛选"><option value="all">全部来源</option></select></label>
+          <label class="select-field"><span>地区</span><select id="regionSelect" aria-label="地区筛选">
+            <option value="all">全部地区</option><option value="global">全球</option><option value="kr">韩国</option><option value="jp">日本</option><option value="cn">中国大陆</option><option value="sea">东南亚</option><option value="tw-hk-mo">港澳台</option>
+          </select></label>
+          <div class="view-switch" role="group" aria-label="显示方式">
+            <button class="active" type="button" data-view="cards" title="卡片视图" aria-label="卡片视图">▦</button>
+            <button type="button" data-view="list" title="列表视图" aria-label="列表视图">☷</button>
+          </div>
+          <a id="manualCollectLink" class="manual-action" target="_blank" rel="noreferrer">立即采集</a>
         </div>
-        <div id="interestList" class="interest-list"></div>
-      </section>
 
-      <section id="newsList" class="news-list" aria-live="polite"></section>
-      <section id="emptyState" class="empty hidden">
-        <h2>还没有采集结果</h2>
-        <p>运行 `python scripts/collect.py --days 30` 后刷新页面。</p>
+        <section id="interestPanel" class="interest-panel hidden" aria-live="polite">
+          <div class="section-heading compact">
+            <div><span>WATCHLIST</span><h2>持续关注</h2></div>
+            <button id="clearInterestButton" class="text-button" type="button">清空关注</button>
+          </div>
+          <div id="interestList" class="interest-list"></div>
+        </section>
+
+        <div class="feed-heading">
+          <div><span>NEWS FEED</span><h2 id="feedTitle">最新资讯 <small id="resultCount">0 条</small></h2></div>
+          <label class="sort-control"><span>排序</span><select id="sortSelect"><option value="latest">最新发布</option><option value="score">信号优先</option><option value="release">发售临近</option></select></label>
+        </div>
+
+        <section id="newsList" class="news-list" data-view="cards" aria-live="polite"></section>
+        <section id="emptyState" class="empty hidden"><h2>没有符合条件的资讯</h2><p>调整筛选条件，或使用右上方的立即采集。</p></section>
       </section>
     </main>
 
     <template id="newsTemplate">
       <article class="news-card">
-        <div class="card-head">
-          <span class="score"></span>
-          <span class="status"></span>
+        <a class="news-media" target="_blank" rel="noreferrer"><img loading="lazy" decoding="async"><span class="media-fallback" aria-hidden="true"></span><span class="media-source"></span></a>
+        <div class="news-content">
+          <div class="news-meta"><span class="source"></span><time></time><span class="status"></span><span class="score"></span></div>
+          <h3><a class="news-title" target="_blank" rel="noreferrer"></a></h3>
+          <p class="original-title hidden"></p>
+          <p class="summary-text"></p>
+          <div class="game-row"><div><span class="game-label">GAME</span><strong class="game-name"></strong></div><button class="interest-button" type="button">＋ 关注</button></div>
+          <div class="game-details"><span class="game-release"></span><span class="game-servers"></span><span class="official-links"><span class="game-official"></span><span class="game-x"></span></span></div>
+          <div class="chips"></div>
         </div>
-        <h2><a target="_blank" rel="noreferrer"></a></h2>
-        <p class="original-title hidden"></p>
-        <p class="summary-text"></p>
-        <div class="game-info">
-          <div class="game-line">
-            <span>游戏</span>
-            <strong class="game-name"></strong>
-            <button class="interest-button" type="button">感兴趣</button>
-          </div>
-          <dl class="game-meta">
-            <div>
-              <dt>发售</dt>
-              <dd class="game-release"></dd>
-            </div>
-            <div>
-              <dt>官网</dt>
-              <dd class="game-official"></dd>
-            </div>
-            <div>
-              <dt>X</dt>
-              <dd class="game-x"></dd>
-            </div>
-            <div>
-              <dt>服务器</dt>
-              <dd class="game-servers"></dd>
-            </div>
-          </dl>
-        </div>
-        <div class="chips"></div>
-        <footer>
-          <span class="source"></span>
-          <time></time>
-        </footer>
       </article>
     </template>
-
     <script src="app.js"></script>
   </body>
 </html>

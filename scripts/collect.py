@@ -566,6 +566,24 @@ class LinkExtractor(HTMLParser):
         self.current_text = []
 
 
+class PageMetaExtractor(HTMLParser):
+    def __init__(self, base_url: str) -> None:
+        super().__init__(convert_charrefs=True)
+        self.base_url = base_url
+        self.image_url = ""
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.casefold() != "meta" or self.image_url:
+            return
+        values = {str(key).casefold(): value or "" for key, value in attrs}
+        marker = (values.get("property") or values.get("name") or "").casefold()
+        if marker not in {"og:image", "twitter:image", "twitter:image:src"}:
+            return
+        content = values.get("content", "")
+        if content:
+            self.image_url = urllib.parse.urljoin(self.base_url, html.unescape(content).strip())
+
+
 def extract_links_from_html(html_bytes: bytes, base_url: str) -> list[dict[str, str]]:
     parser = LinkExtractor(base_url)
     parser.feed(html_bytes.decode("utf-8", "replace"))
@@ -578,6 +596,12 @@ def extract_links_from_html(html_bytes: bytes, base_url: str) -> list[dict[str, 
         seen.add(url)
         links.append({"url": url, "text": link["text"]})
     return links
+
+
+def extract_image_from_html(html_bytes: bytes, base_url: str) -> str:
+    parser = PageMetaExtractor(base_url)
+    parser.feed(html_bytes.decode("utf-8", "replace"))
+    return normalize_link_url(parser.image_url)
 
 
 def normalize_link_url(url: str) -> str:
@@ -833,6 +857,9 @@ def enrich_item_from_detail(classified: dict[str, Any], feed_item: FeedItem, tim
     detail_links = extract_links_from_html(html_bytes, str(link))
     if detail_links:
         classified["game"] = extract_game_info(feed_item, classified.get("regions", []), detail_links)
+    image_url = extract_image_from_html(html_bytes, str(link))
+    if image_url:
+        classified["image_url"] = image_url
 
 
 def stable_id(value: str) -> str:
@@ -996,6 +1023,8 @@ def merge_existing_items(
         key = item_key(item)
         existing = by_id.get(key, {})
         merged = {**existing, **item}
+        if not item.get("image_url") and existing.get("image_url"):
+            merged["image_url"] = existing["image_url"]
         existing_game = existing.get("game") or {}
         new_game = item.get("game") or {}
         if existing_game or new_game:
