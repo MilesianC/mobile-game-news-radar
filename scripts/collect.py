@@ -1387,7 +1387,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--date", help="Only keep items from this local date, formatted as YYYY-MM-DD.")
     parser.add_argument("--yesterday", action="store_true", help="Only keep items from yesterday in Asia/Shanghai time.")
     parser.add_argument("--since-yesterday", action="store_true", help="Keep items from yesterday 00:00 to now in Asia/Shanghai time.")
-    parser.add_argument("--retention-days", type=int, default=7, help="Keep collected output items from the last N days. Use 0 to disable pruning.")
+    parser.add_argument("--retention-days", type=int, default=14, help="Keep collected output items from the last N days. Use 0 to disable pruning.")
     parser.add_argument("--include-non-chinese", action="store_true", help="Allow non-Chinese sources. By default only zh-Hans / zh-Hant sources are collected.")
     parser.add_argument("--limit", type=int, default=120, help="Maximum items to write. Use 0 for no limit.")
     parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout in seconds.")

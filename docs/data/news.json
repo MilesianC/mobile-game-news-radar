@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T00:32:00.488956+08:00",
-  "days": 7,
-  "retention_days": 7,
+  "generated_at": "2026-08-24T01:00:08.206626+08:00",
+  "days": 14,
+  "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
     "start": null,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 7,
+  "count": 18,
   "items": [
     {
       "id": "30f5b17e2ad0",
@@ -402,6 +402,577 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ぷんぷん闘神：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "fcf4de4c2930",
+      "title": "波乱水世界：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80320498",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "波乱水世界",
+        "release_time": "待定",
+        "official_site": "https://flotshelter.eworldgame.com/",
+        "x_link": "https://x.com/playWWW_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-47.webp",
+      "title_zh": "扰乱水世界：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "波乱水世界：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録120万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録120万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "预计 2026年",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 120 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，事前预约突破 120 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録120万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "431d57cdc5c5",
+      "title": "メイクドラマ：MAD：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80307322",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "メイクドラマ",
+        "release_time": "待公布",
+        "official_site": "https://mad.wemadeconnect.com/",
+        "x_link": "https://x.com/MAkeDrama_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/makedrama_result.webp",
+      "title_zh": "化妆剧： MAD：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "メイクドラマ：MAD：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "0ddb20456869",
+      "title": "混血のカレコレ ミラーラッシュ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80316055",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-14T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "混血のカレコレ ミラーラッシュ",
+        "release_time": "预计 2026年10月",
+        "official_site": "",
+        "x_link": "https://x.com/karemiraJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
+      "title_zh": "混血镜子冲刺：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "混血のカレコレ ミラーラッシュ：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月10日(月) 【事前登録40万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-14T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "预计 2026年",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：事前预约突破 40 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月10日，事前预约突破 40 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "dd06eaad5002",
+      "title": "ブリンガ：新作発表",
+      "link": "https://appmedia.jp/newgame/80316514",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【新作発表】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-14T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ブリンガ",
+        "release_time": "待定",
+        "official_site": "https://www.bringer-pre.com/jp",
+        "x_link": "https://x.com/Bringer_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "新作発表"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main-131_result.webp",
+      "title_zh": "布林加：新作公布",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，新作公布。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ブリンガ：新作発表",
+      "translation_version": 2
+    },
+    {
+      "id": "dcc6c8b8df0d",
+      "title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/79663358",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "刀剣乱舞ぱずぎり",
+        "release_time": "预计 2026年",
+        "official_site": "https://touken-puzzle.com/",
+        "x_link": "https://x.com/touken_puzzle",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/01/pazugiri_result.webp",
+      "title_zh": "剑式横冲直撞火盆：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "刀剣乱舞ぱずぎり：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "63cd87f65949",
+      "title": "ラグナロク：アドベンチャーズ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80309845",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ラグナロク",
+        "release_time": "预计 2026年",
+        "official_site": "https://ragnarokadv.gungho.jp/",
+        "x_link": "https://x.com/RagnarokAdv_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-35.webp",
+      "title_zh": "诸神黄昏：多天探险体验：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ラグナロク：アドベンチャーズ：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "16770bd49687",
+      "title": "デイヴ・ザ・ダイバー：配信日決定",
+      "link": "https://appmedia.jp/newgame/80162959",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "デイヴ・ザ・ダイバー",
+        "release_time": "2026年9月17日",
+        "official_site": "",
+        "x_link": "https://x.com/DaveDiverGameJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/dave-the-diver_result.webp",
+      "title_zh": "Dave the Diver：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "デイヴ・ザ・ダイバー：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "95c4cc1decf8",
+      "title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80303008",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月12日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "POMU-みんなと一緒に世界樹を育てる街-",
+        "release_time": "预计 2026年",
+        "official_site": "https://pomu-games.com/",
+        "x_link": "https://x.com/pomu_official",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-33.webp",
+      "title_zh": "POMU -一个我们可以共同种植世界树木的城市-：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "adbc56e0477a",
+      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80049379",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-12T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "コードギアス ナイトメア・サバイバー",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.geass-survivor.com/",
+        "x_link": "https://x.com/geass_survivor",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/giasaba_result.webp",
+      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
       "translation_version": 2
     }
   ],

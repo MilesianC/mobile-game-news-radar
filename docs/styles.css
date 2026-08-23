@@ -372,6 +372,7 @@ main {
 
 .feed-shell {
   padding-top: 24px;
+  scroll-margin-top: 78px;
 }
 
 .filter-bar {
@@ -505,6 +506,17 @@ main {
   padding: 20px 0 24px;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);
+  scroll-margin-top: 150px;
+}
+
+.interest-empty {
+  margin: 0;
+  padding: 26px 12px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
 }
 
 .section-heading.compact {
@@ -1118,6 +1130,11 @@ main {
 
   .interest-list {
     grid-template-columns: 1fr;
+  }
+
+  .feed-shell,
+  .interest-panel {
+    scroll-margin-top: 72px;
   }
 
   .interest-card {

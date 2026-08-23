@@ -62,7 +62,7 @@ python scripts/collect.py --yesterday --translate
 采集昨天 00:00 到当前时间的资讯：
 
 ```powershell
-python scripts/collect.py --since-yesterday --translate --retention-days 7
+python scripts/collect.py --since-yesterday --translate --retention-days 14
 ```
 
 采集指定日期：
@@ -95,10 +95,10 @@ python scripts/collect.py --yesterday --translate --limit 120
 
 1. 把项目推到 GitHub 仓库。
 2. 在仓库 Settings -> Secrets and variables -> Actions 里添加 `OPENAI_API_KEY`。
-3. 到 Actions 页面手动运行一次 `Daily mobile game news`，选择 `last_7_days`，确认能生成、提交 `docs/data/news.json` 并发布网页。
+3. 到 Actions 页面手动运行一次 `Daily mobile game news`，选择 `last_14_days`，确认能生成、提交 `docs/data/news.json` 并发布网页。
 
-GitHub Actions 的定时任务不保证准点。项目改为每小时尝试刷新一次，每次扫描最近 7 天中文来源；多次触发不会产生重复资讯，因为采集器会按新闻 ID 合并，并且只保留最近 7 天数据。需要严格准点时建议改用 VPS cron 或 Cloudflare Workers Cron。
-页面里的“手动采集”按钮会打开这个 GitHub Actions 页面；点击 `Run workflow` 后默认选择 `last_7_days` 即可。采集结果默认只保留中文 / 繁中来源，默认保留 7 天，同一篇新闻重复运行也不会重复写入。
+GitHub Actions 的定时任务不保证准点。项目每天早上 7 点尝试刷新，每次合并新资讯并只保留最近 14 天数据；多次触发不会产生重复资讯，因为采集器会按新闻 ID 合并。需要严格准点时建议改用 VPS cron 或 Cloudflare Workers Cron。
+页面里的“手动采集”按钮会打开这个 GitHub Actions 页面；点击 `Run workflow` 后可选择 `last_14_days`。采集结果默认只保留中文 / 繁中来源，默认保留 14 天，同一篇新闻重复运行也不会重复写入。
 
 ## 中文翻译
 

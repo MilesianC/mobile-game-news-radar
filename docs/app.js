@@ -314,10 +314,12 @@ function renderFocus() {
 }
 
 function renderInterested() {
-  const panel = document.getElementById("interestPanel");
   const list = document.getElementById("interestList");
+  const empty = document.getElementById("interestEmpty");
+  const clearButton = document.getElementById("clearInterestButton");
   const games = Object.values(state.interested).sort((a, b) => String(b.updated_at).localeCompare(String(a.updated_at)));
-  panel.classList.toggle("hidden", games.length === 0);
+  empty.classList.toggle("hidden", games.length > 0);
+  clearButton.classList.toggle("hidden", games.length === 0);
   list.replaceChildren();
 
   games.forEach((game) => {
@@ -457,6 +459,12 @@ function render() {
 
 function bindEvents() {
   document.getElementById("clearInterestButton").addEventListener("click", clearInterested);
+  document.querySelectorAll(".main-nav a").forEach((link) => {
+    link.addEventListener("click", () => {
+      document.querySelectorAll(".main-nav a").forEach((item) => item.classList.remove("active"));
+      link.classList.add("active");
+    });
+  });
   document.getElementById("searchInput").addEventListener("input", (event) => {
     state.query = normalize(event.target.value.trim());
     renderNews();
