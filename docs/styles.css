@@ -365,9 +365,19 @@ main {
   -webkit-line-clamp: 2;
 }
 
-.focus-body > span {
+.focus-body > span:not(.focus-release) {
   color: var(--muted);
   font-size: 12px;
+}
+
+.focus-release {
+  align-self: end;
+  margin-top: 3px;
+  padding-top: 7px;
+  border-top: 1px solid var(--line);
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .feed-shell {
@@ -561,12 +571,34 @@ main {
   line-height: 1.35;
 }
 
-.interest-card p,
+.interest-card p:not(.interest-release),
 .interest-servers {
   margin: 0 0 5px;
   color: var(--muted);
   font-size: 11px;
   line-height: 1.4;
+}
+
+.interest-release {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin: 7px 0;
+  padding: 6px 8px;
+  border-left: 3px solid var(--amber);
+  border-radius: 4px;
+  background: var(--soft-amber);
+}
+
+.interest-release span {
+  color: var(--amber);
+  font-size: 9px;
+  font-weight: 850;
+}
+
+.interest-release strong {
+  color: var(--ink);
+  font-size: 13px;
 }
 
 .interest-servers > span {
@@ -869,9 +901,38 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 5px 13px;
+  align-items: center;
   color: var(--muted);
   font-size: 11px;
   line-height: 1.45;
+}
+
+.game-release {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  flex: 1 0 100%;
+  gap: 10px;
+  align-items: baseline;
+  min-height: 39px;
+  padding: 8px 10px;
+  border: 1px solid #e7d0aa;
+  border-left: 3px solid var(--amber);
+  border-radius: 5px;
+  background: var(--soft-amber);
+}
+
+.game-release small {
+  color: var(--amber);
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.game-release strong {
+  min-width: 0;
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 850;
+  overflow-wrap: anywhere;
 }
 
 .game-details a {

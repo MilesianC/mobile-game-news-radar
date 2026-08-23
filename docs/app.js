@@ -297,7 +297,8 @@ function focusCard(item, index) {
   const title = document.createElement("strong");
   title.textContent = gameInfo(item).name;
   const release = document.createElement("span");
-  release.textContent = item.game?.release_time ? `预计 ${item.game.release_time}` : formatDate(item.published_at);
+  release.className = "focus-release";
+  release.textContent = `发售 · ${item.game?.release_time || "待确认"}`;
   body.append(eyebrow, title, release);
   card.append(visual, body);
   return card;
@@ -337,7 +338,12 @@ function renderInterested() {
     const title = document.createElement("h3");
     title.textContent = game.name;
     const release = document.createElement("p");
-    release.textContent = game.release_time || "发售时间待确认";
+    release.className = "interest-release";
+    const releaseLabel = document.createElement("span");
+    releaseLabel.textContent = "发售日期";
+    const releaseValue = document.createElement("strong");
+    releaseValue.textContent = game.release_time || "待确认";
+    release.append(releaseLabel, releaseValue);
     const links = document.createElement("div");
     links.className = "interest-links";
     [createLink(game.news_link, "新闻"), createLink(game.official_site, "官网"), createLink(game.x_link, "X")].filter(Boolean).forEach((link) => links.appendChild(link));
@@ -398,7 +404,7 @@ function newsCard(item) {
   status.dataset.status = item.status || "unknown";
   node.querySelector(".score").textContent = `${item.score || 0} 分`;
   node.querySelector(".game-name").textContent = info.name;
-  node.querySelector(".game-release").textContent = `发售 · ${info.release_time || "待确认"}`;
+  node.querySelector(".game-release strong").textContent = info.release_time || "待确认";
   renderServers(node.querySelector(".game-servers"), info.servers, info.regions);
   const official = createLink(info.official_site, "官网 ↗");
   const xLink = createLink(info.x_link, "X ↗");
