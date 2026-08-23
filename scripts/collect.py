@@ -584,6 +584,71 @@ class PageMetaExtractor(HTMLParser):
             self.image_url = urllib.parse.urljoin(self.base_url, html.unescape(content).strip())
 
 
+class AppMediaBasicInfoParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.release_date = ""
+        self.capture_heading = False
+        self.heading_parts: list[str] = []
+        self.awaiting_basic_table = False
+        self.in_basic_table = False
+        self.table_depth = 0
+        self.cell = ""
+        self.header_parts: list[str] = []
+        self.value_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.casefold()
+        if tag == "h3":
+            self.capture_heading = True
+            self.heading_parts = []
+            return
+        if tag == "table" and self.awaiting_basic_table and not self.in_basic_table:
+            self.in_basic_table = True
+            self.awaiting_basic_table = False
+            self.table_depth = 1
+            return
+        if not self.in_basic_table:
+            return
+        if tag == "table":
+            self.table_depth += 1
+        elif tag == "tr":
+            self.header_parts = []
+            self.value_parts = []
+        elif tag in {"th", "td"}:
+            self.cell = tag
+
+    def handle_data(self, data: str) -> None:
+        if self.capture_heading:
+            self.heading_parts.append(data)
+        elif self.in_basic_table and self.cell == "th":
+            self.header_parts.append(data)
+        elif self.in_basic_table and self.cell == "td":
+            self.value_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
+        if tag == "h3" and self.capture_heading:
+            heading = clean_text("".join(self.heading_parts))
+            self.awaiting_basic_table = "基本情報" in heading
+            self.capture_heading = False
+            self.heading_parts = []
+            return
+        if not self.in_basic_table:
+            return
+        if tag in {"th", "td"}:
+            self.cell = ""
+        elif tag == "tr":
+            header = clean_text("".join(self.header_parts)).strip("：: ")
+            if header == "配信日":
+                self.release_date = clean_text("".join(self.value_parts))
+        elif tag == "table":
+            self.table_depth -= 1
+            if self.table_depth <= 0:
+                self.in_basic_table = False
+                self.table_depth = 0
+
+
 def extract_links_from_html(html_bytes: bytes, base_url: str) -> list[dict[str, str]]:
     parser = LinkExtractor(base_url)
     parser.feed(html_bytes.decode("utf-8", "replace"))
@@ -602,6 +667,28 @@ def extract_image_from_html(html_bytes: bytes, base_url: str) -> str:
     parser = PageMetaExtractor(base_url)
     parser.feed(html_bytes.decode("utf-8", "replace"))
     return normalize_link_url(parser.image_url)
+
+
+def extract_appmedia_release_date(html_bytes: bytes) -> str:
+    parser = AppMediaBasicInfoParser()
+    parser.feed(html_bytes.decode("utf-8", "replace"))
+    value = parser.release_date.strip()
+    if not value:
+        return ""
+    exact_labels = {
+        "未定": "待定",
+        "発表予定": "待公布",
+        "配信中": "已上线",
+        "リリース済み": "已上线",
+    }
+    if value in exact_labels:
+        return exact_labels[value]
+    if re.fullmatch(r"20\d{2}年\d{1,2}月\d{1,2}日", value):
+        return value
+    value = value.replace("上半期", "上半年").replace("下半期", "下半年")
+    value = value.replace("春", "春季").replace("夏", "夏季").replace("秋", "秋季").replace("冬", "冬季")
+    value = re.sub(r"(?:配信|リリース)予定", "", value).strip()
+    return f"预计 {value}" if value else "待定"
 
 
 def normalize_link_url(url: str) -> str:
@@ -855,8 +942,10 @@ def enrich_item_from_detail(classified: dict[str, Any], feed_item: FeedItem, tim
     except (urllib.error.URLError, TimeoutError, OSError, UnicodeError):
         return
     detail_links = extract_links_from_html(html_bytes, str(link))
-    if detail_links:
-        classified["game"] = extract_game_info(feed_item, classified.get("regions", []), detail_links)
+    game = extract_game_info(feed_item, classified.get("regions", []), detail_links)
+    if feed_item.source_id == "appmedia":
+        game["release_time"] = extract_appmedia_release_date(html_bytes)
+    classified["game"] = game
     image_url = extract_image_from_html(html_bytes, str(link))
     if image_url:
         classified["image_url"] = image_url
