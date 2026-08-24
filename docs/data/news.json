@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T07:12:06.030360+08:00",
+  "generated_at": "2026-08-25T07:15:08.502512+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-23T00:00:00+08:00",
-    "end": "2026-08-24T00:00:00+08:00"
+    "start": "2026-08-24T00:00:00+08:00",
+    "end": "2026-08-25T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,121 @@
       "language": "ja"
     }
   ],
-  "count": 18,
+  "count": 19,
   "items": [
+    {
+      "id": "d6f2d0a4df9a",
+      "title": "《無職轉生～到了異世界就拿出真本事～迴響編年史》台港澳代理權確認 預計於 2026 年內推出",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=310313",
+      "summary": "紅心辣椒今（24）日宣布，正式取得日本人氣輕小說改編動畫《無職轉生～到了異世界就拿出真本事～》IP 手機遊戲《無職轉生～到了異世界就拿出真本事～迴響編年史》台灣、香港及澳門營運代理權，預計於 2026 年內推出。 紅心辣椒宣布取得《無職轉生》改編手遊台港澳代理權，預計 2026 年內推出 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-24T14:44:46+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "無職轉生～到了異世界就拿出真本事～迴響編年史",
+        "release_time": "年內",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [
+          "台港澳",
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/15/ae79b2107810007df61c4082ef1zz275.JPG",
+      "title_zh": "《無職轉生～到了異世界就拿出真本事～迴響編年史》台港澳代理權確認 預計於 2026 年內推出",
+      "summary_zh": "紅心辣椒今（24）日宣布，正式取得日本人氣輕小說改編動畫《無職轉生～到了異世界就拿出真本事～》IP 手機遊戲《無職轉生～到了異世界就拿出真本事～迴響編年史》台灣、香港及澳門營運代理權，預計於 2026 年內推出。 紅心辣椒宣布取得《無職轉生》改編手遊台港澳代理權，預計 2026 年內推出 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《無職轉生～到了異世界就拿出真本事～迴響編年史》台港澳代理權確認 預計於 2026 年內推出",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録130万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月24日(月) 【事前登録130万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "预计 2026年",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 130 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月24日，事前预约突破 130 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録130万突破",
+      "translation_version": 2
+    },
     {
       "id": "30f5b17e2ad0",
       "title": "藍天白雲悠閒模擬《Cloudgazer》9月登Steam 順著微風漫賞百種雲朵的有趣細節",
@@ -454,58 +567,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "波乱水世界：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録120万突破",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月17日(月) 【事前登録120万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-17T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "预计 2026年",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
-      "title_zh": "BanG Dream! Our Notes：事前预约突破 120 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月17日，事前预约突破 120 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録120万突破",
       "translation_version": 2
     },
     {
