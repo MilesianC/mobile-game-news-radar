@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T07:15:08.502512+08:00",
+  "generated_at": "2026-08-26T07:17:12.192192+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-24T00:00:00+08:00",
-    "end": "2026-08-25T00:00:00+08:00"
+    "start": "2026-08-25T00:00:00+08:00",
+    "end": "2026-08-26T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,170 @@
       "language": "ja"
     }
   ],
-  "count": 19,
+  "count": 21,
   "items": [
+    {
+      "id": "2818cea8fc08",
+      "title": "劇場版《鏈鋸人 蕾潔篇》串流9/19登陸Prime Video",
+      "link": "https://www.4gamers.com.tw/news/detail/81607/chainsaw-man-the-movie-reze-arc-to-stream-exclusively-on-prime-video-starting-september-19",
+      "summary": "藤本樹漫畫作品《鏈鋸人》改編劇場版動畫《鏈鋸人 蕾潔篇》將於 2026 年 9 月 19 日登陸 Prime Video。（此為日本地區獨佔，台灣上線狀況依平台公告為準。台灣目前可於 myvideo、Apple TV、Google Play 影視購買／租借）",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-25T14:07:13+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "鏈鋸人 蕾潔篇",
+        "release_time": "將於 2026 年 9 月 19 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "google play"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/63f986ac-a5b5-483e-8666-850b82cf69db.jpg",
+      "title_zh": "劇場版《鏈鋸人 蕾潔篇》串流9/19登陸Prime Video",
+      "summary_zh": "藤本樹漫畫作品《鏈鋸人》改編劇場版動畫《鏈鋸人 蕾潔篇》將於 2026 年 9 月 19 日登陸 Prime Video。（此為日本地區獨佔，台灣上線狀況依平台公告為準。台灣目前可於 myvideo、Apple TV、Google Play 影視購買／租借）",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "劇場版《鏈鋸人 蕾潔篇》串流9/19登陸Prime Video",
+      "translation_version": 2
+    },
+    {
+      "id": "bc64ae643f62",
+      "title": "アズールプロミリア：事前登録開始",
+      "link": "https://appmedia.jp/newgame/77704138",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月25日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-25T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アズールプロミリア",
+        "release_time": "待定",
+        "official_site": "https://azurpromilia.jp/",
+        "x_link": "https://x.com/AzurPromilia_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
+      "title_zh": "Azul Promiglia：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月25日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アズールプロミリア：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "2f2b3706d7f6",
+      "title": "マビノギモバイル：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80140474",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月25日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-25T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "マビノギモバイル",
+        "release_time": "预计 2026年",
+        "official_site": "https://mabinogimobile.nexon.co.jp/preregistration",
+        "x_link": "https://x.com/MabinogiM_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/mabinogi-kv_result_1.webp",
+      "title_zh": "Mabinogi Mobile：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月25日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "マビノギモバイル：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "d6f2d0a4df9a",
       "title": "《無職轉生～到了異世界就拿出真本事～迴響編年史》台港澳代理權確認 預計於 2026 年內推出",
@@ -982,58 +1144,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月12日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "POMU-みんなと一緒に世界樹を育てる街-：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "adbc56e0477a",
-      "title": "コードギアス ナイトメア・サバイバー：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80049379",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月9日(日) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-12T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "コードギアス ナイトメア・サバイバー",
-        "release_time": "预计 2026年",
-        "official_site": "https://www.geass-survivor.com/",
-        "x_link": "https://x.com/geass_survivor",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/giasaba_result.webp",
-      "title_zh": "Code Geass噩梦幸存者：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "コードギアス ナイトメア・サバイバー：事前登録開始",
       "translation_version": 2
     }
   ],
