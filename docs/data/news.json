@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-27T12:09:23.134594+08:00",
+  "generated_at": "2026-08-28T14:26:15.219983+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-26T00:00:00+08:00",
-    "end": "2026-08-27T00:00:00+08:00"
+    "start": "2026-08-27T00:00:00+08:00",
+    "end": "2026-08-28T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,391 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 27,
   "items": [
+    {
+      "id": "f433ec866b48",
+      "title": "《萊莎的鍊金工房》AI冒險遊戲《RyzaChatAI》試玩心得：與萊莎對話的代價不斐",
+      "link": "https://www.4gamers.com.tw/news/detail/81584/ryzachat-ai-release-early-access-review",
+      "summary": "以《萊莎的鍊金工房》與 SpiralAI 合作的沉浸式 AI 故事創作 RPG 《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》（RyzaChat）讓玩家與萊莎利用對話形式自由的冒險，創造夏天難忘的回憶。目前透過發送信件通知事前登錄玩家進入萊莎的夢中世界，藉著此次搶先試玩機會我們也先行遊玩日版測試版，目前僅在日本 Google Play 及 AppStore 需有日本帳號資格即可下載。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-27T19:00:12+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "萊莎的鍊金工房",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "google play"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "日版",
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/05aa7597-3ade-4654-8b00-628c0cbbba90.jpg",
+      "title_zh": "《萊莎的鍊金工房》AI冒險遊戲《RyzaChatAI》試玩心得：與萊莎對話的代價不斐",
+      "summary_zh": "以《萊莎的鍊金工房》與 SpiralAI 合作的沉浸式 AI 故事創作 RPG 《RyzaChat：與AI萊莎共創專屬於你的一夏夢物語》（RyzaChat）讓玩家與萊莎利用對話形式自由的冒險，創造夏天難忘的回憶。目前透過發送信件通知事前登錄玩家進入萊莎的夢中世界，藉著此次搶先試玩機會我們也先行遊玩日版測試版，目前僅在日本 Google Play 及 AppStore 需有日本帳號資格即可下載。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《萊莎的鍊金工房》AI冒險遊戲《RyzaChatAI》試玩心得：與萊莎對話的代價不斐",
+      "translation_version": 2
+    },
+    {
+      "id": "158cc52e3a76",
+      "title": "鍊金術士手遊《蕾斯萊莉婭娜的鍊金工房》 宣佈停止營運 以三週年網站提供故事回顧",
+      "link": "https://www.4gamers.com.tw/news/detail/81689/atelier-resleriana-service-termination-announcement",
+      "summary": "光榮特庫摩遊戲旗下與 Akatsuki Games 共同開發的鍊金術 RPG《蕾斯萊莉婭娜的鍊金工房 ～被遺忘的鍊金術與極夜的解放者～》（レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～），將於日本時間 2026 年 11 月 25 日正式結束營運。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-27T12:49:03+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "蕾斯萊莉婭娜的鍊金工房",
+        "release_time": "2026 年 11 月 25 日",
+        "official_site": "",
+        "x_link": "https://x.com/hashtag/%E3%83%AC%E3%82%B9%E3%83%AC%E3%83%AA?src=hash&ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/10286b5a-1f7d-4b9d-8cec-6858d75e8778.jpg",
+      "title_zh": "鍊金術士手遊《蕾斯萊莉婭娜的鍊金工房》 宣佈停止營運 以三週年網站提供故事回顧",
+      "summary_zh": "光榮特庫摩遊戲旗下與 Akatsuki Games 共同開發的鍊金術 RPG《蕾斯萊莉婭娜的鍊金工房 ～被遺忘的鍊金術與極夜的解放者～》（レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～），將於日本時間 2026 年 11 月 25 日正式結束營運。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "鍊金術士手遊《蕾斯萊莉婭娜的鍊金工房》 宣佈停止營運 以三週年網站提供故事回顧",
+      "translation_version": 2
+    },
+    {
+      "id": "b9fed59dac24",
+      "title": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
+      "link": "https://www.4gamers.com.tw/news/detail/81676/bilibili-officially-launches-japanese-version",
+      "summary": "中國龍頭串流網站 bilibili （網友俗稱 B 站）於日前正式推出日文版，引發日本網友熱議。 bilibili 先前雖然已經在日本 APP Store 上架，但是並未推出日文版，因此雖然可以下載但使用者有限，這次正式推出日文版後，預計將可以吸引一批日文使用者。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-27T03:19:10+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "https://x.com/bilibili_create/status/2090086781018677614?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/dca263e3-be15-4b25-b0b4-879ab1f924ee.jpg",
+      "title_zh": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
+      "summary_zh": "中國龍頭串流網站 bilibili （網友俗稱 B 站）於日前正式推出日文版，引發日本網友熱議。 bilibili 先前雖然已經在日本 APP Store 上架，但是並未推出日文版，因此雖然可以下載但使用者有限，這次正式推出日文版後，預計將可以吸引一批日文使用者。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録50万突破",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月26日(水) 【事前登録50万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "预计 2026年",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：事前预约突破 50 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月26日，事前预约突破 50 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録50万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "6d95fc4749b1",
+      "title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80228662",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re",
+        "release_time": "预计 2026年秋季",
+        "official_site": "",
+        "x_link": "https://x.com/mikucolle",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/main_result-81.webp",
+      "title_zh": "初音Mikugurafui系列神秘音乐彗星Re: Merge：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "a984fac08cac",
+      "title": "るぅみマスター：配信日決定",
+      "link": "https://appmedia.jp/newgame/79967941",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "るぅみマスター",
+        "release_time": "预计 2026年夏季",
+        "official_site": "https://lumi.biligames.com/jp/",
+        "x_link": "https://x.com/lumimasterjp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/main_result-11.webp",
+      "title_zh": "鲁米大师：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "るぅみマスター：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "7d24331ed8ff",
+      "title": "Aniimo（アニモ）：配信日決定",
+      "link": "https://appmedia.jp/newgame/78973124",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "Aniimo（アニモ）",
+        "release_time": "预计 PC＆コンソール版：2026年9月16日 スマホ版：2026年9月23日",
+        "official_site": "https://aniimo.com/ja",
+        "x_link": "https://x.com/Aniimo_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/06/animo_result.webp",
+      "title_zh": "Aniimo：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "Aniimo（アニモ）：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "fcf4de4c2930",
       "title": "波乱水世界：配信日決定",
@@ -1092,161 +1475,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "メイクドラマ：MAD：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "0ddb20456869",
-      "title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80316055",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "混血のカレコレ ミラーラッシュ",
-        "release_time": "预计 2026年10月",
-        "official_site": "",
-        "x_link": "https://x.com/karemiraJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
-      "title_zh": "混血镜子冲刺：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月10日(月) 【事前登録40万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "预计 2026年",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前预约突破 40 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月10日，事前预约突破 40 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録40万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "dd06eaad5002",
-      "title": "ブリンガ：新作発表",
-      "link": "https://appmedia.jp/newgame/80316514",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-14T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ブリンガ",
-        "release_time": "待定",
-        "official_site": "https://www.bringer-pre.com/jp",
-        "x_link": "https://x.com/Bringer_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main-131_result.webp",
-      "title_zh": "布林加：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ブリンガ：新作発表",
       "translation_version": 2
     }
   ],
