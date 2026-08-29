@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-28T14:26:15.219983+08:00",
+  "generated_at": "2026-08-29T11:58:13.816284+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-27T00:00:00+08:00",
-    "end": "2026-08-28T00:00:00+08:00"
+    "start": "2026-08-28T00:00:00+08:00",
+    "end": "2026-08-29T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,167 @@
       "language": "ja"
     }
   ],
-  "count": 27,
+  "count": 30,
   "items": [
+    {
+      "id": "50fa5d8a61ea",
+      "title": "《BLEACH Mirrors High》宣布將在 2026 年推出 現已於 Google Play 商店開放預先註冊",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=310670",
+      "summary": "萬代南夢宮娛樂宣布，旗下智慧型手機遊戲新作《BLEACH Mirrors High》（iOS／Android）確認將於 2026 年正式推出，而本作近期也已在 Google Play 商店開放預先註冊。 官方表示，《BLEACH Mirrors High》是一款沉....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-28T18:21:40+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "BLEACH Mirrors High",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "google play",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/94/49722d8feb47e92548b47dab6b202aa5.JPG",
+      "title_zh": "《BLEACH Mirrors High》宣布將在 2026 年推出 現已於 Google Play 商店開放預先註冊",
+      "summary_zh": "萬代南夢宮娛樂宣布，旗下智慧型手機遊戲新作《BLEACH Mirrors High》（iOS／Android）確認將於 2026 年正式推出，而本作近期也已在 Google Play 商店開放預先註冊。 官方表示，《BLEACH Mirrors High》是一款沉....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《BLEACH Mirrors High》宣布將在 2026 年推出 現已於 Google Play 商店開放預先註冊",
+      "translation_version": 2
+    },
+    {
+      "id": "43278c7d6904",
+      "title": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
+      "link": "https://www.4gamers.com.tw/news/detail/81708/nu-carnival-dramatical-murder-collaboration",
+      "summary": "人氣 BL 手遊《新世界狂歡》正式宣布與 NITRO CHiRAL 旗下作品《DRAMAtical Murder》展開聯動合作，預定 2026 年內登場。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-08-28T11:41:36+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "新世界狂歡",
+        "release_time": "年內",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預定",
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/f8982c04-8c0c-4611-b7fc-29ffc0da8c7b.jpg",
+      "title_zh": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
+      "summary_zh": "人氣 BL 手遊《新世界狂歡》正式宣布與 NITRO CHiRAL 旗下作品《DRAMAtical Murder》展開聯動合作，預定 2026 年內登場。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
+      "translation_version": 2
+    },
+    {
+      "id": "8c5f410818ca",
+      "title": "スチームパンク：クロノ要塞：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80354209",
+      "summary": "スマホゲーム配信カレンダー更新。2026年8月28日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-08-28T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "スチームパンク",
+        "release_time": "待定",
+        "official_site": "https://fortresstale-jp.hookylin.com/official",
+        "x_link": "https://x.com/steampunkfort",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/steampunk_result.webp",
+      "title_zh": "蒸汽朋克：时空堡垒：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年8月28日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "スチームパンク：クロノ要塞：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "f433ec866b48",
       "title": "《萊莎的鍊金工房》AI冒險遊戲《RyzaChatAI》試玩心得：與萊莎對話的代價不斐",
