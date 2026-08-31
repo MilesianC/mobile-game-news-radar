@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-30T08:54:51.551527+08:00",
+  "generated_at": "2026-08-31T09:00:24.523080+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-08-29T00:00:00+08:00",
-    "end": "2026-08-30T00:00:00+08:00"
+    "start": "2026-08-30T00:00:00+08:00",
+    "end": "2026-08-31T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 30,
+  "count": 29,
   "items": [
     {
       "id": "50fa5d8a61ea",
@@ -1582,58 +1582,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ぷんぷん闘神：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "431d57cdc5c5",
-      "title": "メイクドラマ：MAD：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80307322",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月13日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-17T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "メイクドラマ",
-        "release_time": "待公布",
-        "official_site": "https://mad.wemadeconnect.com/",
-        "x_link": "https://x.com/MAkeDrama_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/makedrama_result.webp",
-      "title_zh": "化妆剧： MAD：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月13日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "メイクドラマ：MAD：事前登録開始",
       "translation_version": 2
     }
   ],
