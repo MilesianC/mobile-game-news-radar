@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-02T08:41:14.597724+08:00",
+  "generated_at": "2026-09-03T08:52:44.672983+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-01T00:00:00+08:00",
-    "end": "2026-09-02T00:00:00+08:00"
+    "start": "2026-09-02T00:00:00+08:00",
+    "end": "2026-09-03T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,341 @@
       "language": "ja"
     }
   ],
-  "count": 30,
+  "count": 32,
   "items": [
+    {
+      "id": "7fb95363ebc0",
+      "title": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=310922",
+      "summary": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》今日宣布，現已正式開啟 App Store、Google Play 雙平台預約。官方表示，官方網站的預約通道也已同步開啟，歡迎星臨者前往對應平台和官網進行預約。 這裡有....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-02T18:22:17+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "藍色星原：旅謠",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "預約",
+          "事前預約"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/03/9e138bae2f8c177d55b3d30465204gb5.JPG",
+      "title_zh": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
+      "summary_zh": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》今日宣布，現已正式開啟 App Store、Google Play 雙平台預約。官方表示，官方網站的預約通道也已同步開啟，歡迎星臨者前往對應平台和官網進行預約。 這裡有....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
+      "translation_version": 2
+    },
+    {
+      "id": "3202fd5fc9f6",
+      "title": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
+      "link": "https://www.4gamers.com.tw/news/detail/81810/palworld-2026-global-pal-popularity-vote-palworld-online-korea-pre-registration",
+      "summary": "日本遊戲開發商 Pocketpair 今（2）日宣布，《Palworld／幻獸帕魯》「2026 全球帕魯人氣投票」正式開跑，今年共有超過 280 種帕魯參與競逐，玩家可以投票選出自己最喜愛的帕魯，遊戲內登場的 NPC 角色也同步開放人氣投票。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-02T17:55:20+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "幻獸帕魯",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "https://x.com/Palworld_JP/status/2094774468921233636?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預約"
+        ],
+        "region": [
+          "全球",
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/eddf61c5-f3b1-46bf-82b5-500d47d9561f.jpg",
+      "title_zh": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
+      "summary_zh": "日本遊戲開發商 Pocketpair 今（2）日宣布，《Palworld／幻獸帕魯》「2026 全球帕魯人氣投票」正式開跑，今年共有超過 280 種帕魯參與競逐，玩家可以投票選出自己最喜愛的帕魯，遊戲內登場的 NPC 角色也同步開放人氣投票。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
+      "translation_version": 2
+    },
+    {
+      "id": "25942c862660",
+      "title": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
+      "link": "https://www.4gamers.com.tw/news/detail/81799/ananta-beta-version-interview",
+      "summary": "由網易旗下工作室 Naked Rain Studio 製作的都市開放世界RPG《無限大ANANTA》將於 2027 年 1 月 15 日全球同步上線 PS5、PC、Android 及 iOS 平台。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-02T13:19:45+08:00",
+      "score": 70.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "無限大",
+        "release_time": "將於 2027 年 1 月 15 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "同步上線",
+          "將於"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/c64ad376-1666-4f24-ab61-fbd6a333e3a4.jpg",
+      "title_zh": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
+      "summary_zh": "由網易旗下工作室 Naked Rain Studio 製作的都市開放世界RPG《無限大ANANTA》將於 2027 年 1 月 15 日全球同步上線 PS5、PC、Android 及 iOS 平台。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
+      "translation_version": 2
+    },
+    {
+      "id": "55a07899fc0c",
+      "title": "BLEACH Mirrors High：事前登録開始",
+      "link": "https://appmedia.jp/newgame/79605257",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BLEACH Mirrors High",
+        "release_time": "预计 2026年",
+        "official_site": "https://bleach-mh.bn-ent.net/",
+        "x_link": "https://x.com/BLEACH_mh_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/sub2_result-65.webp",
+      "title_zh": "漂白镜高：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BLEACH Mirrors High：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "37f1d18fca29",
+      "title": "ブラックチャンネル ブレイズロード：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80360104",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ブラックチャンネル ブレイズロード",
+        "release_time": "2026年9月14日",
+        "official_site": "",
+        "x_link": "https://x.com/black_orechan",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-4.webp",
+      "title_zh": "黑海峡火焰路：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ブラックチャンネル ブレイズロード：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "1a02d2fc093f",
+      "title": "誰ガ為のアルケミスト ポートマスターズ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80363266",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月2日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "誰ガ為のアルケミスト ポートマスターズ",
+        "release_time": "预计 2026年",
+        "official_site": "https://al-portmasters.com/",
+        "x_link": "https://x.com/tagatame_pm",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sub2_result-9.webp",
+      "title_zh": "谁的炼金术士港口大师？：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月2日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "誰ガ為のアルケミスト ポートマスターズ：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "7fb0e8f384fb",
       "title": "熱門 YouTube 動畫《黑色頻道》首款手機遊戲《黑色頻道 焰之道》開放事前登錄",
@@ -95,58 +428,6 @@
       "translation_version": 2
     },
     {
-      "id": "55a07899fc0c",
-      "title": "BLEACH Mirrors High：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79605257",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BLEACH Mirrors High",
-        "release_time": "预计 2026年",
-        "official_site": "https://bleach-mh.bn-ent.net/",
-        "x_link": "https://x.com/BLEACH_mh_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/sub2_result-65.webp",
-      "title_zh": "漂白镜高：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BLEACH Mirrors High：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "2f2b3706d7f6",
       "title": "マビノギモバイル：事前登録者数10万突破",
       "link": "https://appmedia.jp/newgame/80140474",
@@ -196,58 +477,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，事前登録者数10万突破。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "マビノギモバイル：事前登録者数10万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "37f1d18fca29",
-      "title": "ブラックチャンネル ブレイズロード：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80360104",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ブラックチャンネル ブレイズロード",
-        "release_time": "2026年9月14日",
-        "official_site": "",
-        "x_link": "https://x.com/black_orechan",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-4.webp",
-      "title_zh": "黑海峡火焰路：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ブラックチャンネル ブレイズロード：事前登録開始",
       "translation_version": 2
     },
     {
@@ -1529,109 +1758,6 @@
       "translated_from_title": "W三国志：配信日決定",
       "translation_version": 2,
       "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/wsangokushi_result.webp"
-    },
-    {
-      "id": "a86f2d197026",
-      "title": "エバーナイト：リバース：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80335927",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月20日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-20T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "エバーナイト",
-        "release_time": "预计 2026年",
-        "official_site": "https://evernightjp.yrlongxin.com/",
-        "x_link": "https://x.com/EverNightJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/evernight-rebirth_result-1.webp",
-      "title_zh": "Evernight: Reverse：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月20日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "エバーナイト：リバース：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "4a2d88a38fa4",
-      "title": "リミットゼロ ブレイカーズ：CBT参加者募集中",
-      "link": "https://appmedia.jp/newgame/77174813",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月20日(木) 【CBT参加者募集中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-20T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "リミットゼロ ブレイカーズ",
-        "release_time": "预计 2026年上半年",
-        "official_site": "https://breakers.plaync.com/",
-        "x_link": "https://x.com/BREAKERS_japan",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2023/09/limit-zero-kv_result.webp",
-      "title_zh": "极限零断路器：CBT参加者募集中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月20日，CBT参加者募集中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "リミットゼロ ブレイカーズ：CBT参加者募集中",
-      "translation_version": 2
     }
   ],
   "errors": [
