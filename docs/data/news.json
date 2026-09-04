@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-03T08:52:44.672983+08:00",
+  "generated_at": "2026-09-04T08:32:28.500745+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-02T00:00:00+08:00",
-    "end": "2026-09-03T00:00:00+08:00"
+    "start": "2026-09-03T00:00:00+08:00",
+    "end": "2026-09-04T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,120 @@
       "language": "ja"
     }
   ],
-  "count": 32,
+  "count": 33,
   "items": [
+    {
+      "id": "e97ecc419332",
+      "title": "真不愧是闇影大人《我想成為影之強者！Phantom Echoes》新作預定2027年發售",
+      "link": "https://www.4gamers.com.tw/news/detail/81847/the-eminence-in-shadow-phantom-echoes-2027",
+      "summary": "手遊《我想成為影之強者！Master of Garden》開發商 Aiming 旗下 Team Caravan 於索尼互動娛樂直播節目「State of Play 日本」發表《我想成為影之強者！》首款家用主機動作遊戲《我想成為影之強者！Phantom Echoes》預計 2027 年發售。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-03T23:14:01+08:00",
+      "score": 72.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "我想成為影之強者！Phantom Echoes",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預定",
+          "預計",
+          "發表"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/551cb54e-ed7f-493a-99df-3b39747af676.jpg",
+      "title_zh": "真不愧是闇影大人《我想成為影之強者！Phantom Echoes》新作預定2027年發售",
+      "summary_zh": "手遊《我想成為影之強者！Master of Garden》開發商 Aiming 旗下 Team Caravan 於索尼互動娛樂直播節目「State of Play 日本」發表《我想成為影之強者！》首款家用主機動作遊戲《我想成為影之強者！Phantom Echoes》預計 2027 年發售。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "真不愧是闇影大人《我想成為影之強者！Phantom Echoes》新作預定2027年發售",
+      "translation_version": 2
+    },
+    {
+      "id": "49619b28ec1b",
+      "title": "EGGRYPTO X：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80018506",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月3日(木) 事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-03T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "EGGRYPTO X",
+        "release_time": "预计 2026年秋季",
+        "official_site": "https://eggrypto.com/eggrypto-x",
+        "x_link": "https://x.com/eggryptox_info",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sub2_result-25.webp",
+      "title_zh": "EGGRYPTO X：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月3日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "EGGRYPTO X：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "7fb95363ebc0",
       "title": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
@@ -1706,58 +1818,6 @@
       "translation_status": "source_is_chinese",
       "translated_from_title": "藍天白雲悠閒模擬《Cloudgazer》9月登Steam 順著微風漫賞百種雲朵的有趣細節",
       "translation_version": 2
-    },
-    {
-      "id": "c6aa3e3292c8",
-      "title": "W三国志：配信日決定",
-      "link": "https://appmedia.jp/newgame/80242789",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月21日(金) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-21T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "W三国志",
-        "release_time": "2026年8月26日",
-        "official_site": "https://www.daburusangoku.bytefungames.com/preorder",
-        "x_link": "https://x.com/daburusangoku",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "W三国志：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月21日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "W三国志：配信日決定",
-      "translation_version": 2,
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/wsangokushi_result.webp"
     }
   ],
   "errors": [
