@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T08:52:51.779452+08:00",
+  "generated_at": "2026-09-10T08:43:16.270559+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-08T00:00:00+08:00",
-    "end": "2026-09-09T00:00:00+08:00"
+    "start": "2026-09-09T00:00:00+08:00",
+    "end": "2026-09-10T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,60 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 24,
   "items": [
+    {
+      "id": "980c66b9129c",
+      "title": "ぷんぷん闘神：配信日決定",
+      "link": "https://appmedia.jp/newgame/80307736",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月9日(水) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-09T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ぷんぷん闘神",
+        "release_time": "2026年9月10日",
+        "official_site": "https://punpun.aseugame.com/",
+        "x_link": "https://x.com/punpuntoushin",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/punpuntoujin_result.webp",
+      "title_zh": "潘蓬战神：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月9日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ぷんぷん闘神：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "98825780bdd1",
       "title": "《黑街聖徒 3 Remastered》將於 10 月 29 日登陸 iOS 與 Android 平台 公開宣傳影片",
@@ -1280,272 +1332,6 @@
       "summary_zh": "光榮特庫摩遊戲旗下與 Akatsuki Games 共同開發的鍊金術 RPG《蕾斯萊莉婭娜的鍊金工房 ～被遺忘的鍊金術與極夜的解放者～》（レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～），將於日本時間 2026 年 11 月 25 日正式結束營運。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "鍊金術士手遊《蕾斯萊莉婭娜的鍊金工房》 宣佈停止營運 以三週年網站提供故事回顧",
-      "translation_version": 2
-    },
-    {
-      "id": "b9fed59dac24",
-      "title": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
-      "link": "https://www.4gamers.com.tw/news/detail/81676/bilibili-officially-launches-japanese-version",
-      "summary": "中國龍頭串流網站 bilibili （網友俗稱 B 站）於日前正式推出日文版，引發日本網友熱議。 bilibili 先前雖然已經在日本 APP Store 上架，但是並未推出日文版，因此雖然可以下載但使用者有限，這次正式推出日文版後，預計將可以吸引一批日文使用者。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-27T03:19:10+08:00",
-      "score": 69.0,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "https://x.com/bilibili_create/status/2090086781018677614?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/dca263e3-be15-4b25-b0b4-879ab1f924ee.jpg",
-      "title_zh": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
-      "summary_zh": "中國龍頭串流網站 bilibili （網友俗稱 B 站）於日前正式推出日文版，引發日本網友熱議。 bilibili 先前雖然已經在日本 APP Store 上架，但是並未推出日文版，因此雖然可以下載但使用者有限，這次正式推出日文版後，預計將可以吸引一批日文使用者。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "bilibili正式推出日文版 預計未來將對版權影片產生微妙影響",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録50万突破",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月26日(水) 【事前登録50万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "预计 2026年",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前预约突破 50 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月26日，事前预约突破 50 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録50万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "6d95fc4749b1",
-      "title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80228662",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re",
-        "release_time": "预计 2026年秋季",
-        "official_site": "",
-        "x_link": "https://x.com/mikucolle",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/main_result-81.webp",
-      "title_zh": "初音Mikugurafui系列神秘音乐彗星Re: Merge：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "a984fac08cac",
-      "title": "るぅみマスター：配信日決定",
-      "link": "https://appmedia.jp/newgame/79967941",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "るぅみマスター",
-        "release_time": "预计 2026年夏季",
-        "official_site": "https://lumi.biligames.com/jp/",
-        "x_link": "https://x.com/lumimasterjp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/main_result-11.webp",
-      "title_zh": "鲁米大师：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "るぅみマスター：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "7d24331ed8ff",
-      "title": "Aniimo（アニモ）：配信日決定",
-      "link": "https://appmedia.jp/newgame/78973124",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月27日(木) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-08-27T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "Aniimo（アニモ）",
-        "release_time": "预计 PC＆コンソール版：2026年9月16日 スマホ版：2026年9月23日",
-        "official_site": "https://aniimo.com/ja",
-        "x_link": "https://x.com/Aniimo_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/06/animo_result.webp",
-      "title_zh": "Aniimo：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月27日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "Aniimo（アニモ）：配信日決定",
       "translation_version": 2
     }
   ],
