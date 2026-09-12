@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-11T08:41:26.988395+08:00",
+  "generated_at": "2026-09-12T08:48:42.519058+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-10T00:00:00+08:00",
-    "end": "2026-09-11T00:00:00+08:00"
+    "start": "2026-09-11T00:00:00+08:00",
+    "end": "2026-09-12T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,110 @@
   ],
   "count": 25,
   "items": [
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録160万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月11日(金) 【事前登録160万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-11T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "预计 2026年",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 160 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月11日，事前预约突破 160 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録160万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "a6b3d0caecc9",
+      "title": "灼眼のシャナ ブレイズエッジ：配信日決定",
+      "link": "https://appmedia.jp/newgame/79919362",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月11日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-11T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "灼眼のシャナ ブレイズエッジ",
+        "release_time": "2026年9月14日",
+        "official_site": "https://s.g123.jp/k5psunah",
+        "x_link": "https://x.com/shanaBE_ja",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/04/shana-kv_result.webp",
+      "title_zh": "闪耀莎娜火焰之刃：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月11日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "灼眼のシャナ ブレイズエッジ：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "77c8b11e0b5f",
       "title": "【TGS 26】《惡魔連結》確定 Switch / iOS / Andoroid 版明年 1 月發售 公開實體版資訊",
@@ -520,58 +624,6 @@
       "summary_zh": "LINE 人氣 IP 表情貼小傢伙（暫定）（原名：えもじの子（仮））將於 2027 年推出 LINE GAME 手機遊戲版。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "LINE地瓜球「表情貼小傢伙」手機遊戲版2027年公開確定",
-      "translation_version": 2
-    },
-    {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月4日(金) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "预计 2026年",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
-      "title_zh": "BanG Dream! Our Notes：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月4日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録報酬追加",
       "translation_version": 2
     },
     {
@@ -1326,58 +1378,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，发售时间确定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "RASPBERRY MASH -神々の断罪-：配信時期決定",
-      "translation_version": 2
-    },
-    {
-      "id": "43278c7d6904",
-      "title": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
-      "link": "https://www.4gamers.com.tw/news/detail/81708/nu-carnival-dramatical-murder-collaboration",
-      "summary": "人氣 BL 手遊《新世界狂歡》正式宣布與 NITRO CHiRAL 旗下作品《DRAMAtical Murder》展開聯動合作，預定 2026 年內登場。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-08-28T11:41:36+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "新世界狂歡",
-        "release_time": "年內",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預定",
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/f8982c04-8c0c-4611-b7fc-29ffc0da8c7b.jpg",
-      "title_zh": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
-      "summary_zh": "人氣 BL 手遊《新世界狂歡》正式宣布與 NITRO CHiRAL 旗下作品《DRAMAtical Murder》展開聯動合作，預定 2026 年內登場。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《新世界狂歡》×《DRAMAtical Murder》聯動決定 預計2026年內登場",
       "translation_version": 2
     }
   ],
