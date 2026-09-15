@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-14T08:33:12.862292+08:00",
+  "generated_at": "2026-09-15T09:04:34.905878+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-13T00:00:00+08:00",
-    "end": "2026-09-14T00:00:00+08:00"
+    "start": "2026-09-14T00:00:00+08:00",
+    "end": "2026-09-15T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,13 +40,250 @@
       "language": "ja"
     }
   ],
-  "count": 25,
+  "count": 27,
   "items": [
     {
+      "id": "dd2f194adb5f",
+      "title": "Game Freak手遊新作《雨過天晴少女》日本氣象牽動洗衣戰鬥系統 3位晴女與神使曝光",
+      "link": "https://www.4gamers.com.tw/news/detail/82048/game-freak-hare-onna-rainy-day-sunny-girl-weather-battle-laundry-cv",
+      "summary": "《寶可夢》開發商 Game Freak 全新手機遊戲《雨過天晴少女》（暫譯，原文 雨のちハレ女）於 9 月 14 日開放日本地區事前登錄，預計 2026 年冬季推出推出 iOS／Android 版本。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-14T23:20:05+08:00",
+      "score": 70.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "雨過天晴少女",
+        "release_time": "9 月 14 日",
+        "official_site": "",
+        "x_link": "https://x.com/hareonna_info/status/2099462837441572907?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "手遊",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "事前登錄",
+          "預計"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/784b150b-277a-46ca-8ed6-aa9012debd76.jpg",
+      "title_zh": "Game Freak手遊新作《雨過天晴少女》日本氣象牽動洗衣戰鬥系統 3位晴女與神使曝光",
+      "summary_zh": "《寶可夢》開發商 Game Freak 全新手機遊戲《雨過天晴少女》（暫譯，原文 雨のちハレ女）於 9 月 14 日開放日本地區事前登錄，預計 2026 年冬季推出推出 iOS／Android 版本。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "Game Freak手遊新作《雨過天晴少女》日本氣象牽動洗衣戰鬥系統 3位晴女與神使曝光",
+      "translation_version": 2
+    },
+    {
+      "id": "ae3bf1a645aa",
+      "title": "《我在三國當村長》開放 Google Play 預先下載 事前預約活動持續進行中",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=311647",
+      "summary": "昱泉國際旗下三國休閒經營手遊《我在三國當村長》今（14）日宣布，Google Play 商店正式開放遊戲預先下載，準備回到三國亂世當村長的玩家，現在即可搶先完成遊戲下載，提前做好「入村」準備。 【以下內容為廠商提供資料原文】 同時，《我在三國當村長》事前預約活動....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-14T18:17:26+08:00",
+      "score": 48.6,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "我在三國當村長",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "google play",
+          "手遊"
+        ],
+        "unreleased": [
+          "預約",
+          "事前預約"
+        ],
+        "region": [],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/54/dc94d1134533c0f4c3f013491b20bfq5.JPG",
+      "title_zh": "《我在三國當村長》開放 Google Play 預先下載 事前預約活動持續進行中",
+      "summary_zh": "昱泉國際旗下三國休閒經營手遊《我在三國當村長》今（14）日宣布，Google Play 商店正式開放遊戲預先下載，準備回到三國亂世當村長的玩家，現在即可搶先完成遊戲下載，提前做好「入村」準備。 【以下內容為廠商提供資料原文】 同時，《我在三國當村長》事前預約活動....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《我在三國當村長》開放 Google Play 預先下載 事前預約活動持續進行中",
+      "translation_version": 2
+    },
+    {
+      "id": "1ff3e19af0f9",
+      "title": "倖存者動作遊戲《Code Geass Knightmare Survivor》公布上市時間 強化 KMF 成為戰場的霸者",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=311640",
+      "summary": "致力於手機遊戲發行事業的 JORO 宣布，熱門電視動畫《Code Geass》系列的首款倖存者類動作遊戲《Code Geass Knightmare Survivor（コードギアス ナイトメア・サバイバー）》今（14）日宣布，確認將於 2026 年 9 月 15 日在日本上市。 &n....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-14T17:30:45+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Code Geass Knightmare Survivor",
+        "release_time": "將於 2026 年 9 月 15 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/98/4f286e348570dd7d8dabea2ed420be65.JPG",
+      "title_zh": "倖存者動作遊戲《Code Geass Knightmare Survivor》公布上市時間 強化 KMF 成為戰場的霸者",
+      "summary_zh": "致力於手機遊戲發行事業的 JORO 宣布，熱門電視動畫《Code Geass》系列的首款倖存者類動作遊戲《Code Geass Knightmare Survivor（コードギアス ナイトメア・サバイバー）》今（14）日宣布，確認將於 2026 年 9 月 15 日在日本上市。 &n....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "倖存者動作遊戲《Code Geass Knightmare Survivor》公布上市時間 強化 KMF 成為戰場的霸者",
+      "translation_version": 2
+    },
+    {
+      "id": "d58191aabe13",
+      "title": "《BanG Dream! 交織的樂章》9/24全球推出 五支少女樂團奏響的物語即將揭幕",
+      "link": "https://www.4gamers.com.tw/news/detail/82029/bang-dream-ournotes-launch-on-24th-september",
+      "summary": "BILIBILI GAME 嗶哩嗶哩遊戲發行（臺灣由艾瑞爾網路代理）的《BanG Dream! 交織的樂章》宣布，國際服預計於 9 月 24 日在 iOS、Android 平台推出、9 月 22 日開放預先下載，同步公開全新遊戲宣傳片。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-14T13:04:52+08:00",
+      "score": 70.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "BanG Dream! 交織的樂章",
+        "release_time": "預計於 9 月 24 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "預計",
+          "公開"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/b53a14db-b7e8-4278-b553-efdf9fffa7a6.jpg",
+      "title_zh": "《BanG Dream! 交織的樂章》9/24全球推出 五支少女樂團奏響的物語即將揭幕",
+      "summary_zh": "BILIBILI GAME 嗶哩嗶哩遊戲發行（臺灣由艾瑞爾網路代理）的《BanG Dream! 交織的樂章》宣布，國際服預計於 9 月 24 日在 iOS、Android 平台推出、9 月 22 日開放預先下載，同步公開全新遊戲宣傳片。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《BanG Dream! 交織的樂章》9/24全球推出 五支少女樂團奏響的物語即將揭幕",
+      "translation_version": 2
+    },
+    {
       "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：事前登録160万突破",
+      "title": "BanG Dream! Our Notes：配信日決定",
       "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月11日(金) 【事前登録160万突破】",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【配信日決定】",
       "source": {
         "id": "appmedia",
         "name": "AppMedia 新作手游日历",
@@ -54,7 +291,7 @@
         "region_focus": "jp",
         "allow_non_chinese": true
       },
-      "published_at": "2026-09-11T00:00:00+08:00",
+      "published_at": "2026-09-14T00:00:00+08:00",
       "score": 71.1,
       "status": "unreleased candidate",
       "regions": [
@@ -62,9 +299,61 @@
       ],
       "game": {
         "name": "BanG Dream! Our Notes",
-        "release_time": "预计 2026年",
+        "release_time": "2026年9月24日",
         "official_site": "https://bang-dream-on.bushimo.jp/",
         "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
+      "title_zh": "BanG Dream! Our Notes：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "1593147687e0",
+      "title": "シャングリラ・フロンティア～七つの最強種～：事前登録開始",
+      "link": "https://appmedia.jp/newgame/78248537",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-14T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シャングリラ・フロンティア～七つの最強種～",
+        "release_time": "预计 2026年",
+        "official_site": "https://shangfro7c.netmarble.com/",
+        "x_link": "https://x.com/ShanFro_nana",
         "servers": [
           {
             "name": "日本",
@@ -87,11 +376,63 @@
         "needed": true,
         "notes": "Confirm platform, release state, and target regions before publishing."
       },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
-      "title_zh": "BanG Dream! Our Notes：事前预约突破 160 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月11日，事前预约突破 160 万。",
+      "image_url": "https://appmedia.jp/wp-content/uploads/2024/10/shannana-kv_result.webp",
+      "title_zh": "香格里拉边疆：七大最强物种：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：事前登録160万突破",
+      "translated_from_title": "シャングリラ・フロンティア～七つの最強種～：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "bf9250514a96",
+      "title": "ウィズジェネレーション：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80348986",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-14T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィズジェネレーション",
+        "release_time": "预计 2026年冬季",
+        "official_site": "https://wiz-generation.com/",
+        "x_link": "https://x.com/wizgeneration",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/wizgeneration_result.webp",
+      "title_zh": "与Generation：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィズジェネレーション：事前登録開始",
       "translation_version": 2
     },
     {
@@ -1172,212 +1513,6 @@
       "summary_zh": "IP 內容的企劃、製作、經營公司 Plott Inc. 宣布，YouTube 頻道訂閱人數超過 130 萬人的熱門 YouTube 動畫《黑色頻道（ブラックチャンネル）》的智慧型手機遊戲《黑色頻道 焰之道（ブラックチャンネル ブレイズロード）》，將交由「Plott Games」在 2026 年 9 月中旬推出。....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "熱門 YouTube 動畫《黑色頻道》首款手機遊戲《黑色頻道 焰之道》開放事前登錄",
-      "translation_version": 2
-    },
-    {
-      "id": "2f2b3706d7f6",
-      "title": "マビノギモバイル：事前登録者数10万突破",
-      "link": "https://appmedia.jp/newgame/80140474",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録者数10万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "マビノギモバイル",
-        "release_time": "预计 2026年",
-        "official_site": "https://mabinogimobile.nexon.co.jp/preregistration",
-        "x_link": "https://x.com/MabinogiM_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/mabinogi-kv_result_1.webp",
-      "title_zh": "Mabinogi Mobile：事前登録者数10万突破",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，事前登録者数10万突破。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "マビノギモバイル：事前登録者数10万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "0ddb20456869",
-      "title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80316055",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月14日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "混血のカレコレ ミラーラッシュ",
-        "release_time": "预计 2026年10月",
-        "official_site": "",
-        "x_link": "https://x.com/karemiraJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
-      "title_zh": "混血镜子冲刺：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月14日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "混血のカレコレ ミラーラッシュ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "74fcd884728d",
-      "title": "Roco Kingdom：CBT参加者募集中",
-      "link": "https://appmedia.jp/newgame/80348230",
-      "summary": "スマホゲーム配信カレンダー更新。2026年8月26日(水) 【CBT参加者募集中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "Roco Kingdom",
-        "release_time": "预计 後日発表",
-        "official_site": "https://rocokingdom.com/web/ja/",
-        "x_link": "https://x.com/RocoKingdomJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-96.webp",
-      "title_zh": "洛可王国：CBT参加者募集中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年8月26日，CBT参加者募集中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "Roco Kingdom：CBT参加者募集中",
-      "translation_version": 2
-    },
-    {
-      "id": "50b437aca5ec",
-      "title": "RASPBERRY MASH -神々の断罪-：配信時期決定",
-      "link": "https://appmedia.jp/newgame/80360665",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【配信時期決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-01T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "RASPBERRY MASH -神々の断罪-",
-        "release_time": "预计 2027年",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信時期決定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/RASPBERRY-MASH_result.webp",
-      "title_zh": "覆盆子泥-众神的谴责-：发售时间确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，发售时间确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "RASPBERRY MASH -神々の断罪-：配信時期決定",
       "translation_version": 2
     }
   ],
