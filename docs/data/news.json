@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-15T09:04:34.905878+08:00",
+  "generated_at": "2026-09-16T08:54:01.186704+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-14T00:00:00+08:00",
-    "end": "2026-09-15T00:00:00+08:00"
+    "start": "2026-09-15T00:00:00+08:00",
+    "end": "2026-09-16T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,322 @@
       "language": "ja"
     }
   ],
-  "count": 27,
+  "count": 26,
   "items": [
+    {
+      "id": "5c7ccc11a3ed",
+      "title": "【TGS 26】高速卡牌對戰 RPG《OVER RUSH》公開 β 測試情報及前導宣傳影片",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=311735",
+      "summary": "NHN PlayArt 宣布，預定於今年冬季推出的「極速」高速卡牌對戰 RPG《OVER RUSH》（iOS / Android / Steam），將於 2026 年 9 月 17 日 10 時左右展開公開 β 測試（以下簡稱 OBT）。同時，官方開設了《OVER RUSH》官方 YouTube 頻....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-15T18:08:23+08:00",
+      "score": 74.7,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "OVER RUSH",
+        "release_time": "將於 2026 年 9 月 17 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "obt",
+          "將於",
+          "預定",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/52/3a6ba1f0157946ec27c49e53f520c4o5.JPG",
+      "title_zh": "【TGS 26】高速卡牌對戰 RPG《OVER RUSH》公開 β 測試情報及前導宣傳影片",
+      "summary_zh": "NHN PlayArt 宣布，預定於今年冬季推出的「極速」高速卡牌對戰 RPG《OVER RUSH》（iOS / Android / Steam），將於 2026 年 9 月 17 日 10 時左右展開公開 β 測試（以下簡稱 OBT）。同時，官方開設了《OVER RUSH》官方 YouTube 頻....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "【TGS 26】高速卡牌對戰 RPG《OVER RUSH》公開 β 測試情報及前導宣傳影片",
+      "translation_version": 2
+    },
+    {
+      "id": "ce776aac7f77",
+      "title": "BanG Dream! Our Notes：事前登録170万突破",
+      "link": "https://appmedia.jp/newgame/79652840",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月15日(火) 【事前登録170万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "BanG Dream! Our Notes",
+        "release_time": "2026年9月24日",
+        "official_site": "https://bang-dream-on.bushimo.jp/",
+        "x_link": "https://x.com/bang_dream_on",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sub1_result-52.webp",
+      "title_zh": "BanG Dream! Our Notes：事前预约突破 170 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月15日，事前预约突破 170 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "BanG Dream! Our Notes：事前登録170万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "bf9250514a96",
+      "title": "ウィズジェネレーション：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80348986",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィズジェネレーション",
+        "release_time": "预计 2026年冬季",
+        "official_site": "https://wiz-generation.com/",
+        "x_link": "https://x.com/wizgeneration",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/wizgeneration_result.webp",
+      "title_zh": "与Generation：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィズジェネレーション：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "6c7fe3b2c8c3",
+      "title": "サイマジック 魔法世界のバグ、科学で直します！：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80396128",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月15日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "サイマジック 魔法世界のバグ、科学で直します！",
+        "release_time": "待定",
+        "official_site": "https://s.g123.jp/0zyfzpdk",
+        "x_link": "https://x.com/reinna_japr",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-63.webp",
+      "title_zh": "Psi-魔法巫师世界昆虫，用科学修复！：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月15日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "サイマジック 魔法世界のバグ、科学で直します！：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "671b44bba343",
+      "title": "雨のちハレ女：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80395969",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月15日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "雨のちハレ女",
+        "release_time": "预计 2026年冬季",
+        "official_site": "https://www.hare-onna.jp/",
+        "x_link": "https://x.com/hareonna_info",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-58.webp",
+      "title_zh": "雨后兔女：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月15日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "雨のちハレ女：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "b8544edf68f7",
+      "title": "三國志 戦棋版：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/80384494",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月10日(木) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "三國志 戦棋版",
+        "release_time": "待定",
+        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
+        "x_link": "https://x.com/sgs_senkiban",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-43.webp",
+      "title_zh": "三国志战争游戏版：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月10日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "三國志 戦棋版：CBT参加者募集中",
+      "translation_version": 2
+    },
     {
       "id": "dd2f194adb5f",
       "title": "Game Freak手遊新作《雨過天晴少女》日本氣象牽動洗衣戰鬥系統 3位晴女與神使曝光",
@@ -280,58 +594,6 @@
       "translation_version": 2
     },
     {
-      "id": "ce776aac7f77",
-      "title": "BanG Dream! Our Notes：配信日決定",
-      "link": "https://appmedia.jp/newgame/79652840",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BanG Dream! Our Notes",
-        "release_time": "2026年9月24日",
-        "official_site": "https://bang-dream-on.bushimo.jp/",
-        "x_link": "https://x.com/bang_dream_on",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/our-note_result.webp",
-      "title_zh": "BanG Dream! Our Notes：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BanG Dream! Our Notes：配信日決定",
-      "translation_version": 2
-    },
-    {
       "id": "1593147687e0",
       "title": "シャングリラ・フロンティア～七つの最強種～：事前登録開始",
       "link": "https://appmedia.jp/newgame/78248537",
@@ -381,58 +643,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "シャングリラ・フロンティア～七つの最強種～：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "bf9250514a96",
-      "title": "ウィズジェネレーション：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80348986",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月14日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-14T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ウィズジェネレーション",
-        "release_time": "预计 2026年冬季",
-        "official_site": "https://wiz-generation.com/",
-        "x_link": "https://x.com/wizgeneration",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/wizgeneration_result.webp",
-      "title_zh": "与Generation：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ウィズジェネレーション：事前登録開始",
       "translation_version": 2
     },
     {
@@ -649,57 +859,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月10日，发售日期确定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ARES: THE IRON VANGUARD：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "b8544edf68f7",
-      "title": "三國志 戦棋版：CBT参加者募集中",
-      "link": "https://appmedia.jp/newgame/80384494",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月10日(木) 【CBT参加者募集中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-10T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "三國志 戦棋版",
-        "release_time": "待定",
-        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
-        "x_link": "https://x.com/sgs_senkiban",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-43.webp",
-      "title_zh": "三国志战争游戏版：CBT参加者募集中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月10日，CBT参加者募集中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "三國志 戦棋版：CBT参加者募集中",
       "translation_version": 2
     },
     {
@@ -1305,214 +1464,6 @@
       "summary_zh": "由網易旗下工作室 Naked Rain Studio 製作的都市開放世界RPG《無限大ANANTA》將於 2027 年 1 月 15 日全球同步上線 PS5、PC、Android 及 iOS 平台。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
-      "translation_version": 2
-    },
-    {
-      "id": "55a07899fc0c",
-      "title": "BLEACH Mirrors High：事前登録開始",
-      "link": "https://appmedia.jp/newgame/79605257",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-02T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "BLEACH Mirrors High",
-        "release_time": "预计 2026年",
-        "official_site": "https://bleach-mh.bn-ent.net/",
-        "x_link": "https://x.com/BLEACH_mh_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/sub2_result-65.webp",
-      "title_zh": "漂白镜高：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "BLEACH Mirrors High：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "37f1d18fca29",
-      "title": "ブラックチャンネル ブレイズロード：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80360104",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月1日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-02T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ブラックチャンネル ブレイズロード",
-        "release_time": "2026年9月14日",
-        "official_site": "",
-        "x_link": "https://x.com/black_orechan",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-4.webp",
-      "title_zh": "黑海峡火焰路：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月1日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ブラックチャンネル ブレイズロード：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "1a02d2fc093f",
-      "title": "誰ガ為のアルケミスト ポートマスターズ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80363266",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月2日(水) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-02T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "誰ガ為のアルケミスト ポートマスターズ",
-        "release_time": "预计 2026年",
-        "official_site": "https://al-portmasters.com/",
-        "x_link": "https://x.com/tagatame_pm",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sub2_result-9.webp",
-      "title_zh": "谁的炼金术士港口大师？：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月2日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "誰ガ為のアルケミスト ポートマスターズ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "7fb0e8f384fb",
-      "title": "熱門 YouTube 動畫《黑色頻道》首款手機遊戲《黑色頻道 焰之道》開放事前登錄",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=310831",
-      "summary": "IP 內容的企劃、製作、經營公司 Plott Inc. 宣布，YouTube 頻道訂閱人數超過 130 萬人的熱門 YouTube 動畫《黑色頻道（ブラックチャンネル）》的智慧型手機遊戲《黑色頻道 焰之道（ブラックチャンネル ブレイズロード）》，將交由「Plott Games」在 2026 年 9 月中旬推出。....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-01T16:23:52+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "黑色頻道 焰之道",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "https://twitter.com/black_orechan",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/55/31ee59ac263fbe2b4f1be1fa9d203sr5.JPG",
-      "title_zh": "熱門 YouTube 動畫《黑色頻道》首款手機遊戲《黑色頻道 焰之道》開放事前登錄",
-      "summary_zh": "IP 內容的企劃、製作、經營公司 Plott Inc. 宣布，YouTube 頻道訂閱人數超過 130 萬人的熱門 YouTube 動畫《黑色頻道（ブラックチャンネル）》的智慧型手機遊戲《黑色頻道 焰之道（ブラックチャンネル ブレイズロード）》，將交由「Plott Games」在 2026 年 9 月中旬推出。....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "熱門 YouTube 動畫《黑色頻道》首款手機遊戲《黑色頻道 焰之道》開放事前登錄",
       "translation_version": 2
     }
   ],
