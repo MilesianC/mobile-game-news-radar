@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-16T08:54:01.186704+08:00",
+  "generated_at": "2026-09-17T08:57:57.485401+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-15T00:00:00+08:00",
-    "end": "2026-09-16T00:00:00+08:00"
+    "start": "2026-09-16T00:00:00+08:00",
+    "end": "2026-09-17T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,61 @@
       "language": "ja"
     }
   ],
-  "count": 26,
+  "count": 23,
   "items": [
+    {
+      "id": "66e0fae2247d",
+      "title": "與草帽一行人一起端上頂級海味！ 《ONE PIECE 海洋盛宴》公開介紹遊戲玩法的全新宣傳影片",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=311810",
+      "summary": "萬代南夢宮娛樂宣布，即將於 10 月 22 日在 Nintendo Switch 2／Nintendo Switch 平台發售，10 月 23 日在 Steam／App Store／Google Play 平台發售的《航海王（ONE PIECE）》家用主機遊戲最新作品《ONE PIECE 海洋盛宴》，現已公開介紹....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-16T18:16:54+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "ONE PIECE 海洋盛宴",
+        "release_time": "將於 10 月 22 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "將於",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/08/54949f8dc0402e3490bcdd2f7520cv85.WEBP",
+      "title_zh": "與草帽一行人一起端上頂級海味！ 《ONE PIECE 海洋盛宴》公開介紹遊戲玩法的全新宣傳影片",
+      "summary_zh": "萬代南夢宮娛樂宣布，即將於 10 月 22 日在 Nintendo Switch 2／Nintendo Switch 平台發售，10 月 23 日在 Steam／App Store／Google Play 平台發售的《航海王（ONE PIECE）》家用主機遊戲最新作品《ONE PIECE 海洋盛宴》，現已公開介紹....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "與草帽一行人一起端上頂級海味！ 《ONE PIECE 海洋盛宴》公開介紹遊戲玩法的全新宣傳影片",
+      "translation_version": 2
+    },
     {
       "id": "5c7ccc11a3ed",
       "title": "【TGS 26】高速卡牌對戰 RPG《OVER RUSH》公開 β 測試情報及前導宣傳影片",
@@ -1235,235 +1288,6 @@
       "summary_zh": "手遊《我想成為影之強者！Master of Garden》開發商 Aiming 旗下 Team Caravan 於索尼互動娛樂直播節目「State of Play 日本」發表《我想成為影之強者！》首款家用主機動作遊戲《我想成為影之強者！Phantom Echoes》預計 2027 年發售。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "真不愧是闇影大人《我想成為影之強者！Phantom Echoes》新作預定2027年發售",
-      "translation_version": 2
-    },
-    {
-      "id": "49619b28ec1b",
-      "title": "EGGRYPTO X：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80018506",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月3日(木) 事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-03T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "EGGRYPTO X",
-        "release_time": "预计 2026年秋季",
-        "official_site": "https://eggrypto.com/eggrypto-x",
-        "x_link": "https://x.com/eggryptox_info",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sub2_result-25.webp",
-      "title_zh": "EGGRYPTO X：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月3日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "EGGRYPTO X：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "7fb95363ebc0",
-      "title": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=310922",
-      "summary": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》今日宣布，現已正式開啟 App Store、Google Play 雙平台預約。官方表示，官方網站的預約通道也已同步開啟，歡迎星臨者前往對應平台和官網進行預約。 這裡有....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-02T18:22:17+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "藍色星原：旅謠",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/03/9e138bae2f8c177d55b3d30465204gb5.JPG",
-      "title_zh": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
-      "summary_zh": "由《碧藍航線》開發商蠻啾網路製作、NIJIGEN 代理的全新幻想大世界 RPG《藍色星原：旅謠》今日宣布，現已正式開啟 App Store、Google Play 雙平台預約。官方表示，官方網站的預約通道也已同步開啟，歡迎星臨者前往對應平台和官網進行預約。 這裡有....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "幻想大世界 RPG《藍色星原：旅謠》開啟雙平台事前預約 收集奇波夥伴領略豐富星原生態",
-      "translation_version": 2
-    },
-    {
-      "id": "3202fd5fc9f6",
-      "title": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
-      "link": "https://www.4gamers.com.tw/news/detail/81810/palworld-2026-global-pal-popularity-vote-palworld-online-korea-pre-registration",
-      "summary": "日本遊戲開發商 Pocketpair 今（2）日宣布，《Palworld／幻獸帕魯》「2026 全球帕魯人氣投票」正式開跑，今年共有超過 280 種帕魯參與競逐，玩家可以投票選出自己最喜愛的帕魯，遊戲內登場的 NPC 角色也同步開放人氣投票。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-02T17:55:20+08:00",
-      "score": 69.0,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "幻獸帕魯",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "https://x.com/Palworld_JP/status/2094774468921233636?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預約"
-        ],
-        "region": [
-          "全球",
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/eddf61c5-f3b1-46bf-82b5-500d47d9561f.jpg",
-      "title_zh": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
-      "summary_zh": "日本遊戲開發商 Pocketpair 今（2）日宣布，《Palworld／幻獸帕魯》「2026 全球帕魯人氣投票」正式開跑，今年共有超過 280 種帕魯參與競逐，玩家可以投票選出自己最喜愛的帕魯，遊戲內登場的 NPC 角色也同步開放人氣投票。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《幻獸帕魯》逾280隻「全球人氣投票2026」開跑 手遊《幻獸帕魯世界》韓國開放預約",
-      "translation_version": 2
-    },
-    {
-      "id": "25942c862660",
-      "title": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
-      "link": "https://www.4gamers.com.tw/news/detail/81799/ananta-beta-version-interview",
-      "summary": "由網易旗下工作室 Naked Rain Studio 製作的都市開放世界RPG《無限大ANANTA》將於 2027 年 1 月 15 日全球同步上線 PS5、PC、Android 及 iOS 平台。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-02T13:19:45+08:00",
-      "score": 70.5,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "無限大",
-        "release_time": "將於 2027 年 1 月 15 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "同步上線",
-          "將於"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/c64ad376-1666-4f24-ab61-fbd6a333e3a4.jpg",
-      "title_zh": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
-      "summary_zh": "由網易旗下工作室 Naked Rain Studio 製作的都市開放世界RPG《無限大ANANTA》將於 2027 年 1 月 15 日全球同步上線 PS5、PC、Android 及 iOS 平台。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "開放世界RPG《無限大》製作團隊專訪：不用抽角色 更著重劇情+人物魅力塑造",
       "translation_version": 2
     }
   ],
