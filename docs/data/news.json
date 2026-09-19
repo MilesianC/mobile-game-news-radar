@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-18T08:54:02.670938+08:00",
+  "generated_at": "2026-09-19T08:48:17.886764+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-17T00:00:00+08:00",
-    "end": "2026-09-18T00:00:00+08:00"
+    "start": "2026-09-18T00:00:00+08:00",
+    "end": "2026-09-19T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,226 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 24,
   "items": [
+    {
+      "id": "cdc4d529e8f5",
+      "title": "《蠟筆小新：GO！》事前預約活動好禮再加碼 遊戲特色搶先看",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=312006",
+      "summary": "《蠟筆小新》改編手機遊戲《蠟筆小新：GO！》今日宣布事前預約活動好禮再加碼，即日起官方於預約官網完成手機號碼預約，即可參加「天天登入抽盲盒」活動，每日皆有機會抽中四人日本來回機票、IP 周邊商品、虛擬寶物等好禮，好禮天天抽驚喜不斷送，邀請全台玩家把握機會，每日上線抽盲盒。 &nb....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-18T17:19:00+08:00",
+      "score": 62.1,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "蠟筆小新：GO！",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預約",
+          "事前預約"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/23/d8ce8858ce4b4a3fe39b659e0520f1f5.JPG",
+      "title_zh": "《蠟筆小新：GO！》事前預約活動好禮再加碼 遊戲特色搶先看",
+      "summary_zh": "《蠟筆小新》改編手機遊戲《蠟筆小新：GO！》今日宣布事前預約活動好禮再加碼，即日起官方於預約官網完成手機號碼預約，即可參加「天天登入抽盲盒」活動，每日皆有機會抽中四人日本來回機票、IP 周邊商品、虛擬寶物等好禮，好禮天天抽驚喜不斷送，邀請全台玩家把握機會，每日上線抽盲盒。 &nb....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《蠟筆小新：GO！》事前預約活動好禮再加碼 遊戲特色搶先看",
+      "translation_version": 2
+    },
+    {
+      "id": "0011a75a4bfa",
+      "title": "キタキタ王様：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80406406",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月17日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "キタキタ王様",
+        "release_time": "待定",
+        "official_site": "https://kitaou.efun.com/event/pre/",
+        "x_link": "https://x.com/kitaou_PR",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kitakita_result.webp",
+      "title_zh": "King Kitakita：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "キタキタ王様：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "75be30e67a80",
+      "title": "ウィンドランナーGo!：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80408638",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月18日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィンドランナーGo!",
+        "release_time": "待定",
+        "official_site": "",
+        "x_link": "https://x.com/WindRunnerGo",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-82.webp",
+      "title_zh": "Windrunner Go!：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月18日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィンドランナーGo!：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "2f2b3706d7f6",
+      "title": "マビノギモバイル：配信日決定",
+      "link": "https://appmedia.jp/newgame/80140474",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月18日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-18T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "マビノギモバイル",
+        "release_time": "2026年10月7日",
+        "official_site": "https://mabinogimobile.nexon.co.jp/preregistration",
+        "x_link": "https://x.com/MabinogiM_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/mabinogi-kv_result_1.webp",
+      "title_zh": "Mabinogi Mobile：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月18日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "マビノギモバイル：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "9f41b0890a92",
       "title": "《小蝦米闖江湖》事前預約開跑 公開預約獎勵限定武器「野球拳之手」與英雄帖 100 張",
@@ -150,58 +368,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月17日，事前预约突破 190 万。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "BanG Dream! Our Notes：事前登録190万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "0011a75a4bfa",
-      "title": "キタキタ王様：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80406406",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月17日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-17T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "キタキタ王様",
-        "release_time": "待定",
-        "official_site": "https://kitaou.efun.com/event/pre/",
-        "x_link": "https://x.com/kitaou_PR",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kitakita_result.webp",
-      "title_zh": "King Kitakita：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月17日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "キタキタ王様：事前登録開始",
       "translation_version": 2
     },
     {
@@ -1180,113 +1346,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月7日，事前预约突破 10 万。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "千年の旅ELF：事前登録10万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "70ca5a8533ae",
-      "title": "去年關服的音樂手遊《歌之超時空要塞》買斷版募資即將開放",
-      "link": "https://www.4gamers.com.tw/news/detail/81860/uta-macross-standalone-version-crowdfunding-to-launch-soon",
-      "summary": "AUGUST 宣布推出音樂節奏手機遊戲《歌之超時空要塞》（歌マクロス スマホDeカルチャー）離線買斷制回歸募資計畫，預計 9 月 10 日台灣時間晚上七點開啟，目標金額為 3 千萬日圓。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-04T16:39:16+08:00",
-      "score": 57.8,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "歌之超時空要塞",
-        "release_time": "預計 9 月 10 日",
-        "official_site": "",
-        "x_link": "https://x.com/uta_macross/status/2095512145609846846?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊",
-          "手機遊戲",
-          "手機",
-          "スマホ"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/43148d1e-76c6-4064-90da-137352f66688.jpg",
-      "title_zh": "去年關服的音樂手遊《歌之超時空要塞》買斷版募資即將開放",
-      "summary_zh": "AUGUST 宣布推出音樂節奏手機遊戲《歌之超時空要塞》（歌マクロス スマホDeカルチャー）離線買斷制回歸募資計畫，預計 9 月 10 日台灣時間晚上七點開啟，目標金額為 3 千萬日圓。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "去年關服的音樂手遊《歌之超時空要塞》買斷版募資即將開放",
-      "translation_version": 2
-    },
-    {
-      "id": "5f1f5e0cd35e",
-      "title": "LINE地瓜球「表情貼小傢伙」手機遊戲版2027年公開確定",
-      "link": "https://www.4gamers.com.tw/news/detail/81854/line-emoji-no-ko-to-get-mobile-game-in-2027",
-      "summary": "LINE 人氣 IP 表情貼小傢伙（暫定）（原名：えもじの子（仮））將於 2027 年推出 LINE GAME 手機遊戲版。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-04T11:43:29+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "表情貼小傢伙",
-        "release_time": "",
-        "official_site": "https://emoji-no-ko.com/",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/e7d37185-e22c-44af-91c4-71cabb068fb7.jpg",
-      "title_zh": "LINE地瓜球「表情貼小傢伙」手機遊戲版2027年公開確定",
-      "summary_zh": "LINE 人氣 IP 表情貼小傢伙（暫定）（原名：えもじの子（仮））將於 2027 年推出 LINE GAME 手機遊戲版。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "LINE地瓜球「表情貼小傢伙」手機遊戲版2027年公開確定",
       "translation_version": 2
     }
   ],
