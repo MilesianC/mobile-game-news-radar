@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T08:30:32.778699+08:00",
+  "generated_at": "2026-09-21T08:40:09.989051+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-19T00:00:00+08:00",
-    "end": "2026-09-20T00:00:00+08:00"
+    "start": "2026-09-20T00:00:00+08:00",
+    "end": "2026-09-21T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 24,
+  "count": 23,
   "items": [
     {
       "id": "cdc4d529e8f5",
@@ -1294,58 +1294,6 @@
       "summary_zh": "Feral Interactive 近日宣布，《黑街聖徒 3 Remastered（Saints Row: The Third Remastered）》將於 10 月 29 日（四）正式登陸 iOS 與 Android 平台。根據官方網站資訊，該版本預計支援英文、法文、義大利文、德文、西班牙文、俄文、捷克文、荷蘭....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《黑街聖徒 3 Remastered》將於 10 月 29 日登陸 iOS 與 Android 平台 公開宣傳影片",
-      "translation_version": 2
-    },
-    {
-      "id": "acaca60fc444",
-      "title": "千年の旅ELF：事前登録10万突破",
-      "link": "https://appmedia.jp/newgame/77466316",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月7日(月) 【事前登録10万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-07T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "千年の旅ELF",
-        "release_time": "预计 2026年秋季",
-        "official_site": "https://www.sentabijp.com/",
-        "x_link": "https://twitter.com/sentabi_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2023/12/sentabi-elf_result.webp",
-      "title_zh": "千禧之旅精灵：事前预约突破 10 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月7日，事前预约突破 10 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "千年の旅ELF：事前登録10万突破",
       "translation_version": 2
     }
   ],
