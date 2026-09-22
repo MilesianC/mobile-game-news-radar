@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T08:40:09.989051+08:00",
+  "generated_at": "2026-09-22T09:21:33.462823+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-20T00:00:00+08:00",
-    "end": "2026-09-21T00:00:00+08:00"
+    "start": "2026-09-21T00:00:00+08:00",
+    "end": "2026-09-22T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,119 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 25,
   "items": [
+    {
+      "id": "e0fda19444a4",
+      "title": "《戰隊大失格》首款消除益智遊戲《戰隊大失格 Puzzle Keeper》將於 11 月 30 日結束營運",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=312127",
+      "summary": "株式會社 RENGAME 近日宣布，《戰隊大失格》的首款智慧型手機遊戲《戰隊大失格 Puzzle Keeper（暫譯，戦隊大失格 パズルキーパー）》將於日本時間 2026 年 11 月 30 日 14:00 結束營運。本作於 2025 年 11 月 17 日開始營運，營運時間約為 1 年。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-21T17:44:43+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "戰隊大失格",
+        "release_time": "將於 11 月 30 日",
+        "official_site": "",
+        "x_link": "https://twitter.com/sentaipuzzle/status/2100135096304926950",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/36/e548268d3b98c5fa7fe9d0d0e520g1w5.JPG",
+      "title_zh": "《戰隊大失格》首款消除益智遊戲《戰隊大失格 Puzzle Keeper》將於 11 月 30 日結束營運",
+      "summary_zh": "株式會社 RENGAME 近日宣布，《戰隊大失格》的首款智慧型手機遊戲《戰隊大失格 Puzzle Keeper（暫譯，戦隊大失格 パズルキーパー）》將於日本時間 2026 年 11 月 30 日 14:00 結束營運。本作於 2025 年 11 月 17 日開始營運，營運時間約為 1 年。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《戰隊大失格》首款消除益智遊戲《戰隊大失格 Puzzle Keeper》將於 11 月 30 日結束營運",
+      "translation_version": 2
+    },
+    {
+      "id": "faea3b90d35e",
+      "title": "《SD鋼彈 G世代 永恆》故事事件「機動戰士鋼彈00F」現正登場 預定9/23播出「1.5周年更新計畫直播」",
+      "link": "https://www.4gamers.com.tw/news/detail/82184/bandai-sd-gundam-g-generation-event-00f-and-1-5th-anniversary-livestream",
+      "summary": "Bandai Namco Entertainment Inc. 所發行之 App Store、Google Play 及 DMM GAMES 專用應用程式《SD鋼彈 G世代 永恆》現已於遊戲中推出故事事件「機動戰士鋼彈 00F」。並同步推出新增 UR「雪崩突進型正義女神鋼彈 F 型(EX)」／UR「馮恩‧史帕克」、UR「須佐之男(EX)」／UR「武士道先生」等陣容的精選機體補給。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-21T14:06:45+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "SD鋼彈 G世代 永恆",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "預定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/65286cd3-c7dd-4db6-8945-bcec0c87e55b.jpg",
+      "title_zh": "《SD鋼彈 G世代 永恆》故事事件「機動戰士鋼彈00F」現正登場 預定9/23播出「1.5周年更新計畫直播」",
+      "summary_zh": "Bandai Namco Entertainment Inc. 所發行之 App Store、Google Play 及 DMM GAMES 專用應用程式《SD鋼彈 G世代 永恆》現已於遊戲中推出故事事件「機動戰士鋼彈 00F」。並同步推出新增 UR「雪崩突進型正義女神鋼彈 F 型(EX)」／UR「馮恩‧史帕克」、UR「須佐之男(EX)」／UR「武士道先生」等陣容的精選機體補給。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《SD鋼彈 G世代 永恆》故事事件「機動戰士鋼彈00F」現正登場 預定9/23播出「1.5周年更新計畫直播」",
+      "translation_version": 2
+    },
     {
       "id": "cdc4d529e8f5",
       "title": "《蠟筆小新：GO！》事前預約活動好禮再加碼 遊戲特色搶先看",
