@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T09:04:14.107631+08:00",
+  "generated_at": "2026-09-24T08:58:19.905709+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-22T00:00:00+08:00",
-    "end": "2026-09-23T00:00:00+08:00"
+    "start": "2026-09-23T00:00:00+08:00",
+    "end": "2026-09-24T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,119 @@
   ],
   "count": 23,
   "items": [
+    {
+      "id": "43548d1808f5",
+      "title": "《碧藍航線》將修正金鹿號「八尺大人服裝」全裸BUG",
+      "link": "https://www.4gamers.com.tw/news/detail/82236/azur-lane-golden-hind-costume-glitch-will-fix-in-september-24th",
+      "summary": "手機遊戲《碧藍航線》（Azur Lane）日版將於 9 月 24 日日本時間 14:00～20:00 進行維護作業，除了為接下來的「交流宿舍日記」做準備，公告中特別受到玩家注意的是——這次維修將會修復金鹿號新服裝的「全裸 BUG」。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-23T20:19:26+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "碧藍航線",
+        "release_time": "將於 9 月 24 日",
+        "official_site": "",
+        "x_link": "https://x.com/hashtag/%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%83%AC%E3%83%BC%E3%83%B3?src=hash&ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日版",
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/f0bf1229-ec2d-4cbc-ad23-8cd9d7efa41c.jpg",
+      "title_zh": "《碧藍航線》將修正金鹿號「八尺大人服裝」全裸BUG",
+      "summary_zh": "手機遊戲《碧藍航線》（Azur Lane）日版將於 9 月 24 日日本時間 14:00～20:00 進行維護作業，除了為接下來的「交流宿舍日記」做準備，公告中特別受到玩家注意的是——這次維修將會修復金鹿號新服裝的「全裸 BUG」。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《碧藍航線》將修正金鹿號「八尺大人服裝」全裸BUG",
+      "translation_version": 2
+    },
+    {
+      "id": "6e8b9d5c6cf6",
+      "title": "Steam盲聾啞吱吱拆彈《BOMBANANA!》上市10天銷量破100萬 手機版10月推出",
+      "link": "https://www.4gamers.com.tw/news/detail/82219/bombanana-1-million-copies-10-days-mobile-console-release",
+      "summary": "土耳其獨立遊戲團隊 Lefto Studio 與 TARK 宣布，3人合作拆彈派對遊戲《BOMBANANA!》上市後迅速突破百萬銷量，本作自 9 月 2 日登陸 Steam，僅過 10 天便突破 100 萬套，官方同時預告 iOS／Android 版本預計 10 月推出，Nintendo Switch、PlayStation 與 Xbox 等家用主機版本也正在開發中。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-23T11:26:39+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "BOMBANANA!",
+        "release_time": "9 月 2 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "手機"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/58d3acdd-168f-4c0a-9867-a06902dd404d.jpg",
+      "title_zh": "Steam盲聾啞吱吱拆彈《BOMBANANA!》上市10天銷量破100萬 手機版10月推出",
+      "summary_zh": "土耳其獨立遊戲團隊 Lefto Studio 與 TARK 宣布，3人合作拆彈派對遊戲《BOMBANANA!》上市後迅速突破百萬銷量，本作自 9 月 2 日登陸 Steam，僅過 10 天便突破 100 萬套，官方同時預告 iOS／Android 版本預計 10 月推出，Nintendo Switch、PlayStation 與 Xbox 等家用主機版本也正在開發中。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "Steam盲聾啞吱吱拆彈《BOMBANANA!》上市10天銷量破100萬 手機版10月推出",
+      "translation_version": 2
+    },
     {
       "id": "e0fda19444a4",
       "title": "《戰隊大失格》首款消除益智遊戲《戰隊大失格 Puzzle Keeper》將於 11 月 30 日結束營運",
@@ -1194,111 +1307,6 @@
       "summary_zh": "獨立遊戲發行商 PLAYISM 於今日稍早登場的「PLAYISM GAME SHOW: TGS 2026 Preview」直播中宣布，由日本獨立遊戲開發團隊 ChaoGames 所製作、主打召喚萌萌獸人的惡魔調教冒險遊戲《惡魔連結》將於 2027 年 1 月 21 日登上 Nintendo Switch／iOS....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "【TGS 26】《惡魔連結》確定 Switch / iOS / Andoroid 版明年 1 月發售 公開實體版資訊",
-      "translation_version": 2
-    },
-    {
-      "id": "0d9857907835",
-      "title": "iPhone 18 Pro / iPhone Duo全系列台灣定價、預售、上市日期懶人包",
-      "link": "https://www.4gamers.com.tw/news/detail/81957/apple-launches-iphone-18-pro-series-and-iphone-duo",
-      "summary": "Apple 蘋果正式發表旗艦智慧型手機 iPhone 18 Pro 系列以及首款摺疊手機 iPhone Duo，全系列使用 TSMC 台積電 2nm 製程 A20 Pro 晶片，台灣定價、預售、發售時間皆已出爐。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-10T02:00:00+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "iPhone 18 Pro / iPhone Duo全系列台灣定價、預售、上市日期懶人包",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "iphone",
-          "手機"
-        ],
-        "unreleased": [
-          "上市日期",
-          "發表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/d19f3850-4060-4e7b-a0cf-ccf4db944a01.jpg",
-      "title_zh": "iPhone 18 Pro / iPhone Duo全系列台灣定價、預售、上市日期懶人包",
-      "summary_zh": "Apple 蘋果正式發表旗艦智慧型手機 iPhone 18 Pro 系列以及首款摺疊手機 iPhone Duo，全系列使用 TSMC 台積電 2nm 製程 A20 Pro 晶片，台灣定價、預售、發售時間皆已出爐。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "iPhone 18 Pro / iPhone Duo全系列台灣定價、預售、上市日期懶人包",
-      "translation_version": 2
-    },
-    {
-      "id": "c5d07bcfb4db",
-      "title": "ARES: THE IRON VANGUARD：配信日決定",
-      "link": "https://appmedia.jp/newgame/80024065",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月10日(木) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-10T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ARES",
-        "release_time": "2026年9月15日",
-        "official_site": "https://aresglobal.com2us.com/",
-        "x_link": "https://x.com/ARESofficial_EN",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/ares_result.webp",
-      "title_zh": "战神：钢铁先锋：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月10日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ARES: THE IRON VANGUARD：配信日決定",
       "translation_version": 2
     }
   ],
