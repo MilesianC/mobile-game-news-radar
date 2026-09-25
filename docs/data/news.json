@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-24T08:58:19.905709+08:00",
+  "generated_at": "2026-09-25T09:02:50.531903+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-23T00:00:00+08:00",
-    "end": "2026-09-24T00:00:00+08:00"
+    "start": "2026-09-24T00:00:00+08:00",
+    "end": "2026-09-25T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,380 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 28,
   "items": [
+    {
+      "id": "e0bb6fab8d85",
+      "title": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=312352",
+      "summary": "HoYoverse 旗下溫馨星球生活模擬遊戲《星布谷地》日前宣布展開測試，將於 2026 年冬季在全球正式上線，並支援 PC、iOS 及 Android 裝置且帳號互通。而巴哈姆特電玩瘋也搶先為玩家們帶來《星布谷地》Final Beta Test 實機試玩影片，供玩家們先睹為快。 &....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-24T18:07:26+08:00",
+      "score": 84.6,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "星布谷地",
+        "release_time": "2026 年冬季",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "beta test",
+          "將於"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/73/56487337b43e512e0ac6e1812a20ie95.PNG",
+      "title_zh": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
+      "summary_zh": "HoYoverse 旗下溫馨星球生活模擬遊戲《星布谷地》日前宣布展開測試，將於 2026 年冬季在全球正式上線，並支援 PC、iOS 及 Android 裝置且帳號互通。而巴哈姆特電玩瘋也搶先為玩家們帶來《星布谷地》Final Beta Test 實機試玩影片，供玩家們先睹為快。 &....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
+      "translation_version": 2
+    },
+    {
+      "id": "e0bff8b2219a",
+      "title": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=312345",
+      "summary": "樂意傳播宣布，經典武俠 MMORPG 手遊新作《天上碑 K》確定將於 10 月 1 日正式在雙平台上市。事前預約活動自上週開放，網站登錄人數現已正式突破 50,000 大關，今（24）日 Apple App Store 與 Google Play 雙商店預約也接力開跑。 &nbs....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-09-24T17:45:59+08:00",
+      "score": 50.4,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "天上碑 K",
+        "release_time": "10 月 1 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play",
+          "手遊"
+        ],
+        "unreleased": [
+          "預約",
+          "事前預約",
+          "將於"
+        ],
+        "region": [],
+        "exclude": [
+          "活動"
+        ]
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/96/259e32f06142ae241f744326e420ic45.JPG",
+      "title_zh": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
+      "summary_zh": "樂意傳播宣布，經典武俠 MMORPG 手遊新作《天上碑 K》確定將於 10 月 1 日正式在雙平台上市。事前預約活動自上週開放，網站登錄人數現已正式突破 50,000 大關，今（24）日 Apple App Store 與 Google Play 雙商店預約也接力開跑。 &nbs....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
+      "translation_version": 2
+    },
+    {
+      "id": "d93b793b667f",
+      "title": "白銀の城：事前登録開始",
+      "link": "https://appmedia.jp/newgame/78876785",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "白銀の城",
+        "release_time": "2026年9月24日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "银色城堡：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "白銀の城：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "b82ab7d35219",
+      "title": "アストラエ・オラティオ：CBT開催日決定",
+      "link": "https://appmedia.jp/newgame/79987396",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【CBT開催日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アストラエ・オラティオ",
+        "release_time": "2026年9月24日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT開催"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Astraea Olatio：CBT開催日決定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，CBT開催日決定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アストラエ・オラティオ：CBT開催日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "f5afd6e3017d",
+      "title": "ONE PIECE 海のごちそうレストラン：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80077255",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ONE PIECE 海のごちそうレストラン",
+        "release_time": "2026年9月24日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "一件套海宴餐厅：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ONE PIECE 海のごちそうレストラン：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "764a7b2a04ea",
+      "title": "Sanrio Kawaii Me Live!：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80162290",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "Sanrio Kawaii Me Live!",
+        "release_time": "2026年9月24日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Sanrio Kawaii Me Live ！：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "Sanrio Kawaii Me Live!：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "3ffca279fc48",
+      "title": "プチプラネット：CBT実施中",
+      "link": "https://appmedia.jp/newgame/79324727",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【CBT実施中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "プチプラネット",
+        "release_time": "2026年9月24日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT実施"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "Petite Planet：CBT 测试进行中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，CBT 测试进行中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "プチプラネット：CBT実施中",
+      "translation_version": 2
+    },
     {
       "id": "43548d1808f5",
       "title": "《碧藍航線》將修正金鹿號「八尺大人服裝」全裸BUG",
@@ -1196,117 +1568,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月14日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "シャングリラ・フロンティア～七つの最強種～：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "a6b3d0caecc9",
-      "title": "灼眼のシャナ ブレイズエッジ：配信日決定",
-      "link": "https://appmedia.jp/newgame/79919362",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月11日(金) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-11T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "灼眼のシャナ ブレイズエッジ",
-        "release_time": "2026年9月14日",
-        "official_site": "https://s.g123.jp/k5psunah",
-        "x_link": "https://x.com/shanaBE_ja",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/04/shana-kv_result.webp",
-      "title_zh": "闪耀莎娜火焰之刃：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月11日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "灼眼のシャナ ブレイズエッジ：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "77c8b11e0b5f",
-      "title": "【TGS 26】《惡魔連結》確定 Switch / iOS / Andoroid 版明年 1 月發售 公開實體版資訊",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=311444",
-      "summary": "獨立遊戲發行商 PLAYISM 於今日稍早登場的「PLAYISM GAME SHOW: TGS 2026 Preview」直播中宣布，由日本獨立遊戲開發團隊 ChaoGames 所製作、主打召喚萌萌獸人的惡魔調教冒險遊戲《惡魔連結》將於 2027 年 1 月 21 日登上 Nintendo Switch／iOS....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-10T18:54:00+08:00",
-      "score": 84.6,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "惡魔連結",
-        "release_time": "將於 2027 年 1 月 21 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "ios"
-        ],
-        "unreleased": [
-          "將於",
-          "公開"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/88/23c79fb2e8cf923642cdca385f208oo5.JPG",
-      "title_zh": "【TGS 26】《惡魔連結》確定 Switch / iOS / Andoroid 版明年 1 月發售 公開實體版資訊",
-      "summary_zh": "獨立遊戲發行商 PLAYISM 於今日稍早登場的「PLAYISM GAME SHOW: TGS 2026 Preview」直播中宣布，由日本獨立遊戲開發團隊 ChaoGames 所製作、主打召喚萌萌獸人的惡魔調教冒險遊戲《惡魔連結》將於 2027 年 1 月 21 日登上 Nintendo Switch／iOS....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "【TGS 26】《惡魔連結》確定 Switch / iOS / Andoroid 版明年 1 月發售 公開實體版資訊",
       "translation_version": 2
     }
   ],
