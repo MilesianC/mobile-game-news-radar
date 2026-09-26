@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T09:02:50.531903+08:00",
+  "generated_at": "2026-09-26T09:04:20.509489+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-24T00:00:00+08:00",
-    "end": "2026-09-25T00:00:00+08:00"
+    "start": "2026-09-25T00:00:00+08:00",
+    "end": "2026-09-26T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,111 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 29,
   "items": [
+    {
+      "id": "d93b793b667f",
+      "title": "白銀の城：事前登録開始",
+      "link": "https://appmedia.jp/newgame/78876785",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-25T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "白銀の城",
+        "release_time": "待定",
+        "official_site": "https://silverpalace.elementagames.com/ja-jp/",
+        "x_link": "https://x.com/SilverPalace_JA",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "银色城堡：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "白銀の城：事前登録開始",
+      "translation_version": 2,
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/05/silver-palace_result.webp"
+    },
+    {
+      "id": "1d1fd746719b",
+      "title": "ダックサバイバー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80431579",
+      "summary": "スマホゲーム配信カレンダー更新。2026年9月25日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-09-25T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ダックサバイバー",
+        "release_time": "2026年9月25日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "title_zh": "鸭子幸存者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年9月25日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ダックサバイバー：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "e0bb6fab8d85",
       "title": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
@@ -157,57 +260,6 @@
       "summary_zh": "樂意傳播宣布，經典武俠 MMORPG 手遊新作《天上碑 K》確定將於 10 月 1 日正式在雙平台上市。事前預約活動自上週開放，網站登錄人數現已正式突破 50,000 大關，今（24）日 Apple App Store 與 Google Play 雙商店預約也接力開跑。 &nbs....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
-      "translation_version": 2
-    },
-    {
-      "id": "d93b793b667f",
-      "title": "白銀の城：事前登録開始",
-      "link": "https://appmedia.jp/newgame/78876785",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-24T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "白銀の城",
-        "release_time": "2026年9月24日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "银色城堡：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "白銀の城：事前登録開始",
       "translation_version": 2
     },
     {
