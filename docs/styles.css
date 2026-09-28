@@ -557,6 +557,10 @@ main {
   background: var(--surface);
 }
 
+.interest-card.no-image {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
 .interest-card > img {
   width: 82px;
   height: 82px;

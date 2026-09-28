@@ -406,8 +406,13 @@ function renderInterested() {
       image.src = game.image_url;
       image.alt = "";
       image.loading = "lazy";
-      image.addEventListener("error", () => image.remove(), { once: true });
+      image.addEventListener("error", () => {
+        image.remove();
+        card.classList.add("no-image");
+      }, { once: true });
       card.appendChild(image);
+    } else {
+      card.classList.add("no-image");
     }
     const body = document.createElement("div");
     const released = releaseState(game.release_time) === "released";
