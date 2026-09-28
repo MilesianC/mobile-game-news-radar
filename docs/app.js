@@ -86,8 +86,80 @@ function gameInfo(item) {
     image_url: item.image_url || "",
     news_link: item.link || "",
     source: item.source?.name || "未知来源",
+    status: item.status || "unreleased candidate",
+    latest_title: item.title_zh || item.title || "",
     updated_at: item.published_at || "",
   };
+}
+
+function normalizedGameName(value) {
+  return normalize(value)
+    .normalize("NFKC")
+    .replace(/[\s《》「」『』【】()（）·・:：_\-]/g, "");
+}
+
+function gameIdentities(info) {
+  return [
+    normalizedGameName(info.name),
+    info.official_site ? `official:${info.official_site.replace(/\/$/, "")}` : "",
+    info.x_link ? `x:${info.x_link.replace(/\/$/, "")}` : "",
+  ].filter(Boolean);
+}
+
+function releaseState(value) {
+  const text = String(value || "");
+  if (/(?:已发售|已上线|配信中|リリース済)/i.test(text)) return "released";
+  const timestamp = releaseTimestamp(text);
+  if (timestamp === Number.MAX_SAFE_INTEGER) return "upcoming";
+  const releaseDate = new Date(timestamp);
+  const today = new Date();
+  const releaseDay = new Date(releaseDate.getFullYear(), releaseDate.getMonth(), releaseDate.getDate()).getTime();
+  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate()).getTime();
+  return releaseDay <= todayStart ? "released" : "upcoming";
+}
+
+function releaseDisplay(value) {
+  const text = String(value || "").trim();
+  if (releaseState(text) !== "released") return text || "待确认";
+  const cleanDate = text.replace(/^(?:已发售|已上线)[（(]?/, "").replace(/[）)]$/, "").trim();
+  return cleanDate && cleanDate !== "配信中" && cleanDate !== "リリース済み"
+    ? `已发售（${cleanDate}）`
+    : "已发售";
+}
+
+function reconcileInterested() {
+  const latestByGame = new Map();
+  [...state.items]
+    .sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")))
+    .forEach((item) => {
+      const info = gameInfo(item);
+      gameIdentities(info).forEach((identity) => {
+        if (!latestByGame.has(identity)) latestByGame.set(identity, info);
+      });
+    });
+
+  let changed = false;
+  Object.entries(state.interested).forEach(([storageKey, saved]) => {
+    const savedInfo = { ...saved, name: saved.name || storageKey };
+    const latest = gameIdentities(savedInfo).map((identity) => latestByGame.get(identity)).find(Boolean);
+    if (!latest || String(latest.updated_at || "") < String(saved.updated_at || "")) return;
+    const merged = {
+      ...saved,
+      ...latest,
+      key: saved.key || storageKey,
+      release_time: latest.release_time || saved.release_time || "",
+      official_site: latest.official_site || saved.official_site || "",
+      x_link: latest.x_link || saved.x_link || "",
+      servers: latest.servers?.length ? latest.servers : (saved.servers || []),
+      regions: latest.regions?.length ? latest.regions : (saved.regions || []),
+      image_url: latest.image_url || saved.image_url || "",
+    };
+    if (JSON.stringify(merged) !== JSON.stringify(saved)) {
+      state.interested[storageKey] = merged;
+      changed = true;
+    }
+  });
+  if (changed) saveInterested();
 }
 
 function isInterested(item) {
@@ -181,6 +253,7 @@ function searchableText(item) {
 
 function filteredItems() {
   const items = state.items.filter((item) => {
+    if (releaseState(item.game?.release_time) === "released") return false;
     if (state.status !== "all" && item.status !== state.status) return false;
     if (state.region !== "all" && !(item.regions || []).includes(state.region)) return false;
     if (state.source !== "all" && item.source?.id !== state.source) return false;
@@ -265,10 +338,11 @@ function renderSources() {
 }
 
 function renderOverview() {
-  document.getElementById("itemCount").textContent = state.items.length;
-  document.getElementById("datedCount").textContent = state.items.filter((item) => releaseTimestamp(item.game?.release_time) !== Number.MAX_SAFE_INTEGER).length;
+  const upcomingItems = state.items.filter((item) => releaseState(item.game?.release_time) !== "released");
+  document.getElementById("itemCount").textContent = upcomingItems.length;
+  document.getElementById("datedCount").textContent = upcomingItems.filter((item) => releaseTimestamp(item.game?.release_time) !== Number.MAX_SAFE_INTEGER).length;
   document.getElementById("interestCount").textContent = Object.keys(state.interested).length;
-  document.getElementById("sourceCount").textContent = new Set(state.items.map((item) => item.source?.id).filter(Boolean)).size;
+  document.getElementById("sourceCount").textContent = new Set(upcomingItems.map((item) => item.source?.id).filter(Boolean)).size;
 }
 
 function focusCard(item, index) {
@@ -308,6 +382,7 @@ function renderFocus() {
   const section = document.getElementById("focusSection");
   const rail = document.getElementById("focusRail");
   const picks = [...state.items]
+    .filter((item) => releaseState(item.game?.release_time) !== "released")
     .sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)))
     .slice(0, 4);
   section.classList.toggle("hidden", picks.length === 0);
@@ -335,14 +410,20 @@ function renderInterested() {
       card.appendChild(image);
     }
     const body = document.createElement("div");
+    const released = releaseState(game.release_time) === "released";
+    card.classList.toggle("released", released);
     const title = document.createElement("h3");
     title.textContent = game.name;
+    const status = document.createElement("span");
+    status.className = "interest-status";
+    status.dataset.status = released ? "released" : (game.status || "unreleased candidate");
+    status.textContent = released ? "已发售" : (statusLabels[game.status] || "持续关注");
     const release = document.createElement("p");
     release.className = "interest-release";
     const releaseLabel = document.createElement("span");
     releaseLabel.textContent = "发售日期";
     const releaseValue = document.createElement("strong");
-    releaseValue.textContent = game.release_time || "待确认";
+    releaseValue.textContent = releaseDisplay(game.release_time);
     release.append(releaseLabel, releaseValue);
     const links = document.createElement("div");
     links.className = "interest-links";
@@ -350,7 +431,7 @@ function renderInterested() {
     const servers = document.createElement("div");
     servers.className = "interest-servers";
     renderServers(servers, game.servers || [], game.regions || []);
-    body.append(title, release, servers, links);
+    body.append(status, title, release, servers, links);
     const remove = document.createElement("button");
     remove.type = "button";
     remove.className = "remove-interest";
@@ -509,6 +590,7 @@ async function main() {
   const data = await loadData();
   state.items = Array.isArray(data.items) ? uniqueItems(data.items) : [];
   state.interested = safeStorageGet(interestStorageKey, {});
+  reconcileInterested();
   state.view = safeStorageGet(viewStorageKey, "cards");
   if (!['cards', 'list'].includes(state.view)) state.view = "cards";
   state.sources = Array.isArray(data.sources) ? data.sources : [];

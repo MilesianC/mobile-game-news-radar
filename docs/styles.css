@@ -571,6 +571,33 @@ main {
   line-height: 1.35;
 }
 
+.interest-status {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 2px 6px;
+  border: 1px solid #c7dfd4;
+  border-radius: 3px;
+  background: var(--soft-green);
+  color: var(--green-dark);
+  font-size: 9px;
+  font-weight: 850;
+}
+
+.interest-status[data-status="region-gap candidate"] {
+  border-color: #ead3b5;
+  background: var(--soft-amber);
+  color: var(--amber);
+}
+
+.interest-status[data-status="released"] {
+  border-color: #e2aeb6;
+  background: #fae9ec;
+  color: var(--red);
+}
+
 .interest-card p:not(.interest-release),
 .interest-servers {
   margin: 0 0 5px;
@@ -599,6 +626,21 @@ main {
 .interest-release strong {
   color: var(--ink);
   font-size: 13px;
+}
+
+.interest-card.released {
+  border-color: #ddb7bd;
+}
+
+.interest-card.released .interest-release {
+  border-color: #e2aeb6;
+  border-left-color: var(--red);
+  background: #fae9ec;
+}
+
+.interest-card.released .interest-release span,
+.interest-card.released .interest-release strong {
+  color: var(--red);
 }
 
 .interest-servers > span {
