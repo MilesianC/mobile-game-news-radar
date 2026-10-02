@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-01T09:42:29.820492+08:00",
+  "generated_at": "2026-10-02T09:53:17.298381+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-09-30T00:00:00+08:00",
-    "end": "2026-10-01T00:00:00+08:00"
+    "start": "2026-10-01T00:00:00+08:00",
+    "end": "2026-10-02T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,214 @@
   ],
   "count": 24,
   "items": [
+    {
+      "id": "be24cc9ed38c",
+      "title": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=312668",
+      "summary": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》今日官方網站正式公開，並搶先開啟官網及 Google Play 平台預約。官方表示，玩家將可化身為格鬥家的專屬經理，打造最強的全明星陣容，挑戰拳皇頭銜。 【以下內容為廠商提供資料原文】 經典格鬥天....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-01T16:26:56+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "格鬥天王：拳面出擊",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "google play"
+        ],
+        "unreleased": [
+          "預約",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/78/2a8ca57ebe0c18cb91a1e737d720khe5.JPG",
+      "title_zh": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
+      "summary_zh": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》今日官方網站正式公開，並搶先開啟官網及 Google Play 平台預約。官方表示，玩家將可化身為格鬥家的專屬經理，打造最強的全明星陣容，挑戰拳皇頭銜。 【以下內容為廠商提供資料原文】 經典格鬥天....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
+      "translation_version": 2
+    },
+    {
+      "id": "75be30e67a80",
+      "title": "ウィンドランナーGo!：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/80408638",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月1日(木) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-01T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィンドランナーGo!",
+        "release_time": "待定",
+        "official_site": "",
+        "x_link": "https://x.com/WindRunnerGo",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-82.webp",
+      "title_zh": "Windrunner Go!：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月1日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィンドランナーGo!：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "ac33a633982e",
+      "title": "アンダーミラージュ：配信日決定",
+      "link": "https://appmedia.jp/newgame/80449525",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月1日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-01T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アンダーミラージュ",
+        "release_time": "2026年10月8日",
+        "official_site": "https://www.kemco.jp/game/undermirage/ja/",
+        "x_link": "https://x.com/KEMCO_OFFICIAL",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/undermirage_result.webp",
+      "title_zh": "Undermirage：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月1日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アンダーミラージュ：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "acaca60fc444",
+      "title": "千年の旅ELF：配信日決定",
+      "link": "https://appmedia.jp/newgame/77466316",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月1日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-01T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "千年の旅ELF",
+        "release_time": "2026年10月14日",
+        "official_site": "https://www.sentabijp.com/",
+        "x_link": "https://twitter.com/sentabi_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2023/12/sentabi-elf_result.webp",
+      "title_zh": "千禧之旅精灵：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月1日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "千年の旅ELF：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "cdcdf5dc4cda",
       "title": "コールサイン：KEDR：配信時期決定",
@@ -1109,220 +1317,6 @@
       "summary_zh": "《蠟筆小新》改編手機遊戲《蠟筆小新：GO！》今日宣布事前預約活動好禮再加碼，即日起官方於預約官網完成手機號碼預約，即可參加「天天登入抽盲盒」活動，每日皆有機會抽中四人日本來回機票、IP 周邊商品、虛擬寶物等好禮，好禮天天抽驚喜不斷送，邀請全台玩家把握機會，每日上線抽盲盒。 &nb....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《蠟筆小新：GO！》事前預約活動好禮再加碼 遊戲特色搶先看",
-      "translation_version": 2
-    },
-    {
-      "id": "0011a75a4bfa",
-      "title": "キタキタ王様：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80406406",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月17日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-18T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "キタキタ王様",
-        "release_time": "待定",
-        "official_site": "https://kitaou.efun.com/event/pre/",
-        "x_link": "https://x.com/kitaou_PR",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kitakita_result.webp",
-      "title_zh": "King Kitakita：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月17日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "キタキタ王様：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "75be30e67a80",
-      "title": "ウィンドランナーGo!：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80408638",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月18日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-18T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ウィンドランナーGo!",
-        "release_time": "待定",
-        "official_site": "",
-        "x_link": "https://x.com/WindRunnerGo",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-82.webp",
-      "title_zh": "Windrunner Go!：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月18日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ウィンドランナーGo!：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "2f2b3706d7f6",
-      "title": "マビノギモバイル：配信日決定",
-      "link": "https://appmedia.jp/newgame/80140474",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月18日(金) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-18T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "マビノギモバイル",
-        "release_time": "2026年10月7日",
-        "official_site": "https://mabinogimobile.nexon.co.jp/preregistration",
-        "x_link": "https://x.com/MabinogiM_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/mabinogi-kv_result_1.webp",
-      "title_zh": "Mabinogi Mobile：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月18日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "マビノギモバイル：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "9f41b0890a92",
-      "title": "《小蝦米闖江湖》事前預約開跑 公開預約獎勵限定武器「野球拳之手」與英雄帖 100 張",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=311916",
-      "summary": "武俠養成手機遊戲《小蝦米闖江湖》正式開啟台港澳 iOS、Android 雙平台事前預約，並公開預約獎勵：限定武器「野球拳之手」與英雄帖 100 張。遊戲結合功法搭配、俠客助戰與隨機試煉，邀請玩家在一次次挑戰與尋寶中累積實力，闖出自己的江湖路。 【以下內容為廠商提....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-17T18:09:31+08:00",
-      "score": 86.4,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "小蝦米闖江湖",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約",
-          "公開"
-        ],
-        "region": [
-          "台港澳"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/13/072bf7dc3881cfdf6e0e1c977d20ec55.JPG",
-      "title_zh": "《小蝦米闖江湖》事前預約開跑 公開預約獎勵限定武器「野球拳之手」與英雄帖 100 張",
-      "summary_zh": "武俠養成手機遊戲《小蝦米闖江湖》正式開啟台港澳 iOS、Android 雙平台事前預約，並公開預約獎勵：限定武器「野球拳之手」與英雄帖 100 張。遊戲結合功法搭配、俠客助戰與隨機試煉，邀請玩家在一次次挑戰與尋寶中累積實力，闖出自己的江湖路。 【以下內容為廠商提....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《小蝦米闖江湖》事前預約開跑 公開預約獎勵限定武器「野球拳之手」與英雄帖 100 張",
       "translation_version": 2
     }
   ],
