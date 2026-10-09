@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T10:22:11.798506+08:00",
+  "generated_at": "2026-10-09T10:39:52.901770+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-07T00:00:00+08:00",
-    "end": "2026-10-08T00:00:00+08:00"
+    "start": "2026-10-08T00:00:00+08:00",
+    "end": "2026-10-09T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 19,
   "items": [
     {
       "id": "5d0d4d74fb7b",
@@ -1024,226 +1024,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年9月28日，新作公布。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "のぶニャがの野望 ニャン下布武：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "d93b793b667f",
-      "title": "白銀の城：事前登録開始",
-      "link": "https://appmedia.jp/newgame/78876785",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月24日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-25T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "白銀の城",
-        "release_time": "待定",
-        "official_site": "https://silverpalace.elementagames.com/ja-jp/",
-        "x_link": "https://x.com/SilverPalace_JA",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "银色城堡：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月24日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "白銀の城：事前登録開始",
-      "translation_version": 2,
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/05/silver-palace_result.webp"
-    },
-    {
-      "id": "1d1fd746719b",
-      "title": "ダックサバイバー：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80431579",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月25日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-09-25T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ダックサバイバー",
-        "release_time": "2026年9月25日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "鸭子幸存者：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月25日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ダックサバイバー：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "e0bb6fab8d85",
-      "title": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312352",
-      "summary": "HoYoverse 旗下溫馨星球生活模擬遊戲《星布谷地》日前宣布展開測試，將於 2026 年冬季在全球正式上線，並支援 PC、iOS 及 Android 裝置且帳號互通。而巴哈姆特電玩瘋也搶先為玩家們帶來《星布谷地》Final Beta Test 實機試玩影片，供玩家們先睹為快。 &....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-24T18:07:26+08:00",
-      "score": 84.6,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "星布谷地",
-        "release_time": "2026 年冬季",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "beta test",
-          "將於"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/73/56487337b43e512e0ac6e1812a20ie95.PNG",
-      "title_zh": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
-      "summary_zh": "HoYoverse 旗下溫馨星球生活模擬遊戲《星布谷地》日前宣布展開測試，將於 2026 年冬季在全球正式上線，並支援 PC、iOS 及 Android 裝置且帳號互通。而巴哈姆特電玩瘋也搶先為玩家們帶來《星布谷地》Final Beta Test 實機試玩影片，供玩家們先睹為快。 &....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "生活模擬遊戲《星布谷地》電玩瘋實機試玩影片搶先看 駛入星海抵達散落各處的星嶼",
-      "translation_version": 2
-    },
-    {
-      "id": "e0bff8b2219a",
-      "title": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312345",
-      "summary": "樂意傳播宣布，經典武俠 MMORPG 手遊新作《天上碑 K》確定將於 10 月 1 日正式在雙平台上市。事前預約活動自上週開放，網站登錄人數現已正式突破 50,000 大關，今（24）日 Apple App Store 與 Google Play 雙商店預約也接力開跑。 &nbs....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-09-24T17:45:59+08:00",
-      "score": 50.4,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "天上碑 K",
-        "release_time": "10 月 1 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play",
-          "手遊"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約",
-          "將於"
-        ],
-        "region": [],
-        "exclude": [
-          "活動"
-        ]
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/96/259e32f06142ae241f744326e420ic45.JPG",
-      "title_zh": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
-      "summary_zh": "樂意傳播宣布，經典武俠 MMORPG 手遊新作《天上碑 K》確定將於 10 月 1 日正式在雙平台上市。事前預約活動自上週開放，網站登錄人數現已正式突破 50,000 大關，今（24）日 Apple App Store 與 Google Play 雙商店預約也接力開跑。 &nbs....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《天上碑 K》雙平台預約全面啟動 確定 10 月 1 日上市",
       "translation_version": 2
     }
   ],
