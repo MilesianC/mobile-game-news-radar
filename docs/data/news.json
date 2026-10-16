@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T09:06:34.105450+08:00",
+  "generated_at": "2026-10-16T08:54:21.360478+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-14T00:00:00+08:00",
-    "end": "2026-10-15T00:00:00+08:00"
+    "start": "2026-10-15T00:00:00+08:00",
+    "end": "2026-10-16T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,219 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 22,
   "items": [
+    {
+      "id": "d7a6f46452f1",
+      "title": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
+      "link": "https://www.4gamers.com.tw/news/detail/82640/gundam-blitz-order-mobile-game-announced-network-test",
+      "summary": "萬代南夢宮娛樂將在 App Store 與 Google Play 平台推出《鋼彈》系列智慧型手機遊戲新作《鋼彈激戰指令》（ガンダム ブリッツオーダー）釋出首支宣傳影片，並預定於 11 月舉辦網路測試，即日起開放測試玩家報名。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-15T11:00:00+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "鋼彈",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預定",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/340b45dc-d59d-42cc-ae19-bb645eb17449.jpg",
+      "title_zh": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
+      "summary_zh": "萬代南夢宮娛樂將在 App Store 與 Google Play 平台推出《鋼彈》系列智慧型手機遊戲新作《鋼彈激戰指令》（ガンダム ブリッツオーダー）釋出首支宣傳影片，並預定於 11 月舉辦網路測試，即日起開放測試玩家報名。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
+      "translation_version": 2
+    },
+    {
+      "id": "0011a75a4bfa",
+      "title": "キタキタ王様：配信日決定",
+      "link": "https://appmedia.jp/newgame/80406406",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月15日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "キタキタ王様",
+        "release_time": "2026年10月22日",
+        "official_site": "https://kitaou.efun.com/event/pre/",
+        "x_link": "https://x.com/kitaou_PR",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kitakita_result.webp",
+      "title_zh": "King Kitakita：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月15日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "キタキタ王様：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "5ecbf2dd5868",
+      "title": "桃源暗鬼 Crimson Inferno：事前登録開始",
+      "link": "https://appmedia.jp/newgame/78692405",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月15日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "桃源暗鬼 Crimson Inferno",
+        "release_time": "待定",
+        "official_site": "https://tougenanki.com2us.com/ja",
+        "x_link": "https://x.com/tougenanki_ci",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/Crimson-Inferno_result.webp",
+      "title_zh": "桃园深红地狱：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月15日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "桃源暗鬼 Crimson Inferno：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "75be30e67a80",
+      "title": "ウィンドランナーGo!：配信日決定",
+      "link": "https://appmedia.jp/newgame/80408638",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月15日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-15T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィンドランナーGo!",
+        "release_time": "2026年10月22日",
+        "official_site": "",
+        "x_link": "https://x.com/WindRunnerGo",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-82.webp",
+      "title_zh": "Windrunner Go!：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月15日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィンドランナーGo!：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "e0aaa2354471",
       "title": "三國 × 山海經回合制新作《執筆山河誌》開放封測預約 預計 10 月中展開測試",
@@ -998,265 +1209,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年10月5日，事前预约突破 60 万。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録60万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "0011a75a4bfa",
-      "title": "キタキタ王様：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80406406",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月17日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "キタキタ王様",
-        "release_time": "待定",
-        "official_site": "https://kitaou.efun.com/event/pre/",
-        "x_link": "https://x.com/kitaou_PR",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kitakita_result.webp",
-      "title_zh": "King Kitakita：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月17日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "キタキタ王様：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "ac33a633982e",
-      "title": "アンダーミラージュ：配信日決定",
-      "link": "https://appmedia.jp/newgame/80449525",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月1日(木) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-02T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "アンダーミラージュ",
-        "release_time": "2026年10月8日",
-        "official_site": "https://www.kemco.jp/game/undermirage/ja/",
-        "x_link": "https://x.com/KEMCO_OFFICIAL",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/undermirage_result.webp",
-      "title_zh": "Undermirage：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月1日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "アンダーミラージュ：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "b8544edf68f7",
-      "title": "三國志 戦棋版：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80384494",
-      "summary": "スマホゲーム配信カレンダー更新。2026年9月29日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-02T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "三國志 戦棋版",
-        "release_time": "待定",
-        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
-        "x_link": "https://x.com/sgs_senkiban",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
-      "title_zh": "三国志战争游戏版：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年9月29日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "三國志 戦棋版：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "91d7e67035e2",
-      "title": "EXE ARENA：配信時期決定",
-      "link": "https://appmedia.jp/newgame/79264943",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月2日(金) 【配信時期決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-02T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "EXE ARENA",
-        "release_time": "预计 2026年10月",
-        "official_site": "https://exearena.com/",
-        "x_link": "https://x.com/EXE_ARENA_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信時期決定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/09/main_result-17.webp",
-      "title_zh": "Exe Arena：发售时间确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月2日，发售时间确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "EXE ARENA：配信時期決定",
-      "translation_version": 2
-    },
-    {
-      "id": "be24cc9ed38c",
-      "title": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312668",
-      "summary": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》今日官方網站正式公開，並搶先開啟官網及 Google Play 平台預約。官方表示，玩家將可化身為格鬥家的專屬經理，打造最強的全明星陣容，挑戰拳皇頭銜。 【以下內容為廠商提供資料原文】 經典格鬥天....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-01T16:26:56+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "格鬥天王：拳面出擊",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "google play"
-        ],
-        "unreleased": [
-          "預約",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/78/2a8ca57ebe0c18cb91a1e737d720khe5.JPG",
-      "title_zh": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
-      "summary_zh": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》今日官方網站正式公開，並搶先開啟官網及 Google Play 平台預約。官方表示，玩家將可化身為格鬥家的專屬經理，打造最強的全明星陣容，挑戰拳皇頭銜。 【以下內容為廠商提供資料原文】 經典格鬥天....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《格鬥天王：拳面出擊》開啟官網及 Google Play 平台預約 集結傳奇格鬥家重返擂台",
       "translation_version": 2
     }
   ],
