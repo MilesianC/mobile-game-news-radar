@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T08:30:19.563322+08:00",
+  "generated_at": "2026-10-19T08:37:03.815602+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-17T00:00:00+08:00",
-    "end": "2026-10-18T00:00:00+08:00"
+    "start": "2026-10-18T00:00:00+08:00",
+    "end": "2026-10-19T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 25,
+  "count": 23,
   "items": [
     {
       "id": "01559fb4b0d4",
@@ -1270,110 +1270,6 @@
       "summary_zh": "由 Brave At Night 開發、Noodlecake 發行的王國管理遊戲《遵命，陛下：雪降（暫譯，原名：Yes, Your Grace SNOWFALL）》近日於 App Store、Google Play 商店開放預先註冊，預計將登陸行動裝置。 官方表示，在這款王國管理 RPG 中....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《遵命，陛下：雪降》手機版開放預先註冊 扮演國王引導王國走向繁榮或衰敗",
-      "translation_version": 2
-    },
-    {
-      "id": "b82ab7d35219",
-      "title": "アストラエ・オラティオ：CBT実施中",
-      "link": "https://appmedia.jp/newgame/79987396",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月5日(月) 【CBT実施中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "アストラエ・オラティオ",
-        "release_time": "预计 2027年",
-        "official_site": "https://astraeoratio.plaync.com/ja-jp/index",
-        "x_link": "https://x.com/Asora_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt",
-          "CBT実施"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "title_zh": "Astraea Olatio：CBT 测试进行中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月5日，CBT 测试进行中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "アストラエ・オラティオ：CBT実施中",
-      "translation_version": 2,
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/main_result-7.webp"
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録60万突破",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月5日(月) 【事前登録60万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "预计 2026年11月",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前预约突破 60 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月5日，事前预约突破 60 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録60万突破",
       "translation_version": 2
     }
   ],
