@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T08:37:03.815602+08:00",
+  "generated_at": "2026-10-20T09:22:06.755127+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-18T00:00:00+08:00",
-    "end": "2026-10-19T00:00:00+08:00"
+    "start": "2026-10-19T00:00:00+08:00",
+    "end": "2026-10-20T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,169 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 24,
   "items": [
+    {
+      "id": "116be8ced3b8",
+      "title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313654",
+      "summary": "日本個人開發工作室 Recalloop Studio 宣布，在 Steam 上推出第一人稱整理模擬遊戲《清理遊戲山積（暫譯，原：THE BACKLOG）》的試玩版，遊戲正式版預定於 2026 年 11 月發售。 遊戲介紹 官方表示，遊戲故事背....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-19T17:47:26+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "清理遊戲山積 THE BACKLOG",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預定"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/62/3f6c71aab97a978befe24dab1420sca5.JPG",
+      "title_zh": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
+      "summary_zh": "日本個人開發工作室 Recalloop Studio 宣布，在 Steam 上推出第一人稱整理模擬遊戲《清理遊戲山積（暫譯，原：THE BACKLOG）》的試玩版，遊戲正式版預定於 2026 年 11 月發售。 遊戲介紹 官方表示，遊戲故事背....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
+      "translation_version": 2
+    },
+    {
+      "id": "28c3380d8f3b",
+      "title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
+      "link": "https://www.4gamers.com.tw/news/detail/82717/monster-hunter-puzzles-announces-service-shutdown",
+      "summary": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-19T14:36:46+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "魔物獵人",
+        "release_time": "將於 2027 年 1 月 14 日",
+        "official_site": "",
+        "x_link": "https://x.com/MHPuzzles/status/2112015883203940808?ref_src=twsrc%5Etfw",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/f82094f9-f3ae-4882-8740-7f1d11e9d62d.jpg",
+      "title_zh": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
+      "summary_zh": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
+      "translation_version": 2
+    },
+    {
+      "id": "bc64ae643f62",
+      "title": "アズールプロミリア：事前登録2500万突破",
+      "link": "https://appmedia.jp/newgame/77704138",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月19日(月) 【事前登録2500万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-19T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アズールプロミリア",
+        "release_time": "待定",
+        "official_site": "https://azurpromilia.jp/",
+        "x_link": "https://x.com/AzurPromilia_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
+      "title_zh": "Azul Promiglia：事前预约突破 2500 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月19日，事前预约突破 2500 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アズールプロミリア：事前登録2500万突破",
+      "translation_version": 2
+    },
     {
       "id": "01559fb4b0d4",
       "title": "「灰色」系列 15 週年紀念作《灰色 集結的百果》於日本展開事前登錄 歷代角色與 6 名全新少女齊聚一堂",
@@ -1164,112 +1325,6 @@
       "summary_zh": "根據外電報導指出，由於 Google Play 商店涉嫌在應用程式銷售中向消費者收取隱藏費用，消費者科技政策專家 Liz Coll 進而代表向英國競爭上訴法院提起訴訟，約 2,000 萬名英國消費者與企業可能符合資格，共同分享針對 Google 發起的 10 億英鎊索賠金額，該案預計於 10 月 6 日正式開庭。....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "Google 在英國遭指控於 Play 商店向消費者收取高額佣金 將面臨 10 億英鎊之大型訴訟",
-      "translation_version": 2
-    },
-    {
-      "id": "3f116e26e629",
-      "title": "《Disney Sparklink Stars》宣布事前登錄突破 60 萬人 Sparkrider 宣傳影片公開中",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312889",
-      "summary": "coly 於今日宣布，旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》的事前登錄人數已突破 60 萬人。另外，能欣賞到本作登場角色 Solo 演唱歌曲的 PV 現已公開。 隨著《Disney Spa....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-05T16:44:48+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "Disney Sparklink Stars",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/72/004f4830c5ce365074cf9c681920lv85.PNG",
-      "title_zh": "《Disney Sparklink Stars》宣布事前登錄突破 60 萬人 Sparkrider 宣傳影片公開中",
-      "summary_zh": "coly 於今日宣布，旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》的事前登錄人數已突破 60 萬人。另外，能欣賞到本作登場角色 Solo 演唱歌曲的 PV 現已公開。 隨著《Disney Spa....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《Disney Sparklink Stars》宣布事前登錄突破 60 萬人 Sparkrider 宣傳影片公開中",
-      "translation_version": 2
-    },
-    {
-      "id": "6fee9e115719",
-      "title": "《遵命，陛下：雪降》手機版開放預先註冊 扮演國王引導王國走向繁榮或衰敗",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312887",
-      "summary": "由 Brave At Night 開發、Noodlecake 發行的王國管理遊戲《遵命，陛下：雪降（暫譯，原名：Yes, Your Grace SNOWFALL）》近日於 App Store、Google Play 商店開放預先註冊，預計將登陸行動裝置。 官方表示，在這款王國管理 RPG 中....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-05T16:17:19+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "遵命，陛下：雪降",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play",
-          "手機"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/57/2b2ee3fe646a93f6ead948d7f820lut5.JPG",
-      "title_zh": "《遵命，陛下：雪降》手機版開放預先註冊 扮演國王引導王國走向繁榮或衰敗",
-      "summary_zh": "由 Brave At Night 開發、Noodlecake 發行的王國管理遊戲《遵命，陛下：雪降（暫譯，原名：Yes, Your Grace SNOWFALL）》近日於 App Store、Google Play 商店開放預先註冊，預計將登陸行動裝置。 官方表示，在這款王國管理 RPG 中....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《遵命，陛下：雪降》手機版開放預先註冊 扮演國王引導王國走向繁榮或衰敗",
       "translation_version": 2
     }
   ],
