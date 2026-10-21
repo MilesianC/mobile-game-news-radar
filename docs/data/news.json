@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T09:22:06.755127+08:00",
+  "generated_at": "2026-10-21T09:08:41.093891+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-19T00:00:00+08:00",
-    "end": "2026-10-20T00:00:00+08:00"
+    "start": "2026-10-20T00:00:00+08:00",
+    "end": "2026-10-21T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,224 @@
       "language": "ja"
     }
   ],
-  "count": 24,
+  "count": 26,
   "items": [
+    {
+      "id": "fd59df4d830a",
+      "title": "《排球少年！！》正統養成模擬遊戲《排球少年！！ALL Challengers》釋出主視覺圖與官方宣傳片",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313732",
+      "summary": "由東寶旗下遊戲事業品牌「TOHO Games」企劃、製作、發行，G2Studios 負責開發、營運，動畫《排球少年！！》的新款智慧型手機遊戲《排球少年！！ALL Challengers》自即日起於日本的 App Store / Google Play 開放事前登錄。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-20T18:37:05+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "排球少年！！",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "事前登錄"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/28/438f598a43cb92f4f64e6a257e20t0c5.JPG",
+      "title_zh": "《排球少年！！》正統養成模擬遊戲《排球少年！！ALL Challengers》釋出主視覺圖與官方宣傳片",
+      "summary_zh": "由東寶旗下遊戲事業品牌「TOHO Games」企劃、製作、發行，G2Studios 負責開發、營運，動畫《排球少年！！》的新款智慧型手機遊戲《排球少年！！ALL Challengers》自即日起於日本的 App Store / Google Play 開放事前登錄。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《排球少年！！》正統養成模擬遊戲《排球少年！！ALL Challengers》釋出主視覺圖與官方宣傳片",
+      "translation_version": 2
+    },
+    {
+      "id": "9743c4f1b432",
+      "title": "Steam音遊新作《HYPNOSYNC》即將免費推出 用節奏催眠妹子顧客幫你打工",
+      "link": "https://www.4gamers.com.tw/news/detail/82737/hypnosync-will-be-free-to-play-on-steam-on-28th-october",
+      "summary": "由獨立遊戲團隊 BASED KICK 開發的音樂節奏遊戲《HYPNOSYNC》宣布，預計於 10 月 28 日在 Steam 免費推出，同步登陸 Android、iOS 平台。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-20T13:39:48+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "HYPNOSYNC",
+        "release_time": "預計於 10 月 28 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/223d2ded-f6c9-40da-a3ec-c17074d358cf.jpg",
+      "title_zh": "Steam音遊新作《HYPNOSYNC》即將免費推出 用節奏催眠妹子顧客幫你打工",
+      "summary_zh": "由獨立遊戲團隊 BASED KICK 開發的音樂節奏遊戲《HYPNOSYNC》宣布，預計於 10 月 28 日在 Steam 免費推出，同步登陸 Android、iOS 平台。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "Steam音遊新作《HYPNOSYNC》即將免費推出 用節奏催眠妹子顧客幫你打工",
+      "translation_version": 2
+    },
+    {
+      "id": "42a5eca73ae9",
+      "title": "リラックマ ごゆるりパズル：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80495167",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月20日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "リラックマ ごゆるりパズル",
+        "release_time": "预计 2027年初頭",
+        "official_site": "https://tougenanki.com2us.com/ja",
+        "x_link": "https://x.com/tougenanki_ci",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/rilakkuma_result.webp",
+      "title_zh": "放松的Rilakkuma拼图：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月20日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "リラックマ ごゆるりパズル：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "366913a9e7d8",
+      "title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
+      "link": "https://appmedia.jp/newgame/80483587",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月14日(水) 【新作発表】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-20T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "JJK",
+        "release_time": "待定",
+        "official_site": "https://www.juheiso-game.jp/",
+        "x_link": "https://x.com/juheiso_game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "新作発表"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/jjk_result.webp",
+      "title_zh": "JJK ：重甲女学生无言记录：新作公布",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月14日，新作公布。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
+      "translation_version": 2
+    },
     {
       "id": "116be8ced3b8",
       "title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
@@ -636,57 +852,6 @@
       "translation_version": 2
     },
     {
-      "id": "366913a9e7d8",
-      "title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
-      "link": "https://appmedia.jp/newgame/80483587",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月14日(水) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-14T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "JJK",
-        "release_time": "待定",
-        "official_site": "https://www.juheiso-game.jp/",
-        "x_link": "https://x.com/juheiso_game",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/jjk_result.webp",
-      "title_zh": "JJK ：重甲女学生无言记录：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月14日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
-      "translation_version": 2
-    },
-    {
       "id": "91c72e2e446d",
       "title": "hololive 首款麻將遊戲《hololive 麻將》於日本展開事前登錄 預計 2026 年上線",
       "link": "https://gnn.gamer.com.tw/detail.php?sn=313324",
@@ -1274,57 +1439,6 @@
       "summary_zh": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》今日正式開放雙平台事前預約，並宣布邀請韓國藝人 —— 蔡妍擔任遊戲「血冠代言人」。官方同步釋出首支代言人影片，蔡妍再次唱響代表作《兩個人》，以招牌舞蹈節奏結合真實遊戲畫面，展現《GOD：血冠》的特色。 ....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《GOD：血冠》事前預約開跑 邀請蔡妍擔任「血冠代言人」",
-      "translation_version": 2
-    },
-    {
-      "id": "a252c311fc23",
-      "title": "Google 在英國遭指控於 Play 商店向消費者收取高額佣金 將面臨 10 億英鎊之大型訴訟",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=312969",
-      "summary": "根據外電報導指出，由於 Google Play 商店涉嫌在應用程式銷售中向消費者收取隱藏費用，消費者科技政策專家 Liz Coll 進而代表向英國競爭上訴法院提起訴訟，約 2,000 萬名英國消費者與企業可能符合資格，共同分享針對 Google 發起的 10 億英鎊索賠金額，該案預計於 10 月 6 日正式開庭。....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-06T18:12:54+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "Google 在英國遭指控於 Play 商店向消費者收取高額佣金 將面臨 10 億英鎊之大型訴訟",
-        "release_time": "預計於 10 月 6 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "google play"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/37/b73ea3fca44df2798596b25c411zkf15.JPG",
-      "title_zh": "Google 在英國遭指控於 Play 商店向消費者收取高額佣金 將面臨 10 億英鎊之大型訴訟",
-      "summary_zh": "根據外電報導指出，由於 Google Play 商店涉嫌在應用程式銷售中向消費者收取隱藏費用，消費者科技政策專家 Liz Coll 進而代表向英國競爭上訴法院提起訴訟，約 2,000 萬名英國消費者與企業可能符合資格，共同分享針對 Google 發起的 10 億英鎊索賠金額，該案預計於 10 月 6 日正式開庭。....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "Google 在英國遭指控於 Play 商店向消費者收取高額佣金 將面臨 10 億英鎊之大型訴訟",
       "translation_version": 2
     }
   ],
