@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T09:08:41.093891+08:00",
+  "generated_at": "2026-10-22T09:05:54.758493+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-20T00:00:00+08:00",
-    "end": "2026-10-21T00:00:00+08:00"
+    "start": "2026-10-21T00:00:00+08:00",
+    "end": "2026-10-22T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,270 @@
       "language": "ja"
     }
   ],
-  "count": 26,
+  "count": 30,
   "items": [
+    {
+      "id": "fd6ba80d3363",
+      "title": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313793",
+      "summary": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》雙平台事前預約進行中，官方今日公開第二支代言人蔡妍宣傳影片，展現遊戲場景與養成玩法，奇幻坐騎也同步亮相。此外，官方更驚喜揭曉將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動，推出限定角色時裝與坐騎，並集結《WOW 魔獸世界》原班配音陣容，邀請天命者搶先預....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-21T16:50:16+08:00",
+      "score": 72.9,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "GOD：血冠",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預約",
+          "事前預約",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/80/3003fba953fd13658b20edd3c720tig5.PNG",
+      "title_zh": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容",
+      "summary_zh": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》雙平台事前預約進行中，官方今日公開第二支代言人蔡妍宣傳影片，展現遊戲場景與養成玩法，奇幻坐騎也同步亮相。此外，官方更驚喜揭曉將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動，推出限定角色時裝與坐騎，並集結《WOW 魔獸世界》原班配音陣容，邀請天命者搶先預....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月21日(水) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-21T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "预计 2026年11月",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月21日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "63cd87f65949",
+      "title": "ラグナロク：アドベンチャーズ：配信日決定",
+      "link": "https://appmedia.jp/newgame/80309845",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月21日(水) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-21T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ラグナロク",
+        "release_time": "2026年11月4日",
+        "official_site": "https://ragnarokadv.gungho.jp/",
+        "x_link": "https://x.com/RagnarokAdv_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-35.webp",
+      "title_zh": "诸神黄昏：多天探险体验：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月21日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ラグナロク：アドベンチャーズ：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "6c7fe3b2c8c3",
+      "title": "サイマジック 魔法世界のバグ、科学で直します！：配信日決定",
+      "link": "https://appmedia.jp/newgame/80396128",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月21日(水) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-21T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "サイマジック 魔法世界のバグ、科学で直します！",
+        "release_time": "2026年10月23日",
+        "official_site": "https://s.g123.jp/0zyfzpdk",
+        "x_link": "https://x.com/reinna_japr",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/main_result-63.webp",
+      "title_zh": "Psi-魔法巫师世界昆虫，用科学修复！：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月21日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "サイマジック 魔法世界のバグ、科学で直します！：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "20deae3dfae6",
+      "title": "ハイキュー!! ALL Challengers：事前登録開始",
+      "link": "https://appmedia.jp/newgame/79867097",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月21日(水) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-21T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ハイキュー!! ALL Challengers",
+        "release_time": "待定",
+        "official_site": "https://haikyu-allchallengers.jp/",
+        "x_link": "https://x.com/haikyu_ALLC",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/03/all-challengers_result.webp",
+      "title_zh": "高队！ ！所有挑战者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月21日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ハイキュー!! ALL Challengers：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "fd59df4d830a",
       "title": "《排球少年！！》正統養成模擬遊戲《排球少年！！ALL Challengers》釋出主視覺圖與官方宣傳片",
@@ -1386,59 +1648,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年10月9日，新作公布。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ガールズ＆パンツァー ボコすかラッシュ：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "5d0d4d74fb7b",
-      "title": "《GOD：血冠》事前預約開跑 邀請蔡妍擔任「血冠代言人」",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313038",
-      "summary": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》今日正式開放雙平台事前預約，並宣布邀請韓國藝人 —— 蔡妍擔任遊戲「血冠代言人」。官方同步釋出首支代言人影片，蔡妍再次唱響代表作《兩個人》，以招牌舞蹈節奏結合真實遊戲畫面，展現《GOD：血冠》的特色。 ....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-07T17:43:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "GOD：血冠",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/80/7f702277300293de56394233ce20n3w5.JPG",
-      "title_zh": "《GOD：血冠》事前預約開跑 邀請蔡妍擔任「血冠代言人」",
-      "summary_zh": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》今日正式開放雙平台事前預約，並宣布邀請韓國藝人 —— 蔡妍擔任遊戲「血冠代言人」。官方同步釋出首支代言人影片，蔡妍再次唱響代表作《兩個人》，以招牌舞蹈節奏結合真實遊戲畫面，展現《GOD：血冠》的特色。 ....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《GOD：血冠》事前預約開跑 邀請蔡妍擔任「血冠代言人」",
       "translation_version": 2
     }
   ],
