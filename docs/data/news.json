@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T09:05:54.758493+08:00",
+  "generated_at": "2026-10-23T09:06:36.175622+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-21T00:00:00+08:00",
-    "end": "2026-10-22T00:00:00+08:00"
+    "start": "2026-10-22T00:00:00+08:00",
+    "end": "2026-10-23T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,272 @@
   ],
   "count": 30,
   "items": [
+    {
+      "id": "02d5b43384ef",
+      "title": "《Disney Sparklink Stars》決定 11/4 在日本上線 宣布參展 AGF2026",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313890",
+      "summary": "coly 於今日宣布，旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》已決定於 2026 年 11 月 4 日（三）在日本上線。除此之外，本作將首次參展「Animate Girls Festival 2026」。 &n....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-22T17:24:16+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Disney Sparklink Stars",
+        "release_time": "決定於 2026 年 11 月 4 日",
+        "official_site": "",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "決定於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/72/004f4830c5ce365074cf9c681920lv85.PNG",
+      "title_zh": "《Disney Sparklink Stars》決定 11/4 在日本上線 宣布參展 AGF2026",
+      "summary_zh": "coly 於今日宣布，旗下全新智慧型手機遊戲《Disney Sparklink Stars（ディズニー スパークリンク・スターズ）》已決定於 2026 年 11 月 4 日（三）在日本上線。除此之外，本作將首次參展「Animate Girls Festival 2026」。 &n....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《Disney Sparklink Stars》決定 11/4 在日本上線 宣布參展 AGF2026",
+      "translation_version": 2
+    },
+    {
+      "id": "ec389e2d1a70",
+      "title": "經營模擬《ONE PIECE 海洋盛宴》NS / NS2 版上市 尾田榮一郎公開發售紀念留言",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313887",
+      "summary": "萬代南夢宮娛樂宣布，《航海王》全新遊戲《ONE PIECE 海洋盛宴》於今（22）日搶先在 Nintendo Switch 2／Nintendo Switch 平台發售，並將於明（23）日緊接著登上 Steam／App Store／Google Play 平台。 《ONE PIECE 海洋盛....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-22T17:13:19+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "ONE PIECE 海洋盛宴",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "將於",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/32/488ea3d4e209681f1f36d7943520u645.PNG",
+      "title_zh": "經營模擬《ONE PIECE 海洋盛宴》NS / NS2 版上市 尾田榮一郎公開發售紀念留言",
+      "summary_zh": "萬代南夢宮娛樂宣布，《航海王》全新遊戲《ONE PIECE 海洋盛宴》於今（22）日搶先在 Nintendo Switch 2／Nintendo Switch 平台發售，並將於明（23）日緊接著登上 Steam／App Store／Google Play 平台。 《ONE PIECE 海洋盛....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "經營模擬《ONE PIECE 海洋盛宴》NS / NS2 版上市 尾田榮一郎公開發售紀念留言",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：配信日決定",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月22日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-22T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "2026年11月4日",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月22日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "414dae041f67",
+      "title": "チェイシング・カレイドライダー：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/78756479",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月22日(木) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-22T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "チェイシング・カレイドライダー",
+        "release_time": "待定",
+        "official_site": "https://kaleidorider.com/jp/",
+        "x_link": "https://x.com/kaleidorider_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/04/kaleido-rider.webp",
+      "title_zh": "追逐万花筒骑士：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月22日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "チェイシング・カレイドライダー：CBT参加者募集中",
+      "translation_version": 2
+    },
+    {
+      "id": "c7e86d3d97fb",
+      "title": "ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ：配信時期決定",
+      "link": "https://appmedia.jp/newgame/80503549",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月22日(木) 【配信時期決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-22T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ",
+        "release_time": "预计 2027年",
+        "official_site": "",
+        "x_link": "https://x.com/juheiso_game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信時期決定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/pic_001-1.webp",
+      "title_zh": "在Frontier Zero地牢中寻找遭遇战是错误的吗？：发售时间确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月22日，发售时间确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ダンジョンに出会いを求めるのは間違っているだろうか フロンティア・ゼロ：配信時期決定",
+      "translation_version": 2
+    },
     {
       "id": "fd6ba80d3363",
       "title": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容",
@@ -94,58 +360,6 @@
       "summary_zh": "隨心主宰型魔幻 RPG 手機遊戲《GOD：血冠》雙平台事前預約進行中，官方今日公開第二支代言人蔡妍宣傳影片，展現遊戲場景與養成玩法，奇幻坐騎也同步亮相。此外，官方更驚喜揭曉將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動，推出限定角色時裝與坐騎，並集結《WOW 魔獸世界》原班配音陣容，邀請天命者搶先預....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《GOD：血冠》將與台灣奇幻作家星子作品《惡魔來了》展開跨界 IP 聯動 同步揭曉配音陣容",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月21日(水) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-21T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "预计 2026年11月",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月21日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
       "translation_version": 2
     },
     {
@@ -1441,213 +1655,6 @@
       "summary_zh": "Ubisoft 旗下《虹彩六號 圍攻行動》的衍生作品《虹彩六號M》（Rainbow Six Mobile）於前日宣布即將於 2027 年 1 月 15 日終止營運，壽命不到一年。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《虹彩六號M》宣布即將停運 壽命不到一年",
-      "translation_version": 2
-    },
-    {
-      "id": "1a02d2fc093f",
-      "title": "誰ガ為のアルケミスト ポートマスターズ：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/80363266",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月9日(金) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-09T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "誰ガ為のアルケミスト ポートマスターズ",
-        "release_time": "预计 2026年",
-        "official_site": "https://al-portmasters.com/",
-        "x_link": "https://x.com/tagatame_pm",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/sub1_result-28.webp",
-      "title_zh": "谁的炼金术士港口大师？：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月9日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "誰ガ為のアルケミスト ポートマスターズ：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "9baa89b64b50",
-      "title": "虫ストライクZ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80476582",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月9日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-09T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "虫ストライクZ",
-        "release_time": "预计 2026年11月上旬",
-        "official_site": "https://morimirai-ikimono.com/game/insectrush/",
-        "x_link": "https://x.com/MorimiraiWan",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/main_result-29.webp",
-      "title_zh": "虫击Z：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "虫ストライクZ：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "675b652d87a0",
-      "title": "ホロライブ麻雀 -ホロじゃん-：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80476192",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月9日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-09T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ホロライブ麻雀 -ホロじゃん-",
-        "release_time": "预计 2026年",
-        "official_site": "https://www.holo-jong.com/",
-        "x_link": "https://x.com/hololivemahjong",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/hololive-majeong_result.webp",
-      "title_zh": "HoloLive麻将- HoloJan -：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ホロライブ麻雀 -ホロじゃん-：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "5bb8eb39fa98",
-      "title": "ガールズ＆パンツァー ボコすかラッシュ：新作発表",
-      "link": "https://appmedia.jp/newgame/80476132",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月9日(金) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-09T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ガールズ＆パンツァー ボコすかラッシュ",
-        "release_time": "待定",
-        "official_site": "https://garupan-garusuka.com/",
-        "x_link": "https://x.com/garupan_grsk",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/garupan_result.webp",
-      "title_zh": "女孩和黑豹Boko Rush：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月9日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ガールズ＆パンツァー ボコすかラッシュ：新作発表",
       "translation_version": 2
     }
   ],
