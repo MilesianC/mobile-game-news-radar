@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T09:06:36.175622+08:00",
+  "generated_at": "2026-10-24T09:15:09.706291+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-22T00:00:00+08:00",
-    "end": "2026-10-23T00:00:00+08:00"
+    "start": "2026-10-23T00:00:00+08:00",
+    "end": "2026-10-24T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,58 @@
   ],
   "count": 30,
   "items": [
+    {
+      "id": "bc64ae643f62",
+      "title": "アズールプロミリア：配信日決定",
+      "link": "https://appmedia.jp/newgame/77704138",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月23日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-23T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アズールプロミリア",
+        "release_time": "2026年11月26日",
+        "official_site": "https://azurpromilia.jp/",
+        "x_link": "https://x.com/AzurPromilia_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
+      "title_zh": "Azul Promiglia：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月23日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アズールプロミリア：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "02d5b43384ef",
       "title": "《Disney Sparklink Stars》決定 11/4 在日本上線 宣布參展 AGF2026",
@@ -841,58 +893,6 @@
       "summary_zh": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
-      "translation_version": 2
-    },
-    {
-      "id": "bc64ae643f62",
-      "title": "アズールプロミリア：事前登録2500万突破",
-      "link": "https://appmedia.jp/newgame/77704138",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月19日(月) 【事前登録2500万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-19T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "アズールプロミリア",
-        "release_time": "待定",
-        "official_site": "https://azurpromilia.jp/",
-        "x_link": "https://x.com/AzurPromilia_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
-      "title_zh": "Azul Promiglia：事前预约突破 2500 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月19日，事前预约突破 2500 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "アズールプロミリア：事前登録2500万突破",
       "translation_version": 2
     },
     {
