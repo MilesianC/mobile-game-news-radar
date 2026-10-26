@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T08:41:42.920154+08:00",
+  "generated_at": "2026-10-26T08:52:11.484953+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-24T00:00:00+08:00",
-    "end": "2026-10-25T00:00:00+08:00"
+    "start": "2026-10-25T00:00:00+08:00",
+    "end": "2026-10-26T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,68 @@
       "language": "ja"
     }
   ],
-  "count": 30,
+  "count": 31,
   "items": [
+    {
+      "id": "13ebe3fb457a",
+      "title": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
+      "link": "https://www.4gamers.com.tw/news/detail/82853/blue-archive-japan-yostar-nexon-transfer-2027",
+      "summary": "韓國 NEXON Games 開發的人氣手機遊戲《蔚藍檔案》日版營運商 Yostar 今日在官方直播中宣布，預計於 2027 年 1 月左右，將日本地區的遊戲營運業務全面移交 NEXON，結束自 2021 年遊戲上市以來持續近六年的代理合作關係。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-25T21:05:13+08:00",
+      "score": 69.0,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "蔚藍檔案",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [
+          "日版",
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/84b5f3ae-f271-4214-bbc7-bea6cfdd4a3c.jpg",
+      "title_zh": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
+      "summary_zh": "韓國 NEXON Games 開發的人氣手機遊戲《蔚藍檔案》日版營運商 Yostar 今日在官方直播中宣布，預計於 2027 年 1 月左右，將日本地區的遊戲營運業務全面移交 NEXON，結束自 2021 年遊戲上市以來持續近六年的代理合作關係。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
+      "translation_version": 2
+    },
     {
       "id": "bc64ae643f62",
       "title": "アズールプロミリア：配信日決定",
