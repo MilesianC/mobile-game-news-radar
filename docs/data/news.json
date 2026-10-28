@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T09:43:56.142719+08:00",
+  "generated_at": "2026-10-28T09:55:29.136906+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-26T00:00:00+08:00",
-    "end": "2026-10-27T00:00:00+08:00"
+    "start": "2026-10-27T00:00:00+08:00",
+    "end": "2026-10-28T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,218 @@
       "language": "ja"
     }
   ],
-  "count": 27,
+  "count": 30,
   "items": [
+    {
+      "id": "a87f5aa6c412",
+      "title": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313994",
+      "summary": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》，今 (27) 日正式宣布將於 11 月 4 日在台港澳、東南亞地區上市，同步開放 App Store、Google Play 雙平台預約。 實機畫面首度曝光！經典招式全 3D 重現，喚醒街機廳的熱血記憶 今日釋出....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-27T17:42:12+08:00",
+      "score": 84.6,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "格鬥天王：拳面出擊",
+        "release_time": "將於 11 月 4 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "預約",
+          "將於"
+        ],
+        "region": [
+          "台港澳"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/87/c25b51fd02463eb01252a4dbe620vr75.JPG",
+      "title_zh": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
+      "summary_zh": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》，今 (27) 日正式宣布將於 11 月 4 日在台港澳、東南亞地區上市，同步開放 App Store、Google Play 雙平台預約。 實機畫面首度曝光！經典招式全 3D 重現，喚醒街機廳的熱血記憶 今日釋出....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
+      "translation_version": 2
+    },
+    {
+      "id": "cf5b7bb2abdf",
+      "title": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=313987",
+      "summary": "Garena 於今日宣布推出大逃殺手機遊戲《Garena Free Fire》的首本官方美術設定集《The Art of Free Fire》。本書由 Matthew Pellett 撰寫、Titan Books 出版，將於 2027 年 7 月 6 日發售，慶祝 Free Fire 迎來 10 周年。 &....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-27T17:21:48+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Free Fire",
+        "release_time": "將於 2027 年 7 月 6 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/54/8c0cc96470ba37290048355ae620vqa5.JPG",
+      "title_zh": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
+      "summary_zh": "Garena 於今日宣布推出大逃殺手機遊戲《Garena Free Fire》的首本官方美術設定集《The Art of Free Fire》。本書由 Matthew Pellett 撰寫、Titan Books 出版，將於 2027 年 7 月 6 日發售，慶祝 Free Fire 迎來 10 周年。 &....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
+      "translation_version": 2
+    },
+    {
+      "id": "74fcd884728d",
+      "title": "Roco Kingdom：CBT実施中",
+      "link": "https://appmedia.jp/newgame/80348230",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月27日(火) 【CBT実施中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "Roco Kingdom",
+        "release_time": "预计 後日発表",
+        "official_site": "https://rocokingdom.com/web/ja/",
+        "x_link": "https://x.com/RocoKingdomJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT実施"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/main_result-96.webp",
+      "title_zh": "洛可王国：CBT 测试进行中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月27日，CBT 测试进行中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "Roco Kingdom：CBT実施中",
+      "translation_version": 2
+    },
+    {
+      "id": "43abd1c51f80",
+      "title": "デスティニーチャイルド：アッセンブル：配信時期決定",
+      "link": "https://appmedia.jp/newgame/80517964",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月27日(火) 【配信時期決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-27T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "デスティニーチャイルド",
+        "release_time": "预计 2027年上半年",
+        "official_site": "https://destinychild-assemble.com2us.com/ja",
+        "x_link": "https://x.com/DestinyChildASJ",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信時期決定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/main-12_result_1.webp",
+      "title_zh": "Destiny Child ：组装：发售时间确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月27日，发售时间确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "デスティニーチャイルド：アッセンブル：配信時期決定",
+      "translation_version": 2
+    },
     {
       "id": "6d95fc4749b1",
       "title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：配信時期決定",
@@ -1436,66 +1646,6 @@
       "summary_zh": "結合三國故事與《山海經》異獸題材的回合制寵物 MMORPG《執筆山河誌》宣布，目前已開放封測預約，預計於 2026 年 10 月中展開測試。玩家可前往官方網站，選擇 Android 或 iPhone／iPad 並填寫電子郵件，待測試名額開放後，將由官方加入測試名單並寄信通知。官方同步公開遊戲介紹與宣傳影片，展示....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "三國 × 山海經回合制新作《執筆山河誌》開放封測預約 預計 10 月中展開測試",
-      "translation_version": 2
-    },
-    {
-      "id": "91c72e2e446d",
-      "title": "hololive 首款麻將遊戲《hololive 麻將》於日本展開事前登錄 預計 2026 年上線",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313324",
-      "summary": "COVER 於近日公布與 Aiming Inc. 聯手打造的全新遊戲《hololive 麻將（ホロライブ麻雀 -ホロじゃん-）》。本作預計於 2026 年上線，目前已透過日本 App Store 及 Google Play 等管道開放玩家進行事前登錄。 關於《holo....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-13T17:31:36+08:00",
-      "score": 84.6,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "hololive 麻將",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "https://x.com/hololivemahjong",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "事前登錄",
-          "預計"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/69/3460801c269d734d97e48fb98420pkh5.JPG",
-      "title_zh": "hololive 首款麻將遊戲《hololive 麻將》於日本展開事前登錄 預計 2026 年上線",
-      "summary_zh": "COVER 於近日公布與 Aiming Inc. 聯手打造的全新遊戲《hololive 麻將（ホロライブ麻雀 -ホロじゃん-）》。本作預計於 2026 年上線，目前已透過日本 App Store 及 Google Play 等管道開放玩家進行事前登錄。 關於《holo....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "hololive 首款麻將遊戲《hololive 麻將》於日本展開事前登錄 預計 2026 年上線",
       "translation_version": 2
     }
   ],
