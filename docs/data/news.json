@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-29T10:00:28.055130+08:00",
+  "generated_at": "2026-10-30T10:16:25.384638+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-28T00:00:00+08:00",
-    "end": "2026-10-29T00:00:00+08:00"
+    "start": "2026-10-29T00:00:00+08:00",
+    "end": "2026-10-30T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,162 @@
   ],
   "count": 28,
   "items": [
+    {
+      "id": "42a5eca73ae9",
+      "title": "リラックマ ごゆるりパズル：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80495167",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月20日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "リラックマ ごゆるりパズル",
+        "release_time": "预计 2027年初頭",
+        "official_site": "https://tougenanki.com2us.com/ja",
+        "x_link": "https://x.com/tougenanki_ci",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/rilakkuma_result.webp",
+      "title_zh": "放松的Rilakkuma拼图：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月20日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "リラックマ ごゆるりパズル：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "b024199a50a3",
+      "title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80528752",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月29日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ヤンキーサバイバー 転生したら平成ヤンキーだった件",
+        "release_time": "预计 2026年11月",
+        "official_site": "https://yansaba.7grp.co.jp/",
+        "x_link": "https://x.com/yansaba_4649",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/img_643570_1_result.webp",
+      "title_zh": "北方佬幸存者转世成为平成北方佬：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月29日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "91d7e67035e2",
+      "title": "EXE ARENA：配信日決定",
+      "link": "https://appmedia.jp/newgame/79264943",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月29日(木) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-29T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "EXE ARENA",
+        "release_time": "2026年10月30日",
+        "official_site": "https://exearena.com/",
+        "x_link": "https://x.com/EXE_ARENA_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/09/main_result-17.webp",
+      "title_zh": "Exe Arena：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月29日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "EXE ARENA：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "f824d0e38563",
       "title": "《瑪奇 Mobile》日版 ×《【我推的孩子】》將於 11/4 展開聯動 公開聯動特設網站與宣傳影片",
@@ -1114,58 +1270,6 @@
       "translation_version": 2
     },
     {
-      "id": "42a5eca73ae9",
-      "title": "リラックマ ごゆるりパズル：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80495167",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月20日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-20T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "リラックマ ごゆるりパズル",
-        "release_time": "预计 2027年初頭",
-        "official_site": "https://tougenanki.com2us.com/ja",
-        "x_link": "https://x.com/tougenanki_ci",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/rilakkuma_result.webp",
-      "title_zh": "放松的Rilakkuma拼图：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月20日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "リラックマ ごゆるりパズル：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "366913a9e7d8",
       "title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
       "link": "https://appmedia.jp/newgame/80483587",
@@ -1436,113 +1540,6 @@
       "summary_zh": "仙俠逆襲 MMO《最強劍尊：吃最軟的飯，做最硬的劍》現已正式開啟官方事前預約，App Store 與 Google Play 雙商店同步歡迎各位仙尊提前預訂，搶先鎖定開服豪禮。官方表示，一起體驗這場從廢柴逆襲到飛升，軟飯也要硬吃的劍尊傳奇。 【雜靈根廢柴的逆天之路】 &nbs....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《最強劍尊：吃最軟的飯，做最硬的劍》事前預約開啟 釋出遊戲玩法介紹",
-      "translation_version": 2
-    },
-    {
-      "id": "c8af72c796de",
-      "title": "グリザイア 集結の百果：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80490802",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月16日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-16T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "グリザイア 集結の百果",
-        "release_time": "预计 2026年",
-        "official_site": "https://grisaia-s100.com",
-        "x_link": "https://x.com/grisaia_100",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/main_result-53.webp",
-      "title_zh": "Grisaia组装百果：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月16日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "グリザイア 集結の百果：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "d7a6f46452f1",
-      "title": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
-      "link": "https://www.4gamers.com.tw/news/detail/82640/gundam-blitz-order-mobile-game-announced-network-test",
-      "summary": "萬代南夢宮娛樂將在 App Store 與 Google Play 平台推出《鋼彈》系列智慧型手機遊戲新作《鋼彈激戰指令》（ガンダム ブリッツオーダー）釋出首支宣傳影片，並預定於 11 月舉辦網路測試，即日起開放測試玩家報名。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-15T11:00:00+08:00",
-      "score": 59.2,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "鋼彈",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預定",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/340b45dc-d59d-42cc-ae19-bb645eb17449.jpg",
-      "title_zh": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
-      "summary_zh": "萬代南夢宮娛樂將在 App Store 與 Google Play 平台推出《鋼彈》系列智慧型手機遊戲新作《鋼彈激戰指令》（ガンダム ブリッツオーダー）釋出首支宣傳影片，並預定於 11 月舉辦網路測試，即日起開放測試玩家報名。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《鋼彈》放置策略模擬新作《鋼彈激戰指令》公開首支宣傳影片 11月展開網路測試",
       "translation_version": 2
     }
   ],
