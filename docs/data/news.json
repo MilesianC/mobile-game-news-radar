@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T10:16:25.384638+08:00",
+  "generated_at": "2026-10-31T09:55:52.524913+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-29T00:00:00+08:00",
-    "end": "2026-10-30T00:00:00+08:00"
+    "start": "2026-10-30T00:00:00+08:00",
+    "end": "2026-10-31T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,267 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 30,
   "items": [
+    {
+      "id": "a7e75107422a",
+      "title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314255",
+      "summary": "由 Level Infinite 與 SHIFT UP 聯手開發的美少女槍戰動作遊戲《勝利女神：妮姬》（PC／iOS／Android）為歡慶遊戲四週年，將於 11 月 7 日至 11 月 8 日在台北華山 1914 文創園區中 7A 館舉辦「NIKKE 4th Anniversary｜屬於我們的四年」實體特展。....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-10-30T16:35:38+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "勝利女神：妮姬",
+        "release_time": "將於 11 月 7 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/10/0d7024b66bafe9ce41b2e647e320xuu5.JPG",
+      "title_zh": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
+      "summary_zh": "由 Level Infinite 與 SHIFT UP 聯手開發的美少女槍戰動作遊戲《勝利女神：妮姬》（PC／iOS／Android）為歡慶遊戲四週年，將於 11 月 7 日至 11 月 8 日在台北華山 1914 文創園區中 7A 館舉辦「NIKKE 4th Anniversary｜屬於我們的四年」實體特展。....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "2026年11月4日",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月28日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "bf9250514a96",
+      "title": "ウィズジェネレーション：配信日決定",
+      "link": "https://appmedia.jp/newgame/80348986",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ウィズジェネレーション",
+        "release_time": "2026年12月1日",
+        "official_site": "https://wiz-generation.com/",
+        "x_link": "https://x.com/wizgeneration",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/wizgeneration_result.webp",
+      "title_zh": "与Generation：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ウィズジェネレーション：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "3ffca279fc48",
+      "title": "プチプラネット：配信日決定",
+      "link": "https://appmedia.jp/newgame/79324727",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "プチプラネット",
+        "release_time": "2026年12月4日",
+        "official_site": "https://planet.hoyoverse.com/ja-jp/",
+        "x_link": "https://x.com/PetitPlanet_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/09/sub4_result-53.webp",
+      "title_zh": "Petite Planet：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "プチプラネット：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "eb8726bd1ed4",
+      "title": "『ご注文はうさぎですか？』スマホゲーム（仮）：新作発表",
+      "link": "https://appmedia.jp/newgame/80530966",
+      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【新作発表】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-10-30T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ご注文はうさぎですか？",
+        "release_time": "待定",
+        "official_site": "",
+        "x_link": "https://x.com/gochiusa_game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "新作発表"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/main_result-99.webp",
+      "title_zh": "“你的订单是兔子吗？“智能手机游戏（暂定）：新作公布",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，新作公布。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "『ご注文はうさぎですか？』スマホゲーム（仮）：新作発表",
+      "translation_version": 2
+    },
     {
       "id": "42a5eca73ae9",
       "title": "リラックマ ごゆるりパズル：事前登録開始",
@@ -305,58 +564,6 @@
       "summary_zh": "昱泉國際旗下三國休閒經營手機遊戲《我在三國當村長》明（29）日將正式展開公測，並同步於 App Store 上架，屆時 iOS 與 Android 玩家皆可下載遊玩。全新伺服器《長安》也將於明日開放，邀請玩家從一座小村莊開始，招募三國名將、建設村落，展開自己的村長生活。 ....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《我在三國當村長》10/29 正式公測 iOS 版同步上架",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月28日(水) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-28T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "2026年11月4日",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月28日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
       "translation_version": 2
     },
     {
@@ -1427,119 +1634,6 @@
       "summary_zh": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
-      "translation_version": 2
-    },
-    {
-      "id": "01559fb4b0d4",
-      "title": "「灰色」系列 15 週年紀念作《灰色 集結的百果》於日本展開事前登錄 歷代角色與 6 名全新少女齊聚一堂",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313576",
-      "summary": "CLYRE, Inc. 宣布，全新智慧型手機專用遊戲《灰色 集結的百果（グリザイア 集結の百果）》已於 2026 年 10 月 16 日（五）起在日本的 App Store 與 Google Play 展開事前登錄。 《灰色 集結的百果》作為「灰色」系列 15 週年紀念企劃的一環，是一部由....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-16T18:52:22+08:00",
-      "score": 82.8,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "灰色",
-        "release_time": "2026 年 10 月 16 日",
-        "official_site": "",
-        "x_link": "https://x.com/grisaia_100",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play",
-          "手機"
-        ],
-        "unreleased": [
-          "事前登錄"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/03/a1c2169d4f342ffb208760bbff20rr75.PNG",
-      "title_zh": "「灰色」系列 15 週年紀念作《灰色 集結的百果》於日本展開事前登錄 歷代角色與 6 名全新少女齊聚一堂",
-      "summary_zh": "CLYRE, Inc. 宣布，全新智慧型手機專用遊戲《灰色 集結的百果（グリザイア 集結の百果）》已於 2026 年 10 月 16 日（五）起在日本的 App Store 與 Google Play 展開事前登錄。 《灰色 集結的百果》作為「灰色」系列 15 週年紀念企劃的一環，是一部由....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "「灰色」系列 15 週年紀念作《灰色 集結的百果》於日本展開事前登錄 歷代角色與 6 名全新少女齊聚一堂",
-      "translation_version": 2
-    },
-    {
-      "id": "6a47053d5193",
-      "title": "《最強劍尊：吃最軟的飯，做最硬的劍》事前預約開啟 釋出遊戲玩法介紹",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313558",
-      "summary": "仙俠逆襲 MMO《最強劍尊：吃最軟的飯，做最硬的劍》現已正式開啟官方事前預約，App Store 與 Google Play 雙商店同步歡迎各位仙尊提前預訂，搶先鎖定開服豪禮。官方表示，一起體驗這場從廢柴逆襲到飛升，軟飯也要硬吃的劍尊傳奇。 【雜靈根廢柴的逆天之路】 &nbs....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-16T17:14:56+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "最強劍尊：吃最軟的飯，做最硬的劍",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "預約",
-          "事前預約"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/10/1907f3c9a1debe39b1ab294b6c20rom5.JPG",
-      "title_zh": "《最強劍尊：吃最軟的飯，做最硬的劍》事前預約開啟 釋出遊戲玩法介紹",
-      "summary_zh": "仙俠逆襲 MMO《最強劍尊：吃最軟的飯，做最硬的劍》現已正式開啟官方事前預約，App Store 與 Google Play 雙商店同步歡迎各位仙尊提前預訂，搶先鎖定開服豪禮。官方表示，一起體驗這場從廢柴逆襲到飛升，軟飯也要硬吃的劍尊傳奇。 【雜靈根廢柴的逆天之路】 &nbs....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《最強劍尊：吃最軟的飯，做最硬的劍》事前預約開啟 釋出遊戲玩法介紹",
       "translation_version": 2
     }
   ],
