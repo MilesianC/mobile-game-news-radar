@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T09:40:48.043494+08:00",
+  "generated_at": "2026-11-02T09:58:46.986748+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-10-31T00:00:00+08:00",
-    "end": "2026-11-01T00:00:00+08:00"
+    "start": "2026-11-01T00:00:00+08:00",
+    "end": "2026-11-02T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,129 @@
       "language": "ja"
     }
   ],
-  "count": 30,
+  "count": 32,
   "items": [
+    {
+      "id": "1782583f1b67",
+      "title": "《星布谷地》宣布 2027 年登陸 Nintendo Switch 2 同步介紹友鄰夥伴、核心玩法系統",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314291",
+      "summary": "HoYoverse 旗下首款溫馨星球生活模擬遊戲《星布谷地》將於 12 月 4 日正式面向全球玩家上線，並能在 PC、iOS 及 Android 互通。官方今日宣布遊戲將於 2027 年正式登陸 Nintendo Switch 2。此次情報於《星布谷地》公測前瞻特別節目中揭曉，同時詳細展示了遊戲的友鄰夥伴、核心玩....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-01T20:27:36+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "星布谷地",
+        "release_time": "將於 12 月 4 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/14/70f8c27b71772df1022fac97f020y0i5.JPG",
+      "title_zh": "《星布谷地》宣布 2027 年登陸 Nintendo Switch 2 同步介紹友鄰夥伴、核心玩法系統",
+      "summary_zh": "HoYoverse 旗下首款溫馨星球生活模擬遊戲《星布谷地》將於 12 月 4 日正式面向全球玩家上線，並能在 PC、iOS 及 Android 互通。官方今日宣布遊戲將於 2027 年正式登陸 Nintendo Switch 2。此次情報於《星布谷地》公測前瞻特別節目中揭曉，同時詳細展示了遊戲的友鄰夥伴、核心玩....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《星布谷地》宣布 2027 年登陸 Nintendo Switch 2 同步介紹友鄰夥伴、核心玩法系統",
+      "translation_version": 2
+    },
+    {
+      "id": "52eff6a042a4",
+      "title": "大世界動作 RPG《白銀之城》全球同步上線日期定於 2026 年 12 月 14 日",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314289",
+      "summary": "Elementa Games 旗下 Unreal Engine 5 大世界動作 RPG《白銀之城》今日正式宣布，遊戲將於 2026 年 12 月 14 日開啟全球公開測試，屆時將登陸 Android、iOS、PC 平台。此外，《白銀之城》還將參與 Thailand Game Show 2026 和韓國 Anime....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-01T13:45:59+08:00",
+      "score": 88.2,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "白銀之城",
+        "release_time": "2026 年 12 月 14 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "上線日期",
+          "同步上線",
+          "將於",
+          "公開"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/05/45a47718fdcb1ed26466b7160520y095.JPG",
+      "title_zh": "大世界動作 RPG《白銀之城》全球同步上線日期定於 2026 年 12 月 14 日",
+      "summary_zh": "Elementa Games 旗下 Unreal Engine 5 大世界動作 RPG《白銀之城》今日正式宣布，遊戲將於 2026 年 12 月 14 日開啟全球公開測試，屆時將登陸 Android、iOS、PC 平台。此外，《白銀之城》還將參與 Thailand Game Show 2026 和韓國 Anime....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "大世界動作 RPG《白銀之城》全球同步上線日期定於 2026 年 12 月 14 日",
+      "translation_version": 2
+    },
     {
       "id": "a7e75107422a",
       "title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
