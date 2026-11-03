@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-02T09:58:46.986748+08:00",
+  "generated_at": "2026-11-03T11:47:05.904832+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-01T00:00:00+08:00",
-    "end": "2026-11-02T00:00:00+08:00"
+    "start": "2026-11-02T00:00:00+08:00",
+    "end": "2026-11-03T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,217 @@
   ],
   "count": 32,
   "items": [
+    {
+      "id": "977dbb3c0ee0",
+      "title": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314341",
+      "summary": "韓國手機遊戲開發商 GAMEDUO 今（2）日宣布，與 NEXON 合作推出的手機遊戲《伊蘭西亞 Mobile》，於 11 月 2 日中午 12 點（台灣時間）在台灣地區開放上線，支援 iOS 與 Android 雙平台。 《伊蘭西亞 Mobile》角色預先創建現已開放，遊戲將於今日中....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-02T17:13:07+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "NEXON Replay",
+        "release_time": "11 月 2 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "mobile",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/87/9449af3f2f70b05d060aea16f520ygf5.JPG",
+      "title_zh": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
+      "summary_zh": "韓國手機遊戲開發商 GAMEDUO 今（2）日宣布，與 NEXON 合作推出的手機遊戲《伊蘭西亞 Mobile》，於 11 月 2 日中午 12 點（台灣時間）在台灣地區開放上線，支援 iOS 與 Android 雙平台。 《伊蘭西亞 Mobile》角色預先創建現已開放，遊戲將於今日中....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
+      "translation_version": 2
+    },
+    {
+      "id": "143f26816df2",
+      "title": "ディズニー スパークリンク・スターズ：事前登録100万突破",
+      "link": "https://appmedia.jp/newgame/80049535",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月2日(月) 【事前登録100万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ディズニー スパークリンク・スターズ",
+        "release_time": "2026年11月4日",
+        "official_site": "https://colyinc.com/sparklink-stars/",
+        "x_link": "https://x.com/spalik_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
+      "title_zh": "迪士尼Sparklink之星：事前预约突破 100 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月2日，事前预约突破 100 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録100万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "79630e844f08",
+      "title": "ケロロ軍曹☆ ぽちっと大出動であります！：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80537026",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月2日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ケロロ軍曹☆ ぽちっと大出動であります！",
+        "release_time": "待定",
+        "official_site": "http://keroro-game.com/",
+        "x_link": "http://x.com/keroro_game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/keroro_result_1.webp",
+      "title_zh": "Keroro☆ 中士正在移动！：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月2日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ケロロ軍曹☆ ぽちっと大出動であります！：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "d93b793b667f",
+      "title": "白銀の城：配信日決定",
+      "link": "https://appmedia.jp/newgame/78876785",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月2日(月) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-02T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "白銀の城",
+        "release_time": "2026年12月14日",
+        "official_site": "https://silverpalace.elementagames.com/ja-jp/",
+        "x_link": "https://x.com/SilverPalace_JA",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/05/silver-palace_result.webp",
+      "title_zh": "银色城堡：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月2日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "白銀の城：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "1782583f1b67",
       "title": "《星布谷地》宣布 2027 年登陸 Nintendo Switch 2 同步介紹友鄰夥伴、核心玩法系統",
@@ -213,58 +424,6 @@
       "summary_zh": "由 Level Infinite 與 SHIFT UP 聯手開發的美少女槍戰動作遊戲《勝利女神：妮姬》（PC／iOS／Android）為歡慶遊戲四週年，將於 11 月 7 日至 11 月 8 日在台北華山 1914 文創園區中 7A 館舉辦「NIKKE 4th Anniversary｜屬於我們的四年」實體特展。....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
-      "translation_version": 2
-    },
-    {
-      "id": "143f26816df2",
-      "title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/80049535",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-30T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ディズニー スパークリンク・スターズ",
-        "release_time": "2026年11月4日",
-        "official_site": "https://colyinc.com/sparklink-stars/",
-        "x_link": "https://x.com/spalik_jp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/05/sparklink_result.webp",
-      "title_zh": "迪士尼Sparklink之星：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月28日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ディズニー スパークリンク・スターズ：事前登録報酬追加",
       "translation_version": 2
     },
     {
@@ -1595,166 +1754,6 @@
       "summary_zh": "由獨立遊戲團隊 BASED KICK 開發的音樂節奏遊戲《HYPNOSYNC》宣布，預計於 10 月 28 日在 Steam 免費推出，同步登陸 Android、iOS 平台。",
       "translation_status": "source_is_chinese",
       "translated_from_title": "Steam音遊新作《HYPNOSYNC》即將免費推出 用節奏催眠妹子顧客幫你打工",
-      "translation_version": 2
-    },
-    {
-      "id": "366913a9e7d8",
-      "title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
-      "link": "https://appmedia.jp/newgame/80483587",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月14日(水) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-20T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "JJK",
-        "release_time": "待定",
-        "official_site": "https://www.juheiso-game.jp/",
-        "x_link": "https://x.com/juheiso_game",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/jjk_result.webp",
-      "title_zh": "JJK ：重甲女学生无言记录：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月14日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "JJK: 重兵装型女子高生 ワードレスレコード：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "116be8ced3b8",
-      "title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313654",
-      "summary": "日本個人開發工作室 Recalloop Studio 宣布，在 Steam 上推出第一人稱整理模擬遊戲《清理遊戲山積（暫譯，原：THE BACKLOG）》的試玩版，遊戲正式版預定於 2026 年 11 月發售。 遊戲介紹 官方表示，遊戲故事背....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-19T17:47:26+08:00",
-      "score": 82.8,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "清理遊戲山積 THE BACKLOG",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "預定"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/62/3f6c71aab97a978befe24dab1420sca5.JPG",
-      "title_zh": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
-      "summary_zh": "日本個人開發工作室 Recalloop Studio 宣布，在 Steam 上推出第一人稱整理模擬遊戲《清理遊戲山積（暫譯，原：THE BACKLOG）》的試玩版，遊戲正式版預定於 2026 年 11 月發售。 遊戲介紹 官方表示，遊戲故事背....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "整理模擬遊戲《清理遊戲山積 THE BACKLOG》新推出試玩版 在二手遊戲店整理滿坑滿谷遊戲",
-      "translation_version": 2
-    },
-    {
-      "id": "28c3380d8f3b",
-      "title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
-      "link": "https://www.4gamers.com.tw/news/detail/82717/monster-hunter-puzzles-announces-service-shutdown",
-      "summary": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-19T14:36:46+08:00",
-      "score": 57.8,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "魔物獵人",
-        "release_time": "將於 2027 年 1 月 14 日",
-        "official_site": "",
-        "x_link": "https://x.com/MHPuzzles/status/2112015883203940808?ref_src=twsrc%5Etfw",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/f82094f9-f3ae-4882-8740-7f1d11e9d62d.jpg",
-      "title_zh": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
-      "summary_zh": "由 Capcom 推出的《魔物獵人》系列衍生手遊《魔物獵人 Puzzles》（Monster Hunter Puzzles: Felyne Isles）宣布即將於 2027 年 1 月 14 日終止營運。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《魔物獵人》益智消除遊戲《魔物獵人 Puzzles》宣布停止營運 將改推單機版可繼承記錄",
       "translation_version": 2
     }
   ],
