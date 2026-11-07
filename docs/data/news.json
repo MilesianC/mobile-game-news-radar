@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-06T10:57:59.092890+08:00",
+  "generated_at": "2026-11-07T10:28:04.740050+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-05T00:00:00+08:00",
-    "end": "2026-11-06T00:00:00+08:00"
+    "start": "2026-11-06T00:00:00+08:00",
+    "end": "2026-11-07T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,219 @@
       "language": "ja"
     }
   ],
-  "count": 24,
+  "count": 28,
   "items": [
+    {
+      "id": "cf6c69d4f827",
+      "title": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314622",
+      "summary": "ZeptoLab 宣布，經典益智遊戲《割繩子 Remastered》（Cut the Rope Remastered）現已於 Google Play、App Store 商店開放預先註冊，預計將於 2026 年 12 月 3 日正式推出。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-06T17:18:23+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "割繩子 Remastered",
+        "release_time": "將於 12 月 3 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play"
+        ],
+        "unreleased": [
+          "將於",
+          "預計"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/28/329542bbe57f3127eda3176149210yg5.JPG",
+      "title_zh": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
+      "summary_zh": "ZeptoLab 宣布，經典益智遊戲《割繩子 Remastered》（Cut the Rope Remastered）現已於 Google Play、App Store 商店開放預先註冊，預計將於 2026 年 12 月 3 日正式推出。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
+      "translation_version": 2
+    },
+    {
+      "id": "29d0a8bbd0a0",
+      "title": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
+      "link": "https://www.4gamers.com.tw/news/detail/83135/talesweaver-mobile-nexon-first-reveal-fgt-2026",
+      "summary": "韓國 NEXON 公開旗下經典線上遊戲《天翼之鍊》（TalesWeaver）改編的全新手機 MMORPG《TalesWeaver Mobile》，同步釋出首支包含部份遊戲畫面的宣傳影片，並宣布將於 12 月 12 日在韓國展開首次焦點團體測試。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-06T14:44:34+08:00",
+      "score": 60.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "天翼之鍊",
+        "release_time": "將於 12 月 12 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "mobile",
+          "手機"
+        ],
+        "unreleased": [
+          "將於",
+          "預定",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/76d652f3-bda3-4b6b-8300-998a20e49b10.jpg",
+      "title_zh": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
+      "summary_zh": "韓國 NEXON 公開旗下經典線上遊戲《天翼之鍊》（TalesWeaver）改編的全新手機 MMORPG《TalesWeaver Mobile》，同步釋出首支包含部份遊戲畫面的宣傳影片，並宣布將於 12 月 12 日在韓國展開首次焦點團體測試。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
+      "translation_version": 2
+    },
+    {
+      "id": "675b652d87a0",
+      "title": "ホロライブ麻雀 -ホロじゃん-：配信日決定",
+      "link": "https://appmedia.jp/newgame/80476192",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月6日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-06T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ホロライブ麻雀 -ホロじゃん-",
+        "release_time": "2026年11月25日",
+        "official_site": "https://www.holo-jong.com/",
+        "x_link": "https://x.com/hololivemahjong",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/hololive-majeong_result.webp",
+      "title_zh": "HoloLive麻将- HoloJan -：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月6日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ホロライブ麻雀 -ホロじゃん-：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "68ffbb0e1121",
+      "title": "ルミナサーガ：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80543899",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月6日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-06T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ルミナサーガ",
+        "release_time": "预计 2026年11月",
+        "official_site": "https://pre1.luminajp.com/pre/",
+        "x_link": "https://x.com/luminasagajp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/luminasaga-kv_result.webp",
+      "title_zh": "Lumina Saga：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月6日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ルミナサーガ：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "035930ac5f9d",
       "title": "Lenovo 宣布任命 Amar Babu 為 Motorola Mobility 新任總裁",
