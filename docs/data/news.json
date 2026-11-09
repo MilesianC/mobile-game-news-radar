@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T09:56:40.492914+08:00",
+  "generated_at": "2026-11-09T10:13:55.223966+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-07T00:00:00+08:00",
-    "end": "2026-11-08T00:00:00+08:00"
+    "start": "2026-11-08T00:00:00+08:00",
+    "end": "2026-11-09T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,68 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 27,
   "items": [
+    {
+      "id": "39864158d52c",
+      "title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314663",
+      "summary": "東南亞遊戲廠商 LYTO 執行長 Andi Suryanto 在「RO FESTA 2026」現場記者會上，首度對外公開全新手機遊戲《RO 仙境傳說 城堡（暫譯，RAGNAROK CASTLE）》，這是《RO 仙境傳說》IP 首度結合「城堡建設策略」與「角色扮演」架構的全新策略模擬遊戲，玩家將化身為一國之君經營....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-08T11:05:00+08:00",
+      "score": 84.6,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "RO",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預定",
+          "公開"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/16/3b7eaa0909065b49f9e2714d9a2116g5.JPG",
+      "title_zh": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
+      "summary_zh": "東南亞遊戲廠商 LYTO 執行長 Andi Suryanto 在「RO FESTA 2026」現場記者會上，首度對外公開全新手機遊戲《RO 仙境傳說 城堡（暫譯，RAGNAROK CASTLE）》，這是《RO 仙境傳說》IP 首度結合「城堡建設策略」與「角色扮演」架構的全新策略模擬遊戲，玩家將化身為一國之君經營....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
+      "translation_version": 2
+    },
     {
       "id": "cf6c69d4f827",
       "title": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
@@ -1426,117 +1486,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年10月27日，发售时间确定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "デスティニーチャイルド：アッセンブル：配信時期決定",
-      "translation_version": 2
-    },
-    {
-      "id": "6d95fc4749b1",
-      "title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：配信時期決定",
-      "link": "https://appmedia.jp/newgame/80228662",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月26日(月) 【配信時期決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-26T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re",
-        "release_time": "预计 2026年11月後半",
-        "official_site": "",
-        "x_link": "https://x.com/mikucolle",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信時期決定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/main_result-81.webp",
-      "title_zh": "初音Mikugurafui系列神秘音乐彗星Re: Merge：发售时间确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月26日，发售时间确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：配信時期決定",
-      "translation_version": 2
-    },
-    {
-      "id": "13ebe3fb457a",
-      "title": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
-      "link": "https://www.4gamers.com.tw/news/detail/82853/blue-archive-japan-yostar-nexon-transfer-2027",
-      "summary": "韓國 NEXON Games 開發的人氣手機遊戲《蔚藍檔案》日版營運商 Yostar 今日在官方直播中宣布，預計於 2027 年 1 月左右，將日本地區的遊戲營運業務全面移交 NEXON，結束自 2021 年遊戲上市以來持續近六年的代理合作關係。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-25T21:05:13+08:00",
-      "score": 69.0,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "蔚藍檔案",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預計"
-        ],
-        "region": [
-          "日版",
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/84b5f3ae-f271-4214-bbc7-bea6cfdd4a3c.jpg",
-      "title_zh": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
-      "summary_zh": "韓國 NEXON Games 開發的人氣手機遊戲《蔚藍檔案》日版營運商 Yostar 今日在官方直播中宣布，預計於 2027 年 1 月左右，將日本地區的遊戲營運業務全面移交 NEXON，結束自 2021 年遊戲上市以來持續近六年的代理合作關係。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《蔚藍檔案》日版2027年營運將移交NEXON 發行商Yostar宣布結束六年代理合作",
       "translation_version": 2
     }
   ],
