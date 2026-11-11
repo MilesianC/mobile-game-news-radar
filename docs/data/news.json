@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T12:25:34.637302+08:00",
+  "generated_at": "2026-11-11T10:24:08.211091+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-09T00:00:00+08:00",
-    "end": "2026-11-10T00:00:00+08:00"
+    "start": "2026-11-10T00:00:00+08:00",
+    "end": "2026-11-11T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,224 @@
       "language": "ja"
     }
   ],
-  "count": 29,
+  "count": 31,
   "items": [
+    {
+      "id": "00e1035002c5",
+      "title": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
+      "link": "https://www.4gamers.com.tw/news/detail/83213/new-dragon-quest-mobile-game-revealed",
+      "summary": "Square Enix 於今（10）日公開旗下全新手遊《勇者鬥惡龍RPG 魔界樹與受命運指引之島》，本作由曾開發《緋染天空》、《穿越時空的貓》的 Wright Flyer Studios 開發。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-10T19:20:00+08:00",
+      "score": 70.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "勇者鬥惡龍",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "公開",
+          "封測"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/df007e23-fb49-4611-883e-d7f715885d64.jpg",
+      "title_zh": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
+      "summary_zh": "Square Enix 於今（10）日公開旗下全新手遊《勇者鬥惡龍RPG 魔界樹與受命運指引之島》，本作由曾開發《緋染天空》、《穿越時空的貓》的 Wright Flyer Studios 開發。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
+      "translation_version": 2
+    },
+    {
+      "id": "032373bccd06",
+      "title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=314760",
+      "summary": "庫洛遊戲宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation 5 / XBOX / iOS / Android）今日公開「共鳴者 莉莉 PV | 忘記恐懼」，3.8 版本「舊夢凋零的百合」將於 2026 年 11 月 12 日（四）上線。 共鳴者「莉莉」PV....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-10T14:59:30+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "鳴潮",
+        "release_time": "將於 2026 年 11 月 12 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/79/3dcabcf912dfdc0bcc7ddc6e522122r5.JPG",
+      "title_zh": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
+      "summary_zh": "庫洛遊戲宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation 5 / XBOX / iOS / Android）今日公開「共鳴者 莉莉 PV | 忘記恐懼」，3.8 版本「舊夢凋零的百合」將於 2026 年 11 月 12 日（四）上線。 共鳴者「莉莉」PV....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
+      "translation_version": 2
+    },
+    {
+      "id": "bf4e12bb3be7",
+      "title": "デジモンアリシオン：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/78683339",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月10日(火) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-10T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "デジモンアリシオン",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.digimon-alysion.com/",
+        "x_link": "https://x.com/DIGIMON_ALY_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/dejiari-kv_result.webp",
+      "title_zh": "Digimon Arission：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月10日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "デジモンアリシオン：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "3cac67164702",
+      "title": "シー オブ レムナンツ：CBT開催決定",
+      "link": "https://appmedia.jp/newgame/78953966",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月10日(火) 【CBT開催決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-10T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シー オブ レムナンツ",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.seaofremnants.com/jp/",
+        "x_link": "https://x.com/seaofremnantsJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT開催"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/06/main_result-9.webp",
+      "title_zh": "遗迹之海：CBT 测试确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月10日，CBT 测试确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シー オブ レムナンツ：CBT開催決定",
+      "translation_version": 2
+    },
     {
       "id": "3aa7f0597d3e",
       "title": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
@@ -1482,113 +1698,6 @@
       "summary_zh": "昱泉國際旗下三國休閒經營手機遊戲《我在三國當村長》明（29）日將正式展開公測，並同步於 App Store 上架，屆時 iOS 與 Android 玩家皆可下載遊玩。全新伺服器《長安》也將於明日開放，邀請玩家從一座小村莊開始，招募三國名將、建設村落，展開自己的村長生活。 ....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《我在三國當村長》10/29 正式公測 iOS 版同步上架",
-      "translation_version": 2
-    },
-    {
-      "id": "a87f5aa6c412",
-      "title": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313994",
-      "summary": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》，今 (27) 日正式宣布將於 11 月 4 日在台港澳、東南亞地區上市，同步開放 App Store、Google Play 雙平台預約。 實機畫面首度曝光！經典招式全 3D 重現，喚醒街機廳的熱血記憶 今日釋出....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-27T17:42:12+08:00",
-      "score": 84.6,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "格鬥天王：拳面出擊",
-        "release_time": "將於 11 月 4 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "預約",
-          "將於"
-        ],
-        "region": [
-          "台港澳"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/87/c25b51fd02463eb01252a4dbe620vr75.JPG",
-      "title_zh": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
-      "summary_zh": "由 SNK 正版授權的放置卡牌 RPG《格鬥天王：拳面出擊》，今 (27) 日正式宣布將於 11 月 4 日在台港澳、東南亞地區上市，同步開放 App Store、Google Play 雙平台預約。 實機畫面首度曝光！經典招式全 3D 重現，喚醒街機廳的熱血記憶 今日釋出....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "SNK 正版授權放置卡牌 RPG《格鬥天王：拳面出擊》上市日確定 經典格鬥家再集結",
-      "translation_version": 2
-    },
-    {
-      "id": "cf5b7bb2abdf",
-      "title": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=313987",
-      "summary": "Garena 於今日宣布推出大逃殺手機遊戲《Garena Free Fire》的首本官方美術設定集《The Art of Free Fire》。本書由 Matthew Pellett 撰寫、Titan Books 出版，將於 2027 年 7 月 6 日發售，慶祝 Free Fire 迎來 10 周年。 &....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-27T17:21:48+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "Free Fire",
-        "release_time": "將於 2027 年 7 月 6 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/54/8c0cc96470ba37290048355ae620vqa5.JPG",
-      "title_zh": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
-      "summary_zh": "Garena 於今日宣布推出大逃殺手機遊戲《Garena Free Fire》的首本官方美術設定集《The Art of Free Fire》。本書由 Matthew Pellett 撰寫、Titan Books 出版，將於 2027 年 7 月 6 日發售，慶祝 Free Fire 迎來 10 周年。 &....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《Free Fire》迎接 10 週年 首本官方美術設定集將於 2027 年 7 月推出",
       "translation_version": 2
     }
   ],
