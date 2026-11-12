@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T10:24:08.211091+08:00",
+  "generated_at": "2026-11-12T11:29:42.971966+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-10T00:00:00+08:00",
-    "end": "2026-11-11T00:00:00+08:00"
+    "start": "2026-11-11T00:00:00+08:00",
+    "end": "2026-11-12T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,59 @@
       "language": "ja"
     }
   ],
-  "count": 31,
+  "count": 26,
   "items": [
+    {
+      "id": "ea7ac94db2af",
+      "title": "ドラゴンクエストRPG 魔界樹と導かれし島：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/80549512",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月11日(水) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-11T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ドラゴンクエストRPG 魔界樹と導かれし島",
+        "release_time": "预计 2027年",
+        "official_site": "https://dqrpg.dragonquest.jp/",
+        "x_link": "https://x.com/DQRPG_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/dragonquest-rpg_result.webp",
+      "title_zh": "勇者斗恶龙RPG 魔界树与被引导的岛屿：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月11日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ドラゴンクエストRPG 魔界樹と導かれし島：CBT参加者募集中",
+      "translation_version": 2
+    },
     {
       "id": "00e1035002c5",
       "title": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
@@ -411,57 +462,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，新作公布。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "『ご注文はうさぎですか？』スマホゲーム（仮）：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "ea7ac94db2af",
-      "title": "ドラゴンクエストRPG 魔界樹と導かれし島：新作発表",
-      "link": "https://appmedia.jp/newgame/80549512",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月9日(月) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-09T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ドラゴンクエストRPG 魔界樹と導かれし島",
-        "release_time": "待定",
-        "official_site": "",
-        "x_link": "https://x.com/DQRPG_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/dorakue-rpg_result.webp",
-      "title_zh": "勇者斗恶龙角色扮演魔界树与引导岛：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月9日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ドラゴンクエストRPG 魔界樹と導かれし島：新作発表",
       "translation_version": 2
     },
     {
@@ -1433,271 +1433,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，发售日期确定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "プチプラネット：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "42a5eca73ae9",
-      "title": "リラックマ ごゆるりパズル：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80495167",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月20日(火) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-29T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "リラックマ ごゆるりパズル",
-        "release_time": "预计 2027年初頭",
-        "official_site": "https://tougenanki.com2us.com/ja",
-        "x_link": "https://x.com/tougenanki_ci",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/rilakkuma_result.webp",
-      "title_zh": "放松的Rilakkuma拼图：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月20日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "リラックマ ごゆるりパズル：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "b024199a50a3",
-      "title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80528752",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月29日(木) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-29T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ヤンキーサバイバー 転生したら平成ヤンキーだった件",
-        "release_time": "预计 2026年11月",
-        "official_site": "https://yansaba.7grp.co.jp/",
-        "x_link": "https://x.com/yansaba_4649",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/img_643570_1_result.webp",
-      "title_zh": "北方佬幸存者转世成为平成北方佬：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月29日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "91d7e67035e2",
-      "title": "EXE ARENA：配信日決定",
-      "link": "https://appmedia.jp/newgame/79264943",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月29日(木) 【配信日決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-10-29T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "EXE ARENA",
-        "release_time": "2026年10月30日",
-        "official_site": "https://exearena.com/",
-        "x_link": "https://x.com/EXE_ARENA_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信日決定",
-          "配信日"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/09/main_result-17.webp",
-      "title_zh": "Exe Arena：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月29日，发售日期确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "EXE ARENA：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "f824d0e38563",
-      "title": "《瑪奇 Mobile》日版 ×《【我推的孩子】》將於 11/4 展開聯動 公開聯動特設網站與宣傳影片",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314071",
-      "summary": "致力於線上遊戲的製作與運用的 NEXON Co., Ltd. 宣布，於行動裝置與 PC 提供服務中的 devCAT 新作線上 RPG《瑪奇 Mobile》日版，將自 2026 年 11 月 4 日（三）起與電視動畫《【我推的孩子】》展開聯動合作。 另外，配合電視動....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-28T17:33:47+08:00",
-      "score": 84.6,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "瑪奇 Mobile",
-        "release_time": "2026 年 11 月 4 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "mobile"
-        ],
-        "unreleased": [
-          "將於",
-          "公開"
-        ],
-        "region": [
-          "日版"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/19/79e07a04bf0964e8e668fb20df20w5z5.JPG",
-      "title_zh": "《瑪奇 Mobile》日版 ×《【我推的孩子】》將於 11/4 展開聯動 公開聯動特設網站與宣傳影片",
-      "summary_zh": "致力於線上遊戲的製作與運用的 NEXON Co., Ltd. 宣布，於行動裝置與 PC 提供服務中的 devCAT 新作線上 RPG《瑪奇 Mobile》日版，將自 2026 年 11 月 4 日（三）起與電視動畫《【我推的孩子】》展開聯動合作。 另外，配合電視動....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《瑪奇 Mobile》日版 ×《【我推的孩子】》將於 11/4 展開聯動 公開聯動特設網站與宣傳影片",
-      "translation_version": 2
-    },
-    {
-      "id": "21073c883ef3",
-      "title": "《我在三國當村長》10/29 正式公測 iOS 版同步上架",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314062",
-      "summary": "昱泉國際旗下三國休閒經營手機遊戲《我在三國當村長》明（29）日將正式展開公測，並同步於 App Store 上架，屆時 iOS 與 Android 玩家皆可下載遊玩。全新伺服器《長安》也將於明日開放，邀請玩家從一座小村莊開始，招募三國名將、建設村落，展開自己的村長生活。 ....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-28T16:36:54+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "我在三國當村長",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "app store",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/75/0e91de281faf424c1564bc3d3120w4r5.PNG",
-      "title_zh": "《我在三國當村長》10/29 正式公測 iOS 版同步上架",
-      "summary_zh": "昱泉國際旗下三國休閒經營手機遊戲《我在三國當村長》明（29）日將正式展開公測，並同步於 App Store 上架，屆時 iOS 與 Android 玩家皆可下載遊玩。全新伺服器《長安》也將於明日開放，邀請玩家從一座小村莊開始，招募三國名將、建設村落，展開自己的村長生活。 ....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《我在三國當村長》10/29 正式公測 iOS 版同步上架",
       "translation_version": 2
     }
   ],
