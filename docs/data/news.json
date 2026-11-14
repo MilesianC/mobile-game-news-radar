@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-13T11:02:51.544276+08:00",
+  "generated_at": "2026-11-14T10:48:37.779148+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-12T00:00:00+08:00",
-    "end": "2026-11-13T00:00:00+08:00"
+    "start": "2026-11-13T00:00:00+08:00",
+    "end": "2026-11-14T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,163 @@
       "language": "ja"
     }
   ],
-  "count": 25,
+  "count": 27,
   "items": [
+    {
+      "id": "b8544edf68f7",
+      "title": "三國志 戦棋版：配信日決定",
+      "link": "https://appmedia.jp/newgame/80384494",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "三國志 戦棋版",
+        "release_time": "2026年12月1日",
+        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
+        "x_link": "https://x.com/sgs_senkiban",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
+      "title_zh": "三国志 战棋版：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "三國志 戦棋版：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "5ecbf2dd5868",
+      "title": "桃源暗鬼 Crimson Inferno：事前登録30万突破",
+      "link": "https://appmedia.jp/newgame/78692405",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【事前登録30万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-13T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "桃源暗鬼 Crimson Inferno",
+        "release_time": "待定",
+        "official_site": "https://tougenanki.com2us.com/ja",
+        "x_link": "https://x.com/tougenanki_ci",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/Crimson-Inferno_result.webp",
+      "title_zh": "桃源暗鬼 绯红地狱：事前预约突破 30 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，事前预约突破 30 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "桃源暗鬼 Crimson Inferno：事前登録30万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "f6db914cdd66",
+      "title": "ラグナロク：ニューワールド：配信時期決定",
+      "link": "https://appmedia.jp/newgame/80560939",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【配信時期決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-13T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ラグナロク",
+        "release_time": "预计 2027年上半年",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信時期決定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main_result-43.webp",
+      "title_zh": "仙境传说：新世界：发售时间确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，发售时间确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ラグナロク：ニューワールド：配信時期決定",
+      "translation_version": 2
+    },
     {
       "id": "c95c5e1d215f",
       "title": "ロールコール：事前登録開始",
@@ -1329,58 +1484,6 @@
       "summary_zh": "Elementa Games 旗下 Unreal Engine 5 大世界動作 RPG《白銀之城》今日正式宣布，遊戲將於 2026 年 12 月 14 日開啟全球公開測試，屆時將登陸 Android、iOS、PC 平台。此外，《白銀之城》還將參與 Thailand Game Show 2026 和韓國 Anime....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "大世界動作 RPG《白銀之城》全球同步上線日期定於 2026 年 12 月 14 日",
-      "translation_version": 2
-    },
-    {
-      "id": "a7e75107422a",
-      "title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314255",
-      "summary": "由 Level Infinite 與 SHIFT UP 聯手開發的美少女槍戰動作遊戲《勝利女神：妮姬》（PC／iOS／Android）為歡慶遊戲四週年，將於 11 月 7 日至 11 月 8 日在台北華山 1914 文創園區中 7A 館舉辦「NIKKE 4th Anniversary｜屬於我們的四年」實體特展。....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-10-30T16:35:38+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "勝利女神：妮姬",
-        "release_time": "將於 11 月 7 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/10/0d7024b66bafe9ce41b2e647e320xuu5.JPG",
-      "title_zh": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
-      "summary_zh": "由 Level Infinite 與 SHIFT UP 聯手開發的美少女槍戰動作遊戲《勝利女神：妮姬》（PC／iOS／Android）為歡慶遊戲四週年，將於 11 月 7 日至 11 月 8 日在台北華山 1914 文創園區中 7A 館舉辦「NIKKE 4th Anniversary｜屬於我們的四年」實體特展。....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《勝利女神：妮姬》四週年特展「NIKKE 4th Anniversary｜屬於我們的四年」將於華山登場",
       "translation_version": 2
     }
   ],
