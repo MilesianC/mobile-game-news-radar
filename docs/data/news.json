@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T10:29:13.809195+08:00",
+  "generated_at": "2026-11-17T12:52:59.578878+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-15T00:00:00+08:00",
-    "end": "2026-11-16T00:00:00+08:00"
+    "start": "2026-11-16T00:00:00+08:00",
+    "end": "2026-11-17T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,13 +40,117 @@
       "language": "ja"
     }
   ],
-  "count": 23,
+  "count": 26,
   "items": [
     {
+      "id": "5330e3de73ff",
+      "title": "網易《哈利波特：魔法覺醒》宣布停止營運 12月底全平台下架",
+      "link": "https://www.4gamers.com.tw/news/detail/83343/harry-potter-magic-awakened-shutdown-march-3-2027",
+      "summary": "網易攜手華納兄弟娛樂打造、營運五年的 RPG 手遊《哈利波特：魔法覺醒》今（16）日預告停止營運，由於遊戲授權協議即將到期，將於 2027 年 3 月 3 日關閉伺服器結束營運，在此之前遊戲也會分階段停止部分服務。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-16T19:54:22+08:00",
+      "score": 57.8,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "哈利波特：魔法覺醒",
+        "release_time": "將於 2027 年 3 月 3 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/0a931e10-7e88-448e-b679-821da7e44f12.jpg",
+      "title_zh": "網易《哈利波特：魔法覺醒》宣布停止營運 12月底全平台下架",
+      "summary_zh": "網易攜手華納兄弟娛樂打造、營運五年的 RPG 手遊《哈利波特：魔法覺醒》今（16）日預告停止營運，由於遊戲授權協議即將到期，將於 2027 年 3 月 3 日關閉伺服器結束營運，在此之前遊戲也會分階段停止部分服務。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "網易《哈利波特：魔法覺醒》宣布停止營運 12月底全平台下架",
+      "translation_version": 2
+    },
+    {
+      "id": "57a47bc76660",
+      "title": "回合制寵物 MMORPG《執筆山河誌》宣布將於 11 月 22 日展開公測",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315107",
+      "summary": "結合三國故事與《山海經》異獸題材的回合制寵物 MMORPG《執筆山河誌》宣布，確定將於 2026 年 11 月 22 日（日）上午 9:00 正式展開公開測試，iOS、Android、 PC 與 Mac 同步開放。 【以下內容為廠商提供資料原文】 回到最初的感動，不賣戰力....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-16T17:56:29+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "執筆山河誌",
+        "release_time": "將於 11 月 22 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/79/18c5c412f08b1bad604d875a49214ur5.JPG",
+      "title_zh": "回合制寵物 MMORPG《執筆山河誌》宣布將於 11 月 22 日展開公測",
+      "summary_zh": "結合三國故事與《山海經》異獸題材的回合制寵物 MMORPG《執筆山河誌》宣布，確定將於 2026 年 11 月 22 日（日）上午 9:00 正式展開公開測試，iOS、Android、 PC 與 Mac 同步開放。 【以下內容為廠商提供資料原文】 回到最初的感動，不賣戰力....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "回合制寵物 MMORPG《執筆山河誌》宣布將於 11 月 22 日展開公測",
+      "translation_version": 2
+    },
+    {
       "id": "b8544edf68f7",
-      "title": "三國志 戦棋版：配信日決定",
+      "title": "三國志 戦棋版：事前登録40万突破",
       "link": "https://appmedia.jp/newgame/80384494",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【配信日決定】",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月16日(月) 【事前登録40万突破】",
       "source": {
         "id": "appmedia",
         "name": "AppMedia 新作手游日历",
@@ -54,7 +158,7 @@
         "region_focus": "jp",
         "allow_non_chinese": true
       },
-      "published_at": "2026-11-13T00:00:00+08:00",
+      "published_at": "2026-11-16T00:00:00+08:00",
       "score": 71.1,
       "status": "unreleased candidate",
       "regions": [
@@ -77,6 +181,58 @@
           "スマホ"
         ],
         "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
+      "title_zh": "三国志 战棋版：事前预约突破 40 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月16日，事前预约突破 40 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "三國志 戦棋版：事前登録40万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "b024199a50a3",
+      "title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：配信日決定",
+      "link": "https://appmedia.jp/newgame/80528752",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月16日(月) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-16T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ヤンキーサバイバー 転生したら平成ヤンキーだった件",
+        "release_time": "2026年11月19日",
+        "official_site": "https://yansaba.7grp.co.jp/",
+        "x_link": "https://x.com/yansaba_4649",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
           "配信日決定",
           "配信日"
         ],
@@ -87,11 +243,63 @@
         "needed": true,
         "notes": "Confirm platform, release state, and target regions before publishing."
       },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
-      "title_zh": "三国志 战棋版：发售日期确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，发售日期确定。",
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/img_643570_1_result.webp",
+      "title_zh": "不良少年幸存者 转生后发现自己成了平成年代的不良少年：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月16日，发售日期确定。",
       "translation_status": "translated_fallback_curated",
-      "translated_from_title": "三國志 戦棋版：配信日決定",
+      "translated_from_title": "ヤンキーサバイバー 転生したら平成ヤンキーだった件：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "508a90789941",
+      "title": "アイルレイダー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80565514",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月16日(月) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-16T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アイルレイダー",
+        "release_time": "待定",
+        "official_site": "https://g123.jp/game/island",
+        "x_link": "https://x.com/g123_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main-31_result.webp",
+      "title_zh": "空岛掠夺者：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月16日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アイルレイダー：事前登録開始",
       "translation_version": 2
     },
     {
@@ -1204,61 +1412,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年11月4日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ガールズバンドクライ First Riff：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "977dbb3c0ee0",
-      "title": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314341",
-      "summary": "韓國手機遊戲開發商 GAMEDUO 今（2）日宣布，與 NEXON 合作推出的手機遊戲《伊蘭西亞 Mobile》，於 11 月 2 日中午 12 點（台灣時間）在台灣地區開放上線，支援 iOS 與 Android 雙平台。 《伊蘭西亞 Mobile》角色預先創建現已開放，遊戲將於今日中....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-02T17:13:07+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "NEXON Replay",
-        "release_time": "11 月 2 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios",
-          "mobile",
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/87/9449af3f2f70b05d060aea16f520ygf5.JPG",
-      "title_zh": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
-      "summary_zh": "韓國手機遊戲開發商 GAMEDUO 今（2）日宣布，與 NEXON 合作推出的手機遊戲《伊蘭西亞 Mobile》，於 11 月 2 日中午 12 點（台灣時間）在台灣地區開放上線，支援 iOS 與 Android 雙平台。 《伊蘭西亞 Mobile》角色預先創建現已開放，遊戲將於今日中....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "「NEXON Replay」計畫經典像素奇幻 RPG《伊蘭西亞 Mobile》今日上線",
       "translation_version": 2
     }
   ],
