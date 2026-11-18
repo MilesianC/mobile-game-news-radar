@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-17T12:52:59.578878+08:00",
+  "generated_at": "2026-11-18T11:57:43.544696+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-16T00:00:00+08:00",
-    "end": "2026-11-17T00:00:00+08:00"
+    "start": "2026-11-17T00:00:00+08:00",
+    "end": "2026-11-18T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,216 @@
       "language": "ja"
     }
   ],
-  "count": 26,
+  "count": 28,
   "items": [
+    {
+      "id": "68ffbb0e1121",
+      "title": "ルミナサーガ：配信日決定",
+      "link": "https://appmedia.jp/newgame/80543899",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月17日(火) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ルミナサーガ",
+        "release_time": "2026年11月19日",
+        "official_site": "https://pre1.luminajp.com/pre/",
+        "x_link": "https://x.com/luminasagajp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/luminasaga-kv_result.webp",
+      "title_zh": "《光明传说》：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ルミナサーガ：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "cdcdf5dc4cda",
+      "title": "コールサイン：KEDR：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80443495",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月17日(火) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "コールサイン",
+        "release_time": "待定",
+        "official_site": "https://kedr-jp.genmugame.com/",
+        "x_link": "https://x.com/Kedr_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/kedr_result.webp",
+      "title_zh": "呼号：KEDR：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "コールサイン：KEDR：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "bc64ae643f62",
+      "title": "アズールプロミリア：事前登録3000万突破",
+      "link": "https://appmedia.jp/newgame/77704138",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月17日(火) 【事前登録3000万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アズールプロミリア",
+        "release_time": "2026年11月26日",
+        "official_site": "https://azurpromilia.jp/",
+        "x_link": "https://x.com/AzurPromilia_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
+      "title_zh": "蔚蓝普罗米利亚：事前预约突破 3000 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，事前预约突破 3000 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アズールプロミリア：事前登録3000万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "50319d1384c5",
+      "title": "聖痕のアルテミスト：配信日決定",
+      "link": "https://appmedia.jp/newgame/80565046",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月17日(火) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-17T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "聖痕のアルテミスト",
+        "release_time": "2026年12月15日",
+        "official_site": "https://ultemist.jp",
+        "x_link": "https://x.com/ultemist_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/ultemist_result.webp",
+      "title_zh": "圣痕的阿尔特米斯特：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "聖痕のアルテミスト：配信日決定",
+      "translation_version": 2
+    },
     {
       "id": "5330e3de73ff",
       "title": "網易《哈利波特：魔法覺醒》宣布停止營運 12月底全平台下架",
@@ -1150,58 +1358,6 @@
       "translation_version": 2
     },
     {
-      "id": "68ffbb0e1121",
-      "title": "ルミナサーガ：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80543899",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月6日(金) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-06T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ルミナサーガ",
-        "release_time": "预计 2026年11月",
-        "official_site": "https://pre1.luminajp.com/pre/",
-        "x_link": "https://x.com/luminasagajp",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/luminasaga-kv_result.webp",
-      "title_zh": "Lumina Saga：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月6日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ルミナサーガ：事前登録開始",
-      "translation_version": 2
-    },
-    {
       "id": "035930ac5f9d",
       "title": "Lenovo 宣布任命 Amar Babu 為 Motorola Mobility 新任總裁",
       "link": "https://gnn.gamer.com.tw/detail.php?sn=314562",
@@ -1360,58 +1516,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年11月5日，CBT参加者募集中。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "崩壊：ネクサスアニマ：CBT参加者募集中",
-      "translation_version": 2
-    },
-    {
-      "id": "90e05f009494",
-      "title": "ガールズバンドクライ First Riff：事前登録開始",
-      "link": "https://appmedia.jp/newgame/78119441",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月4日(水) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-04T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ガールズバンドクライ First Riff",
-        "release_time": "预计 配信未定",
-        "official_site": "https://gbc-firstriff.com/",
-        "x_link": "https://x.com/gbc_firstriff",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2024/09/girlsbandcry1_result.webp",
-      "title_zh": "女孩乐队Cry First Riff：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月4日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ガールズバンドクライ First Riff：事前登録開始",
       "translation_version": 2
     }
   ],
