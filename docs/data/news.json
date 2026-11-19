@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T11:57:43.544696+08:00",
+  "generated_at": "2026-11-19T11:54:47.359058+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-17T00:00:00+08:00",
-    "end": "2026-11-18T00:00:00+08:00"
+    "start": "2026-11-18T00:00:00+08:00",
+    "end": "2026-11-19T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 26,
   "items": [
     {
       "id": "68ffbb0e1121",
@@ -1413,109 +1413,6 @@
       "summary_zh": "Lenovo 宣布，任命現任 Lenovo 資深副總裁暨亞太區總裁 Amar Babu 出任行動業務集團（Mobile Business Group）總經理暨 Motorola 全球總裁，並將於 2027 年 1 月 1 日正式生效。未來，Amar Babu 將帶領 Motorola 持續拓展全球消費者與企業客....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "Lenovo 宣布任命 Amar Babu 為 Motorola Mobility 新任總裁",
-      "translation_version": 2
-    },
-    {
-      "id": "d93b793b667f",
-      "title": "白銀の城：事前登録2000万突破",
-      "link": "https://appmedia.jp/newgame/78876785",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月5日(木) 【事前登録2000万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-05T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "白銀の城",
-        "release_time": "2026年12月14日",
-        "official_site": "https://silverpalace.elementagames.com/ja-jp/",
-        "x_link": "https://x.com/SilverPalace_JA",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/05/silver-palace_result.webp",
-      "title_zh": "银色城堡：事前预约突破 2000 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月5日，事前预约突破 2000 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "白銀の城：事前登録2000万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "beea7ed80b65",
-      "title": "崩壊：ネクサスアニマ：CBT参加者募集中",
-      "link": "https://appmedia.jp/newgame/78860024",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月5日(木) 【CBT参加者募集中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-05T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "崩壊",
-        "release_time": "预计 2027年春季",
-        "official_site": "https://hna.hoyoverse.com/ja-jp",
-        "x_link": "https://x.com/houkaiNA",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/08/main_result-70.webp",
-      "title_zh": "坍塌：枢纽动物：CBT参加者募集中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月5日，CBT参加者募集中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "崩壊：ネクサスアニマ：CBT参加者募集中",
       "translation_version": 2
     }
   ],
