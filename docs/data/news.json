@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T11:47:56.310988+08:00",
+  "generated_at": "2026-11-21T11:39:04.807192+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-19T00:00:00+08:00",
-    "end": "2026-11-20T00:00:00+08:00"
+    "start": "2026-11-20T00:00:00+08:00",
+    "end": "2026-11-21T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,547 @@
       "language": "ja"
     }
   ],
-  "count": 28,
+  "count": 33,
   "items": [
+    {
+      "id": "41d5e8b985fe",
+      "title": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
+      "link": "https://www.4gamers.com.tw/news/detail/83426/nobunyaga-no-yabou-nyapuri--taiwan-closed-beta-test-initiate",
+      "summary": "由 KOEI TECMO GAMES《信喵之野望》IP 官方授權、Syncjoy Games 負責發行營運的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》宣布今（20）日起展開台灣地區的 CBT（封閉測試）招募。同時公開早前東京電玩展（TGS 2026）《信喵之野望 天下布喵》參展攤位的盛況花絮。",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-20T17:32:57+08:00",
+      "score": 73.5,
+      "status": "region-gap candidate",
+      "regions": [
+        "jp",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "信喵之野望 天下布喵",
+        "release_time": "",
+        "official_site": "https://www.nobunyaga-nyankafubu.sugiwave.com/",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "cbt",
+          "公開",
+          "封測",
+          "封閉測試"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/fbe2e728-dcb1-46e8-9b87-e60d9e17cdbc.jpg",
+      "title_zh": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
+      "summary_zh": "由 KOEI TECMO GAMES《信喵之野望》IP 官方授權、Syncjoy Games 負責發行營運的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》宣布今（20）日起展開台灣地區的 CBT（封閉測試）招募。同時公開早前東京電玩展（TGS 2026）《信喵之野望 天下布喵》參展攤位的盛況花絮。",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
+      "translation_version": 2
+    },
+    {
+      "id": "56321ba5b810",
+      "title": "《寶可夢》開發商新作《雨過天晴少女》公開主要角色、二次創作與實況直播相關規範",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315365",
+      "summary": "株式會社 Game Freak（總部：東京都千代田區，代表董事：田尻智）宣布，預計於今年冬季推出的全新手機遊戲《雨過天晴少女》（暫譯，雨のちハレ女，iOS／Android 雙平台發行作品），已於官方網站公開主要角色及二次創作規範等詳細資訊。 《雨過天晴少女》登場主要角色一覽。所屬地區與學校亦同步公開....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-20T17:25:52+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "寶可夢",
+        "release_time": "今年冬季",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預計",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/09/a4e14dd78dbc86ccc2b48363c9216nh5.JPG",
+      "title_zh": "《寶可夢》開發商新作《雨過天晴少女》公開主要角色、二次創作與實況直播相關規範",
+      "summary_zh": "株式會社 Game Freak（總部：東京都千代田區，代表董事：田尻智）宣布，預計於今年冬季推出的全新手機遊戲《雨過天晴少女》（暫譯，雨のちハレ女，iOS／Android 雙平台發行作品），已於官方網站公開主要角色及二次創作規範等詳細資訊。 《雨過天晴少女》登場主要角色一覽。所屬地區與學校亦同步公開....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《寶可夢》開發商新作《雨過天晴少女》公開主要角色、二次創作與實況直播相關規範",
+      "translation_version": 2
+    },
+    {
+      "id": "dfe53957f0f9",
+      "title": "女性向 AI Agent《Evoll.ai》台灣首次封測招募開跑 體驗虛擬角色走進現實生活的陪伴方式",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315362",
+      "summary": "女性向 AI Agent《Evoll.ai》宣布，台灣首次封閉測試現已開放報名，預計於 11 月 28 日至 12 月 4 日展開測試。官方表示，本次招募開放年滿 18 歲、使用 iOS 裝置的台灣用戶參與，即日起至 11 月 24 日 24:00 止，可填寫招募問卷報名，搶先體驗虛擬角色走進現實生活的陪伴方式....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-20T17:00:42+08:00",
+      "score": 74.7,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "Evoll.ai",
+        "release_time": "預計於 11 月 28 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "ios"
+        ],
+        "unreleased": [
+          "預計",
+          "封測",
+          "封測招募",
+          "封閉測試"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/80/7eabb55aeb4a7b00c3cd19170a216mo5.JPG",
+      "title_zh": "女性向 AI Agent《Evoll.ai》台灣首次封測招募開跑 體驗虛擬角色走進現實生活的陪伴方式",
+      "summary_zh": "女性向 AI Agent《Evoll.ai》宣布，台灣首次封閉測試現已開放報名，預計於 11 月 28 日至 12 月 4 日展開測試。官方表示，本次招募開放年滿 18 歲、使用 iOS 裝置的台灣用戶參與，即日起至 11 月 24 日 24:00 止，可填寫招募問卷報名，搶先體驗虛擬角色走進現實生活的陪伴方式....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "女性向 AI Agent《Evoll.ai》台灣首次封測招募開跑 體驗虛擬角色走進現實生活的陪伴方式",
+      "translation_version": 2
+    },
+    {
+      "id": "000a3e7292d2",
+      "title": "《黎明再現》×《沙丘：第三部》跨界聯動登場 黃沙襲捲末日、香料爭奪戰一觸即發",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315360",
+      "summary": "由全球知名遊戲開發商 IGG 研發、台灣幻想娛樂獨家代理的喪屍題材末日生存即時策略手遊《黎明再現》，即將攜手經典科幻電影系列《沙丘》的最新續作《沙丘：第三部》，展開重量級跨界聯動。隨著電影預計於 2026 年 12 月起在全球陸續上映，沙丘宇宙的經典元素也將正式融入《黎明再現》的末日世界。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-20T16:49:27+08:00",
+      "score": 82.8,
+      "status": "region-gap candidate",
+      "regions": [
+        "global",
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "黎明再現",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "全球",
+            "url": ""
+          },
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "預計"
+        ],
+        "region": [
+          "全球"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/71/c212f70a71ee18b432ce823270216mf5.JPG",
+      "title_zh": "《黎明再現》×《沙丘：第三部》跨界聯動登場 黃沙襲捲末日、香料爭奪戰一觸即發",
+      "summary_zh": "由全球知名遊戲開發商 IGG 研發、台灣幻想娛樂獨家代理的喪屍題材末日生存即時策略手遊《黎明再現》，即將攜手經典科幻電影系列《沙丘》的最新續作《沙丘：第三部》，展開重量級跨界聯動。隨著電影預計於 2026 年 12 月起在全球陸續上映，沙丘宇宙的經典元素也將正式融入《黎明再現》的末日世界。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《黎明再現》×《沙丘：第三部》跨界聯動登場 黃沙襲捲末日、香料爭奪戰一觸即發",
+      "translation_version": 2
+    },
+    {
+      "id": "bc64ae643f62",
+      "title": "アズールプロミリア：事前登録報酬達成",
+      "link": "https://appmedia.jp/newgame/77704138",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【事前登録報酬達成】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アズールプロミリア",
+        "release_time": "2026年11月26日",
+        "official_site": "https://azurpromilia.jp/",
+        "x_link": "https://x.com/AzurPromilia_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
+      "title_zh": "蔚蓝普罗米利亚：事前登録報酬達成",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，事前登録報酬達成。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アズールプロミリア：事前登録報酬達成",
+      "translation_version": 2
+    },
+    {
+      "id": "bf4e12bb3be7",
+      "title": "デジモンアリシオン：事前登録報酬追加",
+      "link": "https://appmedia.jp/newgame/78683339",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【事前登録報酬追加】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "デジモンアリシオン",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.digimon-alysion.com/",
+        "x_link": "https://x.com/DIGIMON_ALY_JP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/dejiari-kv_result.webp",
+      "title_zh": "Digimon Arission：事前登録報酬追加",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月10日，事前登録報酬追加。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "デジモンアリシオン：事前登録報酬追加",
+      "translation_version": 2
+    },
+    {
+      "id": "5871c52d8b4d",
+      "title": "三国志:九州覇業：CBT開催中",
+      "link": "https://appmedia.jp/newgame/80583796",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【CBT開催中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "三国志",
+        "release_time": "预计 2027年",
+        "official_site": "https://ninekingdomsjp.rastargames.com/",
+        "x_link": "https://x.com/kyushuhagyo",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt",
+          "CBT開催"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main_result-59.webp",
+      "title_zh": "三国志：九州霸业：CBT開催中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，CBT開催中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "三国志:九州覇業：CBT開催中",
+      "translation_version": 2
+    },
+    {
+      "id": "83f424f941bd",
+      "title": "スライムの世界 ぷにっと冒険記：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80194051",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "スライムの世界 ぷにっと冒険記",
+        "release_time": "预计 2027年2月",
+        "official_site": "https://worldofsli.me/jp",
+        "x_link": "https://x.com/worldofslime_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/image2_result.webp",
+      "title_zh": "史莱姆的世界 软乎乎的冒险记：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "スライムの世界 ぷにっと冒険記：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "3cac67164702",
+      "title": "シー オブ レムナンツ：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/78953966",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シー オブ レムナンツ",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.seaofremnants.com/jp/",
+        "x_link": "https://x.com/seaofremnantsJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/06/main_result-9.webp",
+      "title_zh": "遗迹之海：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シー オブ レムナンツ：CBT参加者募集中",
+      "translation_version": 2
+    },
+    {
+      "id": "0ddb20456869",
+      "title": "混血のカレコレ ミラーラッシュ：配信時期決定",
+      "link": "https://appmedia.jp/newgame/80316055",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【配信時期決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-20T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "混血のカレコレ ミラーラッシュ",
+        "release_time": "预计 2026年12月上旬",
+        "official_site": "",
+        "x_link": "https://x.com/karemiraJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信時期決定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
+      "title_zh": "混血的卡雷科雷 镜之狂暴：发售时间确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，发售时间确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "混血のカレコレ ミラーラッシュ：配信時期決定",
+      "translation_version": 2
+    },
     {
       "id": "cdcdf5dc4cda",
       "title": "コールサイン：KEDR：事前登録開始",
@@ -351,58 +890,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，发售日期确定。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ルミナサーガ：配信日決定",
-      "translation_version": 2
-    },
-    {
-      "id": "bc64ae643f62",
-      "title": "アズールプロミリア：事前登録3000万突破",
-      "link": "https://appmedia.jp/newgame/77704138",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月17日(火) 【事前登録3000万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-17T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "アズールプロミリア",
-        "release_time": "2026年11月26日",
-        "official_site": "https://azurpromilia.jp/",
-        "x_link": "https://x.com/AzurPromilia_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/12/114039_zko28.webp",
-      "title_zh": "蔚蓝普罗米利亚：事前预约突破 3000 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月17日，事前预约突破 3000 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "アズールプロミリア：事前登録3000万突破",
       "translation_version": 2
     },
     {
@@ -1036,110 +1523,6 @@
       "translation_version": 2
     },
     {
-      "id": "bf4e12bb3be7",
-      "title": "デジモンアリシオン：事前登録報酬追加",
-      "link": "https://appmedia.jp/newgame/78683339",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月10日(火) 【事前登録報酬追加】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-10T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "デジモンアリシオン",
-        "release_time": "预计 2026年",
-        "official_site": "https://www.digimon-alysion.com/",
-        "x_link": "https://x.com/DIGIMON_ALY_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/dejiari-kv_result.webp",
-      "title_zh": "Digimon Arission：事前登録報酬追加",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月10日，事前登録報酬追加。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "デジモンアリシオン：事前登録報酬追加",
-      "translation_version": 2
-    },
-    {
-      "id": "3cac67164702",
-      "title": "シー オブ レムナンツ：CBT開催決定",
-      "link": "https://appmedia.jp/newgame/78953966",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月10日(火) 【CBT開催決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-10T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "シー オブ レムナンツ",
-        "release_time": "预计 2026年",
-        "official_site": "https://www.seaofremnants.com/jp/",
-        "x_link": "https://x.com/seaofremnantsJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt",
-          "CBT開催"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/06/main_result-9.webp",
-      "title_zh": "遗迹之海：CBT 测试确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月10日，CBT 测试确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "シー オブ レムナンツ：CBT開催決定",
-      "translation_version": 2
-    },
-    {
       "id": "3aa7f0597d3e",
       "title": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
       "link": "https://gnn.gamer.com.tw/detail.php?sn=314707",
@@ -1403,113 +1786,6 @@
       "summary_zh": "東南亞遊戲廠商 LYTO 執行長 Andi Suryanto 在「RO FESTA 2026」現場記者會上，首度對外公開全新手機遊戲《RO 仙境傳說 城堡（暫譯，RAGNAROK CASTLE）》，這是《RO 仙境傳說》IP 首度結合「城堡建設策略」與「角色扮演」架構的全新策略模擬遊戲，玩家將化身為一國之君經營....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
-      "translation_version": 2
-    },
-    {
-      "id": "cf6c69d4f827",
-      "title": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314622",
-      "summary": "ZeptoLab 宣布，經典益智遊戲《割繩子 Remastered》（Cut the Rope Remastered）現已於 Google Play、App Store 商店開放預先註冊，預計將於 2026 年 12 月 3 日正式推出。 ....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-06T17:18:23+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "割繩子 Remastered",
-        "release_time": "將於 12 月 3 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "app store",
-          "google play"
-        ],
-        "unreleased": [
-          "將於",
-          "預計"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/28/329542bbe57f3127eda3176149210yg5.JPG",
-      "title_zh": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
-      "summary_zh": "ZeptoLab 宣布，經典益智遊戲《割繩子 Remastered》（Cut the Rope Remastered）現已於 Google Play、App Store 商店開放預先註冊，預計將於 2026 年 12 月 3 日正式推出。 ....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "經典益智遊戲《割繩子 Remastered》將於 12 月 3 日推出重返雙平台",
-      "translation_version": 2
-    },
-    {
-      "id": "29d0a8bbd0a0",
-      "title": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
-      "link": "https://www.4gamers.com.tw/news/detail/83135/talesweaver-mobile-nexon-first-reveal-fgt-2026",
-      "summary": "韓國 NEXON 公開旗下經典線上遊戲《天翼之鍊》（TalesWeaver）改編的全新手機 MMORPG《TalesWeaver Mobile》，同步釋出首支包含部份遊戲畫面的宣傳影片，並宣布將於 12 月 12 日在韓國展開首次焦點團體測試。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-06T14:44:34+08:00",
-      "score": 60.8,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "天翼之鍊",
-        "release_time": "將於 12 月 12 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "mobile",
-          "手機"
-        ],
-        "unreleased": [
-          "將於",
-          "預定",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/76d652f3-bda3-4b6b-8300-998a20e49b10.jpg",
-      "title_zh": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
-      "summary_zh": "韓國 NEXON 公開旗下經典線上遊戲《天翼之鍊》（TalesWeaver）改編的全新手機 MMORPG《TalesWeaver Mobile》，同步釋出首支包含部份遊戲畫面的宣傳影片，並宣布將於 12 月 12 日在韓國展開首次焦點團體測試。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《天翼之鍊》手機MMORPG《TalesWeaver Mobile》首度曝光 預定12月展開測試",
       "translation_version": 2
     }
   ],
