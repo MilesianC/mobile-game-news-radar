@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-22T10:44:36.978511+08:00",
+  "generated_at": "2026-11-23T11:22:37.791658+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-21T00:00:00+08:00",
-    "end": "2026-11-22T00:00:00+08:00"
+    "start": "2026-11-22T00:00:00+08:00",
+    "end": "2026-11-23T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,60 @@
       "language": "ja"
     }
   ],
-  "count": 33,
+  "count": 30,
   "items": [
+    {
+      "id": "734cfb1c9560",
+      "title": "《明日方舟：終末地》全新版本11/25開啟 統一布丁合作即將開跑",
+      "link": "https://www.4gamers.com.tw/news/detail/83443/arknights-endfield-new-version-2-point-zero-release-in-25-november",
+      "summary": "鷹角網路於 21 日公開旗下多平台行動遊戲《明日方舟：終末地》全新版本+2.0 大型更新「穿越甚大蘑境與你相逢」內容，預計 11 月 25 日開啟。 武陵的故事結束後，遊戲將迎來風格較活潑的全新版本。 先鋒／自然 長柄武器（長槍）力量提升／自然傷害提升／流轉",
+      "source": {
+        "id": "4gamers",
+        "name": "4Gamers",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-22T00:39:45+08:00",
+      "score": 59.2,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "明日方舟：終末地",
+        "release_time": "預計 11 月 25 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "行動遊戲"
+        ],
+        "unreleased": [
+          "預計",
+          "公開"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://img.4gamers.com.tw/news-image/8123d536-5300-4216-933b-10f8f1819620.jpg",
+      "title_zh": "《明日方舟：終末地》全新版本11/25開啟 統一布丁合作即將開跑",
+      "summary_zh": "鷹角網路於 21 日公開旗下多平台行動遊戲《明日方舟：終末地》全新版本+2.0 大型更新「穿越甚大蘑境與你相逢」內容，預計 11 月 25 日開啟。 武陵的故事結束後，遊戲將迎來風格較活潑的全新版本。 先鋒／自然 長柄武器（長槍）力量提升／自然傷害提升／流轉",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《明日方舟：終末地》全新版本11/25開啟 統一布丁合作即將開跑",
+      "translation_version": 2
+    },
     {
       "id": "41d5e8b985fe",
       "title": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
@@ -1572,220 +1624,6 @@
       "summary_zh": "Insomniac Games 近日宣布，由 Oh BiBi 所開發、改編自《拉捷特與克拉克》系列的 PvP 射擊智慧型手機遊戲《拉捷特與克拉克：亂鬥戰士（暫譯，Ratchet & Clank: Ranger Rumble）》已於 2026 年 11 月 6 日推出最後一次更新，將於 2026 年 11....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
-      "translation_version": 2
-    },
-    {
-      "id": "ff1c3214dea4",
-      "title": "僕のヒーローアカデミア ULTRA RUMBLE モバイル：事前登録開始",
-      "link": "https://appmedia.jp/newgame/80549311",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月9日(月) 【事前登録開始】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-09T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "僕のヒーローアカデミア ULTRA RUMBLE モバイル",
-        "release_time": "待定",
-        "official_site": "https://mhaur.bn-ent.net/mobile/",
-        "x_link": "https://x.com/heroaca_ur_mb",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/sub6_result-11.webp",
-      "title_zh": "我的英雄学院ULTRA RUMBLE手机：开启事前预约",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月9日，开启事前预约。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "僕のヒーローアカデミア ULTRA RUMBLE モバイル：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "eb8726bd1ed4",
-      "title": "『ご注文はうさぎですか？』スマホゲーム（仮）：新作発表",
-      "link": "https://appmedia.jp/newgame/80530966",
-      "summary": "スマホゲーム配信カレンダー更新。2026年10月30日(金) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-09T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ご注文はうさぎですか？",
-        "release_time": "待定",
-        "official_site": "",
-        "x_link": "https://x.com/gochiusa_game",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/10/main_result-99.webp",
-      "title_zh": "“你的订单是兔子吗？“智能手机游戏（暂定）：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年10月30日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "『ご注文はうさぎですか？』スマホゲーム（仮）：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "63759ee15d2c",
-      "title": "イケメンシリーズ15周年記念作品（仮）：新作発表",
-      "link": "https://appmedia.jp/newgame/80549215",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月9日(月) 【新作発表】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-09T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "イケメンシリーズ15周年記念作品（仮）",
-        "release_time": "待定",
-        "official_site": "https://ikemen.cybird.ne.jp/lp/15thnewtitle/",
-        "x_link": "https://x.com/CYikemen",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "新作発表"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main_result-18.webp",
-      "title_zh": "Ikemen 15周年纪念作品（暂定）：新作公布",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月9日，新作公布。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "イケメンシリーズ15周年記念作品（仮）：新作発表",
-      "translation_version": 2
-    },
-    {
-      "id": "39864158d52c",
-      "title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314663",
-      "summary": "東南亞遊戲廠商 LYTO 執行長 Andi Suryanto 在「RO FESTA 2026」現場記者會上，首度對外公開全新手機遊戲《RO 仙境傳說 城堡（暫譯，RAGNAROK CASTLE）》，這是《RO 仙境傳說》IP 首度結合「城堡建設策略」與「角色扮演」架構的全新策略模擬遊戲，玩家將化身為一國之君經營....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-08T11:05:00+08:00",
-      "score": 84.6,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "RO",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "預定",
-          "公開"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/16/3b7eaa0909065b49f9e2714d9a2116g5.JPG",
-      "title_zh": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
-      "summary_zh": "東南亞遊戲廠商 LYTO 執行長 Andi Suryanto 在「RO FESTA 2026」現場記者會上，首度對外公開全新手機遊戲《RO 仙境傳說 城堡（暫譯，RAGNAROK CASTLE）》，這是《RO 仙境傳說》IP 首度結合「城堡建設策略」與「角色扮演」架構的全新策略模擬遊戲，玩家將化身為一國之君經營....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
       "translation_version": 2
     }
   ],
