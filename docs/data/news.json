@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-23T11:22:37.791658+08:00",
+  "generated_at": "2026-11-24T14:35:44.847677+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-22T00:00:00+08:00",
-    "end": "2026-11-23T00:00:00+08:00"
+    "start": "2026-11-23T00:00:00+08:00",
+    "end": "2026-11-24T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,7 +40,7 @@
       "language": "ja"
     }
   ],
-  "count": 30,
+  "count": 29,
   "items": [
     {
       "id": "734cfb1c9560",
@@ -1572,58 +1572,6 @@
       "summary_zh": "庫洛遊戲宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation 5 / XBOX / iOS / Android）今日公開「共鳴者 莉莉 PV | 忘記恐懼」，3.8 版本「舊夢凋零的百合」將於 2026 年 11 月 12 日（四）上線。 共鳴者「莉莉」PV....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
-      "translation_version": 2
-    },
-    {
-      "id": "3aa7f0597d3e",
-      "title": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314707",
-      "summary": "Insomniac Games 近日宣布，由 Oh BiBi 所開發、改編自《拉捷特與克拉克》系列的 PvP 射擊智慧型手機遊戲《拉捷特與克拉克：亂鬥戰士（暫譯，Ratchet & Clank: Ranger Rumble）》已於 2026 年 11 月 6 日推出最後一次更新，將於 2026 年 11....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-09T16:14:53+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "拉捷特與克拉克：亂鬥戰士",
-        "release_time": "將於 11 月 21 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "將於"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/97/db0c49ff0a59b54ed6a31eddbe211ml5.JPG",
-      "title_zh": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
-      "summary_zh": "Insomniac Games 近日宣布，由 Oh BiBi 所開發、改編自《拉捷特與克拉克》系列的 PvP 射擊智慧型手機遊戲《拉捷特與克拉克：亂鬥戰士（暫譯，Ratchet & Clank: Ranger Rumble）》已於 2026 年 11 月 6 日推出最後一次更新，將於 2026 年 11....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《拉捷特與克拉克：亂鬥戰士》宣布已推出最後更新 將於 11 月 21 日自應用程式商店下架",
       "translation_version": 2
     }
   ],
