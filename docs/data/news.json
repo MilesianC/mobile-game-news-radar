@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T14:35:44.847677+08:00",
+  "generated_at": "2026-11-25T13:09:44.663495+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-23T00:00:00+08:00",
-    "end": "2026-11-24T00:00:00+08:00"
+    "start": "2026-11-24T00:00:00+08:00",
+    "end": "2026-11-25T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,268 @@
       "language": "ja"
     }
   ],
-  "count": 29,
+  "count": 31,
   "items": [
+    {
+      "id": "4317c013627a",
+      "title": "準備好與忍者少女共度青春！新作手遊《忍者NEXUS -閃亂神樂-》將於11月29日正式推出！",
+      "link": "https://news.qoo-app.com/post/450400/shinobi-nexus-release-date",
+      "summary": "日本遊戲開發商 HONEY∞PARADE",
+      "source": {
+        "id": "qooapp",
+        "name": "QooApp",
+        "language": "zh-Hant",
+        "region_focus": "asia-global",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-24T17:06:00+08:00",
+      "score": 87.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "忍者NEXUS -閃亂神樂-",
+        "release_time": "將於11月29日",
+        "official_site": "https://hpgames.jp/shinovi-nexus/",
+        "x_link": "https://x.com/shinovi_nexus",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手遊"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [
+          "日本"
+        ],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://i0.wp.com/news.qoo-app.com/wp-content/uploads/2026/11/shinonexcover.jpg",
+      "title_zh": "準備好與忍者少女共度青春！新作手遊《忍者NEXUS -閃亂神樂-》將於11月29日正式推出！",
+      "summary_zh": "日本遊戲開發商 HONEY∞PARADE",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "準備好與忍者少女共度青春！新作手遊《忍者NEXUS -閃亂神樂-》將於11月29日正式推出！",
+      "translation_version": 2
+    },
+    {
+      "id": "49e6769cb92a",
+      "title": "シバの冒険団：配信日決定",
+      "link": "https://appmedia.jp/newgame/80591791",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月24日(火) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シバの冒険団",
+        "release_time": "2026年11月30日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/shiba-idle_result.webp",
+      "title_zh": "希巴的冒险团：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月24日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シバの冒険団：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "eab542fe8b5f",
+      "title": "ODIN Q: VALKYRIE’S CALL：配信日決定",
+      "link": "https://appmedia.jp/newgame/80591122",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月24日(火) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "ODIN Q",
+        "release_time": "2027年1月26日",
+        "official_site": "https://odinq.kakaogames.com",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main_result-65.webp",
+      "title_zh": "ODIN Q：女武神的召唤：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月24日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "ODIN Q: VALKYRIE’S CALL：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "03d11cee3d4c",
+      "title": "シノビNEXUS -閃乱カグラ-：配信日決定",
+      "link": "https://appmedia.jp/newgame/79416689",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月24日(火) 【配信日決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-24T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "シノビNEXUS -閃乱カグラ-",
+        "release_time": "2026年11月29日",
+        "official_site": "https://hpgames.jp/shinovi-nexus/",
+        "x_link": "https://x.com/shinovi_nexus",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信日決定",
+          "配信日"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/10/shinovi-nexus_result.webp",
+      "title_zh": "忍者NEXUS -闪乱神乐-：发售日期确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月24日，发售日期确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "シノビNEXUS -閃乱カグラ-：配信日決定",
+      "translation_version": 2
+    },
+    {
+      "id": "414dae041f67",
+      "title": "チェイシング・カレイドライダー：CBT参加者募集中",
+      "link": "https://appmedia.jp/newgame/78756479",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月24日(火) 【CBT参加者募集中】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-24T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "チェイシング・カレイドライダー",
+        "release_time": "待定",
+        "official_site": "https://kaleidorider.com/jp/",
+        "x_link": "https://x.com/kaleidorider_jp",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "cbt"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/04/kaleido-rider.webp",
+      "title_zh": "追逐·卡莱多骑士：CBT参加者募集中",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月24日，CBT参加者募集中。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "チェイシング・カレイドライダー：CBT参加者募集中",
+      "translation_version": 2
+    },
     {
       "id": "734cfb1c9560",
       "title": "《明日方舟：終末地》全新版本11/25開啟 統一布丁合作即將開跑",
@@ -1410,176 +1670,7 @@
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "ロールコール：事前登録開始",
       "translation_version": 2
-    },
-    {
-      "id": "ea7ac94db2af",
-      "title": "ドラゴンクエストRPG 魔界樹と導かれし島：CBT参加者募集中",
-      "link": "https://appmedia.jp/newgame/80549512",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月11日(水) 【CBT参加者募集中】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-11T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ドラゴンクエストRPG 魔界樹と導かれし島",
-        "release_time": "预计 2027年",
-        "official_site": "https://dqrpg.dragonquest.jp/",
-        "x_link": "https://x.com/DQRPG_JP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "cbt"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/dragonquest-rpg_result.webp",
-      "title_zh": "勇者斗恶龙RPG 魔界树与被引导的岛屿：CBT参加者募集中",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月11日，CBT参加者募集中。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ドラゴンクエストRPG 魔界樹と導かれし島：CBT参加者募集中",
-      "translation_version": 2
-    },
-    {
-      "id": "00e1035002c5",
-      "title": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
-      "link": "https://www.4gamers.com.tw/news/detail/83213/new-dragon-quest-mobile-game-revealed",
-      "summary": "Square Enix 於今（10）日公開旗下全新手遊《勇者鬥惡龍RPG 魔界樹與受命運指引之島》，本作由曾開發《緋染天空》、《穿越時空的貓》的 Wright Flyer Studios 開發。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-10T19:20:00+08:00",
-      "score": 70.5,
-      "status": "region-gap candidate",
-      "regions": [
-        "global",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "勇者鬥惡龍",
-        "release_time": "",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "全球",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手遊"
-        ],
-        "unreleased": [
-          "公開",
-          "封測"
-        ],
-        "region": [
-          "全球"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/df007e23-fb49-4611-883e-d7f715885d64.jpg",
-      "title_zh": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
-      "summary_zh": "Square Enix 於今（10）日公開旗下全新手遊《勇者鬥惡龍RPG 魔界樹與受命運指引之島》，本作由曾開發《緋染天空》、《穿越時空的貓》的 Wright Flyer Studios 開發。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《勇者鬥惡龍》全新手遊公開 12月封測2027全球上線",
-      "translation_version": 2
-    },
-    {
-      "id": "032373bccd06",
-      "title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
-      "link": "https://gnn.gamer.com.tw/detail.php?sn=314760",
-      "summary": "庫洛遊戲宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation 5 / XBOX / iOS / Android）今日公開「共鳴者 莉莉 PV | 忘記恐懼」，3.8 版本「舊夢凋零的百合」將於 2026 年 11 月 12 日（四）上線。 共鳴者「莉莉」PV....",
-      "source": {
-        "id": "bahamut",
-        "name": "巴哈姆特 GNN",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-10T14:59:30+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "鳴潮",
-        "release_time": "將於 2026 年 11 月 12 日",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "android",
-          "ios"
-        ],
-        "unreleased": [
-          "將於",
-          "公開"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://p2.bahamut.com.tw/B/2KU/79/3dcabcf912dfdc0bcc7ddc6e522122r5.JPG",
-      "title_zh": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
-      "summary_zh": "庫洛遊戲宣布，開放世界動作 RPG《鳴潮》（Windows / Mac / PlayStation 5 / XBOX / iOS / Android）今日公開「共鳴者 莉莉 PV | 忘記恐懼」，3.8 版本「舊夢凋零的百合」將於 2026 年 11 月 12 日（四）上線。 共鳴者「莉莉」PV....",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
-      "translation_version": 2
     }
   ],
-  "errors": [
-    {
-      "source": "qooapp",
-      "url": "https://news.qoo-app.com/feed",
-      "error": "no element found: line 1, column 0"
-    }
-  ]
+  "errors": []
 }
