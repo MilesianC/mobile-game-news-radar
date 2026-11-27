@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T12:36:32.171086+08:00",
+  "generated_at": "2026-11-27T12:39:32.113349+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-25T00:00:00+08:00",
-    "end": "2026-11-26T00:00:00+08:00"
+    "start": "2026-11-26T00:00:00+08:00",
+    "end": "2026-11-27T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -42,6 +42,165 @@
   ],
   "count": 32,
   "items": [
+    {
+      "id": "4112562b1069",
+      "title": "《信喵之野望 天下布喵》曝光遊戲實機影片 封測招募網站正式啟動、CBT 招募進行中",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315671",
+      "summary": "Syncjoy Games 宣布，由 KOEI TECMO GAMES《信喵之野望》IP 官方授權的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》正式公開 CBT 封測招募網站，全面開啟封測報名招募。官方也首次曝光遊戲實機介紹影片，以及台灣地區封測內容的更多資訊。 《信喵之野望 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-26T18:02:16+08:00",
+      "score": 74.7,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "信喵之野望 天下布喵",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "cbt",
+          "公開",
+          "封測",
+          "封測招募"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/63/36ba72f28b608c7061451488e32195v5.PNG",
+      "title_zh": "《信喵之野望 天下布喵》曝光遊戲實機影片 封測招募網站正式啟動、CBT 招募進行中",
+      "summary_zh": "Syncjoy Games 宣布，由 KOEI TECMO GAMES《信喵之野望》IP 官方授權的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》正式公開 CBT 封測招募網站，全面開啟封測報名招募。官方也首次曝光遊戲實機介紹影片，以及台灣地區封測內容的更多資訊。 《信喵之野望 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《信喵之野望 天下布喵》曝光遊戲實機影片 封測招募網站正式啟動、CBT 招募進行中",
+      "translation_version": 2
+    },
+    {
+      "id": "3de8ef8c2bac",
+      "title": "《龍族拼圖》×《魔法少女小圓》聯動明日展開 身穿龍族拼圖人氣角色服裝的鹿目圓、曉美焰全新登場",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315665",
+      "summary": "負責線上遊戲企劃、開發、營運、發行的 GungHo Online Entertainment, Inc. 宣布，旗下益智 RPG《龍族拼圖》（iOS / Android）與《魔法少女小圓》的聯動合作將於 2026 年 11 月 27 日（五）登場。 《魔法少女小圓》....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-26T17:36:15+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "龍族拼圖",
+        "release_time": "將於 2026 年 11 月 27 日",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "android",
+          "ios"
+        ],
+        "unreleased": [
+          "將於"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/98/ddeff5b51630093b3dbc594e92219425.JPG",
+      "title_zh": "《龍族拼圖》×《魔法少女小圓》聯動明日展開 身穿龍族拼圖人氣角色服裝的鹿目圓、曉美焰全新登場",
+      "summary_zh": "負責線上遊戲企劃、開發、營運、發行的 GungHo Online Entertainment, Inc. 宣布，旗下益智 RPG《龍族拼圖》（iOS / Android）與《魔法少女小圓》的聯動合作將於 2026 年 11 月 27 日（五）登場。 《魔法少女小圓》....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《龍族拼圖》×《魔法少女小圓》聯動明日展開 身穿龍族拼圖人氣角色服裝的鹿目圓、曉美焰全新登場",
+      "translation_version": 2
+    },
+    {
+      "id": "15c6e3b546d8",
+      "title": "SNKクロスオーバー：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80597950",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月26日(木) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-26T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "SNKクロスオーバー",
+        "release_time": "待定",
+        "official_site": "https://www.snkcrossover.indexg.net",
+        "x_link": "https://x.com/SNK_crossover",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/snk-crossover-kv_result.webp",
+      "title_zh": "SNK联动：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月26日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "SNKクロスオーバー：事前登録開始",
+      "translation_version": 2
+    },
     {
       "id": "f950b20d0d43",
       "title": "休閒經營養成新作《泡泡餐廳營業中》確定於台港澳推出 輕鬆打造夢想中的小店",
@@ -460,68 +619,6 @@
       "summary_zh": "鷹角網路於 21 日公開旗下多平台行動遊戲《明日方舟：終末地》全新版本+2.0 大型更新「穿越甚大蘑境與你相逢」內容，預計 11 月 25 日開啟。 武陵的故事結束後，遊戲將迎來風格較活潑的全新版本。 先鋒／自然 長柄武器（長槍）力量提升／自然傷害提升／流轉",
       "translation_status": "source_is_chinese",
       "translated_from_title": "《明日方舟：終末地》全新版本11/25開啟 統一布丁合作即將開跑",
-      "translation_version": 2
-    },
-    {
-      "id": "41d5e8b985fe",
-      "title": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
-      "link": "https://www.4gamers.com.tw/news/detail/83426/nobunyaga-no-yabou-nyapuri--taiwan-closed-beta-test-initiate",
-      "summary": "由 KOEI TECMO GAMES《信喵之野望》IP 官方授權、Syncjoy Games 負責發行營運的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》宣布今（20）日起展開台灣地區的 CBT（封閉測試）招募。同時公開早前東京電玩展（TGS 2026）《信喵之野望 天下布喵》參展攤位的盛況花絮。",
-      "source": {
-        "id": "4gamers",
-        "name": "4Gamers",
-        "language": "zh-Hant",
-        "region_focus": "tw-hk-mo",
-        "allow_non_chinese": false
-      },
-      "published_at": "2026-11-20T17:32:57+08:00",
-      "score": 73.5,
-      "status": "region-gap candidate",
-      "regions": [
-        "jp",
-        "tw-hk-mo"
-      ],
-      "game": {
-        "name": "信喵之野望 天下布喵",
-        "release_time": "",
-        "official_site": "https://www.nobunyaga-nyankafubu.sugiwave.com/",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          },
-          {
-            "name": "台港澳",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "手機遊戲",
-          "手機"
-        ],
-        "unreleased": [
-          "cbt",
-          "公開",
-          "封測",
-          "封閉測試"
-        ],
-        "region": [
-          "日本"
-        ],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://img.4gamers.com.tw/news-image/fbe2e728-dcb1-46e8-9b87-e60d9e17cdbc.jpg",
-      "title_zh": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
-      "summary_zh": "由 KOEI TECMO GAMES《信喵之野望》IP 官方授權、Syncjoy Games 負責發行營運的全新貓戰國歷史模擬手機遊戲《信喵之野望 天下布喵》宣布今（20）日起展開台灣地區的 CBT（封閉測試）招募。同時公開早前東京電玩展（TGS 2026）《信喵之野望 天下布喵》參展攤位的盛況花絮。",
-      "translation_status": "source_is_chinese",
-      "translated_from_title": "《信喵之野望 天下布喵》台灣CBT封測開跑 日本TGS花絮公開",
       "translation_version": 2
     },
     {
@@ -1622,109 +1719,6 @@
       "summary_zh": "AppMedia 新作手游日历更新：2026年11月16日，开启事前预约。",
       "translation_status": "translated_fallback_curated",
       "translated_from_title": "アイルレイダー：事前登録開始",
-      "translation_version": 2
-    },
-    {
-      "id": "5ecbf2dd5868",
-      "title": "桃源暗鬼 Crimson Inferno：事前登録30万突破",
-      "link": "https://appmedia.jp/newgame/78692405",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【事前登録30万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-13T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "桃源暗鬼 Crimson Inferno",
-        "release_time": "待定",
-        "official_site": "https://tougenanki.com2us.com/ja",
-        "x_link": "https://x.com/tougenanki_ci",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/Crimson-Inferno_result.webp",
-      "title_zh": "桃源暗鬼 绯红地狱：事前预约突破 30 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，事前预约突破 30 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "桃源暗鬼 Crimson Inferno：事前登録30万突破",
-      "translation_version": 2
-    },
-    {
-      "id": "f6db914cdd66",
-      "title": "ラグナロク：ニューワールド：配信時期決定",
-      "link": "https://appmedia.jp/newgame/80560939",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月13日(金) 【配信時期決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-13T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "ラグナロク",
-        "release_time": "预计 2027年上半年",
-        "official_site": "",
-        "x_link": "",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信時期決定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/11/main_result-43.webp",
-      "title_zh": "仙境传说：新世界：发售时间确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月13日，发售时间确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "ラグナロク：ニューワールド：配信時期決定",
       "translation_version": 2
     }
   ],
