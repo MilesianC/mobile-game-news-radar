@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-28T12:24:54.627741+08:00",
+  "generated_at": "2026-11-28T22:40:58.368001+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
     "start": "2026-11-27T00:00:00+08:00",
-    "end": "2026-11-28T00:00:00+08:00"
+    "end": "2026-11-28T22:40:58.368000+08:00"
   },
   "translation": {
     "enabled": true,
