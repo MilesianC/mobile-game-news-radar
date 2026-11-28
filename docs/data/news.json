@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-27T12:39:32.113349+08:00",
+  "generated_at": "2026-11-28T12:24:54.627741+08:00",
   "days": 30,
   "retention_days": 14,
   "include_non_chinese": false,
   "date_window": {
-    "start": "2026-11-26T00:00:00+08:00",
-    "end": "2026-11-27T00:00:00+08:00"
+    "start": "2026-11-27T00:00:00+08:00",
+    "end": "2026-11-28T00:00:00+08:00"
   },
   "translation": {
     "enabled": true,
@@ -40,8 +40,373 @@
       "language": "ja"
     }
   ],
-  "count": 32,
+  "count": 37,
   "items": [
+    {
+      "id": "953fec249a56",
+      "title": "《菇菇》系列完全新作《冒險客棧 菇菇亭》開放預先註冊 預定 12 月正式上市",
+      "link": "https://gnn.gamer.com.tw/detail.php?sn=315740",
+      "summary": "智慧型手機遊戲《菇菇栽培研究室》系列的開發商 Beeworks Co., Ltd 宣布，全新手機遊戲《冒險客棧 菇菇亭》現已於 App Store 及 Google Play 開放預先註冊。遊戲預定於 2026 年 12 月推出。 ....",
+      "source": {
+        "id": "bahamut",
+        "name": "巴哈姆特 GNN",
+        "language": "zh-Hant",
+        "region_focus": "tw-hk-mo",
+        "allow_non_chinese": false
+      },
+      "published_at": "2026-11-27T17:56:20+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "tw-hk-mo"
+      ],
+      "game": {
+        "name": "菇菇",
+        "release_time": "",
+        "official_site": "",
+        "x_link": "",
+        "servers": [
+          {
+            "name": "台港澳",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "app store",
+          "google play",
+          "手機遊戲",
+          "手機"
+        ],
+        "unreleased": [
+          "預定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://p2.bahamut.com.tw/B/2KU/13/c53abb8939a2d7f911050879fa219qp5.WEBP",
+      "title_zh": "《菇菇》系列完全新作《冒險客棧 菇菇亭》開放預先註冊 預定 12 月正式上市",
+      "summary_zh": "智慧型手機遊戲《菇菇栽培研究室》系列的開發商 Beeworks Co., Ltd 宣布，全新手機遊戲《冒險客棧 菇菇亭》現已於 App Store 及 Google Play 開放預先註冊。遊戲預定於 2026 年 12 月推出。 ....",
+      "translation_status": "source_is_chinese",
+      "translated_from_title": "《菇菇》系列完全新作《冒險客棧 菇菇亭》開放預先註冊 預定 12 月正式上市",
+      "translation_version": 2
+    },
+    {
+      "id": "b8544edf68f7",
+      "title": "三國志 戦棋版：事前登録60万突破",
+      "link": "https://appmedia.jp/newgame/80384494",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月27日(金) 【事前登録60万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "三國志 戦棋版",
+        "release_time": "2026年12月1日",
+        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
+        "x_link": "https://x.com/sgs_senkiban",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
+      "title_zh": "三国志 战棋版：事前预约突破 60 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月27日，事前预约突破 60 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "三國志 戦棋版：事前登録60万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "5ecbf2dd5868",
+      "title": "桃源暗鬼 Crimson Inferno：事前登録40万突破",
+      "link": "https://appmedia.jp/newgame/78692405",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月27日(金) 【事前登録40万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "桃源暗鬼 Crimson Inferno",
+        "release_time": "待定",
+        "official_site": "https://tougenanki.com2us.com/ja",
+        "x_link": "https://x.com/tougenanki_ci",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2025/03/Crimson-Inferno_result.webp",
+      "title_zh": "桃源暗鬼 绯红地狱：事前预约突破 40 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月27日，事前预约突破 40 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "桃源暗鬼 Crimson Inferno：事前登録40万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "d2374973a000",
+      "title": "KAWAII LAB. リズム研究中！：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80193439",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月27日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "KAWAII LAB. リズム研究中！",
+        "release_time": "待定",
+        "official_site": "https://kawaiilab-rhythm-kenkyuchu.com/",
+        "x_link": "https://x.com/kawaiilab_game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/kawaiilab-kv_result.webp",
+      "title_zh": "KAWAII LAB. 正在研究节奏！：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月27日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "KAWAII LAB. リズム研究中！：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "6d95fc4749b1",
+      "title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録4万突破",
+      "link": "https://appmedia.jp/newgame/80228662",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月27日(金) 【事前登録4万突破】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re",
+        "release_time": "预计 2026年12月上旬",
+        "official_site": "",
+        "x_link": "https://x.com/mikucolle",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/07/miku-remerge_result.webp",
+      "title_zh": "初音未来 图形收藏 谜之音乐彗星 Re:Merge：事前预约突破 4 万",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月27日，事前预约突破 4 万。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "初音ミク ぐらふぃコレクション なぞの音楽すい星 Re:Merge：事前登録4万突破",
+      "translation_version": 2
+    },
+    {
+      "id": "ed2365aeef12",
+      "title": "アルカナディア - Gleam Gatherers -：事前登録開始",
+      "link": "https://appmedia.jp/newgame/80079973",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月27日(金) 【事前登録開始】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 71.1,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "アルカナディア - Gleam Gatherers -",
+        "release_time": "预计 2026年",
+        "official_site": "https://www.arcanadea-agg.com/",
+        "x_link": "https://x.com/Arcanadea_Game",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "事前登録",
+          "事前登録"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/06/arcanadea_result.webp",
+      "title_zh": "阿尔卡纳迪亚 - Gleam Gatherers -：开启事前预约",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月27日，开启事前预约。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "アルカナディア - Gleam Gatherers -：事前登録開始",
+      "translation_version": 2
+    },
+    {
+      "id": "0ddb20456869",
+      "title": "混血のカレコレ ミラーラッシュ：配信時期決定",
+      "link": "https://appmedia.jp/newgame/80316055",
+      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【配信時期決定】",
+      "source": {
+        "id": "appmedia",
+        "name": "AppMedia 新作手游日历",
+        "language": "ja",
+        "region_focus": "jp",
+        "allow_non_chinese": true
+      },
+      "published_at": "2026-11-27T00:00:00+08:00",
+      "score": 69.3,
+      "status": "unreleased candidate",
+      "regions": [
+        "jp"
+      ],
+      "game": {
+        "name": "混血のカレコレ ミラーラッシュ",
+        "release_time": "预计 2026年12月上旬",
+        "official_site": "https://karemirajp.karekore.net/game/",
+        "x_link": "https://x.com/karemiraJP",
+        "servers": [
+          {
+            "name": "日本",
+            "url": ""
+          }
+        ]
+      },
+      "signals": {
+        "mobile": [
+          "スマホ"
+        ],
+        "unreleased": [
+          "配信時期決定"
+        ],
+        "region": [],
+        "exclude": []
+      },
+      "review": {
+        "needed": true,
+        "notes": "Confirm platform, release state, and target regions before publishing."
+      },
+      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
+      "title_zh": "混血的卡雷科雷 镜之狂暴：发售时间确定",
+      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，发售时间确定。",
+      "translation_status": "translated_fallback_curated",
+      "translated_from_title": "混血のカレコレ ミラーラッシュ：配信時期決定",
+      "translation_version": 2
+    },
     {
       "id": "4112562b1069",
       "title": "《信喵之野望 天下布喵》曝光遊戲實機影片 封測招募網站正式啟動、CBT 招募進行中",
@@ -1048,57 +1413,6 @@
       "translation_version": 2
     },
     {
-      "id": "0ddb20456869",
-      "title": "混血のカレコレ ミラーラッシュ：配信時期決定",
-      "link": "https://appmedia.jp/newgame/80316055",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月20日(金) 【配信時期決定】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-20T00:00:00+08:00",
-      "score": 69.3,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "混血のカレコレ ミラーラッシュ",
-        "release_time": "预计 2026年12月上旬",
-        "official_site": "",
-        "x_link": "https://x.com/karemiraJP",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "配信時期決定"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/08/karemira_result.webp",
-      "title_zh": "混血的卡雷科雷 镜之狂暴：发售时间确定",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月20日，发售时间确定。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "混血のカレコレ ミラーラッシュ：配信時期決定",
-      "translation_version": 2
-    },
-    {
       "id": "cdcdf5dc4cda",
       "title": "コールサイン：KEDR：事前登録開始",
       "link": "https://appmedia.jp/newgame/80443495",
@@ -1563,58 +1877,6 @@
       "summary_zh": "結合三國故事與《山海經》異獸題材的回合制寵物 MMORPG《執筆山河誌》宣布，確定將於 2026 年 11 月 22 日（日）上午 9:00 正式展開公開測試，iOS、Android、 PC 與 Mac 同步開放。 【以下內容為廠商提供資料原文】 回到最初的感動，不賣戰力....",
       "translation_status": "source_is_chinese",
       "translated_from_title": "回合制寵物 MMORPG《執筆山河誌》宣布將於 11 月 22 日展開公測",
-      "translation_version": 2
-    },
-    {
-      "id": "b8544edf68f7",
-      "title": "三國志 戦棋版：事前登録40万突破",
-      "link": "https://appmedia.jp/newgame/80384494",
-      "summary": "スマホゲーム配信カレンダー更新。2026年11月16日(月) 【事前登録40万突破】",
-      "source": {
-        "id": "appmedia",
-        "name": "AppMedia 新作手游日历",
-        "language": "ja",
-        "region_focus": "jp",
-        "allow_non_chinese": true
-      },
-      "published_at": "2026-11-16T00:00:00+08:00",
-      "score": 71.1,
-      "status": "unreleased candidate",
-      "regions": [
-        "jp"
-      ],
-      "game": {
-        "name": "三國志 戦棋版",
-        "release_time": "2026年12月1日",
-        "official_site": "https://sangokushi-senkiban.qookkagames.jp/",
-        "x_link": "https://x.com/sgs_senkiban",
-        "servers": [
-          {
-            "name": "日本",
-            "url": ""
-          }
-        ]
-      },
-      "signals": {
-        "mobile": [
-          "スマホ"
-        ],
-        "unreleased": [
-          "事前登録",
-          "事前登録"
-        ],
-        "region": [],
-        "exclude": []
-      },
-      "review": {
-        "needed": true,
-        "notes": "Confirm platform, release state, and target regions before publishing."
-      },
-      "image_url": "https://appmedia.jp/wp-content/uploads/2026/09/sangokushi-senki_result.webp",
-      "title_zh": "三国志 战棋版：事前预约突破 40 万",
-      "summary_zh": "AppMedia 新作手游日历更新：2026年11月16日，事前预约突破 40 万。",
-      "translation_status": "translated_fallback_curated",
-      "translated_from_title": "三國志 戦棋版：事前登録40万突破",
       "translation_version": 2
     },
     {
